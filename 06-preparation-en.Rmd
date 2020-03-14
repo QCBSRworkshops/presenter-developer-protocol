@@ -1,0 +1,118 @@
+# Preparation {#intro}
+
+Being a presenter for the QCBS R Workshop Series requires preparation and proactive communication with the participants registered for the workshops. Below, there is a list of points that will help you prepare for the workshops. We ask you to **carefully** read them.
+
+## Before the workshop
+
+### Two weeks before the workshop
+
+1. Obtain the list of registered participants to your workshop and determine the number of presenters that can be allocated to your workshop:
+
+Number of Participants | Number of Presenters | Payment per Presenter | Allocated funds to the workshop 
+:-------------: | :-------------: | :-------------: | :-------------:
+1 to 5 | 1 | $125 | $125
+6 to 14 | 2 | $125 | $250
+15 or more | 3 | $125 | $375
+
+> *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
+
+> *Note that the **maximum** payment per presenter is of 125$.*
+
+2. Familiarize yourself with the material available within the [wiki]() and the [presentation pages]().
+
+  * **You must be *very* comfortable with the content and the presentation concerning the workshop as of the date of your presentation.**
+
+  * It is **your responsability** to integrate be familiar with the material.
+
+  * Use [wiki pages]() and RMarkdown [presentations]() as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
+
+  * The presentations come with a *presenter mode*, which allow for presenter notes and a more dynamic instruction. Go to our "[Using the presenter mode]()" section to learn more.
+
+3. Read the code of conduct (Section \@ref(codeofconduct)).
+
+### One week before the workshop
+  
+1. Obtain the most [up-to-date list]() of registered participants for your workshop.
+
+2. Send the *standardized message* below to all participants, replacing the fields when required.
+
+*  *NOTE:* Carbon-copy all your communication to the other instructors of your workshop.
+*  *NOTE:* You must send the message below **at least** 7 days before the date of your presentation.
+*  *NOTE:* You must **NOT** remove information from the following text.
+
+> Message subject: [QCBS R Workshop Series] Workshop #**X** – **Name of the Workshop** (Friday, **Month Day**)
+
+> Hello!
+>
+> You are registered for the QCBS R Workshop #**XXX** that will be given at **NAME OF THE UNIVERSITY** this coming Friday at **HH:MM** **PM or AM**. In preparation for the workshop please note the following: 
+>
+> 1) The workshop will be given in **XXX** building, room **XXX**. 
+>
+> 2) Please come with your laptop and the relevant programs (R and RStudio) installed. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**
+>
+> We recommend that you execute the entire script at least once before coming to the workshop to make sure that everything works on your laptop and to download and install all the libraries we will be using during the workshop.
+>
+> 3) If you can no longer make it to the workshop, please advise us 5 days in advance by email, otherwise, you will receive a 100$ penalty which will be billed to your supervisor.
+>
+> 4) If you are not a member of the QCBS please bring receipt of payment to the workshop.
+>
+> 5) Internet access should not be necessary to follow the workshop if you executed the script before coming to make sure you had downloaded all the necessary R libraries. If you are taking the workshop at a different institution than your own and would like to have access to the internet during the workshop, please ensure that you can connect to the eduroam network (more info here: http://qcbs.ca/wiki/eduroam). If you do not have access to eduroam or to the university’s network, we may not be able to provide you with  temporary access to the internet. 
+>
+> 6) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!.
+>
+> Thanks, and looking forward to Friday!
+>
+> **YOUR NAME(S)**.
+
+## During the day of the workshop
+
+1. Arrive *at least* 15 minutes before the beginning of your workshop to prepare the presentation room and project your presentation;
+2. Take attendance;
+3. Collect receipts from non-members;
+4. Start your presentation **on time**:
+
+  * Start by introducing yourself (telling the participants who are you and what do you do);
+  * Reassure attendants that they can raise their hands and pose questions to you during the workshop;
+  * *More guidelines to come*.  
+
+## After the workshop
+
+> We kindly ask you to do the steps below *immediately* after your presentation.
+
+1. Send the feedback form to the attendants of your workshop;
+
+> Message subject: [QCBS R Workshop Series] Evaluation Form for the Workshop #**X** – **Name of the Workshop**
+
+> Hi again!
+>
+> Thank you for coming to the workshop (#X) on **Name of the Workshop**.
+> 
+> We kindly ask you to take a few minutes to [provide your feedback](https://docs.google.com/forms/d/12LiuK1hhCpuDULBYStlXoJi6K1sKTVeGzPiD5DVGdds/edit?urp=gmail_link) on the last workshop.
+> 
+> This process is very valuable to us because we can understand where the workshop needs improvement. 
+> 
+> Your comments and suggestions are really appreciated and are read with attention.
+>
+> Thank you again!
+> 
+> With our kindest regards,
+> YOUR NAMES
+
+2. [Provide your feedback](https://goo.gl/forms/85TXCiQ9tW9nvq922) on the workshop you have just instructed.
+
+3. Send the message below to the registered participants to the no-show participants (i.e. the participants that have not sent you a message cancelling their registration and that were absent during your workshop).
+
+* **NOTE**: Send **separate** messages to each one of the registered absences (i.e. do *not* include other participants in your communications).
+
+> Message subject: [QCBS R Workshop Series] Absence during the Workshop #**X** – **Name of the Workshop**
+
+> Dear **NAME OF THE REGISTERED PARTICIPANT**,
+>
+> I am contacting you because you were absent from today's workshop (#X) on **Name of the Workshop**, which was given at **Location**.
+> 
+> According to the policy of the QCBS R Workshop Series, registered participants that do not cancel their attendance *at least* 5 days in advance by email incur a 100$ penalty that is billed to their supervisor's institutional account.
+> 
+> We kindly ask you to contact us about your absence at your earliest convenience.
+> 
+> With regards,
+> YOUR NAME(S)

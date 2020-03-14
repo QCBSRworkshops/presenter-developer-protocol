@@ -1,0 +1,51 @@
+--- 
+title: "Presenter Protocol"
+author: "QCBS R Workshop Series"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    config:
+      toc:
+        collapse: subsection
+        scroll_highlight: yes
+        before: |
+          <li><a href="...">QCBS R Workshop Series</a></li>
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is the Presenter Protocol for the QCBS R Workshop Series"
+---
+
+```{r}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),
+               tidy=TRUE)
+```
+
+# Presenter Protocol {-}
+
+Thank you for being part of the QCBS R Workshop Series!
+
+We are happy to have you in our team!
+
+This document brings together the responsibilities of the R workshop presenter. It walks you through the tasks needed to do before, during and after the workshops. It will also help you with the instructions on how to receive your award.  
+
+We kindly ask you to read all instructions *very* attentively!
+
+For any issues, please communicate with the current workshop coordinators.
+
+---
+
+Thank you for being part of the QCBS R Workshop Series!
+
+We are happy to have you in our team!
+
+This document brings together the responsibilities of the R workshop presenter. It walks you through the tasks needed to do before, during and after the workshops. It will also help you with the instructions on how to receive your award.  
+
+We kindly ask you to read all instructions *very* attentively!
+
+For any issues, please communicate with the current workshop coordinators.
+
+
