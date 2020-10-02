@@ -1,0 +1,37 @@
+# Developing {#developing-en}
+
+## Guidelines
+
+Because we would like workshop participants to focus in what is being instructed and not in eventual issues with style, grammar, punctuation and structural issues, we provide this short reference guide to help developers create and modify the content of workshops.
+
+### Structural rules
+
+1. Do not allow the content of slides to overflow the screen.
+
+2. The code used to generate an outcome (figure or calculation), should correspond to the code being displayed. *Include example*. 
+
+3. Use backticks ` whenever you mention a function, an object or a package in your text.
+
+4. Use three backticks to separate code chunks from prose.
+
+5. *Continue...*
+
+### Content changes 
+
+#### Grammar and style 
+
+1. Pay attention to punctuation, spelling, grammar, and capitals.
+
+2. Avoid unnecessary abbreviation (e.g. prefer *do not* instead of *don't*;).
+
+3. Avoid very long phrases.
+
+4. *Continue...*
+
+#### 
+
+1. Be coherent.
+
+## Exercise examples
+
+*Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*

@@ -1,5 +1,5 @@
 --- 
-title: "Presenter Protocol"
+title: "Presenter and Developer Protocol"
 author: "QCBS R Workshop Series"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -12,10 +12,10 @@ output:
         before: |
           <li><a href="...">QCBS R Workshop Series</a></li>
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: ["book.bib", "packages.bib"]
 biblio-style: apalike
 link-citations: yes
-description: "This is the Presenter Protocol for the QCBS R Workshop Series"
+description: "This is the Presenter and Developer Protocol for the QCBS R Workshop Series"
 ---
 
 ```{r}
@@ -24,7 +24,9 @@ opts_chunk$set(tidy.opts=list(width.cutoff=60),
                tidy=TRUE)
 ```
 
-# Presenter Protocol {-}
+# Presenter and Developer Protocol {-}
+
+*FR*
 
 Thank you for being part of the QCBS R Workshop Series!
 
@@ -37,6 +39,8 @@ We kindly ask you to read all instructions *very* attentively!
 For any issues, please communicate with the current workshop coordinators.
 
 ---
+
+*EN*
 
 Thank you for being part of the QCBS R Workshop Series!
 

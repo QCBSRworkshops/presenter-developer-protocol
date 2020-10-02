@@ -1,4 +1,4 @@
-# Preparation {#intro}
+# Preparation {#preparation-en}
 
 Being a presenter for the QCBS R Workshop Series requires preparation and proactive communication with the participants registered for the workshops. Below, there is a list of points that will help you prepare for the workshops. We ask you to **carefully** read them.
 
@@ -16,7 +16,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 > *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
 
-> *Note that the **maximum** payment per presenter is of 125$.*
+> *Note that the **maximum** payment per presenter is of 125$, per workshop instructed.*
 
 2. Familiarize yourself with the material available within the [wiki]() and the [presentation pages]().
 
