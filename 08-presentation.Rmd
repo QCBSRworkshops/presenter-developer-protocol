@@ -26,13 +26,12 @@ See the proposed format below for the workshop structure:
 
 3. Instructors should **not** only read the presentation during a workshop;
 
-4. Even during remote instructions, it is important they maintain social presence in
-the learning process. Instructors should provide feedback, communicate regularly, model participation, and create an inviting tone.
+4. Even during remote instructions, it is important that instructors maintain social presence in the learning process. Instructors should provide feedback, communicate regularly, model participation, and create an inviting tone;
 
-5. Online quizzes have been shown to be more effective than other online learning experiences, such as assigning homework (Ibid). Thus, be sure to allocate time and execute these quizzes whenever suggested.
+5. Online quizzes have been shown to be more effective than other online learning experiences, such as assigning homework (Ibid). Thus, be sure to allocate time and execute these quizzes whenever suggested;
 
 6. Estimulate collaboration whenever possible. Students engaged in a directed, social learning
-experience learn better, as opposed to isolated learning.
+experience learn better, as opposed to isolated learning;
 
 7. *Continue...*
 
