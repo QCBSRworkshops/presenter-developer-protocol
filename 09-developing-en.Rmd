@@ -2,13 +2,13 @@
 
 ## Guidelines
 
-Because we would like workshop participants to focus in what is being instructed and not in eventual issues with style, grammar, punctuation and structural issues, we provide this short reference guide to help developers create and modify the content of workshops.
+This guide is designed to aid develepors in creating and modifying workshop content. We want to ensure workshop participants can focus on the content of what is being instructed without being distracted by issues of style, grammar, punctuation and/or structure. Please read through this guide carefully before starting, and refer back to it regularly as you work.
 
 ### Structural rules
 
 1. Do not allow the content of slides to overflow the screen.
 
-2. The code used to generate an outcome (figure or calculation), should correspond to the code being displayed. *Include example*. 
+2. The code used to generate an outcome (figure or calculation) must correspond to the code being displayed. *Include example*. 
 
 3. Use backticks ` whenever you mention a function, an object or a package in your text.
 
@@ -16,28 +16,44 @@ Because we would like workshop participants to focus in what is being instructed
 
 5. *Continue...*
 
-### Content changes 
+### Grammar and style 
 
-#### Grammar and style 
+1. Pay attention to punctuation, spelling, and grammar.
 
-1. Pay attention to punctuation, spelling, grammar, and capitals.
+2. Avoid unnecessary abbreviations (e.g. use *do not* instead of *don't*).
 
-2. Avoid unnecessary abbreviation (e.g. prefer *do not* instead of *don't*;).
+3. Strive to be clear and concise. Avoid run-on sentences.
 
-3. Avoid very long phrases.
+4. Ensure changes to content are made on both French and English versions.
 
-4. *Continue...*
+5. Read over the workshop in its entirety to ensure there is good flow. This is especially important when working collaborately with other developers.
 
-#### Elaborating material
+6. *Continue...*
 
-1. Put yourself in the shoes of instructors and learners. Instructional clarity and intentionality are critical. *Describe relevance*.
+### Elaborating material *Does this mean adding new material?*
+
+1. Put yourself in the shoes of both presenters and students. Clarity and intention are critical. *Describe relevance*.
 
 2. Be coherent. *Describe relevance*.
 
 3. Be consistent. *Describe relevance*.
 
-2. Whenever elaborating material
+4. Whenever elaborating material
 
 ## Exercise examples
 
 *Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*
+
+## Outline and Priorities *This could also be moved up?*
+
+This list should act as an outline for developers on where to start, and how to manage their time when developing workshops. The list of tasks is ordered from highest to lowest priority. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style. 
+
+1. Address existing issues submitted to GitHub 
+
+2. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
+
+3. Ensure both French and English workshops are both updated and that content is equivalent.
+
+4. *Add that those working on remote workshops should hide slides to make it 3h?*
+
+5. *Continue*
