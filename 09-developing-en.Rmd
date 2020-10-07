@@ -2,23 +2,30 @@
 
 ## Guidelines
 
-This guide is designed to aid develepors in creating and modifying workshop content. We want to ensure workshop participants can focus on the content of what is being instructed without being distracted by issues of style, grammar, punctuation and/or structure. Please read through this guide carefully before starting, and refer back to it regularly as you work.
+This guide is designed to aid developers during the creation and modification of workshop content. We want to ensure attendees can focus on the content being presented without being distracted by issues of style, grammar, punctuation and/or structure. Please read through this guide carefully before starting, and refer back to it regularly as you work.
 
-## Outline and Priorities
+### Main priorities
 
-This list should act as an outline for developers on where begin, and how to manage their time when developing workshops. The list of tasks is ordered from highest to lowest priority. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style. 
+Here we have compiled a list of priorities for workshop developers. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style.(See below for more specific rules).
 
-1. Address existing issues submitted to GitHub
+**Specific to adapting workshops to remote framework:**
 
-2. Hide slides from existing workshops to fit the new 3 hours format, including short breaks and time for exercises (currently workshop run time is about 4 hours). **Do not** delete slides. We are aware that some workshops will be more difficult to shorten than others - if workshops need to run slightly over 3 hours to guarantee accurate and complete information than that is ok (use your judgement or reach out to a Coordinator).
+1. Hide slides from existing workshops to fit the new 3 hours format, including short breaks and time for exercises (current workshop run time is about 4 hours). **Do not** delete slides. We are aware that some workshops will be more difficult to shorten than others - if workshops need to run slightly over 3 hours to guarantee accurate and complete information than that is ok (use your judgement).
 
-2. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
+2. Develop new or adapt current exercises to better suit the remote workshop format and the use of breakout rooms. Exercises should be informative and engaging. Remember to leave time for students to work through exercises and ask questions. 
 
-3. Ensure both French and English workshops are both updated and that content is equivalent.
+**General priorities:**
 
-4. Workshops should be useful and engageing. Imagine the perspective of 
+3. Address existing issues submitted to GitHub.
 
-5. *Continue*
+4. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
+
+
+5. Ensure that French and English versons of a workshop are both updated and that content is equivalent.
+
+6. Workshops should not contain spelling, grammar or punctuation errors.
+
+7. Ensure workshop slides are written in a consistent style, this helps with the flow of workshops and student understanding. This is especially important when working collaboratively with other developers.
 
 ### Structural rules
 
@@ -32,7 +39,7 @@ This list should act as an outline for developers on where begin, and how to man
 
 5. *Continue...*
 
-### Grammar and style 
+### Grammar and style
 
 1. Pay attention to punctuation, spelling, and grammar.
 
@@ -42,21 +49,9 @@ This list should act as an outline for developers on where begin, and how to man
 
 4. Ensure changes to content are made on both French and English versions.
 
-5. Read over the workshop in its entirety to ensure there is good flow. This is especially important when working collaborately with other developers.
+5. Read over the workshop in its entirety to ensure there is good flow.
 
-6. *Continue...*
-
-### Elaborating material *Does this mean adding new material?*
-
-1. Put yourself in the shoes of both presenters and students. Clarity and intention are critical. *Describe relevance*.
-
-2. Be coherent. *Describe relevance*.
-
-3. Be consistent. *Describe relevance*.
-
-4. Whenever elaborating material
-
-## Exercise examples
+### Exercise examples
 
 *Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*
 
