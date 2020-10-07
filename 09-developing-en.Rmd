@@ -4,6 +4,22 @@
 
 This guide is designed to aid develepors in creating and modifying workshop content. We want to ensure workshop participants can focus on the content of what is being instructed without being distracted by issues of style, grammar, punctuation and/or structure. Please read through this guide carefully before starting, and refer back to it regularly as you work.
 
+## Outline and Priorities
+
+This list should act as an outline for developers on where begin, and how to manage their time when developing workshops. The list of tasks is ordered from highest to lowest priority. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style. 
+
+1. Address existing issues submitted to GitHub
+
+2. Hide slides from existing workshops to fit the new 3 hours format, including short breaks and time for exercises (currently workshop run time is about 4 hours). **Do not** delete slides. We are aware that some workshops will be more difficult to shorten than others - if workshops need to run slightly over 3 hours to guarantee accurate and complete information than that is ok (use your judgement or reach out to a Coordinator).
+
+2. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
+
+3. Ensure both French and English workshops are both updated and that content is equivalent.
+
+4. Workshops should be useful and engageing. Imagine the perspective of 
+
+5. *Continue*
+
 ### Structural rules
 
 1. Do not allow the content of slides to overflow the screen.
@@ -44,16 +60,3 @@ This guide is designed to aid develepors in creating and modifying workshop cont
 
 *Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*
 
-## Outline and Priorities *This could also be moved up?*
-
-This list should act as an outline for developers on where to start, and how to manage their time when developing workshops. The list of tasks is ordered from highest to lowest priority. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style. 
-
-1. Address existing issues submitted to GitHub 
-
-2. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
-
-3. Ensure both French and English workshops are both updated and that content is equivalent.
-
-4. *Add that those working on remote workshops should hide slides to make it 3h?*
-
-5. *Continue*
