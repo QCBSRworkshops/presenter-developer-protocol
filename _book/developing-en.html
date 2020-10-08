@@ -279,13 +279,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><strong>Switch to this branch</strong>. Make sure you’re working on your new branch!</li>
 </ol>
 <p>You can do this using the command line:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="developing-en.html#cb4-1"></a><span class="fu">git</span> checkout workshop3_intro</span>
-<span id="cb4-2"><a href="developing-en.html#cb4-2"></a><span class="co"># Note that you can create and switch branch with a single line of command: </span></span>
-<span id="cb4-3"><a href="developing-en.html#cb4-3"></a><span class="fu">git</span> checkout -b workshop3_intro</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="developing-en.html#cb4-1"></a><span class="fu">git</span> checkout workshop1_intro</span>
+<span id="cb4-2"><a href="developing-en.html#cb4-2"></a><span class="co"># Note that you can create and switch branch in a single line: </span></span>
+<span id="cb4-3"><a href="developing-en.html#cb4-3"></a><span class="fu">git</span> checkout -b workshop1_intro</span></code></pre></div>
 <p>You can also use GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches">instructions here</a>).</p>
 <ol start="3" style="list-style-type: decimal">
-<li><p><strong>Make your changes</strong>, following the <a href="https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines">Guidelines</a> listed above!</p></li>
-<li><p>Once you are finished making changes on your branch, add and commit : git add -A and git commit -m “instructive message about what you did”.</p></li>
+<li><p><strong>Make your changes</strong>, following the <a href="https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines">Guidelines</a> listed above.</p></li>
+<li><p><strong>Add and commit your changes</strong>. Once you are finished making changes on your branch, add and commit them to record these changes. When you commit changes, it is essential to include a commit message that briefly summarizes what you’ve done. Keep it brief but informative!</p></li>
+</ol>
+<p>You can do this using the command line:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="developing-en.html#cb5-1"></a><span class="fu">git</span> add -A </span>
+<span id="cb5-2"><a href="developing-en.html#cb5-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span>.</span></code></pre></div>
+<p>You can also use GitHub Desktop to add changes (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit">instructions here</a>) and commit them (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes">instructions here</a>).</p>
+<ol start="5" style="list-style-type: decimal">
 <li><p>Go back on the dev branch: git checkout dev and pull git pull just to make sure you are up to date.</p></li>
 <li><p>Switch back to your branch: git checkout workshop3_intro and merge locally: git merge dev. If there are conflicts, please resolve them! When you’re done, push your branch on the Github repository: git push –set-upstream origin workshop3_intro.</p></li>
 <li><p>Open a Pull Request (PR).</p></li>

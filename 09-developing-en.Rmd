@@ -103,9 +103,9 @@ You can also use Github Desktop ([instructions here](https://docs.github.com/en/
 
 You can do this using the command line:
 ```{bash, eval = FALSE}
-git checkout workshop3_intro
-# Note that you can create and switch branch with a single line of command: 
-git checkout -b workshop3_intro
+git checkout workshop1_intro
+# Note that you can create and switch branch in a single line: 
+git checkout -b workshop1_intro
 ```
 
 You can also use GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
@@ -115,9 +115,9 @@ You can also use GitHub Desktop ([instructions here](https://docs.github.com/en/
 4. **Add and commit your changes**. Once you are finished making changes on your branch, add and commit them to record these changes. When you commit changes, it is essential to include a commit message that briefly summarizes what you've done. Keep it brief but informative!
 
 You can do this using the command line:
-```{bash}
+```{bash, eval=FALSE}
 git add -A 
-git commit -m "fix code and plot for Challenge 1".
+git commit -m "fix code for plot in Challenge 1".
 ```
 
 You can also use GitHub Desktop to add changes ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit)) and commit them ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes)).
