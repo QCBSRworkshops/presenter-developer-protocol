@@ -55,3 +55,67 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 *Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*
 
+
+## How to edit the workshops
+
+This section guides you through the process of contributing edits to QCBS R workshop presentations.
+
+### Getting started
+
+#### Install package and clone repository
+
+The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the R package `xaringan`.
+
+```{r install-xaringan, eval=FALSE}
+if(!require(devtools)) install.packages('devtools')
+devtools::install_github('yihui/xaringan')
+```
+
+Secondly, you need to create a local copy of the repository for the workshop you will be working on, found [here](https://github.com/QCBSRworkshops). To do so, you can [clone the GitHub repository](https://help.github.com/articles/cloning-a-repository/) on your computer.
+
+You can use the command line to do this (more details [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)):
+
+```{bash, eval=FALSE}
+git clone https://github.com/QCBSRworkshops/workshop01.git
+# change this link depending on the workshop you're working on!
+```
+
+If you are not comfortable with the command line, you can clone this repository using [GitHub Desktop](https://desktop.github.com/), following instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+
+Once you've cloned the repository, you're ready to get started! 
+
+#### Workflow
+
+GitHub creates repositories with a single default branch, named `main`. This is the one you see when you visit the repository.
+
+1. Create a new branch. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.
+
+You can do this using the command line:
+```{bash, eval=FALSE}
+git branch workshop1_intro
+```
+
+2. Switch branch: git checkout workshop3_intro; Note that you can create and switch branch with a single line of command: git checkout -b workshop3_intro.
+
+3. Do your changes!
+
+4. Once you are done with your changes on your branch, add and commit : git add -A and git commit -m "instructive message about what you did".
+
+5. Go back on the dev branch: git checkout dev and pull git pull just to make sure you are up to date.
+
+6. Switch back to your branch: git checkout workshop3_intro and merge locally: git merge dev. If there are conflicts, please resolve them! When you're done, push your branch on the Github repository: git push --set-upstream origin workshop3_intro.
+
+7. Open a Pull Request (PR).
+
+8. Assign your PR to a reviewer (one of the 3 R workshop coordinators).
+
+9. The reviewer will squash and merge the post once the build passed on Travis.
+
+10. Once the PR is merged, do not forget to pull the dev branch!
+
+
+## Other ways to contribute
+
+If you are not comfortable with GitHub, you can still help us improve the workshops!
+
+If you notice any mistakes or inconsistencies, or if you'd like to make a suggestion, either in form or in content, you're invited to open an [Issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [Issue](https://help.github.com/articles/creating-an-issue/).
