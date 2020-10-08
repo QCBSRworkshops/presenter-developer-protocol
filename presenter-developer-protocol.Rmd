@@ -1,3 +1,115 @@
+--- 
+title: "Presenter and Developer Protocol"
+author: "QCBS R Workshop Series"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    config:
+      toc:
+        collapse: subsection
+        scroll_highlight: yes
+        before: |
+          <li><a href="...">QCBS R Workshop Series</a></li>
+documentclass: book
+bibliography: ["book.bib", "packages.bib"]
+biblio-style: apalike
+link-citations: yes
+description: "This is the Presenter and Developer Protocol for the QCBS R Workshop Series"
+---
+
+# Presenter and Developer Protocol {-}
+
+Placeholder
+
+
+
+<!--chapter:end:index.Rmd-->
+
+
+# (PART) Version en Français {-}
+# Code de conduite
+
+Placeholder
+
+
+#### Comportement prévisible {-}
+#### Comportement inacceptable {-}
+
+<!--chapter:end:01-code-de-conduite-fr.Rmd-->
+
+# Préparation
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+## Avant l'atelier
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+## Pendant l'atelier
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+## Après l'atelier
+
+<!--chapter:end:02-preparation-fr.Rmd-->
+
+# Présentation {#presenter-fr}
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+<!--chapter:end:03-presentation-fr.Rmd-->
+
+# Développer
+
+Nous sommes en train d’ajouter des modifications à cette page. Veuillez revenir plus tard.
+
+<!--chapter:end:04-developper-fr.Rmd-->
+
+# Recevoir votre prix
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+<!--chapter:end:05-paiement-fr.Rmd-->
+
+
+# (PART) English version {-}
+# Code of conduct {#codeofconduct}
+
+Placeholder
+
+
+#### Expected behaviour {-}
+#### Unacceptable behaviour {-}
+
+<!--chapter:end:06-code-of-conduct-en.Rmd-->
+
+
+# Preparation {#preparation-en}
+
+Placeholder
+
+
+## Before the workshop
+### Two weeks before the workshop
+### One week before the workshop
+## During the day of the workshop
+## After the workshop
+
+<!--chapter:end:07-preparation-en.Rmd-->
+
+
+# Presentation {#presentation-en}
+
+Placeholder
+
+
+## Workshop structure
+### Workshop presenter guidelines
+### Workshop assistant guidelines
+
+<!--chapter:end:08-presentation.Rmd-->
+
 # Developing {#developing-en}
 
 ## Guidelines
@@ -140,3 +252,15 @@ You can also use GitHub Desktop to add changes ([instructions here](https://docs
 If you are not comfortable with GitHub, you can still help us improve the workshops!
 
 If you notice any mistakes or inconsistencies, or if you'd like to make a suggestion, either in form or in content, you're invited to open an [Issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [Issue](https://help.github.com/articles/creating-an-issue/).
+
+<!--chapter:end:09-developing-en.Rmd-->
+
+
+# Receiving your award {#payment-en}
+
+Placeholder
+
+
+
+<!--chapter:end:10-payment-en.Rmd-->
+
