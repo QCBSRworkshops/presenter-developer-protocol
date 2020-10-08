@@ -6,7 +6,7 @@ This guide is designed to aid developers during the creation and modification of
 
 ### Main priorities
 
-Here we have compiled a list of priorities for workshop developers. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style.(See below for more specific rules).
+Here we have compiled a list of priorities for workshop developers. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style.
 
 **Specific to adapting workshops to remote framework:**
 
@@ -31,13 +31,11 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 1. Do not allow the content of slides to overflow the screen.
 
-2. The code used to generate an outcome (figure or calculation) must correspond to the code being displayed. *Include example*. 
+2. The code used to generate an outcome (figure or calculation) must correspond to the code being displayed.
 
 3. Use backticks ` whenever you mention a function, an object or a package in your text.
 
 4. Use three backticks to separate code chunks from prose.
-
-5. *Continue...*
 
 ### Grammar and style
 
@@ -47,9 +45,7 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 3. Strive to be clear and concise. Avoid run-on sentences.
 
-4. Ensure changes to content are made on both French and English versions.
-
-5. Read over the workshop in its entirety to ensure there is good flow.
+4. Read over the workshop in its entirety to ensure there is good flow.
 
 ### Exercise examples
 
