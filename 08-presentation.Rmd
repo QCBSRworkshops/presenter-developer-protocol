@@ -2,17 +2,15 @@
 
 *We are adding modifications to this page. We kindly ask you to come back later.*
 
-The following recommendations have been written with critical thinking and with the objective to improve the delivery of the content to workshop participants.
-
-We propose guidelines based on evidence-based strategies for teaching and learning. 
-
-Even though a few aspects might be basic to you, we ask you to *carefully* read them.
+The following recommendations have been written to improve the delivery of workshop content to participants. We propose guidelines based on evidence-based strategies for teaching and learning. Even though a few aspects might be basic to you, we ask you to *carefully* read them.
 
 ## Workshop structure
 
-In average, workshops last 4 hours (including eventual breaks), with some variation depending on the length of the workshop content and with its complexity.
+On average, in-person workshops last 4 hours (including eventual breaks), with some variation depending on the length of the workshop content and with its complexity.
 
-During both remote and in-person workshop contexts, breaks of 5 to 10 minutes (each) should be provided to allow participants and presenters to take a short pause.
+*Remote workshops* should run for approximately 3 hours. This time will be broken into two 1.5 hour sections, with a 1 hour break in middle. Workshops have been shortened to suit this new format.
+
+During both remote and in-person workshop contexts, breaks of 5 to 10 minutes (each) should be provided to allow participants and presenters to take a short pause and to address any outstanding questions.
 
 See the proposed format below for the workshop structure:
 
@@ -30,7 +28,7 @@ See the proposed format below for the workshop structure:
 
 5. Online quizzes have been shown to be more effective than other online learning experiences, such as assigning homework (Ibid). Thus, be sure to allocate time and execute these quizzes whenever suggested;
 
-6. Estimulate collaboration whenever possible. Students engaged in a directed, social learning
+6. Stimulate collaboration whenever possible. Students engaged in a directed, social learning
 experience learn better, as opposed to isolated learning;
 
 7. *Continue...*
