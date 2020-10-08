@@ -1,3 +1,115 @@
+--- 
+title: "Presenter and Developer Protocol"
+author: "QCBS R Workshop Series"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    config:
+      toc:
+        collapse: subsection
+        scroll_highlight: yes
+        before: |
+          <li><a href="...">QCBS R Workshop Series</a></li>
+documentclass: book
+bibliography: ["book.bib", "packages.bib"]
+biblio-style: apalike
+link-citations: yes
+description: "This is the Presenter and Developer Protocol for the QCBS R Workshop Series"
+---
+
+# Presenter and Developer Protocol {-}
+
+Placeholder
+
+
+
+<!--chapter:end:index.Rmd-->
+
+
+# (PART) Version en Français {-}
+# Code de conduite
+
+Placeholder
+
+
+#### Comportement prévisible {-}
+#### Comportement inacceptable {-}
+
+<!--chapter:end:01-code-de-conduite-fr.Rmd-->
+
+# Préparation
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+## Avant l'atelier
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+## Pendant l'atelier
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+## Après l'atelier
+
+<!--chapter:end:02-preparation-fr.Rmd-->
+
+# Présentation {#presenter-fr}
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+<!--chapter:end:03-presentation-fr.Rmd-->
+
+# Développer
+
+Nous sommes en train d’ajouter des modifications à cette page. Veuillez revenir plus tard.
+
+<!--chapter:end:04-developper-fr.Rmd-->
+
+# Recevoir votre prix
+
+*Nous sommes en train d'ajouter des modifications à cette page. Veuillez revenir plus tard.*
+
+<!--chapter:end:05-paiement-fr.Rmd-->
+
+
+# (PART) English version {-}
+# Code of conduct {#codeofconduct}
+
+Placeholder
+
+
+#### Expected behaviour {-}
+#### Unacceptable behaviour {-}
+
+<!--chapter:end:06-code-of-conduct-en.Rmd-->
+
+
+# Preparation {#preparation-en}
+
+Placeholder
+
+
+## Before the workshop
+### Two weeks before the workshop
+### One week before the workshop
+## During the day of the workshop
+## After the workshop
+
+<!--chapter:end:07-preparation-en.Rmd-->
+
+
+# Presentation {#presentation-en}
+
+Placeholder
+
+
+## Workshop structure
+### Workshop presenter guidelines
+### Workshop assistant guidelines
+
+<!--chapter:end:08-presentation.Rmd-->
+
 # Developing {#developing-en}
 
 ## Guidelines
@@ -60,7 +172,7 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 This section guides you through the process of contributing edits to QCBS R workshop presentations.
 
-### Getting started 
+### Getting started with xaringan
 
 The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the R package `xaringan`.
 
@@ -68,6 +180,8 @@ The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https:
 if(!require(devtools)) install.packages('devtools')
 devtools::install_github('yihui/xaringan')
 ```
+
+### Getting started with GitHub
 
 Secondly, you need to create a local copy of the repository for the workshop you will be working on, found [here](https://github.com/QCBSRworkshops). To do so, you can [clone the GitHub repository](https://help.github.com/articles/cloning-a-repository/) on your computer.
 
@@ -82,87 +196,71 @@ If you are not comfortable with the command line, you can clone this repository 
 
 Once you've cloned the repository, you're ready to begin developing! 
 
-### GitHub workflow
+### Workflow
 
-GitHub creates repositories with a single default branch, named `dev` (if you work in the command line) or `master` (if you work in GitHub Desktop). This is the branch you see when you visit the repository. 
+GitHub creates repositories with a single default branch, named `main`. This is the one you see when you visit the repository. 
 
-We strongly recommend working on a **new branch**, which allows you to develop the workshops without affecting the main branch in the repository. Working on a separate branch means that changes are only implemented in the original content once your contributions are reviewed. This is a "safer" way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time. 
+We strongly recommend working on a new branch, which allows you to make changes without affecting the main branch in the repository. This is a "safer" way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time. 
 
 1. **Create and publish a new branch**. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.
 
-On the command line:
+You can do this using the command line:
 ```{bash, eval=FALSE}
-git branch workshop1_intro # creates a new branch
+git branch workshop1_intro
 ```
 
-Github Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch)).
+You can also use Github Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch)).
 
 2. **Switch to this branch**. Make sure you're working on your new branch!
 
-On the command line:
+You can do this using the command line:
 ```{bash, eval = FALSE}
-git checkout workshop1_intro # switches to this branch
-
-# Note that you can create and switch branch in a single line: 
-git checkout -b workshop1_intro
+git checkout workshop3_intro
+# Note that you can create and switch branch with a single line of command: 
+git checkout -b workshop3_intro
 ```
 
-GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
+You can also use GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
 
 3. **Make your changes**, following the [Guidelines](https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines) listed above.
 
 4. **Add and commit your changes**. Once you are finished making changes on your branch, add and commit them to record these changes. When you commit changes, it is essential to include a commit message that briefly summarizes what you've done. Keep it brief but informative!
 
-On the command line:
-```{bash, eval=FALSE}
-git add -A # add all your changes
-git commit -m "fix code for plot in Challenge 1" # commit your changes with a message
+You can do this using the command line:
+```{bash}
+git add -A 
+git commit -m "fix code and plot for Challenge 1".
 ```
 
 You can also use GitHub Desktop to add changes ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit)) and commit them ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes)).
 
-5. **Sync your main branch with the remote repository**. It's important to make sure your main branch is up to date before changing it. Go to back to the main branch and pull changes that were made since you last copied the repository.
+5. Go back on the dev branch: git checkout dev and pull git pull just to make sure you are up to date.
 
-Pull the `dev` on the command line:
-```{bash, eval=FALSE}
-git checkout dev # switch back to the main branch
-pull git # pull changes
-```
+6. Switch back to your branch: git checkout workshop3_intro and merge locally: git merge dev. If there are conflicts, please resolve them! When you're done, push your branch on the Github repository: git push --set-upstream origin workshop3_intro.
 
-Pull the `master` branch on GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#pulling-to-your-local-branch-from-the-remote)).
+7. Open a Pull Request (PR).
 
-6. **Merge your branch with the main branch locally.** Switch back to your branch (e.g. `workshop1_intro`) and merge it with your local main branch. If there are conflicts, please resolve them! 
+8. Assign your PR to a reviewer (one of the 3 R workshop coordinators).
 
-You can merge your branch with the `dev` branch using the command line:
-```{bash, eval=FALSE}
-git checkout workshop1_intro # switch back to your branch
-git merge dev # merge the main branch with your branch
-```
+9. The reviewer will squash and merge the post once the build passed on Travis.
 
-Merge your branch with the `master` branch in GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch)).
-
-7. **Push your locally merged branch** to the remote GitHub repository. 
-
-On the command line, you can push your locally merged branch (e.g. `workshop1_intro`) to the remote repository like this:
-```{bash, eval=FALSE}
-git push --set-upstream origin workshop1_intro # push to the remote!
-```
-
-Push your branch (e.g. `workshop1_intro`) to the remote repository in GitHub Desktop ([see step #4)](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch)).
-
-8. **Open a [Pull Request](https://help.github.com/articles/about-pull-requests/)**.
-
-Pull requests are a way to let your collaborators know about changes that you've pushed to a branch in the Github repository. Once you've opened a pull request, we can review potential changes and add follow-up commits (if needed) before your changes are merged into the main branch.
-
-To open a pull request for your branch (e.g. `workshop1_intro`), please follow these [instructions](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request).
-
-9. **Assign** your pull request to a reviewer (one of the R workshop coordinators). The reviewer will then review, squash, and merge your changes.
-
-10. Once the pull request is merged, do not forget to **pull the main branch**!
+10. Once the PR is merged, do not forget to pull the dev branch!
 
 
 ## Other ways to contribute
 
 If you are not comfortable with GitHub, you can still help us improve the workshops!
 
-If you notice any mistakes or inconsistencies, or if you'd like to make a suggestion, either in form or in content, you're invited to open an [issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [issue](https://help.github.com/articles/creating-an-issue/).
+If you notice any mistakes or inconsistencies, or if you'd like to make a suggestion, either in form or in content, you're invited to open an [Issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [Issue](https://help.github.com/articles/creating-an-issue/).
+
+<!--chapter:end:09-developing-en.Rmd-->
+
+
+# Receiving your award {#payment-en}
+
+Placeholder
+
+
+
+<!--chapter:end:10-payment-en.Rmd-->
+
