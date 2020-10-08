@@ -174,9 +174,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.1.3" data-path="developing-en.html"><a href="developing-en.html#grammar-and-style"><i class="fa fa-check"></i><b>9.1.3</b> Grammar and style</a></li>
 <li class="chapter" data-level="9.1.4" data-path="developing-en.html"><a href="developing-en.html#exercise-examples"><i class="fa fa-check"></i><b>9.1.4</b> Exercise examples</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#how-to-edit-the-workshops"><i class="fa fa-check"></i><b>9.2</b> How to edit the workshops</a>
+<li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#how-to-develop-the-workshops"><i class="fa fa-check"></i><b>9.2</b> How to develop the workshops</a>
 <ul>
-<li class="chapter" data-level="9.2.1" data-path="developing-en.html"><a href="developing-en.html#getting-started"><i class="fa fa-check"></i><b>9.2.1</b> Getting started</a></li>
+<li class="chapter" data-level="9.2.1" data-path="developing-en.html"><a href="developing-en.html#getting-started-with-xaringan"><i class="fa fa-check"></i><b>9.2.1</b> Getting started with xaringan</a></li>
+<li class="chapter" data-level="9.2.2" data-path="developing-en.html"><a href="developing-en.html#getting-started-with-github"><i class="fa fa-check"></i><b>9.2.2</b> Getting started with GitHub</a></li>
+<li class="chapter" data-level="9.2.3" data-path="developing-en.html"><a href="developing-en.html#workflow"><i class="fa fa-check"></i><b>9.2.3</b> Workflow</a></li>
 </ul></li>
 <li class="chapter" data-level="9.3" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.3</b> Other ways to contribute</a></li>
 </ul></li>
@@ -245,35 +247,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><em>Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.</em></p>
 </div>
 </div>
-<div id="how-to-edit-the-workshops" class="section level2" number="9.2">
-<h2><span class="header-section-number">9.2</span> How to edit the workshops</h2>
+<div id="how-to-develop-the-workshops" class="section level2" number="9.2">
+<h2><span class="header-section-number">9.2</span> How to develop the workshops</h2>
 <p>This section guides you through the process of contributing edits to QCBS R workshop presentations.</p>
-<div id="getting-started" class="section level3" number="9.2.1">
-<h3><span class="header-section-number">9.2.1</span> Getting started</h3>
-<div id="install-package-and-clone-repository" class="section level4" number="9.2.1.1">
-<h4><span class="header-section-number">9.2.1.1</span> Install package and clone repository</h4>
+<div id="getting-started-with-xaringan" class="section level3" number="9.2.1">
+<h3><span class="header-section-number">9.2.1</span> Getting started with xaringan</h3>
 <p>The QCBS R Workshops are Rmarkdown presentations created using <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html">xaringan</a>, so the first step is to install the R package <code>xaringan</code>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="developing-en.html#cb1-1"></a><span class="cf">if</span>(<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
 <span id="cb1-2"><a href="developing-en.html#cb1-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;yihui/xaringan&#39;</span>)</span></code></pre></div>
+</div>
+<div id="getting-started-with-github" class="section level3" number="9.2.2">
+<h3><span class="header-section-number">9.2.2</span> Getting started with GitHub</h3>
 <p>Secondly, you need to create a local copy of the repository for the workshop you will be working on, found <a href="https://github.com/QCBSRworkshops">here</a>. To do so, you can <a href="https://help.github.com/articles/cloning-a-repository/">clone the GitHub repository</a> on your computer.</p>
 <p>You can use the command line to do this (more details <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">here</a>):</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="developing-en.html#cb2-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
 <span id="cb2-2"><a href="developing-en.html#cb2-2"></a><span class="co"># change this link depending on the workshop you&#39;re working on!</span></span></code></pre></div>
 <p>If you are not comfortable with the command line, you can clone this repository using <a href="https://desktop.github.com/">GitHub Desktop</a>, following instructions <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">here</a>.</p>
-<p>Once you’ve cloned the repository, you’re ready to get started!</p>
+<p>Once you’ve cloned the repository, you’re ready to begin developing!</p>
 </div>
-<div id="workflow" class="section level4" number="9.2.1.2">
-<h4><span class="header-section-number">9.2.1.2</span> Workflow</h4>
+<div id="workflow" class="section level3" number="9.2.3">
+<h3><span class="header-section-number">9.2.3</span> Workflow</h3>
 <p>GitHub creates repositories with a single default branch, named <code>main</code>. This is the one you see when you visit the repository.</p>
+<p>We strongly recommend working on a new branch, which allows you to make changes without affecting the main branch in the repository. This is a “safer” way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time.</p>
 <ol style="list-style-type: decimal">
-<li>Create a new branch. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.</li>
+<li><strong>Create and publish a new branch</strong>. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.</li>
 </ol>
 <p>You can do this using the command line:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="developing-en.html#cb3-1"></a><span class="fu">git</span> branch workshop1_intro</span></code></pre></div>
+<p>You can also use Github Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch">instructions here</a>).</p>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Switch branch: git checkout workshop3_intro; Note that you can create and switch branch with a single line of command: git checkout -b workshop3_intro.</p></li>
-<li><p>Do your changes!</p></li>
-<li><p>Once you are done with your changes on your branch, add and commit : git add -A and git commit -m “instructive message about what you did”.</p></li>
+<li><strong>Switch to this branch</strong>. Make sure you’re working on your new branch!</li>
+</ol>
+<p>You can do this using the command line:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="developing-en.html#cb4-1"></a><span class="fu">git</span> checkout workshop3_intro</span>
+<span id="cb4-2"><a href="developing-en.html#cb4-2"></a><span class="co"># Note that you can create and switch branch with a single line of command: </span></span>
+<span id="cb4-3"><a href="developing-en.html#cb4-3"></a><span class="fu">git</span> checkout -b workshop3_intro</span></code></pre></div>
+<p>You can also use GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches">instructions here</a>).</p>
+<ol start="3" style="list-style-type: decimal">
+<li><p><strong>Make your changes</strong>, following the <a href="https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines">Guidelines</a> listed above!</p></li>
+<li><p>Once you are finished making changes on your branch, add and commit : git add -A and git commit -m “instructive message about what you did”.</p></li>
 <li><p>Go back on the dev branch: git checkout dev and pull git pull just to make sure you are up to date.</p></li>
 <li><p>Switch back to your branch: git checkout workshop3_intro and merge locally: git merge dev. If there are conflicts, please resolve them! When you’re done, push your branch on the Github repository: git push –set-upstream origin workshop3_intro.</p></li>
 <li><p>Open a Pull Request (PR).</p></li>
@@ -281,7 +293,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>The reviewer will squash and merge the post once the build passed on Travis.</p></li>
 <li><p>Once the PR is merged, do not forget to pull the dev branch!</p></li>
 </ol>
-</div>
 </div>
 </div>
 <div id="other-ways-to-contribute" class="section level2" number="9.3">

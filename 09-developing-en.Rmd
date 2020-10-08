@@ -56,13 +56,11 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 *Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*
 
 
-## How to edit the workshops
+## How to develop the workshops
 
 This section guides you through the process of contributing edits to QCBS R workshop presentations.
 
-### Getting started
-
-#### Install package and clone repository
+### Getting started with xaringan
 
 The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the R package `xaringan`.
 
@@ -70,6 +68,8 @@ The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https:
 if(!require(devtools)) install.packages('devtools')
 devtools::install_github('yihui/xaringan')
 ```
+
+### Getting started with GitHub
 
 Secondly, you need to create a local copy of the repository for the workshop you will be working on, found [here](https://github.com/QCBSRworkshops). To do so, you can [clone the GitHub repository](https://help.github.com/articles/cloning-a-repository/) on your computer.
 
@@ -82,24 +82,37 @@ git clone https://github.com/QCBSRworkshops/workshop01.git
 
 If you are not comfortable with the command line, you can clone this repository using [GitHub Desktop](https://desktop.github.com/), following instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
-Once you've cloned the repository, you're ready to get started! 
+Once you've cloned the repository, you're ready to begin developing! 
 
-#### Workflow
+### Workflow
 
-GitHub creates repositories with a single default branch, named `main`. This is the one you see when you visit the repository.
+GitHub creates repositories with a single default branch, named `main`. This is the one you see when you visit the repository. 
 
-1. Create a new branch. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.
+We strongly recommend working on a new branch, which allows you to make changes without affecting the main branch in the repository. This is a "safer" way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time. 
+
+1. **Create and publish a new branch**. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.
 
 You can do this using the command line:
 ```{bash, eval=FALSE}
 git branch workshop1_intro
 ```
 
-2. Switch branch: git checkout workshop3_intro; Note that you can create and switch branch with a single line of command: git checkout -b workshop3_intro.
+You can also use Github Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch)).
 
-3. Do your changes!
+2. **Switch to this branch**. Make sure you're working on your new branch!
 
-4. Once you are done with your changes on your branch, add and commit : git add -A and git commit -m "instructive message about what you did".
+You can do this using the command line:
+```{bash, eval = FALSE}
+git checkout workshop3_intro
+# Note that you can create and switch branch with a single line of command: 
+git checkout -b workshop3_intro
+```
+
+You can also use GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
+
+3. **Make your changes**, following the [Guidelines](https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines) listed above!
+
+4. Once you are finished making changes on your branch, add and commit : git add -A and git commit -m "instructive message about what you did".
 
 5. Go back on the dev branch: git checkout dev and pull git pull just to make sure you are up to date.
 
