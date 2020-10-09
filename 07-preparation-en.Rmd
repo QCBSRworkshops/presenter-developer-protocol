@@ -14,7 +14,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 6 to 14 | 2 | $125 | $250
 15 or more | 3 | $125 | $375
 
-* **For workshops held on Zoom:** We require at least two presenters per workshop; one presenter will give the presentation and answer student questions, and the other presenter will act as an assistant, monitoring the chat, setting up break out rooms and also answering student questions. (These tasks can be split in a different way. Co-presenters can work that amongst yourselves). 
+* **For remote workshops:** We require at least two presenters per workshop on Zoom; one presenter will present the content, and the other presenter will act as an assistant, monitoring the chat, setting up break out rooms. Both will answer student questions. (If preferred, co-presentors can decide to split these tasks in a different way amongst themselves). 
 
 > *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
 
@@ -32,7 +32,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 3. Read the code of conduct (Section \@ref(codeofconduct)).
 
-4. For *remote workshops*: Fammiliarize yourself with Zoom *add more here*
+4. **For remote workshops**: Familiarize yourself with Zoom before you workshop. For example, you should know; how to share you scrren; how to inititate and end break out rooms; and what tools are available for interacting with students. *add a link to a resource here?*
 
 ### One week before the workshop
   
