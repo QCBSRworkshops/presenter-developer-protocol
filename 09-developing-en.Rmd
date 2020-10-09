@@ -2,7 +2,9 @@
 
 ## Guidelines
 
-This guide is designed to aid developers during the creation and modification of workshop content. We want to ensure attendees can focus on the content being presented without being distracted by issues of style, grammar, punctuation and/or structure. Please read through this guide carefully before starting, and refer back to it regularly as you work.
+This guide is designed to aid developers during the creation and modification of workshop content. We want to ensure attendees can focus on the content being presented without being distracted by issues of style, grammar, punctuation and/or structure.
+
+Please read through this guide **carefully** before starting, and refer back to it regularly as you work.
 
 ### Main priorities
 
@@ -10,22 +12,48 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 **Specific to adapting workshops to remote framework:**
 
-1. Hide slides from existing workshops to fit the new 3 hours format, including short breaks and time for exercises (current workshop run time is about 4 hours). **Do not** delete slides. We are aware that some workshops will be more difficult to shorten than others - if workshops need to run slightly over 3 hours to guarantee accurate and complete information than that is ok (use your judgement).
+1. Workshops should fit a new 3-hour format (including exercises and one or two breaks of five minutes). For this, you may choose to hide slides from existing workshops to fit this format. For instance, you may hide repetitive examples, non-essential slides or some of the additional advanced slides that are included at the end of the workshops. We are aware that some workshops will be more difficult to shorten than others; it is not a problem that workshops run slightly over 3 hours to guarantee accurate and complete information. (*Use your judgment*).
 
-2. Develop new or adapt current exercises to better suit the remote workshop format and the use of breakout rooms. Exercises should be informative and engaging. Remember to leave time for students to work through exercises and ask questions. 
+2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `instruction: remote` tag. See an example below:
+
+```
+---
+instruction: remote
+
+# Slide title: I love statistics!
+
+### Content: Amazing!
+
+```
+
+3. Develop new or adapt current exercises to better suit the remote workshop format and the use of breakout rooms. Exercises should be informative and engaging. Remember to leave time for students to work through exercises and ask questions.
 
 **General priorities:**
 
-3. Address existing issues submitted to GitHub.
+1. Address existing issues submitted to GitHub.
 
-4. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
+2. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
+
+3. Ensure that French and English versions of a workshop are both updated and that the content is equivalent.
+
+4. Workshops should not contain spelling, grammar or punctuation errors.
+
+5. Ensure workshop slides are written in a consistent style, this helps with the flow of workshops and student understanding. This is especially important when working collaboratively with other developers.
+
+6. Whenever possible, include [*presenter notes*](https://bookdown.org/yihui/rmarkdown/xaringan-format.html#xaringan-notes) to the slides you modify. You can write notes for yourself to read in the presenter mode (press the keyboard shortcut `p`). These notes are written under three question marks `???`. See the example below:
+
+```
+---
+
+The content of this workshop is essential for your life.
 
 
-5. Ensure that French and English versons of a workshop are both updated and that content is equivalent.
+???
 
-6. Workshops should not contain spelling, grammar or punctuation errors.
+_The presenter should sing this slide to the participants_.
 
-7. Ensure workshop slides are written in a consistent style, this helps with the flow of workshops and student understanding. This is especially important when working collaboratively with other developers.
+---
+```
 
 ### Structural rules
 
@@ -33,9 +61,11 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 2. The code used to generate an outcome (figure or calculation) must correspond to the code being displayed.
 
-3. Use backticks ` whenever you mention a function, an object or a package in your text.
+3. Use back ticks ` ` ` whenever you mention a function, an object or a package in your prose.
 
-4. Use three backticks to separate code chunks from prose.
+4. Use three back ticks ` ``` ` to separate code chunks from prose.
+
+5. Pay attention to fluidity and distractions.
 
 ### Grammar and style
 
@@ -47,18 +77,191 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 4. Read over the workshop in its entirety to ensure there is good flow.
 
-### Exercise examples
+5. Do not hesitate to ask your developing peer to review your writing.
 
-*Compile and produce examples from evidence-based learning modes and effective strategies to deliver remote workshops to participants.*
+### Interactive exercises
 
+Workshops should be interactive and should include exercises and polls. Below, we provide a few exercise examples evidence-based learning modes and effective strategies to deliver remote workshops to participants. 
 
-## How to develop the workshops
+We recommend that you take your time and plan well when elaborating exercises. Keep the exercise goals aligned with the objectives of the workshop.
+
+> Remember that everything written below `???` are notes for the presenter and thus will not appear in the presentation slide, but will appear within the presentation window.
+
+#### Simple polls
+
+See below a couple of examples of two slides containing an exercise followed by their solutions.
+
+**Example 1**
+
+Context: Workshop participants have just learned which functions to use to perform comparisons between dependent and independent groups, and have also been introduced to the one- and two-tailed hypothesis testing.
+
+Goal: Evaluate participant knowledge and make them more confident when selecting the appropriate two-samples test in their research. 
+
+```
+---
+We are interested assessing whether we find more acromantulas in forested and shaded areas in relation to open areas. We went to the field and counted the number of individuals (variable: `abundance`) in ten randomly distributed forested and open landscapes (variable: `type_of_area`). Which of the following functions would be appropriate to test our hypothesis?
+
+1. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = "two.sided")`;
+2. `t.test(type_of_area, abundance, data = acromantula_experiment, paired = TRUE, alternative = "two.sided").`
+3. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = "one.sided")`;
+
+???
+Note: During this moment, a poll should be opened to participants. Once you obtain the response from participants, show them the correct answer. You may request that one of the participants to explain their answer.
+
+---
+We are interested assessing whether we find more acromantulas in forested and shaded areas in relation to open areas. We went to the field and counted the number of individuals (variable: `abundance`) in ten randomly distributed forested and open landscapes (variable: `type_of_area`). Which of the following functions would be appropriate to test our hypothesis?
+
+1. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = "two.sided")`;
+2. `t.test(type_of_area, abundance, data = acromantula_experiment, paired = TRUE, alternative = "two.sided").`
+3. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = "one.sided")  #<<`;
+
+???
+Note: You should clarify to the participants the distinction between two-sided and one-sided hypothesis testing (in the context of the problem). In addition to that, you should also recall the differences between dependent and independent measures (related to the `paired` argument).
+---
+```
+
+**Example 2**
+
+Context: 
+
+Goal: 
+
+#### Group exercise
+
+Working in small groups leverages the strengths of the individual group members and improves the success of the collective setting. This exercise requires participants to be randomly assigned to breakout rooms (ideally, 5 participants per breakout room) and should include an activity referring to a point of discussion. At the end of this exercise, the workshop is reconvened and one of the participants from each breakout room should report and summarise the discussion. This activity should last around 10 minute (sometimes less if very simple) and it should use information that has been provided to the students during the workshop.
+
+See below two examples of slides containing an exercise followed by its solution:
+
+**Example 1** 
+
+Context: This exercise should be provided to set the ground for discussions during a data visualization workshop. It does not require a strong knowledge background in data visualization from participants.
+
+Goal: Foster participants critical thinking on data visualization.
+
+```
+---
+Group discussion: Below there are three charts compiled from a visualization book (reference shown in the next slide). Open and observe the charts and discuss with your group to respond the following questions:
+
+(a) What problems do you see in each one of the charts? 
+(b) What are the consequences of these problems you have identified?
+(b) What would you change in each one of them to improve their information?
+
+### Add these images side by side.
+
+![](https://socviz.co/assets/ch-01-chartjunk-life-expectancy.png)
+
+![](https://socviz.co/assets/ch-01-holmes-monstrous-only.png)
+
+![](https://socviz.co/assets/ch-01-democracy-nyt-version.png)
+
+![](https://socviz.co/assets/ch-01-excel-3d-column-chart-values.png)
+
+???
+Note: Clearly read the exercise to the participants and show them the figures. Tell them that they should summarise their answers and then one person should report back to the discussion when the class is convened. You may allow 5 to 8 minutes for the discussion in the breakout rooms (depending on group size) as this is is a very simple example. 
+---
+Group discussion: Below there are three charts compiled from a (visualization book)[https://socviz.co/lookatdata.html]. Open and observe the charts and discuss with your group to respond the following questions:
+
+(a) What problems do you see in each one of the charts? 
+(b) What are the consequences of these problems you have identified?
+(b) What would you change in each one of them to improve their information?
+
+### Show images side-by-side
+![](https://socviz.co/assets/ch-01-democracy-nyt-version.png)
+
+![](https://socviz.co/assets/ch-01-democracy-voeten-version-2.png)
+
+???
+Note: The figures in question are not only a matter of bad taste, but have issues related to the way they convey information. In this example, the issue is not due to a difference in how the y-axis is drawn. Rather, a different measure is being shown: we are now looking at the trend in the average score, rather than the trend for the highest possible answer.
+---
+```
+
+**Example 2** *Include another example with a more statistical discussion.*
+
+Context:
+
+Goal:
+```
+---
+
+---
+
+---
+```
+
+#### Individual exercise
+
+Simple individual exercises require participants to practice a bit on their own. Depending on how difficult the exercises may be, consider allocating between 5 and 10 minutes for their execution.
+
+While these exercises help participants assimilate the content, some attendees may be less driven to practice and execute them (in contrary to the group exercises). Because of this, consider include other types of exercises in addition to these ones.
+
+At the end of these exercises, the presenter should give the opportunity for one or a few participants to present and discuss their responses.
+
+Below, we can see an example for an independent exercise and its solution:
+
+Context: Participants have just been introduced to the distribution families, link functions and they have seen examples of how the `glm()` and `manyglm()` function work.
+
+Goal: Encourage participants to always observe diagnostic plots when choosing between models.
+
+```
+---
+Use `manyglm()` to estimate the responses of mite community composition to all environmental variables associated with the `mite` dataset. Which error families (gaussian, poisson or negative binomial) best fit the data?
+
+Do not forget to load the `vegan` and `mvabund` libraries, and use `data(mite)` and `data(mite.env)` to load the datasets.
+
+Tip: Remember what we have discussed about model assumptions!
+
+???
+Note: The objective of this exercise is to allow participants to independently write the models, to assign the appropriate arguments related to the distribution families and to realize they should plot the residuals against fitted values to decide on the best model. The instructor can remind participants about what both datasets include. The instructor or the assistant may help participants realize which arguments they can use by suggesting them to use the help `?` function. At the end of this exercise, invite participants to share their response and ask them how they have obtained it.
+
+---
+Use `manyglm()` to estimate the responses of mite community composition to all environmental variables associated with the `mite` dataset. Which error families (gaussian, poisson or negative binomial) best fit the data?
+
+Solution:
+
+### To be displayed inside a chunk code block:
+
+mitedat <- mvabund(mite)
+
+mite.gaussian.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrate + Shrub + Topo, data = mite.env, family='gaussian')
+mite.poisson.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrate + Shrub + Topo, data = mite.env, family='poisson')
+mite.nb.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrate + Shrub + Topo, data = mite.env, family='negative.binomial')
+
+# Display diagnostic plots side-by-side:
+par(mfrow=c(1,3))
+plot(mite.gaussian.glm)
+plot(mite.poisson.glm)
+plot(mite.nb.glm)
+
+### End of code chunk
+
+???
+
+Note: Clearly show which arguments changed between the functions and what do they imply. Speak with the participants about how assumptions of distribution of residuals and predicted values still have to be met for the models to be considered valid.
+---
+```
+
+**Example 2**
+
+*Include another example with a more statistical discussion.*
+
+Context:
+
+Goal:
+```
+---
+
+---
+
+---
+```
+
+## How to develop workshops
 
 This section guides you through the process of contributing edits to QCBS R workshop presentations.
 
-### Getting started 
+### Getting started
 
-The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the R package `xaringan`.
+The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the `R` package `xaringan`.
 
 ```{r install-xaringan, eval=FALSE}
 if(!require(devtools)) install.packages('devtools')
@@ -76,7 +279,7 @@ git clone https://github.com/QCBSRworkshops/workshop01.git
 
 If you are not comfortable with the command line, you can clone this repository using [GitHub Desktop](https://desktop.github.com/), following instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
-Once you've cloned the repository, you're ready to begin developing! 
+Once you have cloned the repository, you are ready to begin developing! 
 
 ### GitHub workflow
 
@@ -84,7 +287,7 @@ GitHub creates repositories with a single default branch, named `dev` (if you wo
 
 We strongly recommend working on a **new branch**, which allows you to develop the workshops without affecting the main branch in the repository. Working on a separate branch means that changes are only implemented in the original content once your contributions are reviewed. This is a "safer" way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time. 
 
-1. **Create and publish a new branch**. Choose a name that is explicit about what you are adding, such as workshop1_intro if you want to edit the introduction of workshop 1.
+1. **Create and publish a new branch**. Choose a name that is explicit about what you are adding, *e.g.* `workshop1_intro` if you are working on the introduction of workshop 1.
 
 On the command line:
 ```{bash, eval=FALSE}
@@ -93,7 +296,7 @@ git branch workshop1_intro # creates a new branch
 
 Github Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch)).
 
-2. **Switch to this branch**. Make sure you're working on your new branch!
+2. **Switch to this branch**. Make sure you are working on your new branch!
 
 On the command line:
 ```{bash, eval = FALSE}
@@ -148,7 +351,7 @@ Push your branch (e.g. `workshop1_intro`) to the remote repository in GitHub Des
 
 8. **Open a [Pull Request](https://help.github.com/articles/about-pull-requests/)**.
 
-Pull requests are a way to let your collaborators know about changes that you've pushed to a branch in the Github repository. Once you've opened a pull request, we can review potential changes and add follow-up commits (if needed) before your changes are merged into the main branch.
+Pull requests are a way to let your collaborators know about changes that you have pushed to a branch in the Github repository. Once you have opened a pull request, we can review potential changes and add follow-up commits (if needed) before your changes are merged into the main branch.
 
 To open a pull request for your branch (e.g. `workshop1_intro`), please follow these [instructions](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request).
 
@@ -161,4 +364,4 @@ To open a pull request for your branch (e.g. `workshop1_intro`), please follow t
 
 If you are not comfortable with GitHub, you can still help us improve the workshops!
 
-If you notice any mistakes or inconsistencies, or if you'd like to make a suggestion, either in form or in content, you're invited to open an [issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [issue](https://help.github.com/articles/creating-an-issue/).
+If you notice any mistakes or inconsistencies, or if you would like to make a suggestion, either in form or in content, you are invited to open an [issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [issue](https://help.github.com/articles/creating-an-issue/).

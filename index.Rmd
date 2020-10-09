@@ -38,6 +38,10 @@ We kindly ask you to read all instructions *very* attentively!
 
 For any issues, please communicate with the current workshop coordinators.
 
+#### Contributions {-}
+
+The original presenter protocol has been initially developed by #### and maintained by ####. It has then been remodelled into this book to include clear and specific presentation and developing guidelines, and award provision information by #####.
+
 ---
 
 *EN*
@@ -52,4 +56,6 @@ We kindly ask you to read all instructions *very* attentively!
 
 For any issues, please communicate with the current workshop coordinators.
 
+#### Contributions {-}
 
+The original presenter protocol has been initially developed by #### and maintained by ####. It has then been remodelled into this book to include clear and specific presentation and developing guidelines, and award provision information by #####.
