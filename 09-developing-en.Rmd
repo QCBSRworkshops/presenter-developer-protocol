@@ -44,14 +44,11 @@ instruction: remote
 
 ```
 ---
-
-The content of this workshop is essential for your life.
-
+The content of this workshop is essential for your graduate life.
 
 ???
 
-_The presenter should sing this slide to the participants_.
-
+Note: _The presenter should sing this slide to the participants_.
 ---
 ```
 
