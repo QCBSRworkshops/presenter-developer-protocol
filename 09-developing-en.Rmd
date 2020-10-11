@@ -123,6 +123,14 @@ Context:
 
 Goal: 
 
+```
+---
+
+---
+
+---
+```
+
 #### Group exercise
 
 Working in small groups leverages the strengths of the individual group members and improves the success of the collective setting. This exercise requires participants to be randomly assigned to breakout rooms (ideally, 5 participants per breakout room) and should include an activity referring to a point of discussion. At the end of this exercise, the workshop is reconvened and one of the participants from each breakout room should report and summarise the discussion. This activity should last around 10 minute (sometimes less if very simple) and it should use information that has been provided to the students during the workshop.
