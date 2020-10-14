@@ -10,7 +10,7 @@ On average, in-person workshops last 4 hours (including eventual breaks), with s
 
 Each workshop should begin with a welcome and check-in block lasting around 5 minutes. In this period, workshop presenters and assistants may take attendance, tell participants how you are doing and allow participants to do the same, and give participants instructions on how to use the chat and make questions.
 
-Following the welcome and check-in block, workshop presenters should being their lecture blocks by illustrating and specifying the content of the workshop and how the lecture and pause blocks will be structured.
+Following the welcome and check-in block, workshop presenters should begin their lecture blocks by illustrating and specifying the content of the workshop and how the lecture and pause blocks will be structured.
 
 > During both remote and in-person workshop contexts, additional short breaks of 5 to 10 minutes (each) should be occasionally provided to allow participants and presenters to take a short pause and to address any outstanding questions.
 

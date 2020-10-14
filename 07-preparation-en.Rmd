@@ -40,7 +40,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 2. Send the *standardized message* below to all participants, replacing the fields when required.
 
-> Ideally, instructors that have their emails displayed within the [workshop schedule](https://wiki.qcbs.ca/r#horaire_schedule) are expected to be the ones to that will first communicate with participants. You may change this role, if you prefer.
+> Ideally, instructors that have their emails displayed within the [workshop schedule](https://wiki.qcbs.ca/r#horaire_schedule) will be the ones to communicate with participants first. You may change this role, if you prefer.
 
 *  *NOTE:* Carbon-copy all your communication to the other instructors of your workshop.
 *  *NOTE:* You must send the message below **at least** 7 days before the date of your presentation.
