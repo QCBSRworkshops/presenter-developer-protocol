@@ -24,7 +24,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
   * **You must be *very* comfortable with the content and the presentation concerning the workshop as of the date of your presentation.**
 
-  * It is **your responsibility** to integrate be familiar with the material.
+  * It is **your responsibility** to become familiar with the material.
 
   * Use [wiki pages](https://wiki.qcbs.ca/r) and RMarkdown [presentations]() as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
 

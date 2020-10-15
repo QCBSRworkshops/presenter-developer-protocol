@@ -28,19 +28,19 @@ opts_chunk$set(tidy.opts=list(width.cutoff=60),
 
 *FR*
 
-Thank you for being part of the QCBS R Workshop Series!
+Merci de faire partie de la série d'ateliers R du CSBQ !
 
-We are happy to have you in our team!
+Nous sommes heureux de vous avoir dans notre équipe !
 
-This document brings together the responsibilities of the R workshop presenter. It walks you through the tasks needed to do before, during and after the workshops. It will also help you with the instructions on how to receive your award.  
+Ce document regroupe les responsabilités des instructeurs, des instructrices, des développeurs et développeuses des atelier R du CSBQ. Il vous guide à travers les tâches à effectuer avant, pendant et après les éditions et instructions des ateliers. Cela vous aidera également à completer les étapes pour recevoir votre prix.
 
-We kindly ask you to read all instructions *very* attentively!
+Nous vous demandons de bien vouloir lire toutes les instructions **très** attentivement!
 
-For any issues, please communicate with the current workshop coordinators.
+Pour tout problème, veuillez communiquer avec les coordinateurs actuels de la [série d'ateliers R du CSBQ]().
 
 #### Contributions {-}
 
-The original presenter protocol has been initially developed by #### and maintained by ####. It has then been remodelled into this book to include clear and specific presentation and developing guidelines, and award provision information by #####.
+Le protocole original du présentateur a été initialement développé par #### et maintenu par ####. Il a ensuite été remodelé dans ce livre pour inclure une présentation claire et spécifique et des lignes directrices de développement, et des informations sur les attributions par #####.
 
 ---
 
@@ -50,12 +50,12 @@ Thank you for being part of the QCBS R Workshop Series!
 
 We are happy to have you in our team!
 
-This document brings together the responsibilities of the R workshop presenter. It walks you through the tasks needed to do before, during and after the workshops. It will also help you with the instructions on how to receive your award.  
+This document brings together the responsibilities of QCBS R Workshop presenters and developers. It walks you through the tasks needed to complete before, during and after instructing or developing workshops. It will also walk you through the steps to receive your award.  
 
-We kindly ask you to read all instructions *very* attentively!
+We kindly ask you to read all instructions **very** attentively!
 
-For any issues, please communicate with the current workshop coordinators.
+For any issues, please communicate with the [current workshop coordinators]().
 
 #### Contributions {-}
 
-The original presenter protocol has been initially developed by #### and maintained by ####. It has then been remodelled into this book to include clear and specific presentation and developing guidelines, and award provision information by #####.
+The original presenter protocol has been initially developed by [####]() and maintained by [####](). It has then been remodelled into this book to include clear and specific presentation and developing guidelines, and award provision information by [#####]().
