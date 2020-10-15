@@ -1,4 +1,4 @@
-# Preparation {#preparation-fr}
+# Préparation {#preparation-fr}
 
 Être un présentateur ou une présentatrice de la série d'ateliers R du CSBQ demande une préparation et une communication proactive avec les participants inscrits aux ateliers. 
 
@@ -8,7 +8,7 @@ Ci-dessous, il y a une liste de points qui vous aideront à préparer les atelie
 
 ### Deux semaines avant l'atelier
 
-1. Vous devez obtenir la liste des participants et participantes inscrits à votre atelier et vous devez déterminer le nombre de présentateurs,  de présentatrices, d'assistants et d'assistantes qui peuvent être attribués à votre atelier:
+1. Vous devez obtenir la liste des participants et participantes inscrits à votre atelier et vous devez déterminer le nombre de présentateurs, de présentatrices, d'assistants et d'assistantes qui peuvent être attribués à votre atelier:
 
 
 Nombre de participants | Nombre de présentateurs | Paiement par présentateur | Allocation de fonds à l'atelier

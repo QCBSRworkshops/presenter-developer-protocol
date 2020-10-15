@@ -193,7 +193,7 @@ Goal:
 ---
 ```
 
-#### Individual exercise
+#### Exercise individuel
 
 Simple individual exercises require participants to practice a bit on their own. Depending on how difficult the exercises may be, consider allocating between 5 and 10 minutes for their execution.
 
@@ -260,7 +260,7 @@ Goal:
 ---
 ```
 
-## How to develop workshops
+## Comment développer des ateliers
 
 This section guides you through the process of contributing edits to QCBS R workshop presentations.
 
@@ -365,7 +365,7 @@ To open a pull request for your branch (e.g. `workshop1_intro`), please follow t
 10. Once the pull request is merged, do not forget to **pull the main branch**!
 
 
-## Other ways to contribute
+## Contribuer autrement
 
 If you are not comfortable with GitHub, you can still help us improve the workshops!
 
