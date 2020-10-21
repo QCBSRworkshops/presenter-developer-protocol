@@ -8,7 +8,7 @@ You must follow these stepts to receive your award payment:
 
 2. **Second, complete and sign this [form](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployes_20120815_questionnaire_en.pdf)**. Note that you are considered as a “*Payee*” for the purposes of the development and instruction of a workshop belonging to the QCBS R Workshop Series. If you need more infromation on the determination of employee versus self-employed or independent contractor, go to [here](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor). Name your file to "`YOURLASTNAME_PayeeForm.pdf`".
 
-3. **Third, fill out the attached invoice**. 
+3. **Third, fill out the QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
   * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 125 per workshop"; "Total: $ 250"). 
   
