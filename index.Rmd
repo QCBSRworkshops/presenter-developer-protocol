@@ -24,9 +24,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff=60),
                tidy=TRUE)
 ```
 
-# Presenter and Developer Protocol {-}
-
-*FR*
+# Protocole pour la présentation et le development {-}
 
 Merci de faire partie de la série d'ateliers R du CSBQ !
 
@@ -36,15 +34,15 @@ Ce document regroupe les responsabilités des instructeurs, des instructrices, d
 
 Nous vous demandons de bien vouloir lire toutes les instructions **très** attentivement !
 
-Pour tout problème, veuillez communiquer avec les coordonateurs actuels et coordonatrices actuelles de la [série d'ateliers R du CSBQ]().
+Pour tout problème, veuillez communiquer avec les coordonateurs actuels et coordonatrices actuelles de la [série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
 
 #### Contributions {-}
 
-Le protocole original des présentateurs et présentatrices a été initialement développé par #### et maintenu par ####. Il a ensuite été remodelé dans ce livre pour inclure une présentation claire et spécifique et des lignes directrices de développement et de l'instruction des ateliers par ####.
+Ce protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par [Pedro Henrique Pereira Braga](ph.pereirabraga@gmail.com), [Linley Sherin](linley.sherin@mail.mcgill.ca), et [Katherine Hébert](katherine.hebert@usherbrooke.ca) et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par les [coordinateurs et les coordinatrices de la série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
 
 ---
 
-*EN*
+## Presenter and Developer Protocol {-}
 
 Thank you for being part of the QCBS R Workshop Series!
 
@@ -54,8 +52,8 @@ This document brings together the responsibilities of QCBS R Workshop presenters
 
 We kindly ask you to read all instructions **very** attentively!
 
-For any issues, please communicate with the [current workshop coordinators]().
+For any issues, please communicate with the [current workshop coordinators](https://wiki.qcbs.ca/r#questions).
 
 #### Contributions {-}
 
-The original presenter protocol has been initially developed by [####]() and maintained by [####](). It has then been remodelled into this book to include clear and specific presentation and developing guidelines, and award provision information by [#####]().
+This protocol has been built into this book to include clear and specific guidelines to present, to develop and to receive learning and development awards. Its development was done by [Pedro Henrique Pereira Braga](ph.pereirabraga@gmail.com), [Linley Sherin](linley.sherin@mail.mcgill.ca), and [Katherine Hébert](katherine.hebert@usherbrooke.ca), and it was based on the original presenter protocol. This protocol is constantly maintained and updated by the [coordinators of the QCBS R Workshop Series](https://wiki.qcbs.ca/r#questions).

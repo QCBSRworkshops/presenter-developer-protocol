@@ -14,11 +14,11 @@ Nous avons établi ici une liste de priorités pour les concepteurs d'ateliers. 
 
 1. Les ateliers doivent s'adapter à un nouveau format de 3 heures (comprenant des exercices et une ou deux pauses de cinq minutes). Pour cela, vous pouvez choisir de cacher les diapositives des ateliers existants pour les adapter à ce format. Par exemple, vous pouvez masquer les exemples répétitifs, les diapositives non essentielles ou certaines des diapositives avancées supplémentaires qui sont incluses à la fin des ateliers. Nous sommes conscients que certains ateliers seront plus difficiles à raccourcir que d'autres ; ce n'est pas un problème que les ateliers durent un peu plus de 3 heures pour garantir des informations précises et complètes. (*Utilisez votre jugement*).
 
-2. **Ne supprimez pas les diapositives**. Pour cacher une diapositive pour l'instruction à distance, utilisez la balise "`instruction: remote`". Voir un exemple ci-dessous :
+2. **Ne supprimez pas les diapositives**. Pour cacher une diapositive pour l'instruction à distance, utilisez la balise "`instruction: hidden_remote`". Voir un exemple ci-dessous :
 
 ```
 ---
-instruction: remote
+instruction: hidden_remote
 
 # Titre de la diapositive : J'adore les statistiques !
 
@@ -75,7 +75,7 @@ Note : _Le présentateur doit chanter cette diapositive aux participants_.
 
 4. N'hésitez pas à demander à votre pair en développement de réviser votre texte.
 
-### Exercices interactifs
+### Apprentissage active
 
 Les ateliers doivent être interactifs et comprendre des exercices et des sondages. Nous présentons ci-dessous quelques exemples d'exercices, de modes d'apprentissage fondés sur des données probantes et de stratégies efficaces pour organiser des ateliers à distance pour les participants. 
 
@@ -119,15 +119,33 @@ Note : Vous devez préciser aux participants la distinction entre les tests d'hy
 
 **Exemple 2**
 
-Contexte : 
+Contexte : Les participants et participantes ont été initiés aux modèles linéaires généralisés, et viennent d'apprendre la distribution de Poisson, ses hypothèses selon lesquelles la variance est égale à la moyenne, et comment la sur-dispersion de leurs données peut être un problème lors de l'ajustement de ces modèles. Ils ont été initiés à la famille quasi-Poisson et à la possibilité d'appliquer une correction de sur-dispersion pour les données binaires avec l'objet de famille "quasibinomial".
 
-Objectif : 
+Objectif : Évaluer la capacité du participant ou de la participante à appliquer le concept de correction de la sur-dispersion à différents types de données, pour l'aider à mieux comprendre la relation entre les objets de famille et les fonctions de liaison, et pour renforcer l'idée que les modèles peuvent être mis à jour sans avoir à en créer de nouveaux.
 
 ```
 ---
+Nous avons maintenant réalisé que l'exemple de proportion pour les cerfs infectés peut avoir des problèmes de surdispersion (la variance augmente beaucoup plus vite que la moyenne). Laquelle des fonctions suivantes serait une mise à jour appropriée pour tenir compte de la surdispersion dans nos données sur les proportions ?
+
+
+1. `prop.reg.quasi <- glm(prop.infected ~ res.avail, family = quasipoisson(link = "logit"), weights = n.total)` ;
+2. `prop.reg.quasi <- glm(prop.infected ~ res.avail, famille = quasibinomial, poids = n.total)` ;
+3.`prop.reg.quasi <- update(prop.reg2, family=quasibinomial(link = "logit"))` ;
+
+???
+Note : Pendant ce moment, un sondage devrait être ouvert aux participants. Une fois que vous avez obtenu la réponse des participants, montrez-leur la bonne réponse. Vous pouvez demander à l'un des participants d'expliquer sa réponse.
 
 ---
 
+Nous avons maintenant réalisé que l'exemple de proportion pour les cerfs infectés peut avoir des problèmes de surdispersion (la variance augmente beaucoup plus vite que la moyenne). Laquelle des fonctions suivantes serait une mise à jour appropriée pour tenir compte de la surdispersion dans nos données sur les proportions ?
+
+
+1. `prop.reg.quasi <- glm(prop.infected ~ res.avail, family = quasipoisson(link = "logit"), weights = n.total)` ;
+2. `prop.reg.quasi <- glm(prop.infected ~ res.avail, famille = quasibinomial, poids = n.total)` ;
+3. `prop.reg.quasi <- update(prop.reg2, family=quasibinomial(link = "logit"))  #<<` ;
+
+???
+Note : Vous pouvez maintenant expliquer aux participants que nous pouvons obtenir le modèle corrigé avec les options 2 et 3. Cependant, l'option 3 est le bon choix car vous aviez demandé aux participants de mettre à jour le modèle `prop.reg2`. Vous pouvez également rappeler aux participants que chaque distribution a une fonction de lien par défaut, donc l'utilisation de `family = quasibinomial` et `family=quasibinomial(link = "logit")` produira le même résultat que `logit` est la fonction de lien par défaut pour la distribution quasibinomiale.
 ---
 ```
 
@@ -139,19 +157,20 @@ Voir ci-dessous deux exemples de diapositives contenant un exercice suivi de sa 
 
 **Exemple 1** 
 
-Contexte : Cet exercice doit être fourni pour préparer le terrain aux discussions lors d'un atelier de visualisation de données. Il n'exige pas des participants une solide connaissance de la visualisation de données.
+Contexte : Cet exercice doit être fourni pour préparer le terrain aux discussions lors d'un atelier de visualisation de données. Il n'exige pas aux participants et participantes une connaissance solide de la visualisation de données.
 
-Objectif : Encourager la réflexion critique des participants sur la visualisation de données.
+Objectif : Encourager la réflexion critique des participants et des participantes autour de la  visualisation de données.
 
 ```
 ---
-Group discussion: Below there are three charts compiled from a visualization book (reference shown in the next slide). Open and observe the charts and discuss with your group to respond the following questions:
+Discussion de groupe : Vous trouverez ci-dessous trois graphiques compilés à partir d'un livre de visualisation (référence indiquée dans la diapositive suivante). Ouvrez et observez les tableaux et discutez avec votre groupe pour répondre aux questions suivantes :
 
-(a) What problems do you see in each one of the charts? 
-(b) What are the consequences of these problems you have identified?
-(b) What would you change in each one of them to improve their information?
+(a) Quels problèmes voyez-vous dans chacun des tableaux ? 
+(b) Quelles sont les conséquences de ces problèmes que vous avez identifiés ?
 
-### Add these images side by side.
+(c) Que changeriez-vous dans chacun d'eux pour améliorer leur information ?
+
+### Ajoutez ces images côte à côte.
 
 ![](https://socviz.co/assets/ch-01-chartjunk-life-expectancy.png)
 
@@ -162,96 +181,123 @@ Group discussion: Below there are three charts compiled from a visualization boo
 ![](https://socviz.co/assets/ch-01-excel-3d-column-chart-values.png)
 
 ???
-Note: Clearly read the exercise to the participants and show them the figures. Tell them that they should summarise their answers and then one person should report back to the discussion when the class is convened. You may allow 5 to 8 minutes for the discussion in the breakout rooms (depending on group size) as this is is a very simple example. 
+
+Note : Lisez clairement l'exercice aux participants. Dites-leur qu'ils doivent résumer leurs réponses et qu'une personne doit ensuite faire un compte rendu de la discussion lorsque la classe est convoquée. Vous pouvez prévoir 5 à 8 minutes pour la discussion dans les salles de réunion (en fonction de la taille du groupe) car il s'agit d'un exemple très simple. 
+
 ---
-Group discussion: Below there are three charts compiled from a (visualization book)[https://socviz.co/lookatdata.html]. Open and observe the charts and discuss with your group to respond the following questions:
 
-(a) What problems do you see in each one of the charts? 
-(b) What are the consequences of these problems you have identified?
-(b) What would you change in each one of them to improve their information?
+Discussion de groupe : Vous trouverez ci-dessous trois graphiques compilés à partir d'un (livre de visualisation) [https://socviz.co/lookatdata.html]. Ouvrez et observez les tableaux et discutez avec votre groupe pour répondre aux questions suivantes :
 
-### Show images side-by-side
+(a) Quels problèmes voyez-vous dans chacun des tableaux ? 
+(b) Quelles sont les conséquences de ces problèmes que vous avez identifiés ?
+(b) Que changeriez-vous dans chacun d'eux pour améliorer leur information ?
+
+### Afficher les images côte à côte
 ![](https://socviz.co/assets/ch-01-democracy-nyt-version.png)
 
 ![](https://socviz.co/assets/ch-01-democracy-voeten-version-2.png)
 
 ???
-Note: The figures in question are not only a matter of bad taste, but have issues related to the way they convey information. In this example, the issue is not due to a difference in how the y-axis is drawn. Rather, a different measure is being shown: we are now looking at the trend in the average score, rather than the trend for the highest possible answer.
+Note : Les chiffres en question ne sont pas seulement une question de mauvais goût (subjectif), mais ont des problèmes liés à la manière dont ils transmettent l'information. Dans cet exemple, le problème n'est pas dû à une différence dans la façon dont l'axe des y est dessiné. Il s'agit plutôt d'une mesure différente : nous examinons maintenant la tendance du score moyen, plutôt que la tendance de la réponse la plus élevée possible.
 ---
 ```
 
-**Example 2** *Include another example with a more statistical discussion.*
+**Exemple 2**
 
-Context:
+Contexte : Les participants et participantes viennent d'être initiés aux analyses multivariées, et viennent de voir le tableau récapitulatif des principales caractéristiques des ordinations sans contrainte (https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=).
 
-Goal:
+Objectif : Permettre aux participants et participantes d'appliquer de manière critique les informations présentées dans cet atelier en déterminant quel type d'étude/données correspondrait le mieux aux différents types d'ordinations.
+
 ```
 ---
+Discussion de groupe : Chaque groupe se verra attribuer au hasard un type d'ordination. Vous discuterez au sein de votre groupe des types d'ensembles de données possibles qui correspondent le mieux au type d'ordination qui vous a été attribué. Chaque groupe présentera un exemple concret de projet/étude/expérience qui serait utilisé avec sa méthode d'ordination.
+
+### Inclure le tableau récapitulatif pour référence.
+
+![](https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=)
+
+???
+
+Note : Lisez clairement l'exercice aux participants et attribuez à chaque salle de réunion un type d'ordination. Dites-leur qu'ils doivent utiliser les caractéristiques du tableau récapitulatif pour trouver la réponse, puis une personne doit faire un compte rendu de la discussion lorsque la classe est convoquée en présentant l'exemple choisi et en mentionnant brièvement la raison pour laquelle elle l'a choisi. Vous pouvez prévoir 5 à 8 minutes pour la discussion dans les salles de réunion (en fonction de la taille du groupe). Pendant que les participants discutent dans leurs salles de réunion, pensez à des exemples possibles que vous pourriez leur donner au cas où la discussion ne se déroulerait pas comme prévu (n'oubliez pas que c'est la fin de l'atelier et que les gens peuvent donc être déjà fatigués).
 
 ---
+
+Discussion de groupe : Chaque groupe se verra attribuer au hasard un type d'ordination. Vous discuterez au sein de votre groupe des types d'ensembles de données possibles qui correspondent le mieux au type d'ordination qui vous a été attribué. Chaque groupe présentera un exemple concret de projet/étude/expérience qui serait utilisé avec sa méthode d'ordination.
+
+### Inclure le tableau récapitulatif pour référence.
+
+![](https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=)
+
+???
+
+Note : Mentionnez quelques exemples ou utilisez les exercices présentés pendant l'atelier pour conclure la discussion.
 
 ---
 ```
 
 #### Exercise individuel
 
-Simple individual exercises require participants to practice a bit on their own. Depending on how difficult the exercises may be, consider allocating between 5 and 10 minutes for their execution.
+Des exercices individuels simples demandent aux participants de pratiquer un peu par eux-mêmes. En fonction de la difficulté des exercices, pensez à prévoir entre 5 et 10 minutes pour leur exécution.
 
-While these exercises help participants assimilate the content, some attendees may be less driven to practice and execute them (in contrary to the group exercises). Because of this, consider include other types of exercises in addition to these ones.
+Bien que ces exercices aident les participants à assimiler le contenu, certains d'entre eux peuvent être moins motivés pour les pratiquer et les exécuter (contrairement aux exercices de groupe). C'est pourquoi il faut envisager d'inclure d'autres types d'exercices en plus de ceux-ci.
 
-At the end of these exercises, the presenter should give the opportunity for one or a few participants to present and discuss their responses.
+À la fin de ces exercices, le présentateur doit donner l'occasion à un ou quelques participants de présenter et de discuter leurs réponses.
 
-Below, we can see an example for an independent exercise and its solution:
+Ci-dessous, nous pouvons voir un exemple d'exercice indépendant et sa solution :
 
-Context: Participants have just been introduced to the distribution families, link functions and they have seen examples of how the `glm()` and `manyglm()` function work.
+Contexte : Les participants viennent de se voir présenter les familles de distribution, les fonctions de liens et ils ont vu des exemples du fonctionnement des fonctions `glm()` et `manyglm()`.
 
-Goal: Encourage participants to always observe diagnostic plots when choosing between models.
+Objectif : Encourager les participants à toujours observer les tracés de diagnostic lorsqu'ils choisissent entre les modèles.
 
 ```
 ---
-Use `manyglm()` to estimate the responses of mite community composition to all environmental variables associated with the `mite` dataset. Which error families (gaussian, poisson or negative binomial) best fit the data?
+Utilisez `manyglm()` pour estimer les réponses de la composition de la communauté d'acariens à toutes les variables environnementales associées à l'ensemble de données sur les `acariens`. Quelles familles d'erreurs (gaussiennes, de poisson ou binomiales négatives) correspondent le mieux aux données ?
 
-Do not forget to load the `vegan` and `mvabund` libraries, and use `data(mite)` and `data(mite.env)` to load the datasets.
+N'oubliez pas de charger les bibliothèques `vegan` et `mvabund`, et d'utiliser `data(mite)` et `data(mite.env)` pour charger les ensembles de données.
 
-Tip: Remember what we have discussed about model assumptions!
+Conseil : Souvenez-vous de ce que nous avons dit sur les hypothèses de modèle !
 
 ???
-Note: The objective of this exercise is to allow participants to independently write the models, to assign the appropriate arguments related to the distribution families and to realize they should plot the residuals against fitted values to decide on the best model. The instructor can remind participants about what both datasets include. The instructor or the assistant may help participants realize which arguments they can use by suggesting them to use the help `?` function. At the end of this exercise, invite participants to share their response and ask them how they have obtained it.
+
+Note : L'objectif de cet exercice est de permettre aux participants d'écrire indépendamment les modèles, d'assigner les arguments appropriés liés aux familles de distribution et de réaliser qu'ils doivent tracer les résidus par rapport aux valeurs ajustées pour décider du meilleur modèle. L'instructeur peut rappeler aux participants ce que les deux ensembles de données comprennent. L'instructeur ou l'assistant peut aider les participants à se rendre compte des arguments qu'ils peuvent utiliser en leur suggérant d'utiliser la fonction d'aide "?`". À la fin de cet exercice, invitez les participants à partager leur réponse et demandez-leur comment ils l'ont obtenue.
 
 ---
-Use `manyglm()` to estimate the responses of mite community composition to all environmental variables associated with the `mite` dataset. Which error families (gaussian, poisson or negative binomial) best fit the data?
 
-Solution:
+Utilisez `manyglm()` pour estimer les réponses de la composition de la communauté d'acariens à toutes les variables environnementales associées à l'ensemble de données sur les `acariens`. Quelles familles d'erreurs (gaussiennes, de poisson ou binomiales négatives) correspondent le mieux aux données ?
 
-### To be displayed inside a chunk code block:
+Solution :
+
+### A afficher à l'intérieur d'un bloc de code de morceaux :
 
 mitedat <- mvabund(mite)
 
-mite.gaussian.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrate + Shrub + Topo, data = mite.env, family='gaussian')
-mite.poisson.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrate + Shrub + Topo, data = mite.env, family='poisson')
-mite.nb.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrate + Shrub + Topo, data = mite.env, family='negative.binomial')
+mite.gaussian.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrat + Arbuste + Topo, data = mite.env, family='gaussian')
+mite.poisson.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrat + Arbuste + Topo, data = mite.env, family='poisson')
+mite.nb.glm <- manyglm(mitedat ~ SubsDens + WatrCont + Substrat + Arbuste + Topo, data = mite.env, family='negative.binomial')
 
-# Display diagnostic plots side-by-side:
+# Afficher les tracés de diagnostic côte à côte :
 par(mfrow=c(1,3))
 plot(mite.gaussian.glm)
 plot(mite.poisson.glm)
 plot(mite.nb.glm)
 
-### End of code chunk
+### Fin de la partie du code
 
 ???
 
-Note: Clearly show which arguments changed between the functions and what do they imply. Speak with the participants about how assumptions of distribution of residuals and predicted values still have to be met for the models to be considered valid.
+Note : Montrez clairement quels arguments ont changé entre les fonctions et ce qu'ils impliquent. Expliquez aux participants comment les hypothèses de distribution des résidus et des valeurs prédites doivent encore être satisfaites pour que les modèles soient considérés comme valables.
+
 ---
 ```
 
-**Example 2**
+**Exemple 2**
 
-*Include another example with a more statistical discussion.*
+*Inclure un autre exemple avec une discussion plus statistique.*
 
-Context:
+Contexte:
 
 Goal:
+
 ```
 ---
 
@@ -262,111 +308,111 @@ Goal:
 
 ## Comment développer des ateliers
 
-This section guides you through the process of contributing edits to QCBS R workshop presentations.
+Cette section vous guide à travers le processus de contribution aux présentations des ateliers R du CSBQ.
 
-### Getting started
+### Pour commencer
 
-The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the `R` package `xaringan`.
+Les ateliers R du CSBQ sont des présentations créées en utilisant [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), donc la première étape est d'installer la bibliotèque `R` `xaringan`.
 
 ```{r install-xaringan-fr, eval=FALSE}
 if(!require(devtools)) install.packages('devtools')
 devtools::install_github('yihui/xaringan')
 ```
 
-Secondly, you need to create a local copy of the repository for the workshop you will be working on, found [here](https://github.com/QCBSRworkshops). To do so, you can [clone the GitHub repository](https://help.github.com/articles/cloning-a-repository/) on your computer.
+Ensuite, vous devez créer une copie locale du répertoire de l'atelier sur lequel vous travaillerez, que vous trouverez [ici](https://github.com/QCBSRworkshops). Pour ce faire, vous pouvez [cloner le répertoire GitHub](https://help.github.com/articles/cloning-a-repository/) sur votre ordinateur.
 
-You can use the command line to do this (more details [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)):
+Pour ce faire, vous pouvez utiliser la ligne de commande (plus de détails [ici](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)) :
 
 ```{bash, eval=FALSE}
 git clone https://github.com/QCBSRworkshops/workshop01.git
-# change this link depending on the workshop you're working on!
+
+# changez ce lien en fonction de l'atelier sur lequel vous travaillez !
 ```
 
-If you are not comfortable with the command line, you can clone this repository using [GitHub Desktop](https://desktop.github.com/), following instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+Si vous n'êtes pas à l'aise avec la ligne de commande, vous pouvez cloner ce dépôt d'archives en utilisant [GitHub Desktop](https://desktop.github.com/), en suivant les instructions [ici](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
-Once you have cloned the repository, you are ready to begin developing! 
+Une fois que vous avez cloné le dépôt d'archives, vous êtes prêt à commencer le développement ! 
 
-### GitHub workflow
+### Flux de travail GitHub
 
-GitHub creates repositories with a single default branch, named `dev` (if you work in the command line) or `master` (if you work in GitHub Desktop). This is the branch you see when you visit the repository. 
+GitHub crée des dépôt d'archivess avec une seule branche par défaut, nommée `dev` (si vous travaillez en ligne de commande) ou `main` (si vous travaillez dans GitHub Desktop). C'est la branche que vous voyez quand vous visitez le dépôt d'archives. 
 
-We strongly recommend working on a **new branch**, which allows you to develop the workshops without affecting the main branch in the repository. Working on a separate branch means that changes are only implemented in the original content once your contributions are reviewed. This is a "safer" way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time. 
+Nous vous recommandons fortement de travailler sur une **nouvelle branche**, qui vous permet de développer les ateliers sans affecter la branche principale du dépôt d'archives. Travailler sur une branche distincte signifie que les changements ne sont mis en œuvre dans le contenu original qu'une fois que vos contributions ont été examinées. C'est une façon "plus sûre" de développer les ateliers, en particulier lorsque plusieurs personnes collaborent à un atelier en même temps.
 
-1. **Create and publish a new branch**. Choose a name that is explicit about what you are adding, *e.g.* `workshop1_intro` if you are working on the introduction of workshop 1.
+1. **Créer et publier une nouvelle branche**. Choisissez un nom qui soit explicite sur ce que vous ajoutez, *par exemple * `workshop1_intro` si vous travaillez sur l'introduction de l'atelier 1.
 
-On the command line:
+Sur la ligne de commande :
 ```{bash-fr, eval=FALSE}
-git branch workshop1_intro # creates a new branch
+git branch workshop1_intro # créer une nouvelle branche
 ```
 
-Github Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch)).
+Github Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch)).
 
-2. **Switch to this branch**. Make sure you are working on your new branch!
+2. **Passer à cette branche**. Assurez-vous que vous travaillez sur votre nouvelle branche !
 
-On the command line:
+Sur la ligne de commande :
 ```{bash, eval = FALSE}
-git checkout workshop1_intro # switches to this branch
+git checkout workshop1_intro # passer à cette branche
 
-# Note that you can create and switch branch in a single line: 
+# Notez que vous pouvez créer et changer de branche en une seule ligne : 
 git checkout -b workshop1_intro
 ```
 
-GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
+GitHub Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
 
-3. **Make your changes**, following the [Guidelines](https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines) listed above.
+3. **Effectuez vos modifications**, en suivant les [lignes directrices](https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines) énumérées ci-dessus.
 
-4. **Add and commit your changes**. Once you are finished making changes on your branch, add and commit them to record these changes. When you commit changes, it is essential to include a commit message that briefly summarizes what you've done. Keep it brief but informative!
+4. **Ajoutez et validez vos modifications**. Une fois que vous avez terminé de faire des changements sur votre branche, ajoutez-les et validez-les pour enregistrer ces changements. Lorsque vous validez des modifications, il est essentiel d'inclure un message de validation qui résume brièvement ce que vous avez fait. Soyez bref mais informatif !
 
-On the command line:
+Sur la ligne de commande :
 ```{bash, eval=FALSE}
-git add -A # add all your changes
+git add -A # ajoutez tous vos changements
 git commit -m "fix code for plot in Challenge 1" # commit your changes with a message
 ```
 
-You can also use GitHub Desktop to add changes ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit)) and commit them ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes)).
+Vous pouvez également utiliser GitHub Desktop pour ajouter des modifications ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit)) et les valider ([instructions ici](https://docs. github.com/fr/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes)).
 
-5. **Sync your main branch with the remote repository**. It's important to make sure your main branch is up to date before changing it. Go to back to the main branch and pull changes that were made since you last copied the repository.
+5. **Synchronisez votre branche principale avec le référentiel distant**. Il est important de s'assurer que votre branche principale est à jour avant de la modifier. Retournez à la branche principale et récupérez les modifications qui ont été faites depuis la dernière copie du dépôt d'archives.
 
-Pull the `dev` on the command line:
+Tirez le `dev` sur la ligne de commande :
 ```{bash, eval=FALSE}
-git checkout dev # switch back to the main branch
+git checkout dev # retour à l'agence principale
 pull git # pull changes
 ```
 
-Pull the `master` branch on GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#pulling-to-your-local-branch-from-the-remote)).
+Tirez la branche `main` sur GitHub Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#pulling-to-your-local-branche-de-la-distance)).
 
-6. **Merge your branch with the main branch locally.** Switch back to your branch (e.g. `workshop1_intro`) and merge it with your local main branch. If there are conflicts, please resolve them! 
+6. **Fusionnez votre branche avec la branche principale locale**. Retournez à votre branche (par exemple `workshop1_intro`) et fusionnez-la avec votre branche principale locale. S'il y a des conflits, veuillez les résoudre ! 
 
-You can merge your branch with the `dev` branch using the command line:
+Vous pouvez fusionner votre branche avec la branche `dev` en utilisant la ligne de commande :
 ```{bash, eval=FALSE}
-git checkout workshop1_intro # switch back to your branch
-git merge dev # merge the main branch with your branch
+git checkout workshop1_intro # retournez à votre agence
+git merge dev # fusionner la branche principale avec votre branche
 ```
 
-Merge your branch with the `master` branch in GitHub Desktop ([instructions here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch)).
+Fusionnez votre branche avec la branche `main` dans GitHub Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-projet-branch)).
 
-7. **Push your locally merged branch** to the remote GitHub repository. 
+7. **Poussez votre branche fusionnée localement vers le dépôt d'archives GitHub distant**. 
 
-On the command line, you can push your locally merged branch (e.g. `workshop1_intro`) to the remote repository like this:
+En ligne de commande, vous pouvez pousser votre branche fusionnée localement (par exemple `workshop1_intro`) vers le dépôt d'archives distant comme ceci :
 ```{bash, eval=FALSE}
-git push --set-upstream origin workshop1_intro # push to the remote!
+git push --set-upstream origin workshop1_intro # push to the remote !
 ```
 
-Push your branch (e.g. `workshop1_intro`) to the remote repository in GitHub Desktop ([see step #4)](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch)).
+Poussez votre branche (par exemple `workshop1_intro`) vers le dépôt d'archives distant dans GitHub Desktop ([voir étape #4)](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant une autre branche dans votre branche-projet)).
 
-8. **Open a [Pull Request](https://help.github.com/articles/about-pull-requests/)**.
+8. **Ouvrez une [demande d'extraction](https://help.github.com/articles/about-pull-requests/)**.
 
-Pull requests are a way to let your collaborators know about changes that you have pushed to a branch in the Github repository. Once you have opened a pull request, we can review potential changes and add follow-up commits (if needed) before your changes are merged into the main branch.
+Les *pull requests* ou demandes d'extraction sont un moyen de faire connaître à vos collaborateurs les changements que vous avez poussés vers une branche du dépôt d'archives Github. Une fois que vous avez ouvert une demande d'extraction, nous pouvons examiner les changements potentiels et ajouter des commandes de suivi (si nécessaire) avant que vos changements ne soient fusionnés dans la branche principale.
 
-To open a pull request for your branch (e.g. `workshop1_intro`), please follow these [instructions](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request).
+Pour ouvrir une demande d'extraction pour votre branche (par exemple `workshop1_intro`), veuillez suivre ces [instructions](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request).
 
-9. **Assign** your pull request to a reviewer (one of the R workshop coordinators). The reviewer will then review, squash, and merge your changes.
+9. **Assignez** votre demande d'extraction (*pull request*) à un examinateur (un des coordinateurs ou des coordinatrices des ateliers R du CSBQ). Votre demande sera révisée et fusionnée avec le dépôt principal.
 
-10. Once the pull request is merged, do not forget to **pull the main branch**!
-
+10. Une fois que la demande d'extraction est fusionnée, n'oubliez pas de **tirer la branche principale** !
 
 ## Contribuer autrement
 
-If you are not comfortable with GitHub, you can still help us improve the workshops!
+Si vous n'êtes pas à l'aise avec GitHub, vous pouvez toujours nous aider à améliorer les ateliers !
 
-If you notice any mistakes or inconsistencies, or if you would like to make a suggestion, either in form or in content, you are invited to open an [issue](https://help.github.com/articles/about-issues/). You can follow these simple steps to create a new [issue](https://help.github.com/articles/creating-an-issue/).
+Si vous remarquez des erreurs ou des incohérences, ou si vous souhaitez faire une suggestion, que ce soit sur la forme ou le contenu, vous êtes invités à ouvrir un [numéro](https://help.github.com/articles/about-issues/). Vous pouvez suivre ces étapes simples pour créer un nouveau [numéro](https://help.github.com/articles/creating-an-issue/).

@@ -14,11 +14,11 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 1. Workshops should fit a new 3-hour format (including exercises and one or two breaks of five minutes). For this, you may choose to hide slides from existing workshops to fit this format. For instance, you may hide repetitive examples, non-essential slides or some of the additional advanced slides that are included at the end of the workshops. We are aware that some workshops will be more difficult to shorten than others; it is not a problem that workshops run slightly over 3 hours to guarantee accurate and complete information. (*Use your judgment*).
 
-2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `instruction: remote` tag. See an example below:
+2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `instruction: hidden_remote` tag. See an example below:
 
 ```
 ---
-instruction: remote
+instruction: hidden_remote
 
 # Slide title: I love statistics!
 
@@ -76,9 +76,9 @@ Note: _The presenter should sing this slide to the participants_.
 
 5. Do not hesitate to ask your developing peer to review your writing.
 
-### Interactive exercises
+### Active learning
 
-Workshops should be interactive and should include exercises and polls. Below, we provide a few exercise examples evidence-based learning modes and effective strategies to deliver remote workshops to participants. 
+Workshops should go beyond a lecture-based only perspective and should include activities that promote active learning among participants. Below, we provide a few examples of exercises elaborated from evidence-based learning modes and effective strategies to deliver remote workshops to participants. 
 
 We recommend that you take your time and plan well when elaborating exercises. Keep the exercise goals aligned with the objectives of the workshop.
 
@@ -119,13 +119,13 @@ Note: You should clarify to the participants the distinction between two-sided a
 
 **Example 2**
 
-Context: Workshop 7 participants have just learned about `quasipoisson` family objects and how they can help to account for overdispersion in their poisson models. They were also introduced to the possibility of applying an overdispersion correction for binary data with the `quasibinomial` family object.
+Context: Participants have been introduced to generalized linear models, and have just learned about the Poisson distribution, about its assumptions that variance is equal to the mean, and how overdispersion in their data can be an issue when fitting these models. They have been introduced to the quasi-Poisson family and to the possibility of applying an overdispersion correction for binary data with the `quasibinomial` family object.
 
 Goal: Assess the participant’s ability to apply the concept of overdispersion correction to different types of data, to help them better understand the relationship between the family objects and the link functions, and to reinforce the idea that models can be updated without having to create new ones.
 
 ```
 ---
-We now realized that the proportion example for infected deer may have some issues with overdispersion. Which of the following functions would be an appropriate update to account for overdispersion in our proportion data?
+We now realized that the proportion example for infected deer may have issues with overdispersion (variance increases much faster than the mean). Which of the following functions would be an appropriate update to account for overdispersion in our proportion data?
 
 1. `prop.reg.quasi <- glm(prop.infected ~ res.avail, family = quasipoisson(link = “logit”), weights = n.total)`;
 2. `prop.reg.quasi <- glm(prop.infected ~ res.avail, family = quasibinomial, weights = n.total)`;
@@ -135,7 +135,8 @@ We now realized that the proportion example for infected deer may have some issu
 Note: During this moment, a poll should be opened to participants. Once you obtain the response from participants, show them the correct answer. You may request that one of the participants to explain their answer.
 
 ---
-We now realized that the proportion example for infected deer may have some issues with overdispersion. Which of the following functions would be an appropriate update to account for overdispersion in our proportion data model?
+We now realized that the proportion example for infected deer may have issues with overdispersion (variance increases much faster than the mean). Which of the following functions would be an appropriate update to account for overdispersion in our proportion data?
+
 
 1. `prop.reg.quasi <- glm(prop.infected ~ res.avail, family = quasipoisson(link = “logit”), weights = n.total)`;
 2. `prop.reg.quasi <- glm(prop.infected ~ res.avail, family = quasibinomial, weights = n.total)`;
@@ -195,9 +196,9 @@ Note: The figures in question are not only a matter of bad taste, but have issue
 ---
 ```
 
-**Example 2** *Include another example with a more statistical discussion.*
+**Example 2**
 
-Context: We are reaching the end of Workshop 9 and the presenter has just explained the summary table showing the main characteristics of each type of ordination we learnt during the workshop (https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=).
+Context: Participants have just been introduced to multivariate analyses, and have just seen the summary table showing the main characteristics of unconstrained ordinations (https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=).
 
 Goal: Allow participants to critically apply the presented information in this workshop by determining which type of study/data would best fit the different types of ordinations.
 
@@ -211,7 +212,9 @@ Group discussion: Each group will be randomly assigned a type of ordination. You
 
 ???
 Note: Clearly read the exercise to the participants and assign each breakout room a type of ordination. Tell them that they should use the characteristics from the summary table to come up with the response and then one person should report back to the discussion when the class is convened by presenting the chosen example and briefly mention the reason why they chose it. You may allow 5 to 8 minutes for the discussion in the breakout rooms (depending on group size). While the participants are discussing in their breakout rooms, think of possible examples you could give the participants in case the discussion doesn't flow as expected (remember this is the end of the workshop so people might already be tired).
+
 ---
+
 Group discussion: Each group will be randomly assigned a type of ordination. You will discuss among your group which possible types of datasets would best fit the type of ordination you were assigned. Each group will present a concrete example of an project/study/experiment that would be used with their ordination method.
 
 ### Include the summary table for reference.
@@ -220,6 +223,7 @@ Group discussion: Each group will be randomly assigned a type of ordination. You
 
 ???
 Note: Mention a few examples or use the exercises presented during the workshop to wrap up the discussion.
+
 ---
 ```
 
@@ -393,7 +397,6 @@ To open a pull request for your branch (e.g. `workshop1_intro`), please follow t
 9. **Assign** your pull request to a reviewer (one of the R workshop coordinators). The reviewer will then review, squash, and merge your changes.
 
 10. Once the pull request is merged, do not forget to **pull the main branch**!
-
 
 ## Other ways to contribute
 

@@ -6,7 +6,7 @@ You must follow these stepts to receive your award payment:
 
 1. **First, complete the [payment sheet]()**. You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives an award of a maximum of $125 per workshop instructed*.
 
-2. **Second, complete and sign this [form]()**. Note that you are considered as a “*Payee*” for the purposes of the development and instruction of a workshop belonging to the QCBS R Workshop Series. Name your file to "`YOURLASTNAME_PayeeForm.pdf`".
+2. **Second, complete and sign this [form](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployes_20120815_questionnaire_en.pdf)**. Note that you are considered as a “*Payee*” for the purposes of the development and instruction of a workshop belonging to the QCBS R Workshop Series. If you need more infromation on the determination of employee versus self-employed or independent contractor, go to [here](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor). Name your file to "`YOURLASTNAME_PayeeForm.pdf`".
 
 3. **Third, fill out the attached invoice**. 
 
@@ -36,6 +36,8 @@ You must follow these stepts to receive your award payment:
 5. After a few weeks, McGill University's Procurement Services will send you an e-mail containing a purchase order. 
 
 * You must **copy the purchase order number** and paste it to the fields *Purchase Order* and *Invoice Number* of the invoice that you sent to Helen.
+
+* It is *really important* that you change the *Invoice Number* accordingly, otherwise your payment will not be processed.
 
 6. **Export the invoice to PDF**, and send it to accountspayable@mcgill.ca. You should receive a check in the address you included within your invoice.
 

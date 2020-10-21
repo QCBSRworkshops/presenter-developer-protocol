@@ -24,7 +24,7 @@
 <meta name="author" content="QCBS R Workshop Series" />
 
 
-<meta name="date" content="2020-10-15" />
+<meta name="date" content="2020-10-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -133,7 +133,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="...">QCBS R Workshop Series</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Presenter and Developer Protocol</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Protocole pour la présentation et le development</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#presenter-and-developer-protocol"><i class="fa fa-check"></i>Presenter and Developer Protocol</a></li>
+</ul></li>
 <li class="part"><span><b>I Version en Français</b></span></li>
 <li class="chapter" data-level="1" data-path="code-de-conduite.html"><a href="code-de-conduite.html"><i class="fa fa-check"></i><b>1</b> Code de conduite</a></li>
 <li class="chapter" data-level="2" data-path="preparation-fr.html"><a href="preparation-fr.html"><i class="fa fa-check"></i><b>2</b> Préparation</a>
@@ -154,7 +157,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.1.1" data-path="developper-fr.html"><a href="developper-fr.html#principales-priorités"><i class="fa fa-check"></i><b>4.1.1</b> Principales priorités</a></li>
 <li class="chapter" data-level="4.1.2" data-path="developper-fr.html"><a href="developper-fr.html#règles-structurelles"><i class="fa fa-check"></i><b>4.1.2</b> Règles structurelles</a></li>
 <li class="chapter" data-level="4.1.3" data-path="developper-fr.html"><a href="developper-fr.html#grammaire-et-style"><i class="fa fa-check"></i><b>4.1.3</b> Grammaire et style</a></li>
-<li class="chapter" data-level="4.1.4" data-path="developper-fr.html"><a href="developper-fr.html#exercices-interactifs"><i class="fa fa-check"></i><b>4.1.4</b> Exercices interactifs</a></li>
+<li class="chapter" data-level="4.1.4" data-path="developper-fr.html"><a href="developper-fr.html#apprentissage-active"><i class="fa fa-check"></i><b>4.1.4</b> Apprentissage active</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="developper-fr.html"><a href="developper-fr.html#comment-développer-des-ateliers"><i class="fa fa-check"></i><b>4.2</b> Comment développer des ateliers</a>
 <ul>
@@ -191,7 +194,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.1.1" data-path="developing-en.html"><a href="developing-en.html#main-priorities"><i class="fa fa-check"></i><b>9.1.1</b> Main priorities</a></li>
 <li class="chapter" data-level="9.1.2" data-path="developing-en.html"><a href="developing-en.html#structural-rules"><i class="fa fa-check"></i><b>9.1.2</b> Structural rules</a></li>
 <li class="chapter" data-level="9.1.3" data-path="developing-en.html"><a href="developing-en.html#grammar-and-style"><i class="fa fa-check"></i><b>9.1.3</b> Grammar and style</a></li>
-<li class="chapter" data-level="9.1.4" data-path="developing-en.html"><a href="developing-en.html#interactive-exercises"><i class="fa fa-check"></i><b>9.1.4</b> Interactive exercises</a></li>
+<li class="chapter" data-level="9.1.4" data-path="developing-en.html"><a href="developing-en.html#active-learning"><i class="fa fa-check"></i><b>9.1.4</b> Active learning</a></li>
 </ul></li>
 <li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#how-to-develop-workshops"><i class="fa fa-check"></i><b>9.2</b> How to develop workshops</a>
 <ul>
@@ -230,10 +233,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><strong>Specific to adapting workshops to remote framework:</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>Workshops should fit a new 3-hour format (including exercises and one or two breaks of five minutes). For this, you may choose to hide slides from existing workshops to fit this format. For instance, you may hide repetitive examples, non-essential slides or some of the additional advanced slides that are included at the end of the workshops. We are aware that some workshops will be more difficult to shorten than others; it is not a problem that workshops run slightly over 3 hours to guarantee accurate and complete information. (<em>Use your judgment</em>).</p></li>
-<li><p><strong>DO NOT</strong> delete slides. To hide a slide for remote instruction, use the <code>instruction: remote</code> tag. See an example below:</p></li>
+<li><p><strong>DO NOT</strong> delete slides. To hide a slide for remote instruction, use the <code>instruction: hidden_remote</code> tag. See an example below:</p></li>
 </ol>
 <pre><code>---
-instruction: remote
+instruction: hidden_remote
 
 # Slide title: I love statistics!
 
@@ -279,9 +282,9 @@ Note: _The presenter should sing this slide to the participants_.
 <li><p>Do not hesitate to ask your developing peer to review your writing.</p></li>
 </ol>
 </div>
-<div id="interactive-exercises" class="section level3" number="9.1.4">
-<h3><span class="header-section-number">9.1.4</span> Interactive exercises</h3>
-<p>Workshops should be interactive and should include exercises and polls. Below, we provide a few exercise examples evidence-based learning modes and effective strategies to deliver remote workshops to participants.</p>
+<div id="active-learning" class="section level3" number="9.1.4">
+<h3><span class="header-section-number">9.1.4</span> Active learning</h3>
+<p>Workshops should go beyond a lecture-based only perspective and should include activities that promote active learning among participants. Below, we provide a few examples of exercises elaborated from evidence-based learning modes and effective strategies to deliver remote workshops to participants.</p>
 <p>We recommend that you take your time and plan well when elaborating exercises. Keep the exercise goals aligned with the objectives of the workshop.</p>
 <blockquote>
 <p>Remember that everything written below <code>???</code> are notes for the presenter and thus will not appear in the presentation slide, but will appear within the presentation window.</p>
@@ -296,7 +299,7 @@ Note: _The presenter should sing this slide to the participants_.
 We are interested assessing whether we find more acromantulas in forested and shaded areas in relation to open areas. We went to the field and counted the number of individuals (variable: `abundance`) in ten randomly distributed forested and open landscapes (variable: `type_of_area`). Which of the following functions would be appropriate to test our hypothesis?
 
 1. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = &quot;two.sided&quot;)`;
-2. `t.test(type_of_area, abundance, data = acromantula_experiment, paired = TRUE, alternative = &quot;two.sided&quot;).`
+2. `t.test(type_of_area, abundance, data = acromantula_experiment, paired = TRUE, alternative = &quot;two.sided&quot;)`;
 3. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = &quot;one.sided&quot;)`;
 
 ???
@@ -306,19 +309,35 @@ Note: During this moment, a poll should be opened to participants. Once you obta
 We are interested assessing whether we find more acromantulas in forested and shaded areas in relation to open areas. We went to the field and counted the number of individuals (variable: `abundance`) in ten randomly distributed forested and open landscapes (variable: `type_of_area`). Which of the following functions would be appropriate to test our hypothesis?
 
 1. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = &quot;two.sided&quot;)`;
-2. `t.test(type_of_area, abundance, data = acromantula_experiment, paired = TRUE, alternative = &quot;two.sided&quot;).`
+2. `t.test(type_of_area, abundance, data = acromantula_experiment, paired = TRUE, alternative = &quot;two.sided&quot;)`;
 3. `t.test(type_of_area, abundance, data = acromantula_experiment, alternative = &quot;one.sided&quot;)  #&lt;&lt;`;
 
 ???
 Note: You should clarify to the participants the distinction between two-sided and one-sided hypothesis testing (in the context of the problem). In addition to that, you should also recall the differences between dependent and independent measures (related to the `paired` argument).
 ---</code></pre>
 <p><strong>Example 2</strong></p>
-<p>Context:</p>
-<p>Goal:</p>
+<p>Context: Participants have been introduced to generalized linear models, and have just learned about the Poisson distribution, about its assumptions that variance is equal to the mean, and how overdispersion in their data can be an issue when fitting these models. They have been introduced to the quasi-Poisson family and to the possibility of applying an overdispersion correction for binary data with the <code>quasibinomial</code> family object.</p>
+<p>Goal: Assess the participant’s ability to apply the concept of overdispersion correction to different types of data, to help them better understand the relationship between the family objects and the link functions, and to reinforce the idea that models can be updated without having to create new ones.</p>
 <pre><code>---
+We now realized that the proportion example for infected deer may have issues with overdispersion (variance increases much faster than the mean). Which of the following functions would be an appropriate update to account for overdispersion in our proportion data?
+
+1. `prop.reg.quasi &lt;- glm(prop.infected ~ res.avail, family = quasipoisson(link = “logit”), weights = n.total)`;
+2. `prop.reg.quasi &lt;- glm(prop.infected ~ res.avail, family = quasibinomial, weights = n.total)`;
+3.`prop.reg.quasi &lt;- update(prop.reg2, family=quasibinomial(link = “logit”))`;
+
+???
+Note: During this moment, a poll should be opened to participants. Once you obtain the response from participants, show them the correct answer. You may request that one of the participants to explain their answer.
 
 ---
+We now realized that the proportion example for infected deer may have issues with overdispersion (variance increases much faster than the mean). Which of the following functions would be an appropriate update to account for overdispersion in our proportion data?
 
+
+1. `prop.reg.quasi &lt;- glm(prop.infected ~ res.avail, family = quasipoisson(link = “logit”), weights = n.total)`;
+2. `prop.reg.quasi &lt;- glm(prop.infected ~ res.avail, family = quasibinomial, weights = n.total)`;
+3. `prop.reg.quasi &lt;- update(prop.reg2, family=quasibinomial(link = “logit”))  #&lt;&lt;`;
+
+???
+Note: You can now explain to the participants that we can obtain the corrected model with options 2 and 3. However, option 3 is the correct choice as you had requested the participants to update the `prop.reg2` model. You can also remind the participants that each distribution has a default link function so using `family = quasibinomial` and `family=quasibinomial(link = “logit”)` will produce the same outcome as `logit` is the default link function for the quasibinomial distribution.
 ---</code></pre>
 </div>
 <div id="group-exercise" class="section level4" number="9.1.4.2">
@@ -333,7 +352,7 @@ Group discussion: Below there are three charts compiled from a visualization boo
 
 (a) What problems do you see in each one of the charts? 
 (b) What are the consequences of these problems you have identified?
-(b) What would you change in each one of them to improve their information?
+(c) What would you change in each one of them to improve their information?
 
 ### Add these images side by side.
 
@@ -352,7 +371,7 @@ Group discussion: Below there are three charts compiled from a (visualization bo
 
 (a) What problems do you see in each one of the charts? 
 (b) What are the consequences of these problems you have identified?
-(b) What would you change in each one of them to improve their information?
+(c) What would you change in each one of them to improve their information?
 
 ### Show images side-by-side
 ![](https://socviz.co/assets/ch-01-democracy-nyt-version.png)
@@ -362,12 +381,29 @@ Group discussion: Below there are three charts compiled from a (visualization bo
 ???
 Note: The figures in question are not only a matter of bad taste, but have issues related to the way they convey information. In this example, the issue is not due to a difference in how the y-axis is drawn. Rather, a different measure is being shown: we are now looking at the trend in the average score, rather than the trend for the highest possible answer.
 ---</code></pre>
-<p><strong>Example 2</strong> <em>Include another example with a more statistical discussion.</em></p>
-<p>Context:</p>
-<p>Goal:</p>
+<p><strong>Example 2</strong></p>
+<p>Context: Participants have just been introduced to multivariate analyses, and have just seen the summary table showing the main characteristics of unconstrained ordinations (<a href="https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=" class="uri">https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=</a>).</p>
+<p>Goal: Allow participants to critically apply the presented information in this workshop by determining which type of study/data would best fit the different types of ordinations.</p>
 <pre><code>---
+Group discussion: Each group will be randomly assigned a type of ordination. You will discuss among your group which possible types of datasets would best fit the type of ordination you were assigned. Each group will present a concrete example of an project/study/experiment that would be used with their ordination method.
+
+### Include the summary table for reference.
+
+![](https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=)
+
+???
+Note: Clearly read the exercise to the participants and assign each breakout room a type of ordination. Tell them that they should use the characteristics from the summary table to come up with the response and then one person should report back to the discussion when the class is convened by presenting the chosen example and briefly mention the reason why they chose it. You may allow 5 to 8 minutes for the discussion in the breakout rooms (depending on group size). While the participants are discussing in their breakout rooms, think of possible examples you could give the participants in case the discussion doesn&#39;t flow as expected (remember this is the end of the workshop so people might already be tired).
 
 ---
+
+Group discussion: Each group will be randomly assigned a type of ordination. You will discuss among your group which possible types of datasets would best fit the type of ordination you were assigned. Each group will present a concrete example of an project/study/experiment that would be used with their ordination method.
+
+### Include the summary table for reference.
+
+![](https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=)
+
+???
+Note: Mention a few examples or use the exercises presented during the workshop to wrap up the discussion.
 
 ---</code></pre>
 </div>
