@@ -17,19 +17,19 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 6 to 14 | 2 | $125 | $250
 15 or more | 3 | $125 | $375
 
-* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux présentateurs ou présentatrices par atelier pendant les ateliers à distance. Pendant qu'un instructeur ou qu'une instructrice présente l'atelier, l'autre présentateur doit agir en tant qu'assistant, en surveillant la conversation, en mettant en place des salles de sous-commission (en anglais, *breakout rooms*) et en aidant à déboguer les éventuels problèmes que les participants peuvent rencontrer. Les instructeurs, instructrices, assistants et assistantes des ateliers doivent répondre aux questions des étudiants.
+* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux présentateurs ou présentatrices par atelier pendant les ateliers à distance. Pendant qu'un instructeur ou qu'une instructrice présente l'atelier, l'autre présentateur ou présentatrice doit agir en tant qu'assistant.e, en surveillant la conversation, en gérant des salles de sous-commission (en anglais, *breakout rooms*) et en aidant à déboguer les éventuels problèmes que les participants peuvent rencontrer. Les instructeurs, instructrices, assistants et assistantes des ateliers doivent répondre aux questions des étudiants.
 
 > *Si le nombre de présentateurs et présentatrices inscrits est inférieur au nombre de présentateurs et présentatrices pouvant être alloués à votre atelier, n'hésitez pas à inviter d'autres étudiants et étudiantes du déuxième et troisième cycles superieurs et des post-doctorants ou post-doctorantes qui sont membres du CSBQ et qui, selon vous, pourraient vous aider avec l'instruction et l'assistance de l'atelier en question !*
 
-> Notez que le **prix maximum** pour l'instruction ou l'assistance des ateliers R du CSBQ est de 125 $, par atelier.*
+> Notez que le **prix maximum** pour l'instruction ou l'assistance des ateliers R du CSBQ est de 125 $ par personne, par atelier.*
 
-2. Familiarisez-vous avec le matériel disponible dans le [wiki](https://wiki.qcbs.ca/r) et les [pages de présentation]().
+2. Familiarisez-vous avec le matériel disponible dans le [wiki](https://wiki.qcbs.ca/r) et la [présentation](https://qcbsrworkshops.github.io/) pour votre atelier.
 
-  * **Vous devez être *très* à l'aise avec le contenu et la présentation concernant l'atelier à la date de votre présentation.**
+  * **Assurez-vous d'être *très* à l'aise avec le contenu et la présentation de l'atelier à la date de votre présentation.**
 
   * Il est de **votre responsabilité** de vous familiariser avec le matériel.
 
-  * Utilisez les [pages wiki](https://wiki.qcbs.ca/r) et les  [presentations]() comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
+  * Utilisez les [pages wiki](https://wiki.qcbs.ca/r) et les [presentations](https://qcbsrworkshops.github.io/) comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
 
   * Les présentations sont dotées d'un *mode présentateur*, qui permet la demonstration des notes et de donner un atelier plus dynamique. Consultez notre section "[Utilisation du mode présentateur]()" pour en savoir plus.
 
@@ -43,12 +43,13 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 2. Envoyez le *message standardisé* ci-dessous à tous les participants, en remplaçant les champs si nécessaire.
 
-> Idéalement, les instructeurs dont les courriels sont affichés dans le [calendrier de l'atelier] (https://wiki.qcbs.ca/r#horaire_schedule) seront les premiers à communiquer avec les participants. Vous pouvez changer ce rôle, si vous le préférez.
+> Idéalement, les instructeurs dont les courriels sont affichés dans le [calendrier de l'atelier](https://wiki.qcbs.ca/r#horaire_schedule) seront les premiers à communiquer avec les participants. Vous pouvez changer ce rôle, si vous le préférez.
 
 * *NOTE:* Copiez au carbone (en « Cc ») toutes vos communications aux autres instructeurs et instructrices de votre atelier.
 * *NOTE:* Ajoutez toutes les participants comme destinataires en copie carbone invisible (c.à.d., « Cci » ou « Bcc »).
 * *NOTE:* Vous devez envoyer le message ci-dessous **au moins** 7 jours avant la date de votre présentation.
 * *NOTE:* Vous **ne pouvez pas** supprimer des informations du texte suivant.
+
 
 **Pour les ateliers en personne** :
 

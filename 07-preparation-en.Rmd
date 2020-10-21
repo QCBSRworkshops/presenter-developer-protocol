@@ -26,7 +26,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
   * It is **your responsibility** to become familiar with the material.
 
-  * Use [wiki pages](https://wiki.qcbs.ca/r) and RMarkdown [presentations]() as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
+  * Use [wiki pages](https://wiki.qcbs.ca/r) and RMarkdown [presentations](https://qcbsrworkshops.github.io/) as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
 
   * The presentations come with a *presenter mode*, which allow for presenter notes and a more dynamic instruction. Go to our "[Using the presenter mode]()" section to learn more.
 
