@@ -24,7 +24,7 @@
 <meta name="author" content="QCBS R Workshop Series" />
 
 
-<meta name="date" content="2020-10-20" />
+<meta name="date" content="2020-10-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -318,6 +318,7 @@ Note: You should clarify to the participants the distinction between two-sided a
 <p><strong>Example 2</strong></p>
 <p>Context: Participants have been introduced to generalized linear models, and have just learned about the Poisson distribution, about its assumptions that variance is equal to the mean, and how overdispersion in their data can be an issue when fitting these models. They have been introduced to the quasi-Poisson family and to the possibility of applying an overdispersion correction for binary data with the <code>quasibinomial</code> family object.</p>
 <p>Goal: Assess the participant’s ability to apply the concept of overdispersion correction to different types of data, to help them better understand the relationship between the family objects and the link functions, and to reinforce the idea that models can be updated without having to create new ones.</p>
+<p>Elaborated by: Esteban Gongora Bernoske</p>
 <pre><code>---
 We now realized that the proportion example for infected deer may have issues with overdispersion (variance increases much faster than the mean). Which of the following functions would be an appropriate update to account for overdispersion in our proportion data?
 
@@ -384,6 +385,7 @@ Note: The figures in question are not only a matter of bad taste, but have issue
 <p><strong>Example 2</strong></p>
 <p>Context: Participants have just been introduced to multivariate analyses, and have just seen the summary table showing the main characteristics of unconstrained ordinations (<a href="https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=" class="uri">https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=</a>).</p>
 <p>Goal: Allow participants to critically apply the presented information in this workshop by determining which type of study/data would best fit the different types of ordinations.</p>
+<p>Elaborated by: Esteban Gongora Bernoske</p>
 <pre><code>---
 Group discussion: Each group will be randomly assigned a type of ordination. You will discuss among your group which possible types of datasets would best fit the type of ordination you were assigned. Each group will present a concrete example of an project/study/experiment that would be used with their ordination method.
 
@@ -468,12 +470,12 @@ Note: Clearly show which arguments changed between the functions and what do the
 <div id="getting-started" class="section level3" number="9.2.1">
 <h3><span class="header-section-number">9.2.1</span> Getting started</h3>
 <p>The QCBS R Workshops are Rmarkdown presentations created using <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html">xaringan</a>, so the first step is to install the <code>R</code> package <code>xaringan</code>.</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="developing-en.html#cb25-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&quot;devtools&quot;</span>)</span>
-<span id="cb25-2"><a href="developing-en.html#cb25-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;yihui/xaringan&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="developing-en.html#cb9-1"></a><span class="cf">if</span>(<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
+<span id="cb9-2"><a href="developing-en.html#cb9-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;yihui/xaringan&#39;</span>)</span></code></pre></div>
 <p>Secondly, you need to create a local copy of the repository for the workshop you will be working on, found <a href="https://github.com/QCBSRworkshops">here</a>. To do so, you can <a href="https://help.github.com/articles/cloning-a-repository/">clone the GitHub repository</a> on your computer.</p>
 <p>You can use the command line to do this (more details <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">here</a>):</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb26-1"><a href="developing-en.html#cb26-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
-<span id="cb26-2"><a href="developing-en.html#cb26-2"></a><span class="co"># change this link depending on the workshop you&#39;re working on!</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="developing-en.html#cb10-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
+<span id="cb10-2"><a href="developing-en.html#cb10-2"></a><span class="co"># change this link depending on the workshop you&#39;re working on!</span></span></code></pre></div>
 <p>If you are not comfortable with the command line, you can clone this repository using <a href="https://desktop.github.com/">GitHub Desktop</a>, following instructions <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">here</a>.</p>
 <p>Once you have cloned the repository, you are ready to begin developing!</p>
 </div>
@@ -485,44 +487,44 @@ Note: Clearly show which arguments changed between the functions and what do the
 <li><strong>Create and publish a new branch</strong>. Choose a name that is explicit about what you are adding, <em>e.g.</em> <code>workshop1_intro</code> if you are working on the introduction of workshop 1.</li>
 </ol>
 <p>On the command line:</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb27-1"><a href="developing-en.html#cb27-1"></a><span class="fu">git</span> branch workshop1_intro <span class="co"># creates a new branch</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="developing-en.html#cb11-1"></a><span class="fu">git</span> branch workshop1_intro <span class="co"># creates a new branch</span></span></code></pre></div>
 <p>Github Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch">instructions here</a>).</p>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Switch to this branch</strong>. Make sure you are working on your new branch!</li>
 </ol>
 <p>On the command line:</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb28-1"><a href="developing-en.html#cb28-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># switches to this branch</span></span>
-<span id="cb28-2"><a href="developing-en.html#cb28-2"></a></span>
-<span id="cb28-3"><a href="developing-en.html#cb28-3"></a><span class="co"># Note that you can create and switch branch in a single line: </span></span>
-<span id="cb28-4"><a href="developing-en.html#cb28-4"></a><span class="fu">git</span> checkout -b workshop1_intro</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="developing-en.html#cb12-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># switches to this branch</span></span>
+<span id="cb12-2"><a href="developing-en.html#cb12-2"></a></span>
+<span id="cb12-3"><a href="developing-en.html#cb12-3"></a><span class="co"># Note that you can create and switch branch in a single line: </span></span>
+<span id="cb12-4"><a href="developing-en.html#cb12-4"></a><span class="fu">git</span> checkout -b workshop1_intro</span></code></pre></div>
 <p>GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches">instructions here</a>).</p>
 <ol start="3" style="list-style-type: decimal">
 <li><p><strong>Make your changes</strong>, following the <a href="https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines">Guidelines</a> listed above.</p></li>
 <li><p><strong>Add and commit your changes</strong>. Once you are finished making changes on your branch, add and commit them to record these changes. When you commit changes, it is essential to include a commit message that briefly summarizes what you’ve done. Keep it brief but informative!</p></li>
 </ol>
 <p>On the command line:</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb29-1"><a href="developing-en.html#cb29-1"></a><span class="fu">git</span> add -A <span class="co"># add all your changes</span></span>
-<span id="cb29-2"><a href="developing-en.html#cb29-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commit your changes with a message</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="developing-en.html#cb13-1"></a><span class="fu">git</span> add -A <span class="co"># add all your changes</span></span>
+<span id="cb13-2"><a href="developing-en.html#cb13-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commit your changes with a message</span></span></code></pre></div>
 <p>You can also use GitHub Desktop to add changes (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit">instructions here</a>) and commit them (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes">instructions here</a>).</p>
 <ol start="5" style="list-style-type: decimal">
 <li><strong>Sync your main branch with the remote repository</strong>. It’s important to make sure your main branch is up to date before changing it. Go to back to the main branch and pull changes that were made since you last copied the repository.</li>
 </ol>
 <p>Pull the <code>dev</code> on the command line:</p>
-<div class="sourceCode" id="cb30"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb30-1"><a href="developing-en.html#cb30-1"></a><span class="fu">git</span> checkout dev <span class="co"># switch back to the main branch</span></span>
-<span id="cb30-2"><a href="developing-en.html#cb30-2"></a><span class="ex">pull</span> git <span class="co"># pull changes</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developing-en.html#cb14-1"></a><span class="fu">git</span> checkout dev <span class="co"># switch back to the main branch</span></span>
+<span id="cb14-2"><a href="developing-en.html#cb14-2"></a><span class="ex">pull</span> git <span class="co"># pull changes</span></span></code></pre></div>
 <p>Pull the <code>master</code> branch on GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#pulling-to-your-local-branch-from-the-remote">instructions here</a>).</p>
 <ol start="6" style="list-style-type: decimal">
 <li><strong>Merge your branch with the main branch locally.</strong> Switch back to your branch (e.g. <code>workshop1_intro</code>) and merge it with your local main branch. If there are conflicts, please resolve them!</li>
 </ol>
 <p>You can merge your branch with the <code>dev</code> branch using the command line:</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb31-1"><a href="developing-en.html#cb31-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># switch back to your branch</span></span>
-<span id="cb31-2"><a href="developing-en.html#cb31-2"></a><span class="fu">git</span> merge dev <span class="co"># merge the main branch with your branch</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developing-en.html#cb15-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># switch back to your branch</span></span>
+<span id="cb15-2"><a href="developing-en.html#cb15-2"></a><span class="fu">git</span> merge dev <span class="co"># merge the main branch with your branch</span></span></code></pre></div>
 <p>Merge your branch with the <code>master</code> branch in GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch">instructions here</a>).</p>
 <ol start="7" style="list-style-type: decimal">
 <li><strong>Push your locally merged branch</strong> to the remote GitHub repository.</li>
 </ol>
 <p>On the command line, you can push your locally merged branch (e.g. <code>workshop1_intro</code>) to the remote repository like this:</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb32-1"><a href="developing-en.html#cb32-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># push to the remote!</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="developing-en.html#cb16-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># push to the remote!</span></span></code></pre></div>
 <p>Push your branch (e.g. <code>workshop1_intro</code>) to the remote repository in GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-project-branch">see step #4)</a>).</p>
 <ol start="8" style="list-style-type: decimal">
 <li><strong>Open a <a href="https://help.github.com/articles/about-pull-requests/">Pull Request</a></strong>.</li>

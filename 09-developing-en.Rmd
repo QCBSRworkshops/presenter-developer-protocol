@@ -118,10 +118,12 @@ Note: You should clarify to the participants the distinction between two-sided a
 ```
 
 **Example 2**
-
+ 
 Context: Participants have been introduced to generalized linear models, and have just learned about the Poisson distribution, about its assumptions that variance is equal to the mean, and how overdispersion in their data can be an issue when fitting these models. They have been introduced to the quasi-Poisson family and to the possibility of applying an overdispersion correction for binary data with the `quasibinomial` family object.
 
 Goal: Assess the participant’s ability to apply the concept of overdispersion correction to different types of data, to help them better understand the relationship between the family objects and the link functions, and to reinforce the idea that models can be updated without having to create new ones.
+
+Elaborated by: Esteban Gongora Bernoske
 
 ```
 ---
@@ -201,6 +203,8 @@ Note: The figures in question are not only a matter of bad taste, but have issue
 Context: Participants have just been introduced to multivariate analyses, and have just seen the summary table showing the main characteristics of unconstrained ordinations (https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=).
 
 Goal: Allow participants to critically apply the presented information in this workshop by determining which type of study/data would best fit the different types of ordinations.
+
+Elaborated by: Esteban Gongora Bernoske
 
 ```
 ---
