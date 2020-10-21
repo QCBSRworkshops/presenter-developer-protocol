@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="presenter-fr.html"/>
-<link rel="next" href="recevoir-votre-prix.html"/>
+<link rel="next" href="payment-fr.html"/>
 <script src="libs/header-attrs-2.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -166,7 +166,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="developper-fr.html"><a href="developper-fr.html#contribuer-autrement"><i class="fa fa-check"></i><b>4.3</b> Contribuer autrement</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="recevoir-votre-prix.html"><a href="recevoir-votre-prix.html"><i class="fa fa-check"></i><b>5</b> Recevoir votre prix</a></li>
+<li class="chapter" data-level="5" data-path="payment-fr.html"><a href="payment-fr.html"><i class="fa fa-check"></i><b>5</b> Recevoir votre prix</a></li>
 <li class="part"><span><b>II English version</b></span></li>
 <li class="chapter" data-level="6" data-path="codeofconduct.html"><a href="codeofconduct.html"><i class="fa fa-check"></i><b>6</b> Code of conduct</a></li>
 <li class="chapter" data-level="7" data-path="preparation-en.html"><a href="preparation-en.html"><i class="fa fa-check"></i><b>7</b> Preparation</a>
@@ -479,13 +479,13 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 <div id="pour-commencer" class="section level3" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> Pour commencer</h3>
 <p>Les ateliers R du CSBQ sont des présentations créées en utilisant <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html">xaringan</a>, donc la première étape est d’installer la bibliotèque <code>R</code> <code>xaringan</code>.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="developper-fr.html#cb9-1"></a><span class="cf">if</span>(<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
-<span id="cb9-2"><a href="developper-fr.html#cb9-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;yihui/xaringan&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="developper-fr.html#cb10-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&quot;devtools&quot;</span>)</span>
+<span id="cb10-2"><a href="developper-fr.html#cb10-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;yihui/xaringan&quot;</span>)</span></code></pre></div>
 <p>Ensuite, vous devez créer une copie locale du répertoire de l’atelier sur lequel vous travaillerez, que vous trouverez <a href="https://github.com/QCBSRworkshops">ici</a>. Pour ce faire, vous pouvez <a href="https://help.github.com/articles/cloning-a-repository/">cloner le répertoire GitHub</a> sur votre ordinateur.</p>
 <p>Pour ce faire, vous pouvez utiliser la ligne de commande (plus de détails <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">ici</a>) :</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="developper-fr.html#cb10-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
-<span id="cb10-2"><a href="developper-fr.html#cb10-2"></a></span>
-<span id="cb10-3"><a href="developper-fr.html#cb10-3"></a><span class="co"># changez ce lien en fonction de l&#39;atelier sur lequel vous travaillez !</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="developper-fr.html#cb11-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
+<span id="cb11-2"><a href="developper-fr.html#cb11-2"></a></span>
+<span id="cb11-3"><a href="developper-fr.html#cb11-3"></a><span class="co"># changez ce lien en fonction de l&#39;atelier sur lequel vous travaillez !</span></span></code></pre></div>
 <p>Si vous n’êtes pas à l’aise avec la ligne de commande, vous pouvez cloner ce dépôt d’archives en utilisant <a href="https://desktop.github.com/">GitHub Desktop</a>, en suivant les instructions <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">ici</a>.</p>
 <p>Une fois que vous avez cloné le dépôt d’archives, vous êtes prêt à commencer le développement !</p>
 </div>
@@ -503,38 +503,38 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 <li><strong>Passer à cette branche</strong>. Assurez-vous que vous travaillez sur votre nouvelle branche !</li>
 </ol>
 <p>Sur la ligne de commande :</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="developper-fr.html#cb11-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># passer à cette branche</span></span>
-<span id="cb11-2"><a href="developper-fr.html#cb11-2"></a></span>
-<span id="cb11-3"><a href="developper-fr.html#cb11-3"></a><span class="co"># Notez que vous pouvez créer et changer de branche en une seule ligne : </span></span>
-<span id="cb11-4"><a href="developper-fr.html#cb11-4"></a><span class="fu">git</span> checkout -b workshop1_intro</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="developper-fr.html#cb12-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># passer à cette branche</span></span>
+<span id="cb12-2"><a href="developper-fr.html#cb12-2"></a></span>
+<span id="cb12-3"><a href="developper-fr.html#cb12-3"></a><span class="co"># Notez que vous pouvez créer et changer de branche en une seule ligne : </span></span>
+<span id="cb12-4"><a href="developper-fr.html#cb12-4"></a><span class="fu">git</span> checkout -b workshop1_intro</span></code></pre></div>
 <p>GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches">instructions ici</a>).</p>
 <ol start="3" style="list-style-type: decimal">
 <li><p><strong>Effectuez vos modifications</strong>, en suivant les <a href="https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines">lignes directrices</a> énumérées ci-dessus.</p></li>
 <li><p><strong>Ajoutez et validez vos modifications</strong>. Une fois que vous avez terminé de faire des changements sur votre branche, ajoutez-les et validez-les pour enregistrer ces changements. Lorsque vous validez des modifications, il est essentiel d’inclure un message de validation qui résume brièvement ce que vous avez fait. Soyez bref mais informatif !</p></li>
 </ol>
 <p>Sur la ligne de commande :</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="developper-fr.html#cb12-1"></a><span class="fu">git</span> add -A <span class="co"># ajoutez tous vos changements</span></span>
-<span id="cb12-2"><a href="developper-fr.html#cb12-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commit your changes with a message</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="developper-fr.html#cb13-1"></a><span class="fu">git</span> add -A <span class="co"># ajoutez tous vos changements</span></span>
+<span id="cb13-2"><a href="developper-fr.html#cb13-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commit your changes with a message</span></span></code></pre></div>
 <p>Vous pouvez également utiliser GitHub Desktop pour ajouter des modifications (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit">instructions ici</a>) et les valider (<a href="https://docs.%20github.com/fr/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes">instructions ici</a>).</p>
 <ol start="5" style="list-style-type: decimal">
 <li><strong>Synchronisez votre branche principale avec le référentiel distant</strong>. Il est important de s’assurer que votre branche principale est à jour avant de la modifier. Retournez à la branche principale et récupérez les modifications qui ont été faites depuis la dernière copie du dépôt d’archives.</li>
 </ol>
 <p>Tirez le <code>dev</code> sur la ligne de commande :</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="developper-fr.html#cb13-1"></a><span class="fu">git</span> checkout dev <span class="co"># retour à l&#39;agence principale</span></span>
-<span id="cb13-2"><a href="developper-fr.html#cb13-2"></a><span class="ex">pull</span> git <span class="co"># pull changes</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developper-fr.html#cb14-1"></a><span class="fu">git</span> checkout dev <span class="co"># retour à l&#39;agence principale</span></span>
+<span id="cb14-2"><a href="developper-fr.html#cb14-2"></a><span class="ex">pull</span> git <span class="co"># pull changes</span></span></code></pre></div>
 <p>Tirez la branche <code>main</code> sur GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#pulling-to-your-local-branche-de-la-distance">instructions ici</a>).</p>
 <ol start="6" style="list-style-type: decimal">
 <li><strong>Fusionnez votre branche avec la branche principale locale</strong>. Retournez à votre branche (par exemple <code>workshop1_intro</code>) et fusionnez-la avec votre branche principale locale. S’il y a des conflits, veuillez les résoudre !</li>
 </ol>
 <p>Vous pouvez fusionner votre branche avec la branche <code>dev</code> en utilisant la ligne de commande :</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developper-fr.html#cb14-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># retournez à votre agence</span></span>
-<span id="cb14-2"><a href="developper-fr.html#cb14-2"></a><span class="fu">git</span> merge dev <span class="co"># fusionner la branche principale avec votre branche</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developper-fr.html#cb15-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># retournez à votre agence</span></span>
+<span id="cb15-2"><a href="developper-fr.html#cb15-2"></a><span class="fu">git</span> merge dev <span class="co"># fusionner la branche principale avec votre branche</span></span></code></pre></div>
 <p>Fusionnez votre branche avec la branche <code>main</code> dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-projet-branch">instructions ici</a>).</p>
 <ol start="7" style="list-style-type: decimal">
 <li><strong>Poussez votre branche fusionnée localement vers le dépôt d’archives GitHub distant</strong>.</li>
 </ol>
 <p>En ligne de commande, vous pouvez pousser votre branche fusionnée localement (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant comme ceci :</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developper-fr.html#cb15-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># push to the remote !</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="developper-fr.html#cb16-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># push to the remote !</span></span></code></pre></div>
 <p>Poussez votre branche (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant%20une%20autre%20branche%20dans%20votre%20branche-projet">voir étape #4)</a>).</p>
 <ol start="8" style="list-style-type: decimal">
 <li><strong>Ouvrez une <a href="https://help.github.com/articles/about-pull-requests/">demande d’extraction</a></strong>.</li>
@@ -560,7 +560,7 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
         </div>
       </div>
 <a href="presenter-fr.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="recevoir-votre-prix.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="payment-fr.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

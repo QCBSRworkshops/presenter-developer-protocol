@@ -100,7 +100,6 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > **YOUR NAME(S)**.
 
-
 ## On the day of the workshop
 
 **We have built a [dedicated session with guidelines](#presentation-en) on what both instructors and assistants should do during the workshop.**
