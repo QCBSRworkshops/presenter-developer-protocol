@@ -38,7 +38,7 @@ Pour tout problème, veuillez communiquer avec les coordonnateurs actuels et coo
 
 #### Contributions {-}
 
-Ce protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par [Pedro Henrique Pereira Braga](ph.pereirabraga@gmail.com), [Katherine Hébert](katherine.hebert@usherbrooke.ca), [Linley Sherin](linley.sherin@mail.mcgill.ca) et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par les [coordinateurs et les coordinatrices de la série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
+Ce protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par [Pedro Henrique Pereira Braga](mailto:ph.pereirabraga@gmail.com), [Katherine Hébert](mailto:katherine.hebert@usherbrooke.ca), [Linley Sherin](mailto:linley.sherin@mail.mcgill.ca) et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par les [coordinateurs et les coordinatrices de la série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
 
 ---
 
@@ -56,4 +56,4 @@ For any issues, please communicate with the [current workshop coordinators](http
 
 #### Contributions {-}
 
-This protocol has been built into this book to include clear and specific guidelines to present, to develop and to receive learning and development awards. Its development was done by [Pedro Henrique Pereira Braga](ph.pereirabraga@gmail.com), [Katherine Hébert](katherine.hebert@usherbrooke.ca), and [Linley Sherin](linley.sherin@mail.mcgill.ca), and it was based on the original presenter protocol. This protocol is constantly maintained and updated by the [coordinators of the QCBS R Workshop Series](https://wiki.qcbs.ca/r#questions).
+This protocol has been built into this book to include clear and specific guidelines to present, to develop and to receive learning and development awards. Its development was done by [Pedro Henrique Pereira Braga](mailto:ph.pereirabraga@gmail.com), [Katherine Hébert](mailto:katherine.hebert@usherbrooke.ca), and [Linley Sherin](mailto:linley.sherin@mail.mcgill.ca), and it was based on the original presenter protocol. This protocol is constantly maintained and updated by the [coordinators of the QCBS R Workshop Series](https://wiki.qcbs.ca/r#questions).
