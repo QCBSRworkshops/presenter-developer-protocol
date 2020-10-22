@@ -354,7 +354,8 @@ Nous vous recommandons fortement de travailler sur une **nouvelle branche**, qui
 1. **Créer et publier une nouvelle branche**. Choisissez un nom qui décrit explicitement ce que vous modifiez, *par exemple * `workshop1_intro` si vous travaillez sur l'introduction de l'atelier 1.
 
 Sur la ligne de commande :
-```{bash-fr, eval=FALSE}
+
+```{bash, eval=FALSE}
 git branch workshop1_intro # créer une nouvelle branche
 ```
 
