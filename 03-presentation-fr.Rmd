@@ -80,4 +80,4 @@ Quand vous assumez le rôle d'assistant ou d'assistante pendant les ateliers :
 
 ## Contribuer à ces directives
 
-Avez-vous des suggestions concernant ces directives? Veuillez [créer un numéro] (https://github.com/QCBSRworkshops/presenter-developer-protocol/issues) et nous aider à améliorer ce matériel !
+Avez-vous des suggestions concernant ces directives? Veuillez [créer un numéro](https://github.com/QCBSRworkshops/presenter-developer-protocol/issues) et nous aider à améliorer ce matériel !
