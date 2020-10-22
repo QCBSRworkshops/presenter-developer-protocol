@@ -8,7 +8,9 @@ Please read through this guide **carefully** before starting, and refer back to 
 
 ### Main priorities
 
-Here we have compiled a list of priorities for workshop developers. Developers would ideally accomplish all of these tasks, however if circumstances make this impossible, it is important to focus on structural changes before issues of style.
+Here we have compiled a list of priorities for workshop developers. Ideally, all of these tasks would be accomplished in the alloted timeframe. However, if circumstances make this impossible, it is important to focus on structural changes before issues of style. Please note that these tasks are to be shared amongst developers for each workshop.
+
+>A checklist version of this list has now been opened as an issue within the [GitHub](https://github.com/QCBSRworkshops) repo for each respective workshop. We suggest using these checklists as a way of tracking your progress while working and coordinating with your fellow developer. It can also be used as a reference for reporting the work completed to the QCBS R Workshop coordinators, or requesting additional hours.
 
 **Specific to adapting workshops to remote framework:**
 
@@ -30,7 +32,7 @@ exclude: true
 
 **General priorities:**
 
-1. Address existing issues submitted to GitHub.
+1. Address existing issues submitted to [GitHub](https://github.com/QCBSRworkshops). In addition to the checklist of common tasks developers are responsible for, we have opened workshop-specific issues here that we hope can help inform developer workflow. *For an example, see [Workshop 1 issues](https://github.com/QCBSRworkshops/workshop01/issues/4).*
 
 2. Ensure code is working correctly and that code matches workshop presentation. Continue to check this as you make changes.
 
