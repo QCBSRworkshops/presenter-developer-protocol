@@ -32,7 +32,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 3. Read the code of conduct (Section \@ref(codeofconduct)).
 
-4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share you screen; (ii) how to initiate and end breakout rooms; (ii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
+4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share you screen; (ii) how to initiate and end breakout rooms; (iii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
 
 ### One week before the workshop
   
@@ -54,7 +54,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > You are registered for the QCBS R Workshop #**XXX** that will be given this coming **DAY OF WEEK** at **HH:MM** **PM or AM**. In preparation for the workshop please note the following: 
 >
-> 1) The workshop will be given through Zoom. Upon the completion of your registration, you should have received an invitation containing an unique link. You must not share this link to others.
+> 1) The workshop will be given through Zoom. Upon the completion of your registration, you should have received an invitation containing a unique link. You must not share this link with others.
 >
 > 2) Please prepare your laptop and the relevant programs (R and RStudio) before hand. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**
 >
@@ -62,13 +62,11 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > 4) If you can no longer make it to the workshop, please advise us 5 days in advance by email. Note that the preparation for this workshop is dependent on the number of participants. Failing to advise us about your absence will incur in a 100$ penalty billed to your supervisor. 
 >
-> 5) If you are not a member of the QCBS, you may be requested to send us a receipt of payment to the workshop.
+> 5) If you are not a member of the QCBS, you may be asked to send us a receipt of payment to the workshop.
 >
-> 6) Note that a lot of effort has been put in the planning of these workshops. It is important that you remain engaged with learning, and if needed, actively participate in discussions and collaborate with your peers. 
+> 6) We encourage you to keep your camera turned on, so that instructors can more easily connect and engage with you. Please consider that a lot of effort has been put in the planning of these workshops, so it is important that attendees are willing to engage in the learning process. This may include active participation in discussions and collaboration with your peers.
 >
-> 7) We encourage you to keep your camera turned on, as instructors may find it difficult to connect and engange with you if they cannot see you nor even know if you are present during the workshop. We ask you to kindly consider this point.  
->
-> 8) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!
+> 7) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!
 >
 > Thanks, and looking forward to **DAY OF WEEK**!
 >
