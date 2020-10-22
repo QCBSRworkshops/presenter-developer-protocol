@@ -4,7 +4,7 @@ Tous les présentateurs d'ateliers reçoivent un **prix d'apprentissage et de d�
 
 Vous devez suivre ces étapes pour recevoir votre prix :
 
-1. **Remplissez d'abord la [feuille de paiement](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing)**. Vous pouvez vous référer à la section [normes de compensation](#préparation-fr) du présent protocole pour connaître le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+1. **Remplissez d'abord la [feuille de paiement](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing)**. Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour connaître le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
 
 2. **Deuxièmement, remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. Notez que vous êtes considéré comme un "*Payee ou un bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui de travailleur indépendant ou d'entrepreneur indépendant, allez à [ici](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor). Nommez votre fichier "`VOTRENOM_PayeeForm.pdf`".
 
