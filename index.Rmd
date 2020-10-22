@@ -34,11 +34,11 @@ Ce document regroupe les responsabilités des instructeurs, des instructrices, d
 
 Nous vous demandons de bien vouloir lire toutes les instructions **très** attentivement !
 
-Pour tout problème, veuillez communiquer avec les coordonnateurs actuels et coordonnatrices actuelles de la [série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
+Pour tout problème, veuillez communiquer avec l'équipe de coordination de la [série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
 
 #### Contributions {-}
 
-Ce protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par [Pedro Henrique Pereira Braga](mailto:ph.pereirabraga@gmail.com), [Katherine Hébert](mailto:katherine.hebert@usherbrooke.ca), [Linley Sherin](mailto:linley.sherin@mail.mcgill.ca) et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par les [coordinateurs et les coordinatrices de la série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
+Ce protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par [Pedro Henrique Pereira Braga](mailto:ph.pereirabraga@gmail.com), [Katherine Hébert](mailto:katherine.hebert@usherbrooke.ca), [Linley Sherin](mailto:linley.sherin@mail.mcgill.ca) et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par l'[équipe de coordination de la série d'ateliers R du CSBQ](https://wiki.qcbs.ca/r#questions).
 
 ---
 

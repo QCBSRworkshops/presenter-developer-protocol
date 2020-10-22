@@ -8,7 +8,7 @@ Ci-dessous, il y a une liste de points qui vous aideront à préparer les atelie
 
 ### Deux semaines avant l'atelier
 
-1. Vous devez obtenir la liste des participants et participantes inscrits à votre atelier et vous devez déterminer le nombre de présentateurs, de présentatrices, d'assistants et d'assistantes qui peuvent être attribués à votre atelier:
+1. Vous devez obtenir la liste des participants et participantes inscrits à votre atelier et vous devez déterminer le nombre de présentateurs et de présentatrices (et/ou d'assistants et d'assistantes) qui peuvent être attribués à votre atelier:
 
 
 Nombre de participants | Nombre de présentateurs | Paiement par présentateur | Allocation de fonds à l'atelier
@@ -17,9 +17,9 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 6 to 14 | 2 | $125 | $250
 15 or more | 3 | $125 | $375
 
-* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux présentateurs ou présentatrices par atelier pendant les ateliers à distance. Pendant qu'un instructeur ou qu'une instructrice présente l'atelier, l'autre présentateur ou présentatrice doit agir en tant qu'assistant.e, en surveillant la conversation, en gérant des salles de sous-commission (en anglais, *breakout rooms*) et en aidant à déboguer les éventuels problèmes que les participants peuvent rencontrer. Les instructeurs, instructrices, assistants et assistantes des ateliers doivent répondre aux questions des étudiants.
+* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux présentateurs ou présentatrices par atelier pendant les ateliers à distance. Pendant qu'un instructeur ou qu'une instructrice présente l'atelier, l'autre présentateur ou présentatrice doit agir en tant qu'assistant.e, en surveillant la conversation, en gérant des salles de sous-commission (en anglais, *breakout rooms*) et en aidant à déboguer les éventuels problèmes que les participants peuvent rencontrer. Les instructeurs, instructrices, assistants, et assistantes des ateliers doivent répondre aux questions des étudiants.
 
-> *Si le nombre de présentateurs et présentatrices inscrits est inférieur au nombre de présentateurs et présentatrices pouvant être alloués à votre atelier, n'hésitez pas à inviter d'autres étudiants et étudiantes du déuxième et troisième cycles superieurs et des post-doctorants ou post-doctorantes qui sont membres du CSBQ et qui, selon vous, pourraient vous aider avec l'instruction et l'assistance de l'atelier en question !*
+> *Si le nombre de présentateurs et présentatrices inscrits est inférieur au nombre de présentateurs et présentatrices pouvant être alloués à votre atelier, n'hésitez pas à inviter d'autres étudiants et étudiantes du déuxième et troisième cycles supérieurs et des post-doctorants ou post-doctorantes qui sont membres du CSBQ et qui, selon vous, pourraient vous aider avec l'instruction et l'assistance de l'atelier!*
 
 > Notez que le **prix maximum** pour l'instruction ou l'assistance des ateliers R du CSBQ est de 125 $ par personne, par atelier.*
 
