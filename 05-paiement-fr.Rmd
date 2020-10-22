@@ -4,19 +4,19 @@ Tous les présentateurs d'ateliers reçoivent un **prix d'apprentissage et de d�
 
 Vous devez suivre ces étapes pour recevoir votre prix :
 
-1. **Remplissez d'abord la [feuille de paiement]()**. Vous pouvez vous référer à la section [normes de compensation](#préparation-fr) du présent protocole pour connaître le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+1. **Remplissez d'abord la [feuille de paiement](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing)**. Vous pouvez vous référer à la section [normes de compensation](#préparation-fr) du présent protocole pour connaître le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
 
 2. **Deuxièmement, remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. Notez que vous êtes considéré comme un "*Payee ou un bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui de travailleur indépendant ou d'entrepreneur indépendant, allez à [ici](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor). Nommez votre fichier "`VOTRENOM_PayeeForm.pdf`".
 
 3. **Troisièmement, remplissez la facture ci-jointe**. 
 
-  *Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
+  * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
   
   * Pour l'instant, n'écrivez rien à côté de "P.O.". (qui signifie "Bon de commande").
   
   * Nommez votre facture à "`VOTRENOM_FACTURE_D'ATELIER.docx`".
   
-4. **Quatrièmement, envoyez le formulaire et la facture à helen.elina@mcgill.ca** (Helen Elina est l'associée administrative du CSBQ). Si vous avez déjà été inscrit comme employé ou travailleur indépendant, entrepreneur indépendant pour l'Université McGill, veuillez l'indiquer dans le message que vous envoyez à Dr. Elina. Vous pouvez utiliser le modèle de message suivant pour votre message :
+4. **Quatrièmement, envoyez le formulaire et la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). Si vous avez déjà été inscrit comme employé ou travailleur indépendant, entrepreneur indépendant pour l'Université McGill, veuillez l'indiquer dans le message que vous envoyez à Dr. Elina. Vous pouvez utiliser le modèle de message suivant pour votre message :
 
 > Sujet du message : Prix de l'apprentissage et du développement - Série d'ateliers R du CSBQ
 
@@ -38,7 +38,6 @@ Vous devez suivre ces étapes pour recevoir votre prix :
 
 * Il est très important que vous changiez le numéro de la facture en conséquence, sinon votre paiement ne sera pas traité.
 
-6. **Exportez la facture au format PDF**, et envoyez-la à accountspayable@mcgill.ca. Vous devriez recevoir un chèque à l'adresse que vous avez indiquée dans votre facture.
+6. **Exportez la facture au format PDF**, et envoyez-la à [**accountspayable@mcgill.ca**](mailto:accountspayable@mcgill.ca). Vous devriez recevoir un chèque à l'adresse que vous avez indiquée dans votre facture.
 
 Pour éviter tout retard, veuillez vérifier vos informations et confirmer que tous les champs vous concernant sont remplis dans les deux formulaires.
-

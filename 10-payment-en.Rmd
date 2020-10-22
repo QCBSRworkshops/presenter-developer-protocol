@@ -2,9 +2,9 @@
 
 All workshop presenters receive a **Learning and Development Award** from the **Québec Centre for Biodiversity Science (QCBS)**.
 
-You must follow these stepts to receive your award payment:
+You must follow these steps to receive your award payment:
 
-1. **First, complete the [payment sheet]()**. You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives an award of a maximum of $125 per workshop instructed*.
+1. **First, complete the [payment sheet](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing)**. You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives an award of a maximum of $125 per workshop instructed*.
 
 2. **Second, complete and sign this [form](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployes_20120815_questionnaire_en.pdf)**. Note that you are considered as a “*Payee*” for the purposes of the development and instruction of a workshop belonging to the QCBS R Workshop Series. If you need more infromation on the determination of employee versus self-employed or independent contractor, go to [here](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor). Name your file to "`YOURLASTNAME_PayeeForm.pdf`".
 
@@ -16,7 +16,7 @@ You must follow these stepts to receive your award payment:
   
   * Name your invoice to "`YOURLASTNAME_RWorkshop_Invoice.docx`".
 
-4. **Fourth, send both the form and the invoice to helen.elina@mcgill.ca** (Helen Elina is the Administrative Associate of the QCBS). If you have already been registered as an employee or a self-employed, independent contractor for the McGill University, please indicate it within the message you send to Dr. Elina. You can use the following message model for your message:
+4. **Fourth, send both the form and the invoice to [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina is the Administrative Associate of the QCBS). If you have already been registered as an employee or a self-employed, independent contractor for the McGill University, please indicate it within the message you send to Dr. Elina. You can use the following message model for your message:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
@@ -39,7 +39,7 @@ You must follow these stepts to receive your award payment:
 
 * It is *really important* that you change the *Invoice Number* accordingly, otherwise your payment will not be processed.
 
-6. **Export the invoice to PDF**, and send it to accountspayable@mcgill.ca. You should receive a check in the address you included within your invoice.
+6. **Export the invoice to PDF**, and send it to [**accountspayable@mcgill.ca**](mailto:accountspayable@mcgill.ca). You should receive a cheque in the address you included within your invoice.
 
 To prevent any delays, please double-check your information and confirm that all fields concerning yourself are filled within both forms.
 
