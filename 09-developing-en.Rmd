@@ -78,15 +78,15 @@ Note: _The presenter should sing this slide to the participants_.
 
 5. Do not hesitate to ask your developing peer to review your writing.
 
-### Active learning
+## Active learning
 
-Workshops should go beyond a lecture-based only perspective and should include activities that promote active learning among participants. Below, we provide a few examples of exercises elaborated from evidence-based learning modes and effective strategies to deliver remote workshops to participants. 
+Workshops should go beyond a lecture-based perspective and should include activities that promote active learning amongst participants. Below, we provide a few examples of exercises elaborated from evidence-based learning modes and effective strategies to deliver remote workshops to participants. 
 
 We recommend that you take your time and plan well when elaborating exercises. Keep the exercise goals aligned with the objectives of the workshop.
 
 > Remember that everything written below `???` are notes for the presenter and thus will not appear in the presentation slide, but will appear within the presentation window.
 
-#### Simple polls
+### Simple polls
 
 See below a couple of examples of two slides containing an exercise followed by their solutions.
 
@@ -153,7 +153,7 @@ Note: You can now explain to the participants that we can obtain the corrected m
 ---
 ```
 
-#### Group exercise
+### Group exercise
 
 Working in small groups leverages the strengths of the individual group members and improves the success of the collective setting. This exercise requires participants to be randomly assigned to breakout rooms (ideally, 5 participants per breakout room) and should include an activity referring to a point of discussion. At the end of this exercise, the workshop is reconvened and one of the participants from each breakout room should report and summarise the discussion. This activity should last around 10 minute (sometimes less if very simple) and it should use information that has been provided to the students during the workshop.
 
@@ -237,7 +237,7 @@ Note: Mention a few examples or use the exercises presented during the workshop 
 ---
 ```
 
-#### Individual exercise
+### Individual exercise
 
 Simple individual exercises require participants to practice a bit on their own. Depending on how difficult the exercises may be, consider allocating between 5 and 10 minutes for their execution.
 
