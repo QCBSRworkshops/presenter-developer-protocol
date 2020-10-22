@@ -1,6 +1,6 @@
 # Preparation {#preparation-en}
 
-Being a presenter for the QCBS R Workshop Series requires preparation and proactive communication with the participants registered for the workshops. Below, there is a list of points that will help you prepare for the workshops. We ask you to **carefully** read them.
+Being a presenter for the QCBS R Workshop Series requires preparation and proactive communication with the participants registered for the workshops. Below, there is a list of points that will help you prepare for the workshops. We ask you to read them **carefully**.
 
 ## Before the workshop
 
@@ -14,13 +14,13 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 6 to 14 | 2 | $125 | $250
 15 or more | 3 | $125 | $375
 
-* **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Workshop instructors and assistants must answer student questions.
+* **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Both workshop instructors and assistants must answer student questions.
 
 > *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
 
 > *Note that the **maximum** payment per presenter is of 125$, per workshop instructed.*
 
-2. Familiarize yourself with the material available within the [wiki](https://wiki.qcbs.ca/r) and the [presentation pages]().
+2. Familiarize yourself with the material available within the [wiki](https://wiki.qcbs.ca/r) and the [presentation pages](#presentation-en).
 
   * **You must be *very* comfortable with the content and the presentation concerning the workshop as of the date of your presentation.**
 
@@ -32,7 +32,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 3. Read the [code of conduct](#codeofconduct-en).
 
-4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share you screen; (ii) how to initiate and end breakout rooms; (ii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
+4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share you screen; (ii) how to initiate and end breakout rooms; (iii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
 
 ### One week before the workshop
   
@@ -54,7 +54,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > You are registered for the QCBS R Workshop #**XXX** that will be given this coming **DAY OF WEEK** at **HH:MM** **PM or AM**. In preparation for the workshop please note the following: 
 >
-> 1) The workshop will be given through Zoom. Upon the completion of your registration, you should have received an invitation containing an unique link. You must not share this link to others.
+> 1) The workshop will be given through Zoom. Upon the completion of your registration, you should have received an invitation containing a unique link. You must not share this link with others.
 >
 > 2) Please prepare your laptop and the relevant programs (R and RStudio) before hand. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**
 >
@@ -62,13 +62,11 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > 4) If you can no longer make it to the workshop, please advise us 5 days in advance by email. Note that the preparation for this workshop is dependent on the number of participants. Failing to advise us about your absence will incur in a 100$ penalty billed to your supervisor. 
 >
-> 5) If you are not a member of the QCBS, you may be requested to send us a receipt of payment to the workshop.
+> 5) If you are not a member of the QCBS, you may be asked to send us a receipt of payment to the workshop.
 >
-> 6) Note that a lot of effort has been put in the planning of these workshops. It is important that you remain engaged with learning, and if needed, actively participate in discussions and collaborate with your peers. 
+> 6) We encourage you to keep your camera turned on, so that instructors can more easily connect and engage with you. Please consider that a lot of effort has been put into the planning of these workshops, so it is important that attendees are willing to engage in the learning process. This may include active participation in discussion and collaboration with your peers.
 >
-> 7) We encourage you to keep your camera turned on, as instructors may find it difficult to connect and engange with you if they cannot see you nor even know if you are present during the workshop. We ask you to kindly consider this point.  
->
-> 8) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!
+> 7) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!
 >
 > Thanks, and looking forward to **DAY OF WEEK**!
 >
@@ -106,7 +104,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 **We have built a [dedicated session with guidelines](#presentation-en) on what both instructors and assistants should do during the workshop.**
 
-**Please, [read](#presentation-en) and apply them very attentively!**
+**Please, read and apply them very attentively!**
 
 ## After the workshop
 
@@ -131,11 +129,11 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 > With our kindest regards,
 > YOUR NAMES
 
-2. [Provide your feedback](https://goo.gl/forms/85TXCiQ9tW9nvq922) on the workshop you have just instructed.
+2. [Provide your own feedback](https://goo.gl/forms/85TXCiQ9tW9nvq922) on the workshop you have just instructed.
 
-3. Send the message below to the registered participants to the no-show participants (i.e. the participants that have not sent you a message cancelling their registration and that were absent during your workshop).
+3. Send the message below to any registered participants that were absent from your workshop and did not sent you a message cancelling their registration on time.
 
-* **NOTE**: Send **separate** messages to each one of the registered absences (i.e. do *not* include other participants in your communications).
+* **NOTE**: Send **separate** messages to each one of the registered absentees (i.e. do *not* include other participants in your communications).
 
 > Message subject: [QCBS R Workshop Series] Absence during the Workshop #**X** – **Name of the Workshop**
 
