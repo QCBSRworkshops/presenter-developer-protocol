@@ -42,7 +42,7 @@ La journée de l'atelier, les instructeurs et les assistants doivent:
 
 4. Commencez votre présentation **ponctuellement**.
 
-## Directives pour la présentation de l'atelier
+## Directives pour la présentation
 
 1. Les instructeurs devraient se considérer comme des étudiants pendant le processus d'apprentissage, et être attentifs à leur méthode d'enseignement et de communication, ainsi qu'à la manière dont elle affecte l'apprentissage des étudiants ;
 
@@ -64,7 +64,7 @@ La journée de l'atelier, les instructeurs et les assistants doivent:
 
 10. Chaque fois que vous posez des questions aux participants, il est avisé de ne pas demander uniquement des réponses aux volontaires, mais de "pointer" ou de "nommer" quelqu'un pour répondre à votre question.
 
-## Directives pour l'assistance aux ateliers
+## Directives pour l'assistance
 
 Quand vous assumez le rôle d'assistant ou d'assistante pendant les ateliers :
 

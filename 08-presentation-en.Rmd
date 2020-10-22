@@ -42,7 +42,7 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 4. Start your presentation **on time**.
 
-## Workshop presenting guidelines
+## Presenting guidelines
 
 1. Instructors should consider themselves students during the learning process, and be thoughtful on their method of delivery and communication, and how it affects student learning;
 
@@ -64,7 +64,7 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 10. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
 
-## Workshop assistant guidelines
+## Assisting guidelines
 
 Whenever you take the role as an assistant during the workshops, you should:
 
