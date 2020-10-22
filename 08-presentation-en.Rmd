@@ -1,22 +1,22 @@
 # Presentation {#presentation-en}
 
-The following recommendations have been written to improve the delivery of workshop content to participants. We propose guidelines based on evidence-based strategies for teaching and learning. Even though a few aspects might be basic to you, we ask you to *carefully* read them.
+The following recommendations have been written to improve the delivery of workshop content to participants. We propose guidelines based on evidence-based strategies for teaching and learning. Even though a few aspects might be basic to you, we ask you to read them all carefully.
 
 ## Workshop structure
 
-On average, in-person workshops last 4 hours (including eventual breaks), with some variation depending on the length of the workshop content and with its complexity.
+On average, in-person workshops last 4 hours (including breaks), with some variability depending on the content and workshop complexity.
 
-*Remote workshops* should run for approximately 3 hours. Workshops are being shortened to suit this new format. Usually, the instruction time is proposed to be broken into two 1.5 hour sections, with a long one-hour break in middle. Nevertheless, some workshops may benefit from a different flow, *e.g.* two breaks of 30 minutes instead of a long one-hour break.
+*Remote workshops* should run for approximately 3 hours. Workshops are being shortened to suit this new format. Generally, we propose that the instruction time be broken into two 1.5 hour sections, with a one-hour break in between. However, some workshops may benefit from a different flow, *e.g.* two breaks of 30 minutes instead of a long one-hour break. *Suggestions for Workshops 1 to 5 are provided below.*
 
-Each workshop should begin with a welcome and check-in block lasting around 5 minutes. In this period, workshop presenters and assistants may take attendance, tell participants how you are doing and allow participants to do the same, and give participants instructions on how to use the chat and make questions.
+Each workshop should begin with a welcome and check-in period lasting around 5 minutes. During this time, workshop presenters and assistants may take attendance, ask participants how they are doing, and give participants instructions on how to use the chat and make questions.
 
-Following the welcome and check-in block, workshop presenters should begin their lecture blocks by illustrating and specifying the content of the workshop and how the lecture and pause blocks will be structured.
+Following the welcome and check-in period, workshop presenters should begin their lecture blocks by illustrating and specifying the content of the workshop and how the lecture and pauses will be structured.
 
 > During both remote and in-person workshop contexts, additional short breaks of 5 to 10 minutes (each) should be occasionally provided to allow participants and presenters to take a short pause and to address any outstanding questions.
 
 At the end of the workshop, presenters and assistants should thank the participants for being present, request participants to fill the feedback survey, and allow them to ask questions (if time allows).
 
-See the proposed format below for the workshop schedules:
+Suggestions for workshop schedules for Workshops 1 to 5:
 
 |     Blocks    |  Workshop 1    | Workshop 2 |  Workshop 3 | Workshop 4 | Workshop 5 |
 | -------------:|:-------------:| ----------:|:-------------:| ----------:| ----------:|
@@ -60,23 +60,23 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 8. Do a quick survey of your students to see how much experience they have with the workshop topic. This is a great activity that can help you engage with participants, allow them to discuss with each other, help you cater part of your workshop to your audience, inform your delivery speed, and the amount of time you set aside to work through exercises;
 
-8. Once every few minutes, ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the chat and raise their hand in Zoom;
+9. Regularly ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the chat and raise their hand in Zoom;
 
-9. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
+10. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
 
 ## Workshop assistant guidelines
 
 Whenever you take the role as an assistant during the workshops, you should:
 
-1. Be attentive and prepared to mute participants that inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
+1. Be attentive and prepared to mute participants that have inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
 
 2. Communicate with participants through the chat with subjects related to the workshop;
 
-3. Respond to eventual questions that participants may publicly or privately pose within Zoom;
+3. Respond to any questions that participants may publicly or privately pose within Zoom;
 
 4. Assist and stimulate discussion within breakout rooms;
 
-5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop.
+5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
 ## Contributing to these guidelines
 
