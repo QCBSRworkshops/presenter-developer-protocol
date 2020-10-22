@@ -94,6 +94,8 @@ Context: Workshop participants have just learned which functions to use to perfo
 
 Goal: Evaluate participant knowledge and make them more confident when selecting the appropriate two-samples test in their research. 
 
+Elaborated by: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
+
 ```
 ---
 We are interested assessing whether we find more acromantulas in forested and shaded areas in relation to open areas. We went to the field and counted the number of individuals (variable: `abundance`) in ten randomly distributed forested and open landscapes (variable: `type_of_area`). Which of the following functions would be appropriate to test our hypothesis?
@@ -123,7 +125,7 @@ Context: Participants have been introduced to generalized linear models, and hav
 
 Goal: Assess the participant’s ability to apply the concept of overdispersion correction to different types of data, to help them better understand the relationship between the family objects and the link functions, and to reinforce the idea that models can be updated without having to create new ones.
 
-Elaborated by: Esteban Gongora Bernoske
+Elaborated by: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
 
 ```
 ---
@@ -160,6 +162,8 @@ See below two examples of slides containing an exercise followed by its solution
 Context: This exercise should be provided to set the ground for discussions during a data visualization workshop. It does not require a strong knowledge background in data visualization from participants.
 
 Goal: Foster participants critical thinking on data visualization.
+
+Elaborated by: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
 
 ```
 ---
@@ -204,7 +208,7 @@ Context: Participants have just been introduced to multivariate analyses, and ha
 
 Goal: Allow participants to critically apply the presented information in this workshop by determining which type of study/data would best fit the different types of ordinations.
 
-Elaborated by: Esteban Gongora Bernoske
+Elaborated by: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
 
 ```
 ---

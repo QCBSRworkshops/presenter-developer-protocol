@@ -93,6 +93,8 @@ Contexte : Les participants à l'atelier viennent d'apprendre quelles fonctions 
 
 Objectif : évaluer les connaissances des participants et les rendre plus confiants dans le choix du test à deux échantillons approprié dans leur recherche. 
 
+Elaboré par: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
+
 ```
 ---
 Nous souhaitons évaluer si nous trouvons plus d'acromanthules dans les zones boisées et ombragées par rapport aux zones ouvertes. Nous sommes allés sur le terrain et avons compté le nombre d'individus (variable : `abundance`) dans dix paysages forestiers et ouverts répartis de manière aléatoire (variable : `type_of_area`). Laquelle des fonctions suivantes serait appropriée pour tester notre hypothèse ?
@@ -122,6 +124,8 @@ Note : Vous devez préciser aux participants la distinction entre les tests d'hy
 Contexte : Les participants et participantes ont été initiés aux modèles linéaires généralisés, et viennent d'apprendre la distribution de Poisson, ses hypothèses selon lesquelles la variance est égale à la moyenne, et comment la sur-dispersion de leurs données peut être un problème lors de l'ajustement de ces modèles. Ils ont été initiés à la famille quasi-Poisson et à la possibilité d'appliquer une correction de sur-dispersion pour les données binaires avec l'objet de famille "quasibinomial".
 
 Objectif : Évaluer la capacité du participant ou de la participante à appliquer le concept de correction de la sur-dispersion à différents types de données, pour l'aider à mieux comprendre la relation entre les objets de famille et les fonctions de liaison, et pour renforcer l'idée que les modèles peuvent être mis à jour sans avoir à en créer de nouveaux.
+
+Elaboré par: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
 
 ```
 ---
@@ -160,6 +164,8 @@ Voir ci-dessous deux exemples de diapositives contenant un exercice suivi de sa 
 Contexte : Cet exercice doit être fourni pour préparer le terrain aux discussions lors d'un atelier de visualisation de données. Il n'exige pas aux participants et participantes une connaissance solide de la visualisation de données.
 
 Objectif : Encourager la réflexion critique des participants et des participantes autour de la  visualisation de données.
+
+Elaboré par: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
 
 ```
 ---
@@ -208,6 +214,8 @@ Contexte : Les participants et participantes viennent d'être initiés aux analy
 
 Objectif : Permettre aux participants et participantes d'appliquer de manière critique les informations présentées dans cet atelier en déterminant quel type d'étude/données correspondrait le mieux aux différents types d'ordinations.
 
+Elaboré par: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
+
 ```
 ---
 Discussion de groupe : Chaque groupe se verra attribuer au hasard un type d'ordination. Vous discuterez au sein de votre groupe des types d'ensembles de données possibles qui correspondent le mieux au type d'ordination qui vous a été attribué. Chaque groupe présentera un exemple concret de projet/étude/expérience qui serait utilisé avec sa méthode d'ordination.
@@ -248,6 +256,8 @@ Ci-dessous, nous pouvons voir un exemple d'exercice indépendant et sa solution 
 Contexte : Les participants viennent de se voir présenter les familles de distribution, les fonctions de liens et ils ont vu des exemples du fonctionnement des fonctions `glm()` et `manyglm()`.
 
 Objectif : Encourager les participants à toujours observer les tracés de diagnostic lorsqu'ils choisissent entre les modèles.
+
+Elaboré par: [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
 
 ```
 ---
@@ -297,6 +307,8 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 Contexte:
 
 Goal:
+
+Elaboré par: [](mailto:).
 
 ```
 ---
