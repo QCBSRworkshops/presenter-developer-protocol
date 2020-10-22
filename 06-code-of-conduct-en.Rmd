@@ -1,6 +1,6 @@
 # (PART) English version {-}
 
-# Code of conduct {#codeofconduct}
+# Code of conduct {#codeofconduct-en}
 
 The **QCBS R Workshop Series** and the **QCBS R Symposium** are venues dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
 
