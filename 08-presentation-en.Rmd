@@ -60,23 +60,23 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 8. Do a quick survey of your students to see how much experience they have with the workshop topic. This is a great activity that can help you engage with participants, allow them to discuss with each other, help you cater part of your workshop to your audience, inform your delivery speed, and the amount of time you set aside to work through exercises;
 
-8. Once every few minutes, ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the chat and raise their hand in Zoom;
+9. Regularly ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the chat and raise their hand in Zoom;
 
-9. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
+10. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
 
 ## Workshop assistant guidelines
 
 Whenever you take the role as an assistant during the workshops, you should:
 
-1. Be attentive and prepared to mute participants that inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
+1. Be attentive and prepared to mute participants that have inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
 
 2. Communicate with participants through the chat with subjects related to the workshop;
 
-3. Respond to eventual questions that participants may publicly or privately pose within Zoom;
+3. Respond to any questions that participants may publicly or privately pose within Zoom;
 
 4. Assist and stimulate discussion within breakout rooms;
 
-5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop.
+5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
 ## Contributing to these guidelines
 
