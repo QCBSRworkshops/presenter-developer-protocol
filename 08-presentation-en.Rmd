@@ -78,6 +78,70 @@ Whenever you take the role as an assistant during the workshops, you should:
 
 5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
+## Presenter mode {#presenter-mode}
+
+Entering presenter mode, allows you to view presentation notes while giving your instruction. To enter presenter mode, use the keyboard shortcut `P`.
+
+## Zoom guidelines {#zoom-guidelines}
+
+Running a workshop through Zoom might not be within every presenter's comfort zone. Here are some guidelines to help with the process of using Zoom to create a (hopefully!) technically smooth and interactive workshop experience.
+
+### Sharing your screen
+
+By default, Share Screen permission is usually given only to the meeting host. However, you can assign sharing permissions to other participants. **We recommend testing out the Screen Sharing options before participants enter the Zoom room**.
+
+For more information about how to share your screen, please consult this [help page](https://athelp.sfsu.edu/hc/en-us/articles/360044278334-Sharing-your-screen-in-Zoom).
+
+### Privacy
+
+If you would like to hide your background while you are presenting the workshop, feel free to use a [virtual background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) in Zoom. Please make sure the background is not distracting, does not obscure your face, and follows our code of conduct.
+
+### Moderating the Chat
+
+**The workshop assistant should keep an eye on the Chat as much as possible**. Prepare to answer participants' questions and to check in with how the participants are feeling, such as periodically asking if people would like a short break, if they need more time for exercises, or if they would like more explanation. Please note you can choose to message **Everyone** or chat with a specific participant **Privately**.
+
+If a participant is having trouble with the workshop and needs additional help, **the assistant can pull this participant (or several participants) into a Breakout Room to provide more thorough explanations and troubleshooting**. See information about Breakout Rooms below.
+
+### Non-verbal feedback
+
+You can also ask for nonverbal feedback from your audience through [Reactions](https://support.zoom.us/hc/en-us/articles/360038311212-Meeting-reactions). This is a great way to check in with workshop participants and ask for a specific Reaction if things are unclear, or if they are finished with an exercise. There are [additional feedback features](https://www.pitzer.edu/information-technology/services/zoom/manage-participants/) in the **Participants** panel, including **Raise Hand**, **yes**, and **no**, among others. 
+
+Feel free to use whichever feature you are most comfortable with, but please ensure that you explain how to access these features during the Welcome section of the workshop.
+
+### Polls
+
+Some of the workshop exercises are designed as simple polls. For remote workshops, these polls will be set up in Zoom. 
+
+**Please set up the polls before the workshop begins**, to ensure the exercises run smoothly. Poll questions and answers are available in the [presentations](https://qcbsrworkshops.github.io/). You can review **how to create and launch polls in Zoom [here](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
+
+
+### Breakout Rooms
+
+Some of the workshop exercises are designed to be done in groups. For remote workshops, these group exercises will take place in Breakout Rooms.
+
+**Please note that by default, the meeting host is the only person who can assign participants to Breakout Rooms**, and the first presenter to enter the room will be assigned as host. Please keep this in mind, and enter the room first (i.e. early!) if you are in charge of Breakout Rooms.
+
+**To create Breakout Rooms**
+
+1. You should see the option for Breakout Rooms on the lower right side of your **Zoom toolbar**. Click this button.
+
+2. You will see a **pop-up window where you can assign participants to certain number of rooms, which you can set yourself**. At the bottom of this window, there is an estimated number of participants per room, based on the number of rooms. Try to choose a number of rooms that results in **3 to 5 people per room**. Keep the assignment process check-marked as "Automatically", so Zoom arbitrarily assigns participants to Breakout Rooms. 
+
+3. Once participants are assigned to Breakout Rooms, click the **"Start All Sessions"** button. 
+
+**Communicating with participants in Breakout Rooms**
+
+Please note that **participants cannot access the Chat once they are in Breakout Rooms**. If you have information to communicate, such as the exercise objectives or links, please do so before you open the Breakout Rooms. It is also a good idea to let people know how much time you are giving them for the exercise before they join their rooms.
+
+You can communicate with participants in the Breakout Rooms by **broadcasting a message to all**, which is a button within the Breakout Rooms panel that is available to the person who has created the rooms.
+
+**To close Breakout Rooms**
+
+4. Click the **"Stop All Sessions"** button in the Breakout Rooms panel that is available to the person who has created the rooms.
+
+For more information about setting up Breakout Rooms, refer yourself to this [visual guide](http://web5.lib.pacificu.edu/zoom/how-to-use-breakout-rooms/) and to [Zoom's guide](https://support.zoom.us/hc/en-us/articles/206476313).
+
+
 ## Contributing to these guidelines
 
 Do you have any suggestions on these guidelines? Please [raise an issue](https://github.com/QCBSRworkshops/presenter-developer-protocol/issues) and help us improve this material!
