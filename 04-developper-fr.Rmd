@@ -347,11 +347,11 @@ Une fois que vous avez cloné le dépôt d'archives, vous êtes prêt à commenc
 
 ### Flux de travail GitHub
 
-GitHub crée des dépôt d'archivess avec une seule branche par défaut, nommée `dev` (si vous travaillez en ligne de commande) ou `main` (si vous travaillez dans GitHub Desktop). C'est la branche que vous voyez quand vous visitez le dépôt d'archives. 
+GitHub crée des dépôt d'archives avec une seule branche par défaut, nommée `dev` (si vous travaillez en ligne de commande) ou `main` (si vous travaillez dans GitHub Desktop). C'est la branche que vous voyez quand vous visitez le dépôt d'archives. 
 
-Nous vous recommandons fortement de travailler sur une **nouvelle branche**, qui vous permet de développer les ateliers sans affecter la branche principale du dépôt d'archives. Travailler sur une branche distincte signifie que les changements ne sont mis en œuvre dans le contenu original qu'une fois que vos contributions ont été examinées. C'est une façon "plus sûre" de développer les ateliers, en particulier lorsque plusieurs personnes collaborent à un atelier en même temps.
+Nous vous recommandons fortement de travailler sur une **nouvelle branche**, qui vous permet de développer les ateliers sans affecter la branche principale du dépôt d'archives. Travailler sur une branche distincte signifie que les changements ne sont mis en œuvre dans le contenu original qu'une fois que vos contributions ont été examinées. C'est une façon "plus sécuritaire" de développer les ateliers, particulièrement lorsque plusieurs personnes collaborent sur un atelier en même temps.
 
-1. **Créer et publier une nouvelle branche**. Choisissez un nom qui soit explicite sur ce que vous ajoutez, *par exemple * `workshop1_intro` si vous travaillez sur l'introduction de l'atelier 1.
+1. **Créer et publier une nouvelle branche**. Choisissez un nom qui décrit explicitement ce que vous modifiez, *par exemple * `workshop1_intro` si vous travaillez sur l'introduction de l'atelier 1.
 
 Sur la ligne de commande :
 ```{bash-fr, eval=FALSE}
