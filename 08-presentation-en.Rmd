@@ -74,7 +74,7 @@ Whenever you take the role as an assistant during the workshops, you should:
 
 3. Respond to any questions that participants may publicly or privately pose within Zoom;
 
-4. Assist and stimulate discussion within breakout rooms;
+4. Assist and stimulate discussion within breakout rooms by giving discussion points and tips, either before opening the breakout rooms, or by sending a "broadcast" message to participants within the rooms;
 
 5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
