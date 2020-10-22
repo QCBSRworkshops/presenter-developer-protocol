@@ -30,7 +30,7 @@ exclude: true
 
 **Priorités générales:**
 
-1. Traiter les problèmes existants soumis à GitHub, qui sont notés dans la section "Issues".
+1. Traiter les problèmes existants soumis à GitHub, qui sont notés dans la section "Issues" du dépot GitHub.
 
 2. S'assurer que le code fonctionne correctement et que le code correspond à la présentation de l'atelier. Continuez à vérifier cela au fur et à mesure que vous apportez des modifications.
 
@@ -380,7 +380,7 @@ GitHub Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@late
 Sur la ligne de commande :
 ```{bash, eval=FALSE}
 git add -A # ajoutez tous vos changements
-git commit -m "fix code for plot in Challenge 1" # commit your changes with a message
+git commit -m "fix code for plot in Challenge 1" # commettez vos changements avec un message
 ```
 
 Vous pouvez également utiliser GitHub Desktop pour ajouter des modifications ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit)) et les valider ([instructions ici](https://docs. github.com/fr/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes)).
@@ -389,8 +389,8 @@ Vous pouvez également utiliser GitHub Desktop pour ajouter des modifications ([
 
 Tirez le `dev` sur la ligne de commande :
 ```{bash, eval=FALSE}
-git checkout dev # retour à l'agence principale
-pull git # pull changes
+git checkout dev # retour à la branche principale
+pull git # tirez les changements faits sur la branche principale
 ```
 
 Tirez la branche `main` sur GitHub Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#pulling-to-your-local-branche-de-la-distance)).
@@ -399,7 +399,7 @@ Tirez la branche `main` sur GitHub Desktop ([instructions ici](https://docs.gith
 
 Vous pouvez fusionner votre branche avec la branche `dev` en utilisant la ligne de commande :
 ```{bash, eval=FALSE}
-git checkout workshop1_intro # retournez à votre agence
+git checkout workshop1_intro # retournez à votre branche
 git merge dev # fusionner la branche principale avec votre branche
 ```
 
@@ -409,10 +409,10 @@ Fusionnez votre branche avec la branche `main` dans GitHub Desktop ([instruction
 
 En ligne de commande, vous pouvez pousser votre branche fusionnée localement (par exemple `workshop1_intro`) vers le dépôt d'archives distant comme ceci :
 ```{bash, eval=FALSE}
-git push --set-upstream origin workshop1_intro # push to the remote !
+git push --set-upstream origin workshop1_intro # poussez vers le dépôt !
 ```
 
-Poussez votre branche (par exemple `workshop1_intro`) vers le dépôt d'archives distant dans GitHub Desktop ([voir étape #4)](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant une autre branche dans votre branche-projet)).
+Poussez votre branche (par exemple `workshop1_intro`) vers le dépôt d'archives distant dans GitHub Desktop ([voir étape #4](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant une autre branche dans votre branche-projet)).
 
 8. **Ouvrez une [demande d'extraction](https://help.github.com/articles/about-pull-requests/)**.
 
@@ -420,7 +420,7 @@ Les *pull requests* ou demandes d'extraction sont un moyen de faire connaître �
 
 Pour ouvrir une demande d'extraction pour votre branche (par exemple `workshop1_intro`), veuillez suivre ces [instructions](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request).
 
-9. **Assignez** votre demande d'extraction (*pull request*) à un examinateur (un des coordinateurs ou des coordinatrices des ateliers R du CSBQ). Votre demande sera révisée et fusionnée avec le dépôt principal.
+9. **Assignez** votre demande d'extraction à un examinateur (un des coordinateurs ou des coordinatrices des ateliers R du CSBQ). Votre demande sera révisée et fusionnée avec le dépôt principal.
 
 10. Une fois que la demande d'extraction est fusionnée, n'oubliez pas de **tirer la branche principale** !
 
@@ -428,4 +428,4 @@ Pour ouvrir une demande d'extraction pour votre branche (par exemple `workshop1_
 
 Si vous n'êtes pas à l'aise avec GitHub, vous pouvez toujours nous aider à améliorer les ateliers !
 
-Si vous remarquez des erreurs ou des incohérences, ou si vous souhaitez faire une suggestion, que ce soit sur la forme ou le contenu, vous êtes invités à ouvrir un [numéro](https://help.github.com/articles/about-issues/). Vous pouvez suivre ces étapes simples pour créer un nouveau [numéro](https://help.github.com/articles/creating-an-issue/).
+Si vous trouvez des erreurs ou des incohérences, ou si vous souhaitez faire une suggestion, que ce soit sur la forme ou le contenu, vous êtes invités à ouvrir un [numéro](https://help.github.com/articles/about-issues/). Vous pouvez suivre ces étapes simples pour créer un nouveau [numéro](https://help.github.com/articles/creating-an-issue/).
