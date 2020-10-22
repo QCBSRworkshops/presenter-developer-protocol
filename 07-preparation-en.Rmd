@@ -46,32 +46,6 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 *  *NOTE:* You must send the message below **at least** 7 days before the date of your presentation.
 *  *NOTE:* You must **NOT** remove information from the following text.
 
-**For in-person workshops**:
-
-> Message subject: [QCBS R Workshop Series] Workshop #**X** – **Name of the Workshop** (Friday, **Month Day**)
-
-> Hello!
->
-> You are registered for the QCBS R Workshop #**XXX** that will be given at **NAME OF THE UNIVERSITY** this coming **DAY OF WEEK** at **HH:MM** **PM or AM**. In preparation for the workshop please note the following: 
->
-> 1) The workshop will be given in **XXX** building, room **XXX**. 
->
-> 2) Please come with your laptop and the relevant programs (R and RStudio) installed. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**.
->
-> 3) We recommend that you execute the entire script at least once before coming to the workshop to make sure that everything works on your laptop and to download and install all the libraries we will be using during the workshop.
->
-> 4) If you can no longer make it to the workshop, please advise us 5 days in advance by email, otherwise, you will receive a 100$ penalty which will be billed to your supervisor.
->
-> 5) If you are not a member of the QCBS please bring receipt of payment to the workshop.
->
-> 6) Internet access should not be necessary to follow the workshop if you executed the script before coming to make sure you had downloaded all the necessary R libraries. If you are taking the workshop at a different institution than your own and would like to have access to the internet during the workshop, please ensure that you can connect to the eduroam network (more info here: http://qcbs.ca/wiki/eduroam). If you do not have access to eduroam or to the university’s network, we may not be able to provide you with  temporary access to the internet. 
->
-> 7) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!.
->
-> Thanks, and looking forward to **DAY OF WEEK**!
->
-> **YOUR NAME(S)**.
-
 **For remotely instructed workshops**:
 
 > Message subject: [QCBS R Workshop Series] Workshop #**X** – **Name of the Workshop** (Friday, **Month Day**)
@@ -99,6 +73,34 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 > Thanks, and looking forward to **DAY OF WEEK**!
 >
 > **YOUR NAME(S)**.
+
+
+**For in-person workshops**:
+
+> Message subject: [QCBS R Workshop Series] Workshop #**X** – **Name of the Workshop** (Friday, **Month Day**)
+
+> Hello!
+>
+> You are registered for the QCBS R Workshop #**XXX** that will be given at **NAME OF THE UNIVERSITY** this coming **DAY OF WEEK** at **HH:MM** **PM or AM**. In preparation for the workshop please note the following: 
+>
+> 1) The workshop will be given in **XXX** building, room **XXX**. 
+>
+> 2) Please come with your laptop and the relevant programs (R and RStudio) installed. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**.
+>
+> 3) We recommend that you execute the entire script at least once before coming to the workshop to make sure that everything works on your laptop and to download and install all the libraries we will be using during the workshop.
+>
+> 4) If you can no longer make it to the workshop, please advise us 5 days in advance by email, otherwise, you will receive a 100$ penalty which will be billed to your supervisor.
+>
+> 5) If you are not a member of the QCBS please bring receipt of payment to the workshop.
+>
+> 6) Internet access should not be necessary to follow the workshop if you executed the script before coming to make sure you had downloaded all the necessary R libraries. If you are taking the workshop at a different institution than your own and would like to have access to the internet during the workshop, please ensure that you can connect to the eduroam network (more info here: http://qcbs.ca/wiki/eduroam). If you do not have access to eduroam or to the university’s network, we may not be able to provide you with  temporary access to the internet. 
+>
+> 7) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!.
+>
+> Thanks, and looking forward to **DAY OF WEEK**!
+>
+> **YOUR NAME(S)**.
+
 
 ## On the day of the workshop
 
