@@ -8,7 +8,7 @@ On average, in-person workshops last 4 hours (including breaks), with some varia
 
 *Remote workshops* should run for approximately 3 hours. Workshops are being shortened to suit this new format. Generally, we propose that the instruction time be broken into two 1.5 hour sections, with a one-hour break in between. However, some workshops may benefit from a different flow, *e.g.* two breaks of 30 minutes instead of a long one-hour break. *Suggestions for Workshops 1 to 5 are provided below.*
 
-Each workshop should begin with a welcome and check-in period lasting around 5 minutes. During this time, workshop presenters and assistants may take attendance, ask participants how they are doing, and give participants instructions on how to use the chat and make questions.
+Each workshop should begin with a welcome and check-in period lasting around 5 minutes. During this time, workshop presenters and assistants may take attendance, ask participants how they are doing, and give participants instructions on how to use the Chat and make questions.
 
 Following the welcome and check-in period, workshop presenters should begin their lecture blocks by illustrating and specifying the content of the workshop and how the lecture and pauses will be structured.
 
@@ -34,7 +34,7 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 1. Arrive *at least* 15 minutes before the beginning of your workshop to prepare the presentation room and project your presentation. 
 
-* For remote workshops, open the meeting room early (along with the presentation, wiki and RStudio) and check-in with your co-presenter before participants arrive;
+* For remote workshops, please open the meeting room early (along with the presentation, wiki and RStudio) and check-in with your co-presenter before participants arrive;
 
 2. Take attendance;
 
@@ -60,7 +60,7 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 8. Do a quick survey of your students to see how much experience they have with the workshop topic. This is a great activity that can help you engage with participants, allow them to discuss with each other, help you cater part of your workshop to your audience, inform your delivery speed, and the amount of time you set aside to work through exercises;
 
-9. Regularly ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the chat and raise their hand in Zoom;
+9. Regularly ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the Chat and raise their hand in Zoom;
 
 10. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
 
@@ -70,11 +70,11 @@ Whenever you take the role as an assistant during the workshops, you should:
 
 1. Be attentive and prepared to mute participants that have inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
 
-2. Communicate with participants through the chat with subjects related to the workshop;
+2. Communicate with participants through the Chat with subjects related to the workshop;
 
 3. Respond to any questions that participants may publicly or privately pose within Zoom;
 
-4. Assist and stimulate discussion within breakout rooms by giving discussion points and tips, either before opening the breakout rooms, or by sending a "broadcast" message to participants within the rooms;
+4. Assist and stimulate discussion within Breakout Rooms by giving discussion points and tips, either before opening the Breakout Rooms, or by sending a "broadcast" message to participants within the rooms;
 
 5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
