@@ -58,7 +58,7 @@ Note: _The presenter should sing this slide to the participants_.
 
 2. The code used to generate an outcome (figure or calculation) must correspond to the code being displayed.
 
-3. Use back ticks ` ` ` whenever you mention a function, an object or a package in your prose.
+3. Use back ticks `` ` `` whenever you mention a function, an object or a package in your prose.
 
 4. Use three back ticks ` ``` ` to separate code chunks from prose.
 

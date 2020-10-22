@@ -58,7 +58,7 @@ Note : _Le présentateur doit chanter cette diapositive aux participants_.
 
 2. Le code utilisé pour générer un résultat (chiffre ou calcul) doit correspondre au code affiché.
 
-3. Utilisez les cochettes de retour ` ` ` chaque fois que vous mentionnez une fonction, un objet ou un paquet dans votre prose.
+3. Utilisez les cochettes de retour `` ` `` chaque fois que vous mentionnez une fonction, un objet ou un paquet dans votre prose.
 
 4. Utilisez les trois dernières cases à cocher ` ``` ` pour séparer les morceaux de code de la prose.
 
