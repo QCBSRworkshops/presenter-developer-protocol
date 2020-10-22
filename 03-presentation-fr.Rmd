@@ -74,7 +74,7 @@ Quand vous assumez le rôle d'assistant ou d'assistante pendant les ateliers :
 
 3. Répondre à toute question que les participants pourraient poser publiquement ou en privé dans le cadre de Zoom ;
 
-4. Facilitez et stimulez la discussion dans les salles de réunion en donnant des pistes de discussion et des conseils, soit avant d'ouvrir les salles de conférence ("breakout rooms"), soit après via un message "broadcast" ;
+4. Facilitez et stimulez la discussion dans les salles de conférence ("breakout rooms") en donnant des pistes de discussion et des conseils, soit avant d'ouvrir les salles ou pendant la période de discussion via un message "broadcast" ;
 
 5. Prenez les présences, et contactez les participants non-inscrits pour leur demander de s'inscrire immédiatement à l'atelier. **Tous les participants doivent être inscrits** ;
 
