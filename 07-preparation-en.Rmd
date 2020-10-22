@@ -1,6 +1,6 @@
 # Preparation {#preparation-en}
 
-Being a presenter for the QCBS R Workshop Series requires preparation and proactive communication with the participants registered for the workshops. Below, there is a list of points that will help you prepare for the workshops. We ask you to **carefully** read them.
+Being a presenter for the QCBS R Workshop Series requires preparation and proactive communication with the participants registered for the workshops. Below, there is a list of points that will help you prepare for the workshops. We ask you to read them **carefully**.
 
 ## Before the workshop
 
@@ -14,13 +14,13 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 6 to 14 | 2 | $125 | $250
 15 or more | 3 | $125 | $375
 
-* **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Workshop instructors and assistants must answer student questions.
+* **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Both workshop instructors and assistants must answer student questions.
 
 > *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
 
 > *Note that the **maximum** payment per presenter is of 125$, per workshop instructed.*
 
-2. Familiarize yourself with the material available within the [wiki](https://wiki.qcbs.ca/r) and the [presentation pages]().
+2. Familiarize yourself with the material available within the [wiki](https://wiki.qcbs.ca/r) and the [presentation pages](#presentation-en).
 
   * **You must be *very* comfortable with the content and the presentation concerning the workshop as of the date of your presentation.**
 
