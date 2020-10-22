@@ -14,11 +14,11 @@ Here we have compiled a list of priorities for workshop developers. Developers w
 
 1. Workshops should fit a new 3-hour format (including exercises and one or two breaks of five minutes). For this, you may choose to hide slides from existing workshops to fit this format. For instance, you may hide repetitive examples, non-essential slides or some of the additional advanced slides that are included at the end of the workshops. We are aware that some workshops will be more difficult to shorten than others; it is not a problem that workshops run slightly over 3 hours to guarantee accurate and complete information. (*Use your judgment*).
 
-2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `instruction: hidden_remote` tag. See an example below:
+2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `exclude: true` tag. See an example below:
 
 ```
 ---
-instruction: hidden_remote
+exclude: true
 
 # Slide title: I love statistics!
 
