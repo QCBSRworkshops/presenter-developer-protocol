@@ -28,11 +28,11 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
   * Use [wiki pages](https://wiki.qcbs.ca/r) and RMarkdown [presentations](https://qcbsrworkshops.github.io/) as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
 
-  * The presentations come with a *presenter mode*, which allow for presenter notes and a more dynamic instruction. Go to our "[Using the presenter mode]()" section to learn more.
+  * The presentations come with a *presenter mode*, which allow for presenter notes and a more dynamic instruction. Go to our "[Presenter mode](#presenter-mode)" section to learn more.
 
 3. Read the [code of conduct](#codeofconduct-en).
 
-4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share you screen; (ii) how to initiate and end breakout rooms; (iii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
+4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share your screen; (ii) how to initiate and end breakout rooms; (iii) how to create and launch polls; (iiii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf). We have provided additional detailed guidelines for these tasks [here](#zoom-guidelines).
 
 ### One week before the workshop
   
