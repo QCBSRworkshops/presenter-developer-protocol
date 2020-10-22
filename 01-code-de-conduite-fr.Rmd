@@ -1,6 +1,6 @@
 # (PART) Version en Français {-}
 
-# Code de conduite
+# Code de conduite {#codedeconduite}
 
 La **série d’ateliers et le symposium R du CSBQ** ont l’objectif de fournir un environnement accueillant et favorable à toutes les personnes, indépendamment de leur origine ou de leur identité.
 

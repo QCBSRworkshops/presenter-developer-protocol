@@ -33,7 +33,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
   * Les présentations sont dotées d'un *mode présentateur*, qui permet la demonstration des notes et de donner un atelier plus dynamique. Consultez notre section "[Utilisation du mode présentateur]()" pour en savoir plus.
 
-3. Lisez le code de conduite (Section \@ref(codeofconduct)).
+3. Lisez le code de conduite (Section \@ref(codedeconduite)).
 
 4. **Pour les ateliers à distance** : Familiarisez-vous avec Zoom avant votre atelier. Par exemple, vous devez savoir : (i) comment partager votre écran ; (ii) comment ouvrir et fermer les salles de réunion Zoom ; (ii) et [quels sont les outils disponibles pour interagir avec les étudiants](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
 
