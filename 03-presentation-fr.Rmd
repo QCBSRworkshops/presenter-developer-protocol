@@ -18,14 +18,14 @@ Après la période de bienvenue et d'enregistrement, les présentateurs doivent 
 
 Suggestions de structures pour les ateliers 1 à 5 :
 
-|     Blocks    |  Workshop 1    | Workshop 2 |  Workshop 3 | Workshop 4 | Workshop 5 |
+|     Blocks    |  Atelier 1    | Atelier 2 |  Atelier 3 | Atelier 4 | Atelier 5 |
 | -------------:|:-------------:| ----------:|:-------------:| ----------:| ----------:|
 | Bienvenue et enregistrement | 5 minutes   |    5 minutes       | 5 minutes  | 5 minutes | 5 minutes |
 | Instruction | 85 minutes   |    85 minutes       | 85 minutes       |    85 minutes      | 55 minutes  |
 | Pause  | 60 minutes      |    60 minutes      |60 minutes      |    60 minutes      | 30 minutes |
 | Instruction | 85 minutes   |    85 minutes       | 85 minutes       |    85 minutes      | 85 minutes  |
-| Pause  | *Not applic.* |    *Not applic.*      | *Not applic.*  |    *Not applic.*  | 30 minutes |
-| Instruction | *Not applic.*   |    *Not applic.*       | *Not applic.*  | *Not applic.* | 55 minutes  |
+| Pause  | *Non applic.* |    *Non applic.*      | *Non applic.*  |    *Non applic.*  | 30 minutes |
+| Instruction | *Non applic.*   |    *Non applic.*       | *Non applic.*  | *Non applic.* | 55 minutes  |
 | Conclusion | 5 minutes   |    5 minutes       | 5 minutes  | 5 minutes | 5 minutes  |
 
 ## Directives générales
