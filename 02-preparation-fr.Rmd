@@ -29,7 +29,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
   * Il est de **votre responsabilité** de vous familiariser avec le matériel.
 
-  * Utilisez les [pages wiki](https://wiki.qcbs.ca/r) et les [presentations](https://qcbsrworkshops.github.io/) comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
+  * Utilisez les [pages wiki](https://wiki.qcbs.ca/r) et les [présentations](https://qcbsrworkshops.github.io/) comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
 
   * Les présentations sont dotées d'un *mode présentateur*, qui permet la demonstration des notes et de donner un atelier plus dynamique. Consultez notre section "[Utilisation du mode présentateur]()" pour en savoir plus.
 
