@@ -247,7 +247,7 @@ exclude: true
 </ol>
 <p><strong>Priorités générales:</strong></p>
 <ol style="list-style-type: decimal">
-<li><p>Traiter les problèmes existants soumis à GitHub, qui sont notés dans la section “Issues”.</p></li>
+<li><p>Traiter les problèmes existants soumis à GitHub, qui sont notés dans la section “Issues” du dépot GitHub.</p></li>
 <li><p>S’assurer que le code fonctionne correctement et que le code correspond à la présentation de l’atelier. Continuez à vérifier cela au fur et à mesure que vous apportez des modifications.</p></li>
 <li><p>S’assurer que les versions francophone et anglophone d’un atelier sont toutes les deux mises à jour et que le contenu est équivalent.</p></li>
 <li><p>Les ateliers ne doivent pas contenir des fautes d’orthographe, de grammaire ou de ponctuation.</p></li>
@@ -520,35 +520,35 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 </ol>
 <p>Sur la ligne de commande :</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="developper-fr.html#cb13-1"></a><span class="fu">git</span> add -A <span class="co"># ajoutez tous vos changements</span></span>
-<span id="cb13-2"><a href="developper-fr.html#cb13-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commit your changes with a message</span></span></code></pre></div>
+<span id="cb13-2"><a href="developper-fr.html#cb13-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commettez vos changements avec un message</span></span></code></pre></div>
 <p>Vous pouvez également utiliser GitHub Desktop pour ajouter des modifications (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit">instructions ici</a>) et les valider (<a href="https://docs.%20github.com/fr/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes">instructions ici</a>).</p>
 <ol start="5" style="list-style-type: decimal">
 <li><strong>Synchronisez votre branche principale avec le référentiel distant</strong>. Il est important de s’assurer que votre branche principale est à jour avant de la modifier. Retournez à la branche principale et récupérez les modifications qui ont été faites depuis la dernière copie du dépôt d’archives.</li>
 </ol>
 <p>Tirez le <code>dev</code> sur la ligne de commande :</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developper-fr.html#cb14-1"></a><span class="fu">git</span> checkout dev <span class="co"># retour à l&#39;agence principale</span></span>
-<span id="cb14-2"><a href="developper-fr.html#cb14-2"></a><span class="ex">pull</span> git <span class="co"># pull changes</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developper-fr.html#cb14-1"></a><span class="fu">git</span> checkout dev <span class="co"># retour à la branche principale</span></span>
+<span id="cb14-2"><a href="developper-fr.html#cb14-2"></a><span class="ex">pull</span> git <span class="co"># tirez les changements faits sur la branche principale</span></span></code></pre></div>
 <p>Tirez la branche <code>main</code> sur GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#pulling-to-your-local-branche-de-la-distance">instructions ici</a>).</p>
 <ol start="6" style="list-style-type: decimal">
 <li><strong>Fusionnez votre branche avec la branche principale locale</strong>. Retournez à votre branche (par exemple <code>workshop1_intro</code>) et fusionnez-la avec votre branche principale locale. S’il y a des conflits, veuillez les résoudre !</li>
 </ol>
 <p>Vous pouvez fusionner votre branche avec la branche <code>dev</code> en utilisant la ligne de commande :</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developper-fr.html#cb15-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># retournez à votre agence</span></span>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developper-fr.html#cb15-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># retournez à votre branche</span></span>
 <span id="cb15-2"><a href="developper-fr.html#cb15-2"></a><span class="fu">git</span> merge dev <span class="co"># fusionner la branche principale avec votre branche</span></span></code></pre></div>
 <p>Fusionnez votre branche avec la branche <code>main</code> dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-projet-branch">instructions ici</a>).</p>
 <ol start="7" style="list-style-type: decimal">
 <li><strong>Poussez votre branche fusionnée localement vers le dépôt d’archives GitHub distant</strong>.</li>
 </ol>
 <p>En ligne de commande, vous pouvez pousser votre branche fusionnée localement (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant comme ceci :</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="developper-fr.html#cb16-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># push to the remote !</span></span></code></pre></div>
-<p>Poussez votre branche (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant%20une%20autre%20branche%20dans%20votre%20branche-projet">voir étape #4)</a>).</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="developper-fr.html#cb16-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># poussez vers le dépôt !</span></span></code></pre></div>
+<p>Poussez votre branche (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant%20une%20autre%20branche%20dans%20votre%20branche-projet">voir étape #4</a>).</p>
 <ol start="8" style="list-style-type: decimal">
 <li><strong>Ouvrez une <a href="https://help.github.com/articles/about-pull-requests/">demande d’extraction</a></strong>.</li>
 </ol>
 <p>Les <em>pull requests</em> ou demandes d’extraction sont un moyen de faire connaître à vos collaborateurs les changements que vous avez poussés vers une branche du dépôt d’archives Github. Une fois que vous avez ouvert une demande d’extraction, nous pouvons examiner les changements potentiels et ajouter des commandes de suivi (si nécessaire) avant que vos changements ne soient fusionnés dans la branche principale.</p>
 <p>Pour ouvrir une demande d’extraction pour votre branche (par exemple <code>workshop1_intro</code>), veuillez suivre ces <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request">instructions</a>.</p>
 <ol start="9" style="list-style-type: decimal">
-<li><p><strong>Assignez</strong> votre demande d’extraction (<em>pull request</em>) à un examinateur (un des coordinateurs ou des coordinatrices des ateliers R du CSBQ). Votre demande sera révisée et fusionnée avec le dépôt principal.</p></li>
+<li><p><strong>Assignez</strong> votre demande d’extraction à un examinateur (un des coordinateurs ou des coordinatrices des ateliers R du CSBQ). Votre demande sera révisée et fusionnée avec le dépôt principal.</p></li>
 <li><p>Une fois que la demande d’extraction est fusionnée, n’oubliez pas de <strong>tirer la branche principale</strong> !</p></li>
 </ol>
 </div>
@@ -556,7 +556,7 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 <div id="contribuer-autrement" class="section level2" number="4.3">
 <h2><span class="header-section-number">4.3</span> Contribuer autrement</h2>
 <p>Si vous n’êtes pas à l’aise avec GitHub, vous pouvez toujours nous aider à améliorer les ateliers !</p>
-<p>Si vous remarquez des erreurs ou des incohérences, ou si vous souhaitez faire une suggestion, que ce soit sur la forme ou le contenu, vous êtes invités à ouvrir un <a href="https://help.github.com/articles/about-issues/">numéro</a>. Vous pouvez suivre ces étapes simples pour créer un nouveau <a href="https://help.github.com/articles/creating-an-issue/">numéro</a>.</p>
+<p>Si vous trouvez des erreurs ou des incohérences, ou si vous souhaitez faire une suggestion, que ce soit sur la forme ou le contenu, vous êtes invités à ouvrir un <a href="https://help.github.com/articles/about-issues/">numéro</a>. Vous pouvez suivre ces étapes simples pour créer un nouveau <a href="https://help.github.com/articles/creating-an-issue/">numéro</a>.</p>
 
 </div>
 </div>
