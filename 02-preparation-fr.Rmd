@@ -31,11 +31,11 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
   * Utilisez les [pages wiki](https://wiki.qcbs.ca/r) et les [présentations](https://qcbsrworkshops.github.io/) comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
 
-  * Les présentations sont dotées d'un *mode présentateur*, qui permet la demonstration des notes et de donner un atelier plus dynamique. Consultez notre section "[Utilisation du mode présentateur]()" pour en savoir plus.
+  * Les présentations sont dotées d'un *mode présentateur*, qui permet la demonstration des notes et de donner un atelier plus dynamique. Consultez notre section "[Mode présentateur](#mode-presentateur)" pour en savoir plus.
 
 3. Lisez le code de conduite (Section \@ref(codedeconduite)).
 
-4. **Pour les ateliers à distance** : Familiarisez-vous avec Zoom avant votre atelier. Par exemple, vous devez savoir : (i) comment partager votre écran ; (ii) comment ouvrir et fermer les salles de réunion Zoom ; (ii) et [quels sont les outils disponibles pour interagir avec les étudiants](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf).
+4. **Pour les ateliers à distance**: Familiarisez-vous avec Zoom avant votre atelier. Par exemple, vous devriez savoir: (i) comment partager votre écran; (ii) comment ouvrir et fermer les salles de conférence ("Breakout Rooms"); (iii) comment préparer et lancer des sondages; (iv) et [quels sont les outils disponibles pour interagir avec les étudiants](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf). Nous avons fourni des conseils détaillées complémentaires pour ces tâches [ici](#conseils-zoom).
 
 ### Une semaine avant l'atelier
   
