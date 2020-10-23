@@ -78,6 +78,72 @@ Quand vous assumez le rôle d'assistant ou d'assistante pendant les ateliers :
 
 5. Prenez les présences, et contactez les participants non-inscrits pour leur demander de s'inscrire immédiatement à l'atelier. **Tous les participants doivent être inscrits** ;
 
+## Mode présentateur {#mode-presentateur}
+
+Entrer en mode présentateur vous permet de voir les notes de présentation tout en donnant votre instruction. Pour entrer en mode présentateur, utilisez le raccourci clavier `P`.
+
+## Conseils pour Zoom {#conseils-zoom}
+
+Animer un atelier sur Zoom n'est peut-être pas dans votre zone de confort. Voici quelques conseils pour vous aider à créer une expérience interactive et (espérons-le!) technologiquement fluide sur Zoom.
+
+### Partage d'écran
+
+Par défaut, l'autorisation pour le partage d'écran est généralement accordée uniquement à l'hôte de la réunion. Vous pouvez toutefois attribuer des autorisations de partage à d'autres participants. **Nous vous recommandons de tester les options de partage d'écran avant que les participants rentrent dans la salle Zoom**.
+
+Pour plus d'informations sur le partage d'écran, veuillez consulter cette [page d'aide](https://athelp.sfsu.edu/hc/en-us/articles/360044278334-Sharing-your-screen-in-Zoom).
+
+### Vie privée
+
+Si vous souhaitez cacher votre arrière-plan pendant que vous présentez l'atelier, n'hésitez pas à utiliser un [arrière-plan virtuel](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) dans Zoom. Veuillez vous assurer que l'arrière-plan n'est pas une distraction, ne masque pas votre visage et respecte notre code de conduite.
+
+### Gestion du "Chat"
+
+**L'assistant de l'atelier doit garder un œil sur le "Chat" autant que possible**. Préparez-vous à répondre aux questions des participants et à vérifier comment ils se sentent, par exemple en leur demandant périodiquement s'ils aimeraient faire une courte pause, s'ils ont besoin de plus de temps pour faire des exercices ou s'ils veulent plus d'explications. Veuillez noter que vous pouvez choisir d'envoyer un message à **tout le monde** ou de discuter avec un participant spécifique **en privé**.
+
+Si un participant a des difficultés avec l'atelier et a besoin d'une aide supplémentaire, **l'assistant amener ce participant (ou plusieurs participants) dans une salle de réunion pour fournir des explications plus complètes et/ou du dépannage**. Voir les informations sur les salles de réunion ci-dessous.
+
+**Veuillez enregistrer le Chat, si possible, et le partager avec les participants lorsque vous les contacterez après l'atelier.**
+
+### Retours non verbaux
+
+Vous pouvez également demander des retours non verbaux à votre public par le biais de [Réactions](https://support.zoom.us/hc/en-us/articles/360038311212-Meeting-reactions). C'est un excellent moyen de faire le point avec les participants et de demander une Réaction spécifique si les informations ne sont pas claires, ou si ils ont terminé un exercice. Il existe [des fonctionnalités supplémentaires de retours](https://www.pitzer.edu/information-technology/services/zoom/manage-participants/) dans le panel **Participants**, notamment **Raise Hand**, **Oui** et **Non**, entre autres.
+
+N'hésitez pas à utiliser la fonctionnalité avec laquelle vous êtes le plus à l'aise, mais veillez à expliquer comment accéder à ces fonctionnalités dans la section "Bienvenue" de l'atelier.
+
+### Sondages
+
+Certains des exercices de l'atelier sont conçus sous forme de simples sondages. Pour les ateliers à distance, ces sondages seront effectués sur Zoom.
+
+**Veuillez préparer les sondages avant le début de l'atelier**, afin d'assurer le bon déroulement des exercices. Les questions et réponses des sondages sont disponibles dans les [présentations](https://qcbsrworkshops.github.io/). Vous pouvez voir **comment créer et lancer des sondages dans Zoom [ici](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
+
+### Salles de conférence
+
+Certains des exercices de l'atelier sont conçus pour être effectués en groupe. Pour les ateliers à distance, ces exercices de groupe auront lieu dans des salles de conférence ("Breakout Rooms").
+
+**Veuillez noter que par défaut, l'hôte de la réunion est la seule personne qui peut assigner des participants aux salles de conférence**, et le premier présentateur à entrer dans la salle sera assigné comme hôte. Gardez cela en tête, et entrez dans la salle en premier (c'est-à-dire en avance!) si vous êtes responsable des salles de conférence.
+
+#### Création de salles de conférence
+
+1.  Vous devriez voir l'option pour les **salles de conférence ("Breakout Rooms")** en bas à droite de votre barre d'outils **Zoom**. Cliquez sur ce bouton.
+
+2.  Vous verrez une **fenêtre pop-up dans laquelle vous pouvez assigner des participants à un certain nombre de salles, que vous pouvez définir vous-même**. En bas de cette fenêtre, vous trouverez une estimation du nombre de participants par salle, basée sur le nombre de salles. Essayez de choisir un nombre de salles qui donne **3 à 5 personnes par salle**. Cochez la case "Automatiquement" pour que Zoom assigne arbitrairement les participants aux salles de conférence.
+
+3.  Une fois que les participants sont assignés aux salles de conférence, cliquez sur le bouton **""Start All Sessions"**.
+
+#### Communication avec les participants
+
+Veuillez noter que les **participants ne peuvent pas accéder au Chat une fois qu'ils sont dans les salles de conférence**. Si vous avez des informations à communiquer, telles que les objectifs de l'exercice ou des liens, veuillez le faire avant d'ouvrir les salles de conférence. Il est également conseillé de préciser aux participants le temps que vous leur accordez pour l'exercice avant qu'ils se joignent à leur salle.
+
+Vous pouvez communiquer avec les participants dans les salles de conférence en **diffusant un message à tous ("Broadcast message to all")**, qui est un bouton dans le panneau des salles de conférence qui est à la disposition de la personne qui a créé les salles.
+
+Les hôtes et co-hôtes peuvent également se joindre à des salles de conférence individuelles pour se renseigner sur les différents groupes, si vous le souhaitez [(instructions ici)](https://elearning.uq.edu.au/guides/virtual-classroom/moving-between-breakout-rooms).
+
+#### Fermer les salles de conférence
+
+4.  Cliquez sur le bouton **"Stop All Sessions"** dans le panneau des salles de conférence qui est à la disposition de la personne qui a créé les salles.
+
+Pour plus d'informations sur la mise en place des salles de conférence, reportez-vous à ce [guide visuel](http://web5.lib.pacificu.edu/zoom/how-to-use-breakout-rooms/) et au [guide de Zoom](https://support.zoom.us/hc/en-us/articles/206476313).
+
 ## Contribuer à ces directives
 
 Avez-vous des suggestions concernant ces directives? Veuillez [créer un numéro](https://github.com/QCBSRworkshops/presenter-developer-protocol/issues) et nous aider à améliorer ce matériel !
