@@ -18,49 +18,49 @@ At the end of the workshop, presenters and assistants should thank the participa
 
 Suggestions for workshop schedules for Workshops 1 to 5:
 
-|     Blocks    |  Workshop 1    | Workshop 2 |  Workshop 3 | Workshop 4 | Workshop 5 |
-| -------------:|:-------------:| ----------:|:-------------:| ----------:| ----------:|
-| Welcome and check-in | 5 minutes   |    5 minutes       | 5 minutes  | 5 minutes | 5 minutes |
-| Lecture block | 85 minutes   |    85 minutes       | 85 minutes       |    85 minutes      | 55 minutes  |
-| Pause  | 60 minutes      |    60 minutes      |60 minutes      |    60 minutes      | 30 minutes |
-| Lecture block | 85 minutes   |    85 minutes       | 85 minutes       |    85 minutes      | 85 minutes  |
-| Pause  | *Not applic.* |    *Not applic.*      | *Not applic.*  |    *Not applic.*  | 30 minutes |
-| Lecture block | *Not applic.*   |    *Not applic.*       | *Not applic.*  | *Not applic.* | 55 minutes  |
-| Wrap-up and exit | 5 minutes   |    5 minutes       | 5 minutes  | 5 minutes | 5 minutes  |
+|                Blocks|   Workshop 1  |     Workshop 2|   Workshop 3  |     Workshop 4|  Workshop 5|
+|---------------------:|:-------------:|--------------:|:-------------:|--------------:|-----------:|
+|  Welcome and check-in|   5 minutes   |      5 minutes|   5 minutes   |      5 minutes|   5 minutes|
+|         Lecture block|   85 minutes  |     85 minutes|   85 minutes  |     85 minutes|  55 minutes|
+|                 Pause|   60 minutes  |     60 minutes|   60 minutes  |     60 minutes|  30 minutes|
+|         Lecture block|   85 minutes  |     85 minutes|   85 minutes  |     85 minutes|  85 minutes|
+|                 Pause| *Not applic.* |  *Not applic.*| *Not applic.* |  *Not applic.*|  30 minutes|
+|         Lecture block| *Not applic.* |  *Not applic.*| *Not applic.* |  *Not applic.*|  55 minutes|
+|      Wrap-up and exit|   5 minutes   |      5 minutes|   5 minutes   |      5 minutes|   5 minutes|
 
 ## General guidelines
 
 During the day of the workshop, both workshop instructors and assistants must:
 
-1. Arrive *at least* 15 minutes before the beginning of your workshop to prepare the presentation room and project your presentation. 
+1.  Arrive *at least* 15 minutes before the beginning of your workshop to prepare the presentation room and project your presentation.
 
-* For remote workshops, please open the meeting room early (along with the presentation, wiki and RStudio) and check-in with your co-presenter before participants arrive;
+-   For remote workshops, please open the meeting room early (along with the presentation, wiki and RStudio) and check-in with your co-presenter before participants arrive;
 
-2. Take attendance;
+2.  Take attendance;
 
-3. Collect receipts from non-members;
+3.  Collect receipts from non-members;
 
-4. Start your presentation **on time**.
+4.  Start your presentation **on time**.
 
 ## Presenting guidelines
 
-1. Instructors should consider themselves students during the learning process, and be thoughtful on their method of delivery and communication, and how it affects student learning;
+1.  Instructors should consider themselves students during the learning process, and be thoughtful on their method of delivery and communication, and how it affects student learning;
 
-2. Instructors must come to workshop prepared to instruct the workshop material, as well as to respond to relevant questions related to the workshop; 
+2.  Instructors must come to workshop prepared to instruct the workshop material, as well as to respond to relevant questions related to the workshop;
 
-3. Instructors should **not** only read the presentation during a workshop;
+3.  Instructors should **not** only read the presentation during a workshop;
 
-4. Even during remote instructions, it is important that instructors maintain social presence in the learning process. Instructors should provide feedback, communicate regularly, model participation, and create an inviting tone;
+4.  Even during remote instructions, it is important that instructors maintain social presence in the learning process. Instructors should provide feedback, communicate regularly, model participation, and create an inviting tone;
 
-5. Online quizzes have been shown to be more effective than other online learning experiences, such as assigning homework (Ibid). Thus, be sure to allocate time and execute these quizzes whenever suggested by the workshop material;
+5.  Online quizzes have been shown to be more effective than other online learning experiences, such as assigning homework (Ibid). Thus, be sure to allocate time and execute these quizzes whenever suggested by the workshop material;
 
-6. Stimulate collaboration whenever possible. Students engaged in a directed, social learning experience learn better, as opposed to isolated learning;
+6.  Stimulate collaboration whenever possible. Students engaged in a directed, social learning experience learn better, as opposed to isolated learning;
 
-7. When introducing yourselves, give a short summary about what you do and how do you apply the content workshop in your work;
+7.  When introducing yourselves, give a short summary about what you do and how do you apply the content workshop in your work;
 
-8. Do a quick survey of your students to see how much experience they have with the workshop topic. This is a great activity that can help you engage with participants, allow them to discuss with each other, help you cater part of your workshop to your audience, inform your delivery speed, and the amount of time you set aside to work through exercises;
+8.  Do a quick survey of your students to see how much experience they have with the workshop topic. This is a great activity that can help you engage with participants, allow them to discuss with each other, help you cater part of your workshop to your audience, inform your delivery speed, and the amount of time you set aside to work through exercises;
 
-9. Regularly ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the Chat and raise their hand in Zoom;
+9.  Regularly ask participants if they have recurring questions about the content, and allow them to be addressed. Reassure attendants that they can raise their hands and pose questions to you during the workshop. If the workshop is remote, make sure students understand how to use the Chat and raise their hand in Zoom;
 
 10. Whenever asking questions to participants, it is a good practice to not only request responses from volunteers, but to "point" or "name" someone to respond to your question.
 
@@ -68,15 +68,15 @@ During the day of the workshop, both workshop instructors and assistants must:
 
 Whenever you take the role as an assistant during the workshops, you should:
 
-1. Be attentive and prepared to mute participants that have inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
+1.  Be attentive and prepared to mute participants that have inadvertently left their microphones turned on and that are making noises that are interfering with the workshop instruction;
 
-2. Communicate with participants through the Chat with subjects related to the workshop;
+2.  Communicate with participants through the Chat with subjects related to the workshop;
 
-3. Respond to any questions that participants may publicly or privately pose within Zoom;
+3.  Respond to any questions that participants may publicly or privately pose within Zoom;
 
-4. Assist and stimulate discussion within Breakout Rooms by giving discussion points and tips, either before opening the Breakout Rooms, or by sending a "broadcast" message to participants within the rooms;
+4.  Assist and stimulate discussion within Breakout Rooms by giving discussion points and tips, either before opening the Breakout Rooms, or by sending a "broadcast" message to participants within the rooms;
 
-5. Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
+5.  Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
 ## Presenter mode {#presenter-mode}
 
@@ -102,18 +102,19 @@ If you would like to hide your background while you are presenting the workshop,
 
 If a participant is having trouble with the workshop and needs additional help, **the assistant can pull this participant (or several participants) into a Breakout Room to provide more thorough explanations and troubleshooting**. See information about Breakout Rooms below.
 
+**Please save the Zoom chat, if possible, and share it with the participants when you contact them after the workshop.**
+
 ### Non-verbal feedback
 
-You can also ask for nonverbal feedback from your audience through [Reactions](https://support.zoom.us/hc/en-us/articles/360038311212-Meeting-reactions). This is a great way to check in with workshop participants and ask for a specific Reaction if things are unclear, or if they are finished with an exercise. There are [additional feedback features](https://www.pitzer.edu/information-technology/services/zoom/manage-participants/) in the **Participants** panel, including **Raise Hand**, **yes**, and **no**, among others. 
+You can also ask for nonverbal feedback from your audience through [Reactions](https://support.zoom.us/hc/en-us/articles/360038311212-Meeting-reactions). This is a great way to check in with workshop participants and ask for a specific Reaction if things are unclear, or if they are finished with an exercise. There are [additional feedback features](https://www.pitzer.edu/information-technology/services/zoom/manage-participants/) in the **Participants** panel, including **Raise Hand**, **yes**, and **no**, among others.
 
 Feel free to use whichever feature you are most comfortable with, but please ensure that you explain how to access these features during the Welcome section of the workshop.
 
 ### Polls
 
-Some of the workshop exercises are designed as simple polls. For remote workshops, these polls will be set up in Zoom. 
+Some of the workshop exercises are designed as simple polls. For remote workshops, these polls will be set up in Zoom.
 
 **Please set up the polls before the workshop begins**, to ensure the exercises run smoothly. Poll questions and answers are available in the [presentations](https://qcbsrworkshops.github.io/). You can review **how to create and launch polls in Zoom [here](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
-
 
 ### Breakout Rooms
 
@@ -121,26 +122,27 @@ Some of the workshop exercises are designed to be done in groups. For remote wor
 
 **Please note that by default, the meeting host is the only person who can assign participants to Breakout Rooms**, and the first presenter to enter the room will be assigned as host. Please keep this in mind, and enter the room first (i.e. early!) if you are in charge of Breakout Rooms.
 
-**To create Breakout Rooms**
+#### Creating Breakout Rooms
 
-1. You should see the option for Breakout Rooms on the lower right side of your **Zoom toolbar**. Click this button.
+1.  You should see the option for Breakout Rooms on the lower right side of your **Zoom toolbar**. Click this button.
 
-2. You will see a **pop-up window where you can assign participants to certain number of rooms, which you can set yourself**. At the bottom of this window, there is an estimated number of participants per room, based on the number of rooms. Try to choose a number of rooms that results in **3 to 5 people per room**. Keep the assignment process check-marked as "Automatically", so Zoom arbitrarily assigns participants to Breakout Rooms. 
+2.  You will see a **pop-up window where you can assign participants to certain number of rooms, which you can set yourself**. At the bottom of this window, there is an estimated number of participants per room, based on the number of rooms. Try to choose a number of rooms that results in **3 to 5 people per room**. Keep the assignment process check-marked as "Automatically", so Zoom arbitrarily assigns participants to Breakout Rooms.
 
-3. Once participants are assigned to Breakout Rooms, click the **"Start All Sessions"** button. 
+3.  Once participants are assigned to Breakout Rooms, click the **"Start All Sessions"** button.
 
-**Communicating with participants in Breakout Rooms**
+#### Communicating with participants in Breakout Rooms
 
 Please note that **participants cannot access the Chat once they are in Breakout Rooms**. If you have information to communicate, such as the exercise objectives or links, please do so before you open the Breakout Rooms. It is also a good idea to let people know how much time you are giving them for the exercise before they join their rooms.
 
 You can communicate with participants in the Breakout Rooms by **broadcasting a message to all**, which is a button within the Breakout Rooms panel that is available to the person who has created the rooms.
 
-**To close Breakout Rooms**
+Hosts and co-hosts can also join individual Breakout Rooms to check in on different groups, if you choose to do so [(instructions here)](https://elearning.uq.edu.au/guides/virtual-classroom/moving-between-breakout-rooms).
 
-4. Click the **"Stop All Sessions"** button in the Breakout Rooms panel that is available to the person who has created the rooms.
+#### Closing Breakout Rooms
+
+4.  Click the **"Stop All Sessions"** button in the Breakout Rooms panel that is available to the person who has created the rooms.
 
 For more information about setting up Breakout Rooms, refer yourself to this [visual guide](http://web5.lib.pacificu.edu/zoom/how-to-use-breakout-rooms/) and to [Zoom's guide](https://support.zoom.us/hc/en-us/articles/206476313).
-
 
 ## Contributing to these guidelines
 
