@@ -32,7 +32,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 3. Read the [code of conduct](#codeofconduct-en).
 
-4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share your screen; (ii) how to initiate and end breakout rooms; (iii) how to create and launch polls; (iiii) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf). We have provided additional detailed guidelines for these tasks [here](#zoom-guidelines).
+4. **For remote workshops**: Familiarize yourself with Zoom before your workshop. For example, you should know: (i) how to share your screen; (ii) how to initiate and end breakout rooms; (iii) how to create and launch polls; (iv) and [what tools are available for interacting with students](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf). We have provided additional detailed guidelines for these tasks [here](#zoom-guidelines).
 
 ### One week before the workshop
   
