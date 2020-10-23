@@ -80,11 +80,11 @@ Whenever you take the role as an assistant during the workshops, you should:
 
 ## Presenter mode {#presenter-mode}
 
-Entering presenter mode, allows you to view presentation notes while giving your instruction. To enter presenter mode, use the keyboard shortcut `P`.
+Entering presenter mode allows you to view presentation notes while giving your instruction. To enter presenter mode, use the keyboard shortcut `P`.
 
 ## Zoom guidelines {#zoom-guidelines}
 
-Running a workshop through Zoom might not be within every presenter's comfort zone. Here are some guidelines to help with the process of using Zoom to create a (hopefully!) technically smooth and interactive workshop experience.
+Running a workshop through Zoom might not be within every presenter's comfort zone. Here are some guidelines to help with the process of using Zoom to create a (hopefully!) technologically smooth and interactive workshop experience.
 
 ### Sharing your screen
 
