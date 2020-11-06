@@ -36,7 +36,9 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 ### One week before the workshop
   
-1. Obtain the most [up-to-date list]() of registered participants for your workshop.
+1. Obtain the most up-to-date list of registered participants for your workshop using the code sent to you when you were recruited.
+
+* *NOTE:* Remember that for the remote workshops, the `location` argument you have to use is `"Online"`.
 
 2. Send the *standardized message* below to all participants, replacing the fields when required.
 
