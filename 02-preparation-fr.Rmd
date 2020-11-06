@@ -39,7 +39,9 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 ### Une semaine avant l'atelier
   
-1. Obtenez la [liste à jour]() des participants inscrits à votre atelier.
+1. Obtenez la liste à jour des participants inscrits à votre atelier en utilisant le code qui vous a été envoyé lors de votre recrutement.
+
+* *NOTE:* Souvenez-vous que pour les ateliers en ligne, vous devez utiliser l'option `"En_ligne"` pour l'argument `location`.
 
 2. Envoyez le *message standardisé* ci-dessous à tous les participants, en remplaçant les champs si nécessaire.
 
