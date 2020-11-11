@@ -10,9 +10,10 @@ structure-de-latelier
 directives-générales
 directives-pour-la-présentation
 directives-pour-lassistance
+aide-presentation
 mode-presentateur
 conseils-zoom
-partage-décran
+partager-votre-écran-ou-une-fenêtre-spécifique
 vie-privée
 gestion-du-chat
 retours-non-verbaux
@@ -48,9 +49,10 @@ workshop-structure
 general-guidelines
 presenting-guidelines
 assisting-guidelines
+presentation-help
 presenter-mode
 zoom-guidelines
-sharing-your-screen
+sharing-your-screen-or-a-specific-window
 privacy
 moderating-the-chat
 non-verbal-feedback

@@ -78,17 +78,31 @@ Quand vous assumez le rôle d'assistant ou d'assistante pendant les ateliers :
 
 5. Prenez les présences, et contactez les participants non-inscrits pour leur demander de s'inscrire immédiatement à l'atelier. **Tous les participants doivent être inscrits** ;
 
-## Mode présentateur {#mode-presentateur}
 
-Entrer en mode présentateur vous permet de voir les notes de présentation tout en donnant votre instruction. Pour entrer en mode présentateur, utilisez le raccourci clavier `P`.
+## Aide à la présentation {#aide-presentation}
 
-## Conseils pour Zoom {#conseils-zoom}
+Vous pouvez accéder à l'option d'aide à la présentation en ouvrant une présentation et en appuyant sur `H` ou `?`. 
 
-Animer un atelier sur Zoom n'est peut-être pas dans votre zone de confort. Voici quelques conseils pour vous aider à créer une expérience interactive et (espérons-le!) technologiquement fluide sur Zoom.
+## Presenter mode {#mode-presentateur}
 
-### Partage d'écran
+Le mode présentateur vous permet de visualiser les notes de présentation tout en donnant vos instructions. Pour accéder au mode présentateur, vous devez :
 
-Par défaut, l'autorisation pour le partage d'écran est généralement accordée uniquement à l'hôte de la réunion. Vous pouvez toutefois attribuer des autorisations de partage à d'autres participants. **Nous vous recommandons de tester les options de partage d'écran avant que les participants rentrent dans la salle Zoom**.
+1. Ouvrir la présentation ; 
+2. Cloner la présentation en appuyant sur `c`. Une fois que vous aurez fait cela, vous remarquerez qu'une nouvelle fenêtre apparaîtra et que tout ce que les deux fenêtres imitent l'une de l'autre, *i.e.*. ce qui signifie que si vous changez de diapositive dans l'une des deux, l'autre changera ; 
+3. Entrer en mode présentateur dans l'une des fenêtres, en utilisant le raccourci clavier `p` ;
+4. Notez que vous devez partager la fenêtre clonée qui n'est *pas* en mode présentateur avec les participants. Les détails sur la façon de procéder sont expliqués ci-dessous.   
+
+## Directives pour Zoom {#conseils-zoom}
+
+Organiser un atelier par Zoom n'est peut-être pas dans la zone de confort de chaque présentateur ou présentatrice. Voici quelques conseils pour vous aider à utiliser Zoom afin de créer une expérience d'atelier interactive et technologiquement fluide.
+
+### Partager votre écran ou une fenêtre spécifique
+
+Par défaut, l'autorisation de "partage d'écran" n'est généralement accordée qu'à l'hôte de la réunion. Cependant, vous pouvez attribuer des autorisations de partage à d'autres participants. **Nous vous recommandons de tester les options de "Partage d'écran" avant que les participants n'entrent dans la salle Zoom**.
+
+Pour partager une fenêtre spécifique, cliquez sur le bouton **Partager l'écran** (en anglais, *Share Screen*) situé dans les commandes de votre réunion, et sélectionnez l'option **Fenêtre d'application spécifique** qui contient la présentation que vous allez partager avec les participants.
+
+Pour partager tout votre écran, cliquez sur le bouton **Partager l'écran** (en anglais, *Share Screen*) situé dans les commandes de votre réunion, et sélectionnez l'option **Bureau** (en anglais, *Desktop*) qui correspond à votre atelier.
 
 Pour plus d'informations sur le partage d'écran, veuillez consulter cette [page d'aide](https://athelp.sfsu.edu/hc/en-us/articles/360044278334-Sharing-your-screen-in-Zoom).
 

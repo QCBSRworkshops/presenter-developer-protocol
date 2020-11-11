@@ -20,13 +20,13 @@ Suggestions for workshop schedules for Workshops 1 to 5:
 
 |                Blocks|   Workshop 1  |     Workshop 2|   Workshop 3  |     Workshop 4|  Workshop 5|
 |---------------------:|:-------------:|--------------:|:-------------:|--------------:|-----------:|
-|  Welcome and check-in|   5 minutes   |      5 minutes|   5 minutes   |      5 minutes|   5 minutes|
-|         Lecture block|   85 minutes  |     85 minutes|   85 minutes  |     85 minutes|  55 minutes|
-|                 Pause|   60 minutes  |     60 minutes|   60 minutes  |     60 minutes|  30 minutes|
-|         Lecture block|   85 minutes  |     85 minutes|   85 minutes  |     85 minutes|  85 minutes|
-|                 Pause| *Not applic.* |  *Not applic.*| *Not applic.* |  *Not applic.*|  30 minutes|
-|         Lecture block| *Not applic.* |  *Not applic.*| *Not applic.* |  *Not applic.*|  55 minutes|
-|      Wrap-up and exit|   5 minutes   |      5 minutes|   5 minutes   |      5 minutes|   5 minutes|
+|  Welcome and check-in|   5 minutes   |      5 minutes|   5 minutes   |      5 minutes|   5 minutes  |
+|         Lecture block|   85 minutes  |     85 minutes|   85 minutes  |     55 minutes|  55 minutes  |
+|                 Pause|   60 minutes  |     60 minutes|   60 minutes  |     30 minutes|  30 minutes  |
+|         Lecture block|   85 minutes  |     85 minutes|   85 minutes  |     60 minutes|  85 minutes  |
+|                 Pause| *Not applic.* |  *Not applic.*| *Not applic.* |     30 minutes| *Not applic.*|
+|         Lecture block| *Not applic.* |  *Not applic.*| *Not applic.* |     55 minutes| *Not applic.*|
+|      Wrap-up and exit|   5 minutes   |      5 minutes|   5 minutes   |      5 minutes|   5 minutes  |
 
 ## General guidelines
 
@@ -78,17 +78,30 @@ Whenever you take the role as an assistant during the workshops, you should:
 
 5.  Take attendance, and reach out to non-registered participants to request them to immediately register to the workshop. **Everyone attending must be registered**;
 
+## Presentation help {#presentation-help}
+
+You can access the presentation help option by opening a presentation and pressing `H` or `?`. 
+
 ## Presenter mode {#presenter-mode}
 
-Entering presenter mode allows you to view presentation notes while giving your instruction. To enter presenter mode, use the keyboard shortcut `P`.
+Entering presenter mode allows you to view presentation notes while giving your instruction. To access presenter mode, you must:
+
+1. Open the presentation; 
+2. Clone the presentation by pressing `c`. Once you do this, you will notice that a new window will pop-up and that anything that both windows mimic each other, *i.e*. meaning that if you change the slide in one of the, the other will change;  
+3. Enter presenter mode in one of the windows, by using the keyboard shortcut `p`;
+4. Note that you must share the cloned window that is *not* in presenter mode to participants. The details on how to do this are explained below.   
 
 ## Zoom guidelines {#zoom-guidelines}
 
 Running a workshop through Zoom might not be within every presenter's comfort zone. Here are some guidelines to help with the process of using Zoom to create a (hopefully!) technologically smooth and interactive workshop experience.
 
-### Sharing your screen
+### Sharing your screen or a specific window
 
-By default, Share Screen permission is usually given only to the meeting host. However, you can assign sharing permissions to other participants. **We recommend testing out the Screen Sharing options before participants enter the Zoom room**.
+By default, "Share Screen" permission is usually given only to the meeting host. However, you can assign sharing permissions to other participants. **We recommend testing out the "Screen Sharing" options before participants enter the Zoom room**.
+
+To share a specific window, click the **Share Screen** button located in your meeting controls, and select the **Specific application window** option that contains the presentation you will share to participants.
+
+To share your entire screen, click the **Share Screen** button located in your meeting controls, and select the **Desktop** option that is relevant to your workshop.
 
 For more information about how to share your screen, please consult this [help page](https://athelp.sfsu.edu/hc/en-us/articles/360044278334-Sharing-your-screen-in-Zoom).
 

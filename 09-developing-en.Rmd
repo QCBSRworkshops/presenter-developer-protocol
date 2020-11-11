@@ -312,7 +312,7 @@ This section guides you through the process of contributing edits to QCBS R work
 
 ### Getting started
 
-The QCBS R Workshops are Rmarkdown presentations created using [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html), so the first step is to install the `R` package `xaringan`.
+The QCBS R Workshops presentations are written in `RMarkdown` using a template built on [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html). The first step is to install the `R` package `xaringan`.
 
 ```{r install-xaringan, eval=FALSE}
 if(!require(devtools)) install.packages('devtools')
