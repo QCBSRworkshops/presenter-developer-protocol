@@ -110,7 +110,7 @@ build_workshops(id =1, download = TRUE, pdf = TRUE, script = TRUE,  update_templ
 
 ## Presenter email
 
-`mail_workshop()` writes the email to be sent tow weeks before the workshop, for instance: 
+`mail_workshop()` writes the email to be sent two weeks before the workshop, for instance: 
 
 ```R
 # Mail for workshop #7
@@ -138,7 +138,7 @@ clean_workshops(files = FALSE, cache = TRUE)
 
 Second, it is possible to update the CSS template without rendering any presentation using `update_template()`. Similarly, it is possible to extract the R code without rendering a presentation using `extract_Rcode_workshop()`.
 
-Third, the first two slides (after the title slide) have now be standardized: it includes various hyperlinks (GitHub repository, wiki, PDF version, R script), and the list of package required (see for instance https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2). Those tow slides can be generated using `first_slides()`:
+Third, the first two slides (after the title slide) have now been standardized: it includes various hyperlinks (GitHub repository, wiki, PDF version, R script), and the list of package required (see for instance https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2). Those two slides can be generated using `first_slides()`:
 
 ```R 
 # the generate the first slides for the workshop 2 and copy the text to the clipboard
