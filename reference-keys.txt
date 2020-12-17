@@ -79,8 +79,7 @@ create-a-gh-pages-branch
 action-to-deploy-a-book
 prepare-book-with-bookdown-and-connect-to-github
 setting-up-the-github-action-yaml
-other-ways-to-contribute
-payment-en
+the-qcbsrworkshops-package
 installation
 download-a-workshop
 build-a-workshop
@@ -88,3 +87,5 @@ presenter-email
 functions-for-workshop-developers
 deployment
 contributing-to-the-package
+other-ways-to-contribute
+payment-en
