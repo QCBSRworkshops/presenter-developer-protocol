@@ -499,8 +499,8 @@ Note: Clearly show which arguments changed between the functions and what do the
 <div id="getting-started" class="section level3">
 <h3><span class="header-section-number">9.3.1</span> Getting started</h3>
 <p>The QCBS R Workshops presentations are written in <code>RMarkdown</code> using a template built on <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html">xaringan</a>. The first step is to install the <code>R</code> package <code>xaringan</code>.</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="developing-en.html#cb26-1"></a><span class="cf">if</span>(<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
-<span id="cb26-2"><a href="developing-en.html#cb26-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;yihui/xaringan&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="developing-en.html#cb26-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&quot;devtools&quot;</span>)</span>
+<span id="cb26-2"><a href="developing-en.html#cb26-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;yihui/xaringan&quot;</span>)</span></code></pre></div>
 <p>Secondly, you need to create a local copy of the repository for the workshop you will be working on, found <a href="https://github.com/QCBSRworkshops">here</a>. To do so, you can <a href="https://help.github.com/articles/cloning-a-repository/">clone the GitHub repository</a> on your computer.</p>
 <p>You can use the command line to do this (more details <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">here</a>):</p>
 <div class="sourceCode" id="cb27"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb27-1"><a href="developing-en.html#cb27-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
@@ -659,7 +659,7 @@ jobs:
         uses: r-lib/actions/setup-pandoc@v1
         
       - name: Install R dependencies
-        run: Rscript -e &#39;install.packages(c(&quot;rmarkdown&quot;,&quot;bookdown&quot;))&#39;
+        run: Rscript -e &#39;install.packages(c(&quot;rmarkdown&quot;,&quot;bookdown&quot;, &quot;formatR&quot;))&#39;
         
       - name: Render the book using bookdown
         run: Rscript -e &#39;bookdown::render_book(&quot;index.Rmd&quot;)&#39;
