@@ -8,6 +8,4 @@ Ce document regroupe les responsabilités des instructeurs, des instructrices, d
 
 ### Status
 
-[![QCBS-Presenter-Developer-Protocol Actions Status](https://github.com/QCBSRworkshops/
-presenter-developer-protocol/workflows/render-protocol-book/badge.svg)](https://github.com/QCBSRworkshops/
-presenter-developer-protocol/actions)
+[![QCBS-Presenter-Developer-Protocol Actions Status](https://github.com/QCBSRworkshops/presenter-developer-protocol/workflows/render-protocol-book/badge.svg)](https://github.com/QCBSRworkshops/presenter-developer-protocol/actions)
