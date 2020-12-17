@@ -1,12 +1,15 @@
-# don't push local rendered files in master branch
+# do not commit locally rendered files to master branch
 _book/
 _bookdown_files/
 libs/
 **/*.html 
+
 # ignore all html files except:
+
 !**/mathjax_header.html
-# R and Rstudio specific files
+
+# R and RStudio specific files
 .Rproj.user
 .Rhistory
 .RData
-.Ruserdata"
+.Ruserdata
