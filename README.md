@@ -5,3 +5,7 @@ This document brings together the responsibilities of QCBS R Workshop presenters
 # Protocole avec des directives pour présenter et développer des ateliers R du CSBQ
 
 Ce document regroupe les responsabilités des instructeurs, des instructrices, des développeurs et des développeuses des atelier R du CSBQ. Il vous guide à travers les tâches à effectuer avant, pendant et après les éditions et instructions des ateliers. Cela vous aidera également à completer les étapes pour recevoir votre prix.
+
+### Status
+
+[![QCBS-Presenter-Developer-Protocol Actions Status](https://github.com/QCBSRworkshops/presenter-developer-protocol/workflows/render-protocol-book/badge.svg)](https://github.com/QCBSRworkshops/presenter-developer-protocol/actions)
