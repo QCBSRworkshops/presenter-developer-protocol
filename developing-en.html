@@ -219,7 +219,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.3.1" data-path="developing-en.html"><a href="developing-en.html#getting-started"><i class="fa fa-check"></i><b>9.3.1</b> Getting started</a></li>
 <li class="chapter" data-level="9.3.2" data-path="developing-en.html"><a href="developing-en.html#github-workflow"><i class="fa fa-check"></i><b>9.3.2</b> GitHub workflow</a></li>
 </ul></li>
-<li class="chapter" data-level="9.4" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.4</b> Other ways to contribute</a></li>
+<li class="chapter" data-level="9.4" data-path="developing-en.html"><a href="developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>9.4</b> Managing the continuous integration workflow</a><ul>
+<li class="chapter" data-level="9.4.1" data-path="developing-en.html"><a href="developing-en.html#create-a-gh-pages-branch"><i class="fa fa-check"></i><b>9.4.1</b> Create a <code>gh-pages</code> branch</a></li>
+<li class="chapter" data-level="9.4.2" data-path="developing-en.html"><a href="developing-en.html#action-to-deploy-a-book"><i class="fa fa-check"></i><b>9.4.2</b> Action to deploy a book</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.5</b> Other ways to contribute</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>10</b> Receiving your award</a></li>
 </ul>
@@ -562,8 +566,145 @@ Note: Clearly show which arguments changed between the functions and what do the
 </ol>
 </div>
 </div>
+<div id="managing-the-continuous-integration-workflow" class="section level2">
+<h2><span class="header-section-number">9.4</span> Managing the continuous integration workflow</h2>
+<p><em>Under construction.</em></p>
+<p>The current deployment of the workshop material follows a continuous integration (CI) workflow. This workflow automatically tests and builds the code that workshop developers push to the repositories.</p>
+<p>Current implementation uses Travis CI and is projected to be shifted towards Github Actions.</p>
+<p>In a shell, inside each repository there is a <code>.github/workflows/</code> directory that holds <code>YAML</code> files that contain a workflow recipe that tells Github Actions what to run and when to run it.</p>
+<p>Below, we will show how to create actions to deploy books built using <code>bookdown</code> (such as this oen and the one for the upcoming workshop material) and to deploy presentations built using <code>rmarkdown</code>.</p>
+<div id="create-a-gh-pages-branch" class="section level3">
+<h3><span class="header-section-number">9.4.1</span> Create a <code>gh-pages</code> branch</h3>
+<p>We begin by creating and preparing a <code>gh-pages</code> branch inside a repository that is already created. Run the line below to create and checkout the <code>gh-pages</code> branch:</p>
+<pre><code>git checkout --orphan gh-pages</code></pre>
+<p>Then, remove all files within the <code>gh-pages</code> branch:</p>
+<pre><code>git rm -rf .</code></pre>
+<p>And create an empty commit inside the <code>gh-pages</code> branch:</p>
+<pre><code>git commit --allow-empty -m &#39;Initial gh-pages commit&#39;</code></pre>
+<p>Then, push changes and get back to the <code>main</code> or <code>master</code> branch:</p>
+<pre><code>git push origin gh-page
+git checkout master</code></pre>
+</div>
+<div id="action-to-deploy-a-book" class="section level3">
+<h3><span class="header-section-number">9.4.2</span> Action to deploy a book</h3>
+<div id="prepare-book-with-bookdown-and-connect-to-github" class="section level4">
+<h4><span class="header-section-number">9.4.2.1</span> Prepare book with <code>bookdown</code> and connect to Github</h4>
+<p>Prior to creating this action, it is assumed that <code>R</code> and <code>RStudio</code> have been installed and area working, and that:</p>
+<ol style="list-style-type: decimal">
+<li>The <code>R</code> package <code>bookdown</code> is installed and working;</li>
+</ol>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="developing-en.html#cb38-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">requireNamespace</span>(<span class="st">&quot;devtools&quot;</span>)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
+<span id="cb38-2"><a href="developing-en.html#cb38-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;rstudio/bookdown&#39;</span>)</span></code></pre></div>
+<ol start="2" style="list-style-type: decimal">
+<li>A <code>bookdown</code> RStudio project has been rendered (<code>bookdown::serve_book()</code>) to a local directory of your liking. You can use the code below to do it using the prompt. Remember to replace the fields <code>&lt;&gt;</code> with the relevant information (<code>&lt;&gt;</code> inclusive).</li>
+</ol>
+<pre><code># Make new project directory
+mkdir &lt;nameofyourdirectory&gt;
+cd &lt;nameofyourdirectory&gt;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>A <code>.gitignore</code> file has been created within the root directory of the local directory and the repository with these basic settings:</li>
+</ol>
+<pre><code># do not commit locally rendered files to the master or main branch
+
+_book/
+_bookdown_files/
+libs/
+**/*.bib
+**/*.html 
+
+# ignore all html files except:
+!**/mathjax_header.html
+
+# ignore R and RStudio specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>A repository is added to Github and a commit is pushed to the <code>main</code> or <code>master</code> branch, as below:</li>
+</ol>
+<pre><code># Connect to Github repository
+git remote add git@github.com:&lt;username&gt;/&lt;repository-name&gt;.git
+
+# Replace your GitHub user name within &lt;username&gt; and the intended repository name within &lt;repository-name&gt;.
+
+
+# Push to master (or to main; change if needed)
+git push origin master</code></pre>
+</div>
+<div id="setting-up-the-github-action-yaml" class="section level4">
+<h4><span class="header-section-number">9.4.2.2</span> Setting up the Github Action YAML</h4>
+<p>Now, you can set the Github workflow YAML file named <code>deploy_bookdown.yml</code> within the repository’s <code>.github/workflows/</code> directory. The current setting should follow as below:</p>
+<pre><code>on:
+  push:
+     branches:
+       - master
+
+  
+
+name: renderbook
+
+jobs:
+  bookdown:
+    name: Render-Book
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+
+      - name: Setup R  
+        uses: r-lib/actions/setup-r@v1
+      
+      - name: Install pandoc and pandoc citeproc
+        uses: r-lib/actions/setup-pandoc@v1
+        
+      - name: Install R dependencies
+        run: Rscript -e &#39;install.packages(c(&quot;rmarkdown&quot;,&quot;bookdown&quot;))&#39;
+        
+      - name: Render the book using bookdown
+        run: Rscript -e &#39;bookdown::render_book(&quot;index.Rmd&quot;)&#39;
+        
+      - uses: actions/upload-artifact@v1
+        with:
+          name: _book
+          path: _book/
+  
+# Need to first create an empty gh-pages branch
+# see https://pkgdown.r-lib.org/reference/deploy_site_github.html
+# and also add secrets for a GH_PAT and EMAIL to the repository
+# gh-action from Cecilapp/GitHub-Pages-deploy
+
+  checkout-and-deploy:
+   runs-on: ubuntu-latest
+   needs: bookdown
+   steps:
+     - name: Checkout to master
+       uses: actions/checkout@master
+       
+     - name: Download artifact
+       uses: actions/download-artifact@v1.0.0
+       with:
+         # Artifact name
+         name: _book # optional
+         # Destination path
+         path: _book # optional
+
+     - name: Deploy to GitHub Pages
+       uses: Cecilapp/GitHub-Pages-deploy@3.0.0
+       env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       with:
+         email: ${{ secrets.EMAIL }}
+         build_dir: _book       # &quot;_site/&quot; by default</code></pre>
+<blockquote>
+<p>Note that the <code>GITHUB_TOKEN</code> and <code>EMAIL</code> are <em>Secrets</em> that have already been set within this repository’s settings. Changing these settings might prevent the commit from being deployed.</p>
+</blockquote>
+<p>The final step should be to push this repository and expect that the verification works! If anything goes wrong, contact the organizers of the workshop series with a clear message indicating the issue you are having!</p>
+</div>
+</div>
+</div>
 <div id="other-ways-to-contribute" class="section level2">
-<h2><span class="header-section-number">9.4</span> Other ways to contribute</h2>
+<h2><span class="header-section-number">9.5</span> Other ways to contribute</h2>
 <p>If you are not comfortable with GitHub, you can still help us improve the workshops!</p>
 <p>If you notice any mistakes or inconsistencies, or if you would like to make a suggestion, either in form or in content, you are invited to open an <a href="https://help.github.com/articles/about-issues/">issue</a>. You can follow these simple steps to create a new <a href="https://help.github.com/articles/creating-an-issue/">issue</a>.</p>
 

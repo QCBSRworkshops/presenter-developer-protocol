@@ -74,5 +74,10 @@ individual-exercise
 how-to-develop-workshops
 getting-started
 github-workflow
+managing-the-continuous-integration-workflow
+create-a-gh-pages-branch
+action-to-deploy-a-book
+prepare-book-with-bookdown-and-connect-to-github
+setting-up-the-github-action-yaml
 other-ways-to-contribute
 payment-en
