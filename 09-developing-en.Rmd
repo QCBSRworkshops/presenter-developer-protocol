@@ -439,13 +439,13 @@ git rm -rf .
 And create an empty commit inside the `gh-pages` branch:
 
 ```
-git commit --allow-empty -m 'Initial gh-pages commit'
+git commit --allow-empty -m "Initial gh-pages commit"
 ```
 
 Then, push changes and get back to the `main` or `master` branch:
 
 ```
-git push origin gh-page
+git push origin gh-pages
 git checkout master
 ```
 
