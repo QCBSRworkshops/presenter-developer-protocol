@@ -24,7 +24,7 @@
 <meta name="author" content="QCBS R Workshop Series" />
 
 
-<meta name="date" content="2021-01-12" />
+<meta name="date" content="2021-01-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="presentation-en.html"/>
-<link rel="next" href="payment-en.html"/>
+<link rel="next" href="advanced-developing-en.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -219,14 +219,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.3.1" data-path="developing-en.html"><a href="developing-en.html#getting-started"><i class="fa fa-check"></i><b>9.3.1</b> Getting started</a></li>
 <li class="chapter" data-level="9.3.2" data-path="developing-en.html"><a href="developing-en.html#github-workflow"><i class="fa fa-check"></i><b>9.3.2</b> GitHub workflow</a></li>
 </ul></li>
-<li class="chapter" data-level="9.4" data-path="developing-en.html"><a href="developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>9.4</b> Managing the continuous integration workflow</a><ul>
-<li class="chapter" data-level="9.4.1" data-path="developing-en.html"><a href="developing-en.html#create-a-gh-pages-branch"><i class="fa fa-check"></i><b>9.4.1</b> Create a <code>gh-pages</code> branch</a></li>
-<li class="chapter" data-level="9.4.2" data-path="developing-en.html"><a href="developing-en.html#action-to-deploy-a-book"><i class="fa fa-check"></i><b>9.4.2</b> Action to deploy a book</a></li>
+<li class="chapter" data-level="9.4" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.4</b> Other ways to contribute</a></li>
 </ul></li>
-<li class="chapter" data-level="9.5" data-path="developing-en.html"><a href="developing-en.html#the-qcbsrworkshops-package"><i class="fa fa-check"></i><b>9.5</b> The <code>qcbsRworkshops</code> package</a></li>
-<li class="chapter" data-level="9.6" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.6</b> Other ways to contribute</a></li>
+<li class="chapter" data-level="10" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html"><i class="fa fa-check"></i><b>10</b> Advanced Developing</a><ul>
+<li class="chapter" data-level="10.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-templates"><i class="fa fa-check"></i><b>10.1</b> Changing the templates</a><ul>
+<li class="chapter" data-level="10.1.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-presentation-template"><i class="fa fa-check"></i><b>10.1.1</b> Changing the presentation template</a></li>
+<li class="chapter" data-level="10.1.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-book-template"><i class="fa fa-check"></i><b>10.1.2</b> Changing the book template</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>10</b> Receiving your award</a></li>
+<li class="chapter" data-level="10.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>10.2</b> Managing the continuous integration workflow</a><ul>
+<li class="chapter" data-level="10.2.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#github-action-workflow-structure"><i class="fa fa-check"></i><b>10.2.1</b> Github Action workflow structure</a></li>
+<li class="chapter" data-level="10.2.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#workflow-description"><i class="fa fa-check"></i><b>10.2.2</b> Workflow description</a></li>
+<li class="chapter" data-level="10.2.3" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#create-a-gh-pages-branch"><i class="fa fa-check"></i><b>10.2.3</b> Create a <code>gh-pages</code> branch</a></li>
+<li class="chapter" data-level="10.2.4" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#action-to-deploy-a-book"><i class="fa fa-check"></i><b>10.2.4</b> Action to deploy a book</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#the-qcbsrworkshops-package"><i class="fa fa-check"></i><b>10.3</b> The <code>qcbsRworkshops</code> package</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>11</b> Receiving your award</a></li>
 </ul>
 
       </nav>
@@ -567,265 +575,8 @@ Note: Clearly show which arguments changed between the functions and what do the
 </ol>
 </div>
 </div>
-<div id="managing-the-continuous-integration-workflow" class="section level2">
-<h2><span class="header-section-number">9.4</span> Managing the continuous integration workflow</h2>
-<p><em>Under construction.</em></p>
-<p>The current deployment of the workshop material follows a continuous integration (CI) workflow. This workflow automatically tests and builds the code that workshop developers push to the repositories.</p>
-<p>Current implementation uses Travis CI and is projected to be shifted towards Github Actions.</p>
-<p>In a shell, inside each repository there is a <code>.github/workflows/</code> directory that holds <code>YAML</code> files that contain a workflow recipe that tells Github Actions what to run and when to run it.</p>
-<p>Below, we will show how to create actions to deploy books built using <code>bookdown</code> (such as this oen and the one for the upcoming workshop material) and to deploy presentations built using <code>rmarkdown</code>.</p>
-<div id="create-a-gh-pages-branch" class="section level3">
-<h3><span class="header-section-number">9.4.1</span> Create a <code>gh-pages</code> branch</h3>
-<p>We begin by creating and preparing a <code>gh-pages</code> branch inside a repository that is already created. Run the line below to create and checkout the <code>gh-pages</code> branch:</p>
-<pre><code>git checkout --orphan gh-pages</code></pre>
-<p>Then, remove all files within the <code>gh-pages</code> branch:</p>
-<pre><code>git rm -rf .</code></pre>
-<p>And create an empty commit inside the <code>gh-pages</code> branch:</p>
-<pre><code>git commit --allow-empty -m &quot;Initial gh-pages commit&quot;</code></pre>
-<p>Then, push changes and get back to the <code>main</code> or <code>master</code> branch:</p>
-<pre><code>git push origin gh-pages
-git checkout master</code></pre>
-</div>
-<div id="action-to-deploy-a-book" class="section level3">
-<h3><span class="header-section-number">9.4.2</span> Action to deploy a book</h3>
-<div id="prepare-book-with-bookdown-and-connect-to-github" class="section level4">
-<h4><span class="header-section-number">9.4.2.1</span> Prepare book with <code>bookdown</code> and connect to Github</h4>
-<p>Prior to creating this action, it is assumed that <code>R</code> and <code>RStudio</code> have been installed and area working, and that:</p>
-<ol style="list-style-type: decimal">
-<li>The <code>R</code> package <code>bookdown</code> is installed and working;</li>
-</ol>
-<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="developing-en.html#cb38-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">requireNamespace</span>(<span class="st">&quot;devtools&quot;</span>)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
-<span id="cb38-2"><a href="developing-en.html#cb38-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;rstudio/bookdown&#39;</span>)</span></code></pre></div>
-<ol start="2" style="list-style-type: decimal">
-<li>A <code>bookdown</code> RStudio project has been rendered (<code>bookdown::serve_book()</code>) to a local directory of your liking. You can use the code below to do it using the prompt. Remember to replace the fields <code>&lt;&gt;</code> with the relevant information (<code>&lt;&gt;</code> inclusive).</li>
-</ol>
-<pre><code># Make new project directory
-mkdir &lt;nameofyourdirectory&gt;
-cd &lt;nameofyourdirectory&gt;</code></pre>
-<ol start="3" style="list-style-type: decimal">
-<li>A <code>.gitignore</code> file has been created within the root directory of the local directory and the repository with these basic settings:</li>
-</ol>
-<pre><code># do not commit locally rendered files to the master or main branch
-
-_book/
-_bookdown_files/
-libs/
-**/*.bib
-**/*.html 
-
-# ignore all html files except:
-!**/mathjax_header.html
-
-# ignore R and RStudio specific files
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata</code></pre>
-<ol start="4" style="list-style-type: decimal">
-<li>A repository is added to Github and a commit is pushed to the <code>main</code> or <code>master</code> branch, as below:</li>
-</ol>
-<pre><code># Connect to Github repository
-git remote add git@github.com:&lt;username&gt;/&lt;repository-name&gt;.git
-
-# Replace your GitHub user name within &lt;username&gt; and the intended repository name within &lt;repository-name&gt;.
-
-
-# Push to master (or to main; change if needed)
-git push origin master</code></pre>
-</div>
-<div id="setting-up-the-github-action-yaml" class="section level4">
-<h4><span class="header-section-number">9.4.2.2</span> Setting up the Github Action YAML</h4>
-<p>Now, you can set the Github workflow YAML file named <code>deploy_bookdown.yml</code> within the repository’s <code>.github/workflows/</code> directory. The current setting should follow as below:</p>
-<pre><code>on:
-  push:
-     branches:
-       - master
-
-  
-
-name: renderbook
-
-jobs:
-  bookdown:
-    name: Render-Book
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v1
-
-      - name: Setup R  
-        uses: r-lib/actions/setup-r@v1
-      
-      - name: Install pandoc and pandoc citeproc
-        uses: r-lib/actions/setup-pandoc@v1
-        
-      - name: Install R dependencies
-        run: Rscript -e &#39;install.packages(c(&quot;rmarkdown&quot;,&quot;bookdown&quot;, &quot;formatR&quot;))&#39;
-        
-      - name: Render the book using bookdown
-        run: Rscript -e &#39;bookdown::render_book(&quot;index.Rmd&quot;)&#39;
-        
-      - uses: actions/upload-artifact@v1
-        with:
-          name: _book
-          path: _book/
-  
-# Need to first create an empty gh-pages branch
-# see https://pkgdown.r-lib.org/reference/deploy_site_github.html
-# and also add secrets for a GH_PAT and EMAIL to the repository
-# gh-action from Cecilapp/GitHub-Pages-deploy
-
-  checkout-and-deploy:
-   runs-on: ubuntu-latest
-   needs: bookdown
-   steps:
-     - name: Checkout to master
-       uses: actions/checkout@master
-       
-     - name: Download artifact
-       uses: actions/download-artifact@v1.0.0
-       with:
-         # Artifact name
-         name: _book # optional
-         # Destination path
-         path: _book # optional
-
-     - name: Deploy to GitHub Pages
-       uses: Cecilapp/GitHub-Pages-deploy@3.0.0
-       env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       with:
-         email: ${{ secrets.EMAIL }}
-         build_dir: _book       # &quot;_site/&quot; by default</code></pre>
-<blockquote>
-<p>Note that the <code>GITHUB_TOKEN</code> and <code>EMAIL</code> are <em>Secrets</em> that have already been set within this repository’s settings. Changing these settings might prevent the commit from being deployed.</p>
-</blockquote>
-<p>The final step should be to push this repository and expect that the verification works! If anything goes wrong, contact the organizers of the workshop series with a clear message indicating the issue you are having!</p>
-</div>
-</div>
-</div>
-<div id="the-qcbsrworkshops-package" class="section level2">
-<h2><span class="header-section-number">9.5</span> The <code>qcbsRworkshops</code> package</h2>
-<p>The package <a href="https://github.com/QCBSRworkshops/qcbsRworkshops">qcbsRworkshops</a>
-was originally designed as a set of functions to check whether the workshops can
-be correctly built on <a href="https://travis-ci.org/">Travis CI</a>. While working on thi
-s package,it turned out to be quite helpful to develop/improve the workshops.
-The main features of <code>qcbsRworkshops</code> are detailed below.</p>
-<div id="installation" class="section level4">
-<h4><span class="header-section-number">9.5.0.1</span> Installation</h4>
-<p>To install <code>qcbsRworkshops</code>, use the <a href="https://CRAN.R-project.org/package=remotes"><code>remotes</code></a> (dependency of <a href="https://CRAN.R-project.org/package=devtools"><code>devtools</code></a>).</p>
-<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="developing-en.html#cb43-1"></a><span class="kw">install.packages</span>(remotes)</span>
-<span id="cb43-2"><a href="developing-en.html#cb43-2"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;QCBSRworkshops/qcbsRworkshops&quot;</span>)</span></code></pre></div>
-<p>Note that by installing <code>qcbsRworkshops</code> a set of packages will be installed,
-including <a href="https://CRAN.R-project.org/package=xaringan"><code>xaringan</code></a>. Once
-installed, load it just as you would do for any package.</p>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="developing-en.html#cb44-1"></a><span class="kw">library</span>(qcbsRworkshops) </span></code></pre></div>
-<p>Note that, as any other R package, the functions of the package <code>qcbsRworkshops</code>
-are documented. Therefore, if you ever need more details about a specific
-function, just use the question mark, e.g. <code>?download_workshops</code>.</p>
-</div>
-<div id="download-a-workshop" class="section level4">
-<h4><span class="header-section-number">9.5.0.2</span> Download a workshop</h4>
-<p>Once the package loaded, you can quickly download a package with
-<code>download_workshops()</code>, you simply need to use the identifier (<code>id</code>) of the
-desired workshop (1 for the first workshop, 2 for the second and so forth).</p>
-<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="developing-en.html#cb45-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span></code></pre></div>
-<p>This actually downloads a zip file from GitHub that includes the sources files
-of the workshop, so the English and the French version of the workshop. By
-default, the files will be extracted in the working directory. This can be
-changed by setting <code>path</code> to the desired path. Note that <code>download_workshops()</code>
-also supports vectors of identifiers, for instance, the following code will
-download all workshops :</p>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="developing-en.html#cb46-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</span></code></pre></div>
-</div>
-<div id="build-a-workshop" class="section level4">
-<h4><span class="header-section-number">9.5.0.3</span> Build a workshop</h4>
-<p>By default, <code>build_workshops()</code> looks for R Markdown source files in a given
-path (argument <code>path</code>, set to the current working directory by default) and
-build the corresponding xaringan presentation(s) (i.e. the HTML slides). For
-instance, once I have downloaded the first, I can directly build the English and the French HTML presentations like so:</p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="developing-en.html#cb47-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span>
-<span id="cb47-2"><a href="developing-en.html#cb47-2"></a><span class="kw">build_workshops</span>()</span>
-<span id="cb47-3"><a href="developing-en.html#cb47-3"></a><span class="co"># or </span></span>
-<span id="cb47-4"><a href="developing-en.html#cb47-4"></a><span class="kw">build_workshops</span>(<span class="dt">path =</span> <span class="st">&quot;.&quot;</span>)  <span class="co"># equivalent as this is the default value of path</span></span></code></pre></div>
-<p>Importantly enough, <strong><code>build_workshops()</code> will download all the packages required for the workshop</strong>. To build only one version of the workshop, <code>lang</code> needs to be set to either “en” or “fr”.</p>
-<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="developing-en.html#cb48-1"></a><span class="co"># build English version only</span></span>
-<span id="cb48-2"><a href="developing-en.html#cb48-2"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;en&quot;</span>)</span>
-<span id="cb48-3"><a href="developing-en.html#cb48-3"></a><span class="co"># build French version only</span></span>
-<span id="cb48-4"><a href="developing-en.html#cb48-4"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;fr&quot;</span>)</span></code></pre></div>
-<p>This function also has several important feature. First, it can build the pdf
-version (this required the installation of
-<a href="https://www.chromium.org/Home">Chromium</a> or Google Chrome it not already
-installed):</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="developing-en.html#cb49-1"></a><span class="co"># this builds both version of the workshop in HTML and pdf </span></span>
-<span id="cb49-2"><a href="developing-en.html#cb49-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
-<p>Second, it can extract the R code from the Markdown source file.</p>
-<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="developing-en.html#cb50-1"></a><span class="co"># build both version of the workshop in HTML and pdf +  extract the R code</span></span>
-<span id="cb50-2"><a href="developing-en.html#cb50-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
-<p>Third, it can update the <a href="https://github.com/QCBSRworkshops/templateWorkshops">CSS template</a></p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="developing-en.html#cb51-1"></a><span class="co"># update CSS template + build both versions in HTML and pdf + extract the code and </span></span>
-<span id="cb51-2"><a href="developing-en.html#cb51-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>, <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
-<p>Finally, it can call <code>download_workshops()</code> to download the package:</p>
-<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="developing-en.html#cb52-1"></a><span class="co"># download workshop #1 + update CSS template + build both versions in HTML and pdf + extract the code and update template</span></span>
-<span id="cb52-2"><a href="developing-en.html#cb52-2"></a><span class="kw">build_workshops</span>(<span class="dt">id =</span><span class="dv">1</span>, <span class="dt">download =</span> <span class="ot">TRUE</span>, <span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>,  <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
-</div>
-<div id="presenter-email" class="section level4">
-<h4><span class="header-section-number">9.5.0.4</span> Presenter email</h4>
-<p><code>mail_workshop()</code> writes the email to be sent two weeks before the workshop, for instance:</p>
-<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="developing-en.html#cb53-1"></a><span class="co"># Mail for workshop #7</span></span>
-<span id="cb53-2"><a href="developing-en.html#cb53-2"></a><span class="kw">mail_workshop</span>(<span class="dv">7</span>, <span class="dt">pres_name =</span> <span class="st">&quot;Kevin Cazelles&quot;</span>, <span class="dt">lang =</span> <span class="st">&quot;both&quot;</span>, </span>
-<span id="cb53-3"><a href="developing-en.html#cb53-3"></a>      <span class="dt">details_fr =</span> <span class="st">&quot;à l&#39;UdeM, salle A-2553, campus MIL, le vendredi 28 Février 2020 de 13h à 17h&quot;</span>, </span>
-<span id="cb53-4"><a href="developing-en.html#cb53-4"></a>      <span class="dt">details_en =</span> <span class="st">&quot;at the UdeM, MIL campus, room A-2553, on Friday February</span></span>
-<span id="cb53-5"><a href="developing-en.html#cb53-5"></a><span class="st">    28th 2020, 1pm-5pm&quot;</span> </span>
-<span id="cb53-6"><a href="developing-en.html#cb53-6"></a>   ) </span></code></pre></div>
-<p>will create a HTML version of the email that will pop up in your web browser that you can copy and paste.</p>
-</div>
-<div id="functions-for-workshop-developers" class="section level4">
-<h4><span class="header-section-number">9.5.0.5</span> Functions for workshop developers</h4>
-<p>The main function is obviously <code>build_workshops()</code> as it builds the workshop
-(see above). That being said, there are other functions worth mentioning.</p>
-<p>First it is often useful to clean up the (e.g., clean the cache), this is possible with <code>clean_workshops()</code>, for instance assuming workshop 1 was built in my current working directory, the cache can be cleaned like so:</p>
-<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="developing-en.html#cb54-1"></a><span class="kw">clean_workshops</span>(<span class="dt">files =</span> <span class="ot">FALSE</span>, <span class="dt">cache =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
-<p>Second, it is possible to update the CSS template without rendering any presentation using <code>update_template()</code>. Similarly, it is possible to extract the R code without rendering a presentation using <code>extract_Rcode_workshop()</code>.</p>
-<p>Third, the first two slides (after the title slide) have now been standardized: it includes various hyperlinks (GitHub repository, wiki, PDF version, R script), and the list of package required (see for instance <a href="https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2" class="uri">https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2</a>). Those two slides can be generated using <code>first_slides()</code>:</p>
-<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="developing-en.html#cb55-1"></a><span class="co"># the generate the first slides for the workshop 2 and copy the text to the clipboard</span></span>
-<span id="cb55-2"><a href="developing-en.html#cb55-2"></a><span class="kw">first_slides</span>(<span class="dv">2</span>, <span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;tidyr&quot;</span>), <span class="dt">clip =</span> <span class="ot">TRUE</span>) </span></code></pre></div>
-<p>Last, the Travis file used for the deployment (see below) can be added with
-<code>use_travis()</code>.</p>
-</div>
-<div id="deployment" class="section level4">
-<h4><span class="header-section-number">9.5.0.6</span> Deployment</h4>
-<p>Currently, we are using <a href="https://travis-ci.org/">Travis CI</a> to check that the package built seamlessly and also to deploy the presentations (English and French in HTML and PDF with the R code). We create all the files needed with the following line (see our Travis file with <code>use_travis()</code>):</p>
-<div class="sourceCode" id="cb56"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb56-1"><a href="developing-en.html#cb56-1"></a><span class="fu">script</span><span class="kw">:</span></span>
-<span id="cb56-2"><a href="developing-en.html#cb56-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Rscript -e &quot;qcbsRworkshops::build_workshops(update_template = TRUE, pdf = TRUE, script = TRUE)&quot;</span></span></code></pre></div>
-<p>and they are all stored in the folder <code>public</code></p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb57-1"><a href="developing-en.html#cb57-1"></a><span class="fu">before_deploy</span><span class="kw">:</span></span>
-<span id="cb57-2"><a href="developing-en.html#cb57-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> mkdir public</span></span>
-<span id="cb57-3"><a href="developing-en.html#cb57-3"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp README.md public</span></span>
-<span id="cb57-4"><a href="developing-en.html#cb57-4"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp -r workshop* public/</span></span></code></pre></div>
-<p>which is the one that will be used by Travis that will create a commit and push on the branch <code>master</code> of the repository that <a href="https://pages.github.com/">GitHub Pages</a> turn into a website.</p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb58-1"><a href="developing-en.html#cb58-1"></a><span class="fu">deploy</span><span class="kw">:</span></span>
-<span id="cb58-2"><a href="developing-en.html#cb58-2"></a><span class="at">  </span><span class="fu">provider</span><span class="kw">:</span><span class="at"> pages</span></span>
-<span id="cb58-3"><a href="developing-en.html#cb58-3"></a><span class="at">  </span><span class="fu">token</span><span class="kw">:</span><span class="at"> $GH_TOKEN</span></span>
-<span id="cb58-4"><a href="developing-en.html#cb58-4"></a><span class="at">  </span><span class="fu">strategy</span><span class="kw">:</span><span class="at"> git </span></span>
-<span id="cb58-5"><a href="developing-en.html#cb58-5"></a><span class="at">  </span><span class="fu">skip_cleanup</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb58-6"><a href="developing-en.html#cb58-6"></a><span class="at">  </span><span class="fu">keep_history</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
-<span id="cb58-7"><a href="developing-en.html#cb58-7"></a><span class="at">  </span><span class="fu">target_branch</span><span class="kw">:</span><span class="at"> master</span></span>
-<span id="cb58-8"><a href="developing-en.html#cb58-8"></a><span class="at">  </span><span class="fu">local_dir</span><span class="kw">:</span><span class="at"> public</span></span>
-<span id="cb58-9"><a href="developing-en.html#cb58-9"></a><span class="at">  </span><span class="fu">on</span><span class="kw">:</span></span>
-<span id="cb58-10"><a href="developing-en.html#cb58-10"></a><span class="at">    </span><span class="fu">branch</span><span class="kw">:</span><span class="at"> dev</span></span></code></pre></div>
-</div>
-<div id="contributing-to-the-package" class="section level4">
-<h4><span class="header-section-number">9.5.0.7</span> Contributing to the package</h4>
-<p>The <code>qcbsRworkshops</code> R package is released with a <a href="https://github.com/QCBSRworkshops/qcbsRworkshops/blob/master/CODE_OF_CONDUCT.md">Contributor Code of
-Coduct</a>. By contributing to this project, you agree to abide by its terms.</p>
-<p>Do not hesitate to report issues (could be a feature request, a bug, a typo,
-…) and create pull request, but before doing so, first check the <a href="https://github.com/QCBSRworkshops/qcbsRworkshops/blob/master/.github/CONTRIBUTING.md">contributing
-guidelines</a>.</p>
-</div>
-</div>
 <div id="other-ways-to-contribute" class="section level2">
-<h2><span class="header-section-number">9.6</span> Other ways to contribute</h2>
+<h2><span class="header-section-number">9.4</span> Other ways to contribute</h2>
 <p>If you are not comfortable with GitHub, you can still help us improve the workshops!</p>
 <p>If you notice any mistakes or inconsistencies, or if you would like to make a suggestion, either in form or in content, you are invited to open an <a href="https://help.github.com/articles/about-issues/">issue</a>. You can follow these simple steps to create a new <a href="https://help.github.com/articles/creating-an-issue/">issue</a>.</p>
 
@@ -837,7 +588,7 @@ guidelines</a>.</p>
         </div>
       </div>
 <a href="presentation-en.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="payment-en.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="advanced-developing-en.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

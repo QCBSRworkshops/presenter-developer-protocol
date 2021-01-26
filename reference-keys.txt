@@ -74,7 +74,21 @@ individual-exercise
 how-to-develop-workshops
 getting-started
 github-workflow
+other-ways-to-contribute
+advanced-developing-en
+changing-the-templates
+changing-the-presentation-template
+changing-the-book-template
 managing-the-continuous-integration-workflow
+github-action-workflow-structure
+workflow-description
+render-and-deployment-workflows
+workshops-workflows
+templates-workflows
+presenter-and-developer-protocol-workflows
+dispatch-workflows
+template-repository-dispatch
+workshop-repository-dispatch
 create-a-gh-pages-branch
 action-to-deploy-a-book
 prepare-book-with-bookdown-and-connect-to-github
@@ -87,5 +101,4 @@ presenter-email
 functions-for-workshop-developers
 deployment
 contributing-to-the-package
-other-ways-to-contribute
 payment-en
