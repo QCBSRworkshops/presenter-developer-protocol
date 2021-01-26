@@ -1,0 +1,419 @@
+# Advanced Developing {#advanced-developing-en}
+
+This portion of the guide is dedicated towards documenting the advanced development and maintenance of the structure and workflow of the workshops. Any prospective changes here are considered **highly relevant** and **must** be **carefully** verified by the coordinators or other authorized developers.
+
+Additionally, any significant changes to the structure of the workshop presentations, books or workflows should be **carefully** and documented here.
+
+*This section is under development*
+
+## Changing the templates
+
+### Changing the presentation template
+
+*This section is under development*
+
+### Changing the book template 
+
+*This section is under development*
+
+## Managing the continuous integration workflow
+
+The current deployment of the workshop material follows a continuous integration (CI) workflow. This workflow automatically tests and builds the code that workshop developers push to the repositories.
+
+On January 2021, the implementation shifted from [Travis CI]() towards [Github Actions](). The steps described below are contained to the currently workflows. Supplementary documentation from [Github]() and other actions from the Github Marketplace may be helpful. 
+
+### Github Action workflow structure
+
+In a nutshell, inside each repository there is a `.github/workflows/` directory that holds `YAML` files that contain workflow (recipes) that tells Github Actions when and what to execute a list of steps.
+
+Within the **workshop** repositories, there are five workflows:
+
+1. Four workflows will detect pushes to the directories within the `master` branch and conditionally render presentations (`deploy_presentation-en.yml` and `deploy_presentation-fr.yml`) and/or books (`deploy_book-en.yml` and `deploy_book-fr.yml`), and deploy them to the `gh-pages` branch, allowing them to be accessible as HTML websites; and,
+
+2. An additional workflow (`in-dispatch-out.yml`) will detect changes done to the templates within the template repository ([qcbsRWorkshops/templateWorkshops]()), and conditionally trigger the other workflows.
+
+### Workflow description
+
+#### Render and deployment workflows
+
+Render and deployment workflow are specific to the language (English or French) and the type of document (presentation or book) and are conditionally triggered when changes are committed and pushed to their specific directories (`[presentation-or-book]-[en-or-fr]/`) or when changes committed and pushed to the template repository ([qcbsRWorkshops/templateWorkshops]()) trigger type-specific repository dispatches.
+
+##### Workshops workflows
+
+*This section is under development*
+
+Workshop workflows work as follows:
+
+```
+Include workflow
+```
+
+##### Templates workflows
+
+```
+Include workflow
+```
+
+##### Presenter and developer protocol workflows
+
+```
+Include workflow
+```
+
+#### Dispatch workflows
+
+*This section is under development*
+
+##### Template repository dispatch
+
+*This section is under development*
+
+##### Workshop repository dispatch
+
+*This section is under development*
+
+The render and deployment workflows work 
+
+Below, we will show how to create actions to deploy books built using `bookdown` (such as this one and the one for the upcoming workshop material) and to deploy presentations built using `rmarkdown`.
+
+### Create a `gh-pages` branch
+
+We begin by creating and preparing a `gh-pages` branch inside a repository that is already created. Run the line below to create and checkout the `gh-pages` branch:
+
+```
+git checkout --orphan gh-pages
+```
+
+Then, remove all files within the `gh-pages` branch:
+
+```
+git rm -rf .
+```
+
+And create an empty commit inside the `gh-pages` branch:
+
+```
+git commit --allow-empty -m "Initial gh-pages commit"
+```
+
+Then, push changes and get back to the `main` or `master` branch:
+
+```
+git push origin gh-pages
+git checkout master
+```
+
+### Action to deploy a book
+
+#### Prepare book with `bookdown` and connect to Github
+
+Prior to creating this action, it is assumed that `R` and `RStudio` have been installed and area working, and that:
+
+1. The `R` package `bookdown` is installed and working;
+
+```r
+if (!requireNamespace("devtools")) install.packages('devtools')
+devtools::install_github('rstudio/bookdown')
+```
+
+2. A `bookdown` RStudio project has been rendered (`bookdown::serve_book()`) to a local directory of your liking. You can use the code below to do it using the prompt. Remember to replace the fields `<>` with the relevant information (`<>` inclusive).
+
+```
+# Make new project directory
+mkdir <nameofyourdirectory>
+cd <nameofyourdirectory>
+```
+
+3. A `.gitignore` file has been created within the root directory of the local directory and the repository with these basic settings:
+
+```
+# do not commit locally rendered files to the master or main branch
+
+_book/
+_bookdown_files/
+libs/
+**/*.bib
+**/*.html 
+
+# ignore all html files except:
+!**/mathjax_header.html
+
+# ignore R and RStudio specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+```
+
+4. A repository is added to Github and a commit is pushed to the `main` or `master` branch, as below:
+
+```
+# Connect to Github repository
+git remote add git@github.com:<username>/<repository-name>.git
+
+# Replace your GitHub user name within <username> and the intended repository name within <repository-name>.
+
+
+# Push to master (or to main; change if needed)
+git push origin master
+```
+
+#### Setting up the Github Action YAML
+
+Now, you can set the Github workflow YAML file named `deploy_bookdown.yml` within the repository's `.github/workflows/` directory. The current setting should follow as below:
+
+
+```
+on:
+  push:
+     branches:
+       - master
+
+  
+
+name: renderbook
+
+jobs:
+  bookdown:
+    name: Render-Book
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+
+      - name: Setup R  
+        uses: r-lib/actions/setup-r@v1
+      
+      - name: Install pandoc and pandoc citeproc
+        uses: r-lib/actions/setup-pandoc@v1
+        
+      - name: Install R dependencies
+        run: Rscript -e 'install.packages(c("rmarkdown","bookdown", "formatR"))'
+        
+      - name: Render the book using bookdown
+        run: Rscript -e 'bookdown::render_book("index.Rmd")'
+        
+      - uses: actions/upload-artifact@v1
+        with:
+          name: _book
+          path: _book/
+  
+# Need to first create an empty gh-pages branch
+# see https://pkgdown.r-lib.org/reference/deploy_site_github.html
+# and also add secrets for a GH_PAT and EMAIL to the repository
+# gh-action from Cecilapp/GitHub-Pages-deploy
+
+  checkout-and-deploy:
+   runs-on: ubuntu-latest
+   needs: bookdown
+   steps:
+     - name: Checkout to master
+       uses: actions/checkout@master
+       
+     - name: Download artifact
+       uses: actions/download-artifact@v1.0.0
+       with:
+         # Artifact name
+         name: _book # optional
+         # Destination path
+         path: _book # optional
+
+     - name: Deploy to GitHub Pages
+       uses: Cecilapp/GitHub-Pages-deploy@3.0.0
+       env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       with:
+         email: ${{ secrets.EMAIL }}
+         build_dir: _book       # "_site/" by default
+```
+
+> Note that the `GITHUB_TOKEN` and `EMAIL` are *Secrets* that have already been set within this repository's settings. Changing these settings might prevent the commit from being deployed.
+
+The final step should be to push this repository and expect that the verification works! If anything goes wrong, contact the organizers of the workshop series with a clear message indicating the issue you are having!
+
+## The `qcbsRworkshops` package
+
+The package [qcbsRworkshops](https://github.com/QCBSRworkshops/qcbsRworkshops)
+was originally designed as a set of functions to check whether the workshops can
+be correctly built on [Travis CI](https://travis-ci.org/). While working on thi
+s package,it turned out to be quite helpful to develop/improve the workshops.
+The main features of `qcbsRworkshops` are detailed below. 
+
+#### Installation 
+
+To install `qcbsRworkshops`, use the [`remotes`](https://CRAN.R-project.org/package=remotes) (dependency of [`devtools`](https://CRAN.R-project.org/package=devtools)).
+
+```R
+install.packages(remotes)
+remotes::install_github("QCBSRworkshops/qcbsRworkshops")
+```
+
+Note that by installing `qcbsRworkshops` a set of packages will be installed,
+including [`xaringan`](https://CRAN.R-project.org/package=xaringan). Once
+installed, load it just as you would do for any package. 
+
+```R 
+library(qcbsRworkshops) 
+``` 
+
+Note that, as any other R package, the functions of the package `qcbsRworkshops`
+are documented. Therefore, if you ever need more details about a specific
+function, just use the question mark, e.g. `?download_workshops`.
+
+#### Download a workshop 
+
+Once the package loaded, you can quickly download a package with
+`download_workshops()`, you simply need to use the identifier (`id`) of the
+desired workshop (1 for the first workshop, 2 for the second and so forth). 
+
+```R 
+download_workshops(id = 1)
+```
+
+This actually downloads a zip file from GitHub that includes the sources files
+of the workshop, so the English and the French version of the workshop. By
+default, the files will be extracted in the working directory. This can be
+changed by setting `path` to the desired path. Note that `download_workshops()`
+also supports vectors of identifiers, for instance, the following code will
+download all workshops : 
+
+```R 
+download_workshops(id = 1:10)
+```
+
+#### Build a workshop 
+
+By default, `build_workshops()` looks for R Markdown source files in a given
+path (argument `path`, set to the current working directory by default) and
+build the corresponding xaringan presentation(s) (i.e. the HTML slides). For
+instance, once I have downloaded the first, I can directly build the English and the French HTML presentations like so: 
+
+```R 
+download_workshops(id = 1)
+build_workshops()
+# or 
+build_workshops(path = ".")  # equivalent as this is the default value of path
+```
+
+Importantly enough, **`build_workshops()` will download all the packages required for the workshop**. To build only one version of the workshop, `lang` needs to be set to either "en" or "fr".
+
+```R 
+# build English version only
+build_workshops(lang = "en")
+# build French version only
+build_workshops(lang = "fr")
+```
+
+This function also has several important feature. First, it can build the pdf
+version (this required the installation of
+[Chromium](https://www.chromium.org/Home) or Google Chrome it not already
+installed):
+
+```R 
+# this builds both version of the workshop in HTML and pdf 
+build_workshops(pdf = TRUE)
+```
+
+Second, it can extract the R code from the Markdown source file.
+
+```R 
+# build both version of the workshop in HTML and pdf +  extract the R code
+build_workshops(pdf = TRUE, script = TRUE)
+```
+
+Third, it can update the [CSS template](https://github.com/QCBSRworkshops/templateWorkshops)
+
+```R 
+# update CSS template + build both versions in HTML and pdf + extract the code and 
+build_workshops(pdf = TRUE, script = TRUE, update_template = TRUE)
+```
+
+
+Finally, it can call `download_workshops()` to download the package:
+
+```R 
+# download workshop #1 + update CSS template + build both versions in HTML and pdf + extract the code and update template
+build_workshops(id =1, download = TRUE, pdf = TRUE, script = TRUE,  update_template = TRUE)
+```
+
+#### Presenter email
+
+`mail_workshop()` writes the email to be sent two weeks before the workshop, for instance: 
+
+```R
+# Mail for workshop #7
+mail_workshop(7, pres_name = "Kevin Cazelles", lang = "both", 
+      details_fr = "à l'UdeM, salle A-2553, campus MIL, le vendredi 28 Février 2020 de 13h à 17h", 
+      details_en = "at the UdeM, MIL campus, room A-2553, on Friday February
+    28th 2020, 1pm-5pm" 
+   ) 
+```
+
+will create a HTML version of the email that will pop up in your web browser that you can copy and paste.
+
+#### Functions for workshop developers
+
+The main function is obviously `build_workshops()` as it builds the workshop
+(see above). That being said, there are other functions worth mentioning. 
+
+First it is often useful to clean up the (e.g., clean the cache), this is possible with `clean_workshops()`, for instance assuming workshop 1 was built in my current working directory, the cache can be cleaned like so: 
+
+```R
+clean_workshops(files = FALSE, cache = TRUE)
+```
+
+Second, it is possible to update the CSS template without rendering any presentation using `update_template()`. Similarly, it is possible to extract the R code without rendering a presentation using `extract_Rcode_workshop()`.
+
+Third, the first two slides (after the title slide) have now been standardized: it includes various hyperlinks (GitHub repository, wiki, PDF version, R script), and the list of package required (see for instance https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2). Those two slides can be generated using `first_slides()`:
+
+```R 
+# the generate the first slides for the workshop 2 and copy the text to the clipboard
+first_slides(2, c("dplyr", "tidyr"), clip = TRUE) 
+```
+
+Last, the Travis file used for the deployment (see below) can be added with 
+`use_travis()`.
+
+#### Deployment 
+
+Currently, we are using [Travis CI](https://travis-ci.org/) to check that the package built seamlessly and also to deploy the presentations (English and French in HTML and PDF with the R code). We create all the files needed with the following line (see our Travis file with `use_travis()`):
+
+
+```yaml
+script:
+  - Rscript -e "qcbsRworkshops::build_workshops(update_template = TRUE, pdf = TRUE, script = TRUE)"
+```
+
+and they are all stored in the folder `public` 
+
+```yaml
+before_deploy:
+  - mkdir public
+  - cp README.md public
+  - cp -r workshop* public/
+```
+
+which is the one that will be used by Travis that will create a commit and push on the branch `master` of the repository that [GitHub Pages](https://pages.github.com/) turn into a website.
+
+```yaml
+deploy:
+  provider: pages
+  token: $GH_TOKEN
+  strategy: git 
+  skip_cleanup: true
+  keep_history: false
+  target_branch: master
+  local_dir: public
+  on:
+    branch: dev
+```
+
+#### Contributing to the package
+
+The `qcbsRworkshops` R package is released with a [Contributor Code of
+Coduct](https://github.com/QCBSRworkshops/qcbsRworkshops/blob/master/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+
+Do not hesitate to report issues (could be a feature request, a bug, a typo,
+...) and create pull request, but before doing so, first check the [contributing
+guidelines](https://github.com/QCBSRworkshops/qcbsRworkshops/blob/master/.github/CONTRIBUTING.md). 
+
