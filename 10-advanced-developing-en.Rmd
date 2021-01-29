@@ -10,9 +10,17 @@ Additionally, any significant changes to the structure of the workshop presentat
 
 ### Changing the presentation template
 
+The format and styling of all workshop presentations is set using a [template](https://github.com/QCBSRworkshops/templateWorkshops). If you need to change the format or styling of a presentation you are developing, **please do not edit the `.css` within the workshop repository**. 
+
+To make any changes to the template, you can submit an issue [here](https://github.com/QCBSRworkshops/templateWorkshops/issues), or submit a pull request with your proposed changes [here](https://github.com/QCBSRworkshops/templateWorkshops/pulls). Please note that any changes pushed to this repository will trigger the Github Actions of all other workshop repositories to be re-run.
+
 *This section is under development*
 
 ### Changing the book template 
+
+The format and styling of all books is set using a [template](https://github.com/QCBSRworkshops/templateWorkshops). If you need to change the format or styling of a book you are developing, **please do not edit the `.css` within the workshop repository**. 
+
+To make any changes to the template, you can submit an issue [here](https://github.com/QCBSRworkshops/templateWorkshops/issues), or submit a pull request with your proposed changes [here](https://github.com/QCBSRworkshops/templateWorkshops/pulls). Please note that any changes pushed to this repository will trigger the Github Actions of all other workshop repositories to be re-run.
 
 *This section is under development*
 
