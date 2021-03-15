@@ -67,6 +67,18 @@ Note: _The presenter should sing this slide to the participants_.
 
 5. Pay attention to fluidity and distractions.
 
+6. Use all resources that can be help you provide a visually pleasing presentation, such as:
+   i. Using [tables](https://www.tablesgenerator.com/markdown_tables) whenever appropriate;
+   ii. Only including non-distorted, high-resolution images;
+   iii. Divide code and text across columns, if appropriate (see [here](https://qcbsrworkshops.github.io/templateWorkshops/book-template/format.html#more-flexible-split-across-two-columns) for the book, and [here](https://qcbsrworkshops.github.io/templateWorkshops/presentation-template/index.html#20) for the presentation);
+   iv. Use incremental slides, as mentioned, when appropriate, as describe [here](https://qcbsrworkshops.github.io/templateWorkshops/presentation-template/index.html#14).
+  
+7. Do not modify the directory names;
+
+8. Do not add unnecessary files to the root directory: data go within the `data` directory; images go within the `images` directory;
+
+**For specific instructions on special formatting, look into the [book template ](https://qcbsrworkshops.github.io/templateWorkshops/book-template/format.html#more-flexible-split-across-two-columns) and the [presentation template](https://qcbsrworkshops.github.io/templateWorkshops/presentation-template/index.html).**
+
 ### Grammar and style
 
 1. Pay attention to punctuation, spelling, and grammar.
