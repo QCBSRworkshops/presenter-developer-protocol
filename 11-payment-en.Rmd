@@ -36,8 +36,6 @@ You must follow these steps to receive your award payment:
 
     * Include your **McGill student number** within the body of the email. 
     
-    * If your address has changed since the last time you submitted an invoice, please mention that within your message for Dr. Elina.
-    
     * You can use the following message as a model:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
@@ -47,8 +45,6 @@ You must follow these steps to receive your award payment:
 > You will find attached to this message my invoice for the workshop(s) that I instructed/developed as part of the QCBS R Workshop Series this semester.
 >
 > Here is my McGill student number: *INSERT STUDENT NUMBER*.
->
-> *OPTIONAL: Please note that my address has changed since my last payment request, my current address is updated on the attached invoice.*
 >
 > I certify that the information attached to this message is true and correct to the best of my knowledge.
 >
@@ -97,7 +93,7 @@ You must follow these steps to receive your award payment:
 
     *  Indicate within your message to Dr. Elina whether you have already been registered as an employee or a self-employed, independent contractor for the McGill University (i.e. if you are already a Payee or not). 
     
-    * If your address has changed since the last time you submitted an invoice, please mention that within your message for Dr. Elina. 
+    * If your address has changed since you first registered as a Payee, please mention that within your message for Dr. Elina. 
     
     * You can use the following message model for your message:
 
@@ -109,7 +105,8 @@ You must follow these steps to receive your award payment:
 >
 > *I HAVE NOT or I HAVE BEEN* previously registered as an employee or a self-employed, independent contractor for the McGill University.
 >
-> *OPTIONAL: Please note that my address has changed since my last payment request, my current address is updated on the attached invoice.*
+> *OPTIONAL: Please note that my address has changed since I was first registered as a Payee, my current address is:*
+> *INSERT ADDRESS*
 >
 > I certify that the information attached to this message is true and correct to the best of my knowledge.
 >
