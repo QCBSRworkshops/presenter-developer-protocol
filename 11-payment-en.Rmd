@@ -23,9 +23,9 @@ You must follow these steps to receive your award payment:
 
     * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 125 per workshop"; "Total: $ 250"). 
     
-    * If you presented and/or developed multiple workshops, list on them on separate lines within a single invoice form.
+    * If you presented and/or developed multiple workshops, list them on separate lines within a single invoice form.
   
-    * The "Invoice Number" will depend on how many previous invoices you have submitted. For example, if this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, your invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
+    * The "Invoice #" will depend on how many previous invoices you have submitted. E.g. If this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, then the invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
     
     * You do not need to write anything next to "P.O." (which stands for Purchase Order).
     
@@ -34,7 +34,7 @@ You must follow these steps to receive your award payment:
     
 3. **Third, send the invoice to [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca) (Helen Elina is the Administrative Associate of the QCBS)**. 
 
-    * Include your **McGill student number** within the body of the email. 
+    * Include your student number within the body of the email. 
     
     * You can use the following message as a model:
 
@@ -83,7 +83,7 @@ You must follow these steps to receive your award payment:
     
     * If you presented and/or developed multiple workshops, list on them on separate lines within a single invoice form.
   
-    * The "Invoice Number" will depend on how many previous invoices you have submitted. For example, if this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, your invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
+    * The "Invoice #" will depend on how many previous invoices you have submitted. E.g. If this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, then the invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
     
     * You do not need to write anything next to "P.O." (which stands for Purchase Order).
     
