@@ -1,13 +1,12 @@
 # Receiving your award {#payment-en}
 
-Workshop presenters and developers receive a **Learning and Development Award** from the **Québec Centre for Biodiversity Science (QCBS)** *[excluding McGill Postdoctoral Fellows, see below]*. The way your award is processed depends on your institution and career status:
+Workshop presenters and developers receive a **Learning and Development Award** from the **Québec Centre for Biodiversity Science (QCBS)** *[excluding McGill Postdoctoral Fellows, see below]*. The way your award is processed depends on your institution and on your affiliation status:
 
 * **McGill Graduate Students**: Your award will be processed in the form of a stipend payment. Please follow the [instructions below](#payment-en-mcgill) that are specific to McGill students.
 
-* **Non-McGill Graduate Students** and **Non-McGill Postdoctoral Fellows**: Your award will be processed as an independent contract. Please follow the [instructions below](#payment-en-nonmcgill) that are specific to non-McGill students and postdocs.
+* **Non-McGill Graduate Students** and **Non-McGill Postdoctoral Fellows**: Your award will be processed and paid as an independent contract. Please follow the [instructions below](#payment-en-nonmcgill) that are specific to non-McGill student and non-McGill postdoctoral members.
 
-* **McGill Postdoctoral Fellows**: Unfortunately, due to institutional contractual limitations, McGill postdoctoral fellows are *no longer eligible to receive awards from the QCBS as of 2021*. Exceptions exist if the contract with your supervisor(s) allows for it, but this is rare. Due to this change, McGill postdoctoral fellows can only contribute to the series on a voluntary basis.
-
+* **McGill Postdoctoral Fellows**: Unfortunately, due to institutional contractual limitations, McGill Postdoctoral Fellows are **no longer eligible** to receive *Learning and Development Awards* from the QCBS as of March, 2021. Exceptions exist if your contract with your supervisor(s) allows for it, but this is rare. Due to this change, McGill Postdoctoral Fellows can only contribute to the series on a voluntary basis.
 
 ## McGill Graduate Students {- #payment-en-mcgill}
 
@@ -15,7 +14,7 @@ You must follow these steps to receive your award payment:
 
 1. **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564) by filling in the requested information.** 
 
-    * Report each workshop on a separate line if you contributed to multiple. 
+    * Report each workshop on a separate line if you contributed to multiple.
     
     * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $125 per workshop instructed*.
 
@@ -44,7 +43,7 @@ You must follow these steps to receive your award payment:
 >
 > You will find attached to this message my invoice for the workshop(s) that I instructed/developed as part of the QCBS R Workshop Series this semester.
 >
-> Here is my McGill student number: *INSERT STUDENT NUMBER*.
+> Here is my McGill Student Number: *INSERT STUDENT NUMBER*.
 >
 > I certify that the information attached to this message is true and correct to the best of my knowledge.
 >
@@ -125,4 +124,14 @@ You must follow these steps to receive your award payment:
 
     * You should receive a cheque to the address you included within your invoice.
     
-    * If you don't receive your payment, please contact Dr. Elina again so that she can help you receive your payment. 
+    * If you *do not* receive your payment within the institutional period determined by McGill Procurement Services [Terms and Conditions](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (currently, 45 net days), please contact Dr. Elina stating that your payment has been delayed beyond reasonable time.
+
+## Tax implications
+
+Stipends and independent contracts are not employee wages and the payer is *not* responsible for any income tax or employment related deductions.
+
+McGill students receiving stipends should receive a [T4A tax slip](https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-2-students/income-tax-folio-s1-f2-c3-scholarships-research-grants-other-education-assistance.html#toc59) from McGill indicating the award income to be reported for the period.
+
+Non-McGill students and non-McGill postdoctoral fellows are paid as independent contractors and will *not* receive a tax slip from McGill. 
+
+It is your responsibility to understand your legal and tax obligations. You must submit an annual tax return that reports your net income using the governmental standard format and keep records of your invoices for the prescribed time determined by the government (currently, seven years).
