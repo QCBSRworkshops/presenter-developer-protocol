@@ -14,7 +14,7 @@ You must follow these steps to receive your award payment:
 
 1. **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564) by filling in the requested information.** 
 
-    * Report each workshop on a separate line if you contributed to multiple.
+    * Report each workshop on a separate line if you contributed to multiple workshops.
     
     * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $125 per workshop instructed*.
 
@@ -39,7 +39,7 @@ You must follow these steps to receive your award payment:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
-> Dear Dr. Elina,
+> Hello Dr. Elina,
 >
 > You will find attached to this message my invoice for the workshop(s) that I instructed/developed as part of the QCBS R Workshop Series this semester.
 >
@@ -98,9 +98,9 @@ You must follow these steps to receive your award payment:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
-> Dear Dr. Elina,
+> Hello Dr. Elina,
 >
-> You will find attached to this message my payee form and the invoice for the workshop(s) that I instructed as part of the QCBS R Workshop Series this semester.
+> You will find attached to this message my payee form and the invoice for the workshop(s) that I instructed/developed as part of the QCBS R Workshop Series this semester.
 >
 > *I HAVE NOT or I HAVE BEEN* previously registered as an employee or a self-employed, independent contractor for the McGill University.
 >
@@ -114,11 +114,9 @@ You must follow these steps to receive your award payment:
 > *YOUR NAME*
 
 
-5. **Fifth, after a few weeks McGill University's Procurement Services will send you an e-mail containing a purchase order.** 
+5. **Fifth, after a few weeks McGill University's Procurement Services will send Helen an e-mail containing a purchase order, with you in CC.** 
 
-    * You must copy the provided **purchase order number** and paste it in the "P.O." field of the invoice that you previosuly sent to Dr. Elina. 
-    
-    * To prevent any delays, please double-check all your information and confirm that all fields concerning yourself are filled within both forms.
+    * Dr. Elina will fill in this purchase order for you, and submit it to Accounts Payable ( [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca) ) at McGill University. 
 
 6. **Sixth, export the invoice to PDF, and send it to [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca).**  
 
