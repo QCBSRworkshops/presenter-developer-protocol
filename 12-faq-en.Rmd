@@ -1,0 +1,49 @@
+# Frequently Asked Questions (FAQ) {#faq-en}
+
+*Coming soon!*
+
+**Pre-Workshop Questions**
+
+1. What do I need to prepare for the workshop?
+
+
+2. When instructing workshops, do we have to stick to the workshop material?
+
+
+3. I have never instructed an online workshop. Where should I begin?
+
+
+4. Can I invite my friend to participate in a workshop?
+
+
+5. I am instructing a workshop. How do I get in touch with the participants?
+
+
+**Workshop Questions**
+
+
+
+**Payment Questions**
+
+1. How can I receive my award?
+
+2. I instructed or developed a workshop, submitted my payment request, but have not been paid yet. What should I do?
+
+
+**Developing and Contributing Questions**
+
+1. How can I contribute to the workshop series?
+
+
+2. I am not proficient in `R`, `RMarkdown`, and/or `Github`. Can I still help?
+
+
+3. I have seen bugs and errors when preparing or when presenting a workshop. What happened?
+
+
+**General Questions**
+
+2. Who are the coordinators of the series?
+
+
+4. Can I use the QCBS R Workshop Series to instruct workshops in my university?

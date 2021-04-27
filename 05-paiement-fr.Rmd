@@ -1,43 +1,134 @@
 # Recevoir votre prix {#payment-fr}
 
-Tous les présentateurs d'ateliers reçoivent un **prix d'apprentissage et de développement** du **Centre québécois des sciences de la biodiversité (CSBQ)**.
+Tous les présentateurs et développeurs d'ateliers reçoivent un **prix d'apprentissage et de développement** du **Centre de la science de la biodiversité du Québec (CSBQ)** *[à l'exclusion des postdoctorant(e)s de McGill, voir ci-dessous]*. Le traitement du prix dépend de votre institution et de votre statut académique:
 
-Vous devez suivre ces étapes pour recevoir votre prix :
+* **Étudiant(e)s des cycles supérieurs de McGill**: Votre prix sera traité sous la forme d'un paiement de bourse. Veuillez suivre les [instructions ci-dessous](#payment-fr-mcgill) qui sont spécifiques aux étudiants de McGill.  
 
-1. **Remplissez d'abord la [feuille de paiement](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing)**. Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour connaître le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+* **Étudiant(e)s des cycles supérieurs et Postdoctorant(e)s hors-McGill**: Votre prix sera traité comme un contrat indépendant. Veuillez suivre les [instructions ci-dessous](#payment-fr-nonmcgill) qui sont spécifiques aux étudiant(e)s et aux postdoctorant(e)s hors-McGill.  
 
-2. **Deuxièmement, remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. Notez que vous êtes considéré comme un "*Payee ou un bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui de travailleur indépendant ou d'entrepreneur indépendant, allez à [ici](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor). Nommez votre fichier "`VOTRENOM_PayeeForm.pdf`".
+* **Postdoctorant(e)s de McGill**: Malheureusement, en raison de limitations contractuelles institutionnelles, les postdoctorant(e)s de McGill ne sont **plus éligibles** pour recevoir des *Bourses d'apprentissage et de développement* du CSBQ à partir de mars 2021. Des exceptions existent si votre contrat avec votre (vos) superviseur(e)(s) le permet, mais cela est rare. En raison de ce changement, les postdoctorant(e)s de McGill ne peuvent contribuer à la série que sur une base volontaire.
 
-3. **Troisièmement, remplissez la facture ci-jointe**. 
+## Étudiant(e)s des cycles supérieurs de McGill {- #payment-fr-mcgill}
 
-  * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
+Suivez ces étapes pour recevoir votre prix :
+
+1. **Remplissez d'abord la [feuille de paiement pour présentateurs](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) et/ou la [feuille de paiement pour developpeurs](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564)** avec les informations requises. 
+
+    * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
+
+    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+
+2. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
+
+    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
   
-  * Pour l'instant, n'écrivez rien à côté de "P.O.". (qui signifie "Bon de commande").
+    * Si vous avez présenté et/ou développé plusieurs ateliers, indiquez-les sur des lignes séparées dans une seule facture, si possible.
   
-  * Nommez votre facture à "`VOTRENOM_FACTURE_D'ATELIER.docx`".
+    * Le numéro de facture ("Invoice #") dépendra du nombre de factures que vous avez déjà soumises. Par exemple, si c'est la première fois que vous soumettez une facture au CSBQ/McGill, le numéro de facture est 01. Si c'est la cinquième fois que vous soumettez une facture, le numéro de facture est 05. **Il est très important que chaque facture que vous soumettez ait un numéro de facture unique, sinon votre paiement risque de subir des délais importants**.
+
+    * N'écrivez rien à côté de "P.O." (qui signifie "Bon de commande").
   
-4. **Quatrièmement, envoyez le formulaire et la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). Si vous avez déjà été inscrit comme employé ou travailleur indépendant, entrepreneur indépendant pour l'Université McGill, veuillez l'indiquer dans le message que vous envoyez à Dr. Elina. Vous pouvez utiliser le modèle de message suivant pour votre message :
+    * Enregistrez ce fichier sous le nom de "`VOTRENOM_RWorkshop_Invoice.docx`".
+  
+3. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
+
+    * Indiquez votre numéro d'étudiant dans le message. 
+    
+    * Vous pouvez utiliser le message suivant comme modèle:
+
+> Objet du message : Prix d'apprentissage et de développement - Série d'ateliers R du CSBQ
+
+> Bonjour Dre Elina,
+>
+> Vous trouverez en pièce jointe à ce message ma facture pour le(s) atelier(s) que j'ai instruit(s)/développé(s) dans le cadre de la série d'ateliers R du CSBQ.
+>
+> Voici mon numéro d'étudiant de McGill : *INSÉRER LE NUMÉRO D'ÉTUDIANT*.
+>
+> Je certifie que les informations jointes à ce message sont vraies et correctes au meilleur de ma connaissance.
+>
+> Merci et bonne journée,
+>
+> *VOTRE NOM*.
+
+4. **Quatrièmement, Dr. Elina répondra à votre courriel avec un formulaire d'autorisation de paiement de la bourse d'études que vous devrez signer. 
+
+    * Une fois que vous aurez signé ce formulaire, Dr. Elina demandera également les signatures de l'administration du CSBQ et enverra ensuite la facture aux Affaires étudiantes de McGill en vous mettant en copie. Vous devriez recevoir votre paiement dans les 1 à 2 jours suivant son traitement par McGill. 
+    
+    * Si vous ne recevez pas votre paiement dans les deux jours, veuillez contacter Dr. Elina à nouveau afin qu'elle puisse vous aider à recevoir votre paiement. 
+
+## Étudiant(e)s des cycles supérieurs et Postdoctorant(e)s hors-McGill {- #payment-fr-nonmcgill}
+
+Suivez ces étapes pour recevoir votre prix:
+
+1. **Remplissez d'abord la [feuille de paiement pour présentateurs](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) et/ou la [feuille de paiement pour developpeurs](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564)** avec les informations requises. 
+
+    * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
+
+    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+
+
+2. **Remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. 
+
+    * Cette étape est à faire qu'une seule fois. Si vous vous êtes déjà enregistré en tant que bénéficiaire à l'Université McGill, vous pouvez passer à l'étape 3. 
+    
+    * Enregistrez ce fichier sous le nom de "`VOTRENOM_PayeeForm.pdf`".
+
+    * Notez que vous êtes considéré comme un "*Payee* ou un *bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui de travailleur indépendant ou d'entrepreneur indépendant, consultez [ceci](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
+
+
+3. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
+
+    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
+  
+    * Si vous avez présenté et/ou développé plusieurs ateliers, indiquez-les sur des lignes séparées dans une seule facture, si possible.
+  
+    * Le numéro de facture ("Invoice #") dépendra du nombre de factures que vous avez déjà soumises. Par exemple, si c'est la première fois que vous soumettez une facture au CSBQ/McGill, le numéro de facture est 01. Si c'est la cinquième fois que vous soumettez une facture, le numéro de facture est 05. **Il est très important que chaque facture que vous soumettez ait un numéro de facture unique, sinon votre paiement risque de subir des délais importants**.
+
+    * N'écrivez rien à côté de "P.O." (qui signifie "Bon de commande").
+  
+    * Enregistrez ce fichier sous le nom de "`VOTRENOM_RWorkshop_Invoice.docx`".
+
+
+4. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
+
+    * Indiquez dans votre message à Dre Elina si vous avez déjà été enregistré en tant qu'employé ou travailleur indépendant pour l'Université McGill (c'est-à-dire si vous êtes déjà un bénéficiaire ou non). 
+    
+    * Si votre adresse a changé depuis votre première inscription en tant que bénéficiaire, veuillez le mentionner dans votre message au Dr Elina. 
+    
+    * Vous pouvez utiliser le modèle de message suivant pour votre message:
 
 > Sujet du message : Prix de l'apprentissage et du développement - Série d'ateliers R du CSBQ
 
-> Dear Dr. Elina,
+> Bonjour Dre Elina,
+> Vous trouverez en pièce jointe à ce message mon formulaire de paiement et la facture pour le(s) atelier(s) que j'ai animé(s)/développé(s) dans le cadre de la série d'ateliers R du CSBQ.
 >
-> You will find attached to this message my payee form and the invoice concerning the workshop(s) that I instructed as part of the QCBS R Workshop Series.
+> Je *SUIS DÉJÀ* ou je *NE SUIS PAS ENCORE* pas enregistré(e) en tant qu'employé(e) ou entrepreneur(e) indépendant(e) pour l'Université McGill.
 >
-> I HAVE NOT or I HAVE BEEN registered as an employee or a self-employed, independent contractor for the McGill University.
+> *OPTION : Veuillez noter que mon adresse a changé depuis que j'ai été enregistré comme bénéficiaire, mon adresse actuelle est:* * *insérer l'adresse*.
+> *INSÉRER L'ADRESSE*
 >
-> I certify that the information attached to this message is true and correct to the best of my knowledge.
+> Je certifie que les renseignements joints à ce message sont, à ma connaissance, vrais et exacts.
 >
-> With kind regards,
+> Merci et bonne journée,
 >
-> YOUR NAME
+> *VOTRE NOM*
 
-5. Après quelques semaines, le service des achats de l'Université McGill vous enverra un courriel contenant un bon de commande. 
 
-* Vous devez **copier le numéro du bon de commande (Purchase Order)** et le coller dans les champs *Purchase Order* et *Invoice Number* de la facture que vous avez envoyée à Helen.
+5. **Après quelques (3-4) semaines, le service des achats de l'Université McGill vous enverra un courriel contenant un bon de commande**. 
 
-* Il est très important que vous changiez le numéro de la facture en conséquence, sinon votre paiement ne sera pas traité.
+    * Dre Elina remplira ce bon de commande pour vous, et le soumettra. 
+    
+    
+6. **Vous devriez ensuite recevoir un chèque à l'adresse que vous avez indiquée dans votre facture dans les jours qui suivent!**
 
-6. **Exportez la facture au format PDF**, et envoyez-la à [**accountspayable@mcgill.ca**](mailto:accountspayable@mcgill.ca). Vous devriez recevoir un chèque à l'adresse que vous avez indiquée dans votre facture.
+    * Si vous *ne recevez pas* votre paiement dans le délai institutionnel déterminé par les Services d'approvisionnement de McGill [Conditions générales](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (actuellement, 45 jours nets), veuillez contacter le Dr. Elina en indiquant que votre paiement a été retardé au-delà d'un délai raisonnable.
 
-Pour éviter tout retard, veuillez vérifier vos informations et confirmer que tous les champs vous concernant sont remplis dans les deux formulaires.
+## Implications fiscales
+
+Les allocations et les contrats indépendants ne sont pas des salaires d'employés et le payeur n'est *pas* responsable de l'impôt sur le revenu ou des déductions liées à l'emploi.
+
+Les étudiants de McGill qui reçoivent des prix doivent recevoir de McGill un [feuillet d'impôt T4A](https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-2-students/income-tax-folio-s1-f2-c3-scholarships-research-grants-other-education-assistance.html#toc59) indiquant le revenu de bourse à déclarer pour la période.
+
+Les étudiants et les boursiers postdoctoraux qui ne sont pas de McGill reçoivent leur prix en tant qu'entrepreneurs indépendants et ne recevront donc *pas* de relevé d'impôt de McGill. 
+
+La responsabilité de comprendre vos obligations légales et fiscales vous appartient. Vous devez soumettre une déclaration d'impôt annuelle qui fait état de votre revenu net selon le format standard gouvernemental et conserver vos factures pendant la période prescrite par le gouvernement (actuellement, sept ans).
