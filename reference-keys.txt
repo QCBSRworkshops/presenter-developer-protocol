@@ -37,6 +37,7 @@ pour-commencer
 flux-de-travail-github
 contribuer-autrement
 payment-fr
+implications-fiscales
 codeofconduct-en
 preparation-en
 before-the-workshop
@@ -102,3 +103,5 @@ functions-for-workshop-developers
 deployment
 contributing-to-the-package
 payment-en
+tax-implications
+faq-en
