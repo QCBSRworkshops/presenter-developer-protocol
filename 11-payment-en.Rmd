@@ -8,7 +8,7 @@ Workshop presenters and developers receive a **Learning and Development Award** 
 
 * **McGill Postdoctoral Fellows**: Unfortunately, due to institutional contractual limitations, McGill Postdoctoral Fellows are **no longer eligible** to receive *Learning and Development Awards* from the QCBS as of March, 2021. Exceptions exist if your contract with your supervisor(s) allows for it, but this is rare. Due to this change, McGill Postdoctoral Fellows can only contribute to the series on a voluntary basis.
 
-## McGill Graduate Students {- #payment-en-mcgill}
+## McGill Graduate Students {#payment-en-mcgill}
 
 You must follow these steps to receive your award payment:
 
@@ -58,7 +58,7 @@ You must follow these steps to receive your award payment:
     * If you don't receive your payment within a couple days, please contact Dr. Elina again so that she can help you receive your payment. 
 
 
-## Non-McGill Graduate Students and Postdoctoral Fellows {- #payment-en-nonmcgill}
+## Non-McGill Graduate Students and Postdoctoral Fellows {#payment-en-nonmcgill}
 
 You must follow these steps to receive your award payment:
 
