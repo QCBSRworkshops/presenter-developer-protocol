@@ -103,5 +103,7 @@ functions-for-workshop-developers
 deployment
 contributing-to-the-package
 payment-en
+payment-en-mcgill
+payment-en-nonmcgill
 tax-implications
 faq-en
