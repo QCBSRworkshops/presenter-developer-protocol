@@ -8,7 +8,7 @@ Tous les présentateurs et développeurs d'ateliers reçoivent un **prix d'appre
 
 * **Postdoctorant(e)s de McGill**: Malheureusement, en raison de limitations contractuelles institutionnelles, les postdoctorant(e)s de McGill ne sont **plus éligibles** pour recevoir des *Bourses d'apprentissage et de développement* du CSBQ à partir de mars 2021. Des exceptions existent si votre contrat avec votre (vos) superviseur(e)(s) le permet, mais cela est rare. En raison de ce changement, les postdoctorant(e)s de McGill ne peuvent contribuer à la série que sur une base volontaire.
 
-## Étudiant(e)s des cycles supérieurs de McGill {- #payment-fr-mcgill}
+## Étudiant(e)s des cycles supérieurs de McGill {#payment-fr-mcgill}
 
 Suivez ces étapes pour recevoir votre prix :
 
@@ -56,7 +56,7 @@ Suivez ces étapes pour recevoir votre prix :
     
     * Si vous ne recevez pas votre paiement dans les deux jours, veuillez contacter Dr. Elina à nouveau afin qu'elle puisse vous aider à recevoir votre paiement. 
 
-## Étudiant(e)s des cycles supérieurs et Postdoctorant(e)s hors-McGill {- #payment-fr-nonmcgill}
+## Étudiant(e)s des cycles supérieurs et Postdoctorant(e)s hors-McGill {#payment-fr-nonmcgill}
 
 Suivez ces étapes pour recevoir votre prix:
 
