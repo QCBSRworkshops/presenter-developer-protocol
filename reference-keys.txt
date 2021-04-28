@@ -37,6 +37,8 @@ pour-commencer
 flux-de-travail-github
 contribuer-autrement
 payment-fr
+payment-fr-mcgill
+payment-fr-nonmcgill
 implications-fiscales
 codeofconduct-en
 preparation-en
