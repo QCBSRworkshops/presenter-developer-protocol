@@ -424,6 +424,8 @@ Pour ouvrir une demande d'extraction pour votre branche (par exemple `workshop1_
 
 10. Une fois que la demande d'extraction est fusionnée, n'oubliez pas de **tirer la branche principale** !
 
+Un guide visuel du flux de travail GitHub est aussi accessible [ici](https://guides.github.com/introduction/flow/).
+
 ## Contribuer autrement
 
 Si vous n'êtes pas à l'aise avec GitHub, vous pouvez toujours nous aider à améliorer les ateliers !

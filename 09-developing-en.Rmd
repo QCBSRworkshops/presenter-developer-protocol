@@ -346,7 +346,7 @@ Once you have cloned the repository, you are ready to begin developing!
 
 ### GitHub workflow
 
-GitHub creates repositories with a single default branch, named `dev` (if you work in the command line) or `master` (if you work in GitHub Desktop). This is the branch you see when you visit the repository. 
+GitHub creates repositories with a single default branch, named `dev` (if you work in the command line) or `main` (if you work in GitHub Desktop). This is the branch you see when you visit the repository. 
 
 We strongly recommend working on a **new branch**, which allows you to develop the workshops without affecting the main branch in the repository. Working on a separate branch means that changes are only implemented in the original content once your contributions are reviewed. This is a "safer" way to develop the workshops, particularly when multiple people are collaborating on a workshop at the same time. 
 
@@ -421,6 +421,8 @@ To open a pull request for your branch (e.g. `workshop1_intro`), please follow t
 9. **Assign** your pull request to a reviewer (one of the R workshop coordinators). The reviewer will then review, squash, and merge your changes.
 
 10. Once the pull request is merged, do not forget to **pull the main branch**!
+
+A visual guide to the GitHub Workflow is also available [here](https://guides.github.com/introduction/flow/).
 
 ## Other ways to contribute
 
