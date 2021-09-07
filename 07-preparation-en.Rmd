@@ -8,17 +8,20 @@ Being a presenter for the QCBS R Workshop Series requires preparation and proact
 
 1. Obtain the list of registered participants to your workshop and determine the number of presenters that can be allocated to your workshop:
 
+> NEW: On September, 2021, the Learning and Development Award for presenters in the R Workshop Series has changed from $125 to $150. New distinctions in the award payment process between McGill and non-McGill contributors have been incorporated. See the [Payment](#payment-en) section for more information.  
+
 Number of Participants | Number of Presenters | Payment per Presenter | Allocated funds to the workshop 
 :-------------: | :-------------: | :-------------: | :-------------:
-1 to 5 | 1 | $125 | $125
-6 to 14 | 2 | $125 | $250
-15 or more | 3 | $125 | $375
+1 to 5 | 1 | $ ~~125~~ 150 | $ ~~125~~ 150
+6 to 14 | 2 | $ ~~125~~ 150 | $ ~~250~~ 300
+15 or more | 3 | $ ~~125~~ 150 | $ ~~375~~ 450
+
 
 * **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Both workshop instructors and assistants must answer student questions.
 
 > *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
 
-> *Note that the **maximum** payment per presenter is of 125$, per workshop instructed.*
+> *Note that the **maximum** payment per presenter is of 150$, per workshop instructed.*
 
 2. Familiarize yourself with the material available within the [wiki](https://wiki.qcbs.ca/r) and the [presentation pages](#presentation-en).
 
@@ -133,7 +136,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 2. [Provide your own feedback](https://goo.gl/forms/85TXCiQ9tW9nvq922) on the workshop you have just instructed.
 
-3. Send the message below to any registered participants that were absent from your workshop and did not sent you a message cancelling their registration on time.
+3. Send the message below to any registered participants that were absent from your workshop and did not sent you a message canceling their registration on time.
 
 * **NOTE**: Send **separate** messages to each one of the registered absentees (i.e. do *not* include other participants in your communications).
 

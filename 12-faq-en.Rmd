@@ -1,49 +1,101 @@
 # Frequently Asked Questions (FAQ) {#faq-en}
 
-*Coming soon!*
+#### **Award eligibility and contributing to the series** {-}
 
-**Pre-Workshop Questions**
+1. Am I eligible to receive a **Le**arning **a**nd **D**evelopment **A**ward (LeaDA)? 
+
+> To receive a Learning and Development Award (LeaDA), you must be an active QCBS member (i.e. at least one of your supervisors must be a member of the QCBS) AND must NOT be a postdoctoral fellow from McGill University.
+
+2. I am a postdoctoral fellow from McGill University. Why am I ineligible for a **Le**arning **a**nd **D**evelopment **A**ward (LeaDA)?
+
+> Unfortunately, because of institutional and contractual limitations, the QCBS is being prevented from offering awards to McGill postdoctoral fellows. In rare circumstances, McGill postdoctoral fellows might have contractual freedom with their principal investigators to receive such awards. We recommend that you contact your principal investigator to discuss this, and then contact the [coordinators of the R Workshop Series]() and [Philippe Auzel]() to discuss these exceptions.
+
+3. I would like to contribute by developing a workshop. How can I do it?
+
+> Thank you for your interest in contributing to the workshop series! We regularly send messages and make [Facebook]() and [twitter]() posts inviting developers to think critically and apply improvements to the workshop. To make sure we will keep you on the loop, you can begin by filling [this questionnaire]() about which workshops(s) you would like to contribute. All invited contributors to the series are eligible to receive a Learning and Development Award!
+
+4. How can I contribute by instructing a workshop?
+
+> Workshops are currently instructed during the Fall and during the Winter. We regurlaly send messages and make [Facebook]() and [twitter]() posts inviting QCBS members to instruct one or more workshops for the R Workshop Series. If you are an active member of the QCBS, you will receive a message around September and October for the Fall workshops, and around December and January for the Winter workshops. Stay tuned! All instructors for the QCBS R Workshop Series are eligible to receive a Learning and Development Award from the QCBS.
+
+5. I am not proficient in `R`, `RMarkdown`, and/or `Github`. Can I still help?
+
+>
+
+#### **Pre-Workshop Questions** {-}
 
 1. What do I need to prepare for the workshop?
 
+> You must take your time to carefully read and apply the guidelines within the [Preparation section](#preparation-en). Those instructions have been carefully developed with the evidence, recommendations and experience from coordinators, presenters and participants across several years, and concisely written for you, so your experience and the experience of participants can go in the best way as possible. If you have any questions or recommendations, please [contact the coordinators]().
 
 2. When instructing workshops, do we have to stick to the workshop material?
 
+> *Yes* and *no*. You may replace the workshop material (presentation and book) that we provide for you by an independent option. However, if time allows, feel free to recommend and use additional tools, show additional information. If you believe that the workshops could be improved and benefit from any additional material, please create an issue in their corresponding Github repositories!
 
 3. I have never instructed an online workshop. Where should I begin?
 
 
-4. Can I invite my friend to participate in a workshop?
 
+4. Can I invite my friend or my colleague to participate in a workshop?
+
+> Yes, but they *must be* officially registered to the workshop. Even if last minute, ask them to [register to the workshop](https://qcbsrworkshops.github.io/pricing/) before providing them with the information to join the workshop venue.
 
 5. I am instructing a workshop. How do I get in touch with the participants?
 
 
-**Workshop Questions**
+
+6. 
 
 
 
-**Payment Questions**
-
-1. How can I receive my award?
-
-2. I instructed or developed a workshop, submitted my payment request, but have not been paid yet. What should I do?
+7. 
 
 
-**Developing and Contributing Questions**
+#### **Workshop Questions** {-}
 
-1. How can I contribute to the workshop series?
-
-
-2. I am not proficient in `R`, `RMarkdown`, and/or `Github`. Can I still help?
+1. I feel that someone is being disrespectful to me or to the other participants. What should I do?
 
 
-3. I have seen bugs and errors when preparing or when presenting a workshop. What happened?
+
+2. 
 
 
-**General Questions**
 
-2. Who are the coordinators of the series?
+3.
 
 
-4. Can I use the QCBS R Workshop Series to instruct workshops in my university?
+
+4.
+
+
+5. I have seen bugs and errors when preparing or when presenting a workshop. What happened?
+
+
+#### **Payment Questions** {-}
+
+1. What is the **Le**arning **a**nd **D**evelopment **A**ward (LeaDA)?
+
+
+1. How much is the award I am going to receive?
+
+
+2. How can I receive my award?
+
+
+3. I instructed or developed a workshop, submitted my payment request, but have not been paid yet. What should I do?
+
+
+4. What are my tax obligations with respect to the award?
+
+
+#### **General Questions**{-}
+
+1. Who are the coordinators of the series?
+
+
+
+2. Can I use the QCBS R Workshop Series to instruct workshops in my university?
+
+
+
+
