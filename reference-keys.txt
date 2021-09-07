@@ -107,5 +107,5 @@ contributing-to-the-package
 payment-en
 payment-en-mcgill
 payment-en-nonmcgill
-tax-implications
+payment-en-tax-implications
 faq-en
