@@ -12,11 +12,11 @@
 
 3. I would like to contribute by developing a workshop. How can I do it?
 
-> Thank you for your interest in contributing to the workshop series! We regularly send messages and make [Facebook]() and [twitter]() posts inviting developers to think critically and apply improvements to the workshop. To make sure we will keep you on the loop, you can begin by filling [this questionnaire]() about which workshops(s) you would like to contribute. All invited contributors to the series are eligible to receive a Learning and Development Award!
+> Thank you for your interest in contributing to the workshop series! We regularly send messages and make [Facebook](https://www.facebook.com/groups/csbq.qcbs/) and [twitter](https://twitter.com/Csbq_qcbs_stu) posts inviting developers to think critically and apply improvements to the workshop. To make sure we will keep you on the loop, you can begin by filling [this questionnaire]() about which workshops(s) you would like to contribute. All invited contributors to the series are eligible to receive a Learning and Development Award!
 
 4. How can I contribute by instructing a workshop?
 
-> Workshops are currently instructed during the Fall and during the Winter. We regurlaly send messages and make [Facebook]() and [twitter]() posts inviting QCBS members to instruct one or more workshops for the R Workshop Series. If you are an active member of the QCBS, you will receive a message around September and October for the Fall workshops, and around December and January for the Winter workshops. Stay tuned! All instructors for the QCBS R Workshop Series are eligible to receive a Learning and Development Award from the QCBS.
+> Workshops are currently instructed during the Fall and during the Winter. We regurlaly send messages and make [Facebook](https://www.facebook.com/groups/csbq.qcbs/) and [twitter](https://twitter.com/Csbq_qcbs_stu) posts inviting QCBS members to instruct one or more workshops for the R Workshop Series. If you are an active member of the QCBS, you will receive a message around September and October for the Fall workshops, and around December and January for the Winter workshops. Stay tuned! All instructors for the QCBS R Workshop Series are eligible to receive a Learning and Development Award from the QCBS.
 
 5. I am not proficient in `R`, `RMarkdown`, and/or `Github`. Can I still help?
 
@@ -75,17 +75,23 @@
 
 1. What is the **Le**arning **a**nd **D**evelopment **A**ward (LeaDA)?
 
+The <a href = "https://qcbs.ca/student-grants/learning-development-award-leada">Learning Development Award (LeaDA)</a> is available to graduates student and post-doctoral QCBS members, who propose substantial contributions towards the training and learning experience of graduate students and faculty beyond established academic courses within the QCBS network. The QCBS offers Learning and Development Awards to support graduates student and post-doctoral QCBS members who instruct or develop workshops. 
 
-1. How much is the award I am going to receive?
+2. How much is the award I am going to receive?
 
+In September 2021, the Learning and Development Award amounts to $150 for each contribution from instructors or developers of the R Workshop Series. Because Non-McGill contributors are subject to federal and provincial taxes on the awards they receive, a 27.53% surplus will be added to this amount to compensate for the taxes they pay.
 
-2. How can I receive my award?
+3. How can I receive my award?
 
+LeaDA are processed according to several steps outlined in the [Receiving your award](#payment-en) section of this protocol. Please ensure that you have completed all the steps required for your institution and affiliation status. If you do not receive any notification that your payment is being processed within a maximum of 45 days, please contact Dr. Elina (<helen.elina@mcgill.ca>), the Administrative Associate of the QCBS, to follow up on your award request.
 
-3. I instructed or developed a workshop, submitted my payment request, but have not been paid yet. What should I do?
+4. I instructed or developed a workshop, submitted my payment request, but have not been paid yet. What should I do?
 
+LeaDA are processed according to several steps outlined in [Receiving your award](#payment-en). **Please note that the LeaDA are processed differently according to institution and affiliation status.** First, please ensure that you have completed all the steps required for your institution and affiliation status. If you have followed these steps and are experiencing delays beyond the maximum timeframe for your institution and affiliation status, please contact Helen Elina ([helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)), who is the Administrative Associate of the QCBS, so she can help you receive your payment. 
 
-4. What are my tax obligations with respect to the award?
+5. What are my tax obligations with respect to the award?
+
+Stipends and independent contracts are not employee wages and the payer (QCBS) is *not* responsible for any income tax or employment related deductions. Please carefully read the section on [Tax implications](#payment-en-tax-implications) to understand your legal and tax obligations.
 
 
 #### **General Questions**{-}
