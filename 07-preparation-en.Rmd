@@ -8,13 +8,13 @@ Being a presenter for the QCBS R Workshop Series requires preparation and proact
 
 1. Obtain the list of registered participants to your workshop and determine the number of presenters that can be allocated to your workshop:
 
-> NEW: On September, 2021, the Learning and Development Award for presenters in the R Workshop Series has changed from $125 to $150. New distinctions in the award payment process between McGill and non-McGill contributors have been incorporated. See the [Payment](#payment-en) section for more information.  
+> NEW: **In September 2021, the Learning and Development Award for presenters in the R Workshop Series has changed from $125 to $150.** There are also new distinctions in the award payment process between McGill and non-McGill contributors, including additional **tax compensation for non-McGill contributors**. See the [Payment](#payment-en) section for more information.  
 
 Number of Participants | Number of Presenters | Payment per Presenter | Allocated funds to the workshop 
 :-------------: | :-------------: | :-------------: | :-------------:
-1 to 5 | 1 | $ ~~125~~ 150 | $ ~~125~~ 150
-6 to 14 | 2 | $ ~~125~~ 150 | $ ~~250~~ 300
-15 or more | 3 | $ ~~125~~ 150 | $ ~~375~~ 450
+1 to 5 | 1 | $ 150 | $  150
+6 to 14 | 2 | $ 150 | $  300
+15 or more | 3 | $  150 | $  450
 
 
 * **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Both workshop instructors and assistants must answer student questions.
