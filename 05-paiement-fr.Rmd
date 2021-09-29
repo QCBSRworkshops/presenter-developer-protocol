@@ -16,11 +16,11 @@ Suivez ces étapes pour recevoir votre prix :
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
-    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 150 $ par atelier demandé*.
 
 2. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
-    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
+    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 150 $ par atelier" ; "Total : 250 $"). 
   
     * Si vous avez présenté et/ou développé plusieurs ateliers, indiquez-les sur des lignes séparées dans une seule facture, si possible.
   
@@ -64,7 +64,7 @@ Suivez ces étapes pour recevoir votre prix:
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
-    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 125 $ par atelier demandé*.
+    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 150 $ par atelier demandé*.
 
 
 2. **Remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. 
@@ -78,7 +78,7 @@ Suivez ces étapes pour recevoir votre prix:
 
 3. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
-    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 125 $ par atelier" ; "Total : 250 $"). 
+    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 150 $ par atelier" ; "Total : 250 $"). 
   
     * Si vous avez présenté et/ou développé plusieurs ateliers, indiquez-les sur des lignes séparées dans une seule facture, si possible.
   
