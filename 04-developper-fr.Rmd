@@ -93,7 +93,7 @@ Contexte : Les participants à l'atelier viennent d'apprendre quelles fonctions 
 
 Objectif : évaluer les connaissances des participants et les rendre plus confiants dans le choix du test à deux échantillons approprié dans leur recherche. 
 
-Elaboré par : [Pedro Henrique P. Braga](mailto:ph.pereirabraga@gmail.com).
+Elaboré par : [Pedro Henrique P. Braga](mailto:ph.pereirabraga@gmail.com)
 
 ```
 ---
@@ -125,7 +125,7 @@ Contexte : Les participants et participantes ont été initiés aux modèles lin
 
 Objectif : Évaluer la capacité du participant ou de la participante à appliquer le concept de correction de la sur-dispersion à différents types de données, pour l'aider à mieux comprendre la relation entre les objets de famille et les fonctions de liaison, et pour renforcer l'idée que les modèles peuvent être mis à jour sans avoir à en créer de nouveaux.
 
-Elaboré par : [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
+Elaboré par : [Esteban Góngora](mailto:esteban.gongora@mail.mcgill.ca)
 
 ```
 ---
@@ -165,7 +165,7 @@ Contexte : Cet exercice doit être fourni pour préparer le terrain aux discussi
 
 Objectif : Encourager la réflexion critique des participants et des participantes autour de la  visualisation de données.
 
-Elaboré par : [Pedro Henrique P. Braga](mailto:ph.pereirabraga@gmail.com).
+Elaboré par : [Pedro Henrique P. Braga](mailto:ph.pereirabraga@gmail.com)
 
 ```
 ---
@@ -210,11 +210,11 @@ Note : Les chiffres en question ne sont pas seulement une question de mauvais go
 
 **Exemple 2**
 
-Contexte : Les participants et participantes viennent d'être initiés aux analyses multivariées, et viennent de voir le tableau récapitulatif des principales caractéristiques des ordinations sans contrainte (https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=).
+Contexte : Les participants et participantes viennent d'être initiés aux analyses multivariées, et viennent de voir le [tableau récapitulatif](http://r.qcbs.ca/workshop09/pres-fr/workshop09-pres-fr.html#141) des principales caractéristiques des ordinations sans contrainte.
 
 Objectif : Permettre aux participants et participantes d'appliquer de manière critique les informations présentées dans cet atelier en déterminant quel type d'étude/données correspondrait le mieux aux différents types d'ordinations.
 
-Elaboré par : [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca).
+Elaboré par : [Esteban Gongora Bernoske](mailto:esteban.gongora@mail.mcgill.ca)
 
 ```
 ---
@@ -222,7 +222,7 @@ Discussion de groupe : Chaque groupe se verra attribuer au hasard un type d'ordi
 
 ### Inclure le tableau récapitulatif pour référence.
 
-![](https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=)
+![]((http://r.qcbs.ca/workshop09/pres-fr/workshop09-pres-fr.html#141))
 
 ???
 
@@ -234,7 +234,7 @@ Discussion de groupe : Chaque groupe se verra attribuer au hasard un type d'ordi
 
 ### Inclure le tableau récapitulatif pour référence.
 
-![](https://wiki.qcbs.ca/_media/summary_ordination.jpg?cache=)
+![]((http://r.qcbs.ca/workshop09/pres-fr/workshop09-pres-fr.html#141))
 
 ???
 
@@ -300,24 +300,6 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 ---
 ```
 
-**Exemple 2**
-
-*Inclure un autre exemple avec une discussion plus statistique.*
-
-Contexte:
-
-Goal:
-
-Elaboré par: [](mailto:).
-
-```
----
-
----
-
----
-```
-
 ## Comment développer des ateliers
 
 Cette section vous guide à travers le processus de contribution aux présentations des ateliers R du CSBQ.
@@ -373,7 +355,7 @@ git checkout -b workshop1_intro
 
 GitHub Desktop ([instructions ici](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches)).
 
-3. **Effectuez vos modifications**, en suivant les [lignes directrices](https://qcbsrworkshops.github.io/presenter-developer-protocol/_book/developing-en.html#guidelines) énumérées ci-dessus.
+3. **Effectuez vos modifications**, en suivant les [lignes directrices](#directives) énumérées ci-dessus.
 
 4. **Ajoutez et validez vos modifications**. Une fois que vous avez terminé de faire des changements sur votre branche, ajoutez-les et validez-les pour enregistrer ces changements. Lorsque vous validez des modifications, il est essentiel d'inclure un message de validation qui résume brièvement ce que vous avez fait. Soyez bref mais informatif !
 

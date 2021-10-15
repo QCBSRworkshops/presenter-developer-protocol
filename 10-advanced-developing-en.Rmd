@@ -28,7 +28,7 @@ To make any changes to the template, you can submit an issue [here](https://gith
 
 The current deployment of the workshop material follows a continuous integration (CI) workflow. This workflow automatically tests and builds the code that workshop developers push to the repositories.
 
-On January 2021, the implementation shifted from [Travis CI]() towards [Github Actions](). The steps described below are contained to the currently workflows. Supplementary documentation from [Github]() and other actions from the Github Marketplace may be helpful. 
+On January 2021, the implementation shifted from [Travis CI](https://www.travis-ci.com/) towards [Github Actions](https://github.com/features/actions). The steps described below are contained to the currently workflows. Supplementary documentation from [Github](https://docs.github.com/en/actions) and other actions from the Github Marketplace may be helpful. 
 
 ### Github Action workflow structure
 
@@ -44,7 +44,7 @@ Within the **workshop** repositories, there are five workflows:
 
 #### Render and deployment workflows
 
-Render and deployment workflow are specific to the language (English or French) and the type of document (presentation or book) and are conditionally triggered when changes are committed and pushed to their specific directories (`[presentation-or-book]-[en-or-fr]/`) or when changes committed and pushed to the template repository ([qcbsRWorkshops/templateWorkshops]()) trigger type-specific repository dispatches.
+Render and deployment workflow are specific to the language (English or French) and the type of document (presentation or book) and are conditionally triggered when changes are committed and pushed to their specific directories (`[presentation-or-book]-[en-or-fr]/`) or when changes committed and pushed to the template repository ([qcbsRWorkshops/templateWorkshops](https://github.com/QCBSRworkshops/templateWorkshops)) trigger type-specific repository dispatches.
 
 ##### Workshops workflows
 

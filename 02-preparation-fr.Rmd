@@ -24,13 +24,13 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 > Notez que le **prix maximum** pour l'instruction ou l'assistance des ateliers R du CSBQ est de 150 $ par personne, par atelier.*
 
-2. Familiarisez-vous avec le matériel disponible dans le [wiki](https://wiki.qcbs.ca/r) et la [présentation](https://qcbsrworkshops.github.io/) pour votre atelier.
+2. Familiarisez-vous avec le matériel disponible dans le [site web](https://r.qcbs.ca/fr/workshops/) pour votre atelier.
 
   * **Assurez-vous d'être *très* à l'aise avec le contenu et la présentation de l'atelier à la date de votre présentation.**
 
   * Il est de **votre responsabilité** de vous familiariser avec le matériel.
 
-  * Utilisez les [pages wiki](https://wiki.qcbs.ca/r) et les [présentations](https://qcbsrworkshops.github.io/) comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
+  * Utilisez [les livres et les présentations](https://r.qcbs.ca/fr/workshops/) comme matériel de référence pour votre atelier. N'hésitez pas à compléter vos connaissances avec d'autres références et matériels.
 
   * Les présentations sont dotées d'un *mode présentateur*, qui permet la demonstration des notes et de donner un atelier plus dynamique. Consultez notre section "[Mode présentateur](#mode-presentateur)" pour en savoir plus.
 
@@ -46,7 +46,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 2. Envoyez le *message standardisé* ci-dessous à tous les participants, en remplaçant les champs si nécessaire.
 
-> Idéalement, les instructeurs dont les courriels sont affichés dans le [calendrier de l'atelier](https://wiki.qcbs.ca/r#horaire_schedule) seront les premiers à communiquer avec les participants. Vous pouvez changer ce rôle, si vous le préférez.
+> Idéalement, les instructeurs dont les courriels sont affichés dans le [calendrier de l'atelier](https://r.qcbs.ca/fr/schedule/) seront les premiers à communiquer avec les participants. Vous pouvez changer ce rôle, si vous le préférez.
 
 * *NOTE:* Copiez au carbone (en « Cc ») toutes vos communications aux autres instructeurs et instructrices de votre atelier.
 * *NOTE:* Ajoutez toutes les participants comme destinataires en copie carbone invisible (c.à.d., « Cci » ou « Bcc »).
@@ -64,7 +64,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 >
 > 1) L'atelier sera donné par l'intermédiaire de Zoom. Une fois votre inscription terminée, vous devriez avoir reçu une invitation contenant un lien unique. Vous ne devez pas partager ce lien avec d'autres personnes.
 >
-> 2) Veuillez préparer votre ordinateur portable et les programmes correspondants (R et RStudio) au préalable. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://wiki.qcbs.ca/r_workshopXX**
+> 2) Veuillez préparer votre ordinateur portable et les programmes correspondants (R et RStudio) au préalable. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://r.qcbs.ca/fr/workshops/r-workshop-XX/**
 >
 > 3) Nous vous recommandons d'exécuter l'intégralité du script au moins une fois avant la session de l'atelier afin de vous assurer que tout fonctionne sur votre ordinateur portable. En outre, nous vous recommandons de télécharger et d'installer toutes les bibliothèques que nous utiliserons pendant l'atelier.
 >
@@ -93,7 +93,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 >
 > 1) L'atelier sera donné dans le bâtiment **XXX**, salle **XXX**.
 >
-> 2) Veuillez venir avec votre ordinateur portable et les programmes correspondants (R et RStudio) installés. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://wiki.qcbs.ca/r_workshopXX**.
+> 2) Veuillez venir avec votre ordinateur portable et les programmes correspondants (R et RStudio) installés. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://r.qcbs.ca/fr/workshops/r-workshop-XX/**.
 >
 > 3) Nous vous recommandons d'exécuter le script complet au moins une fois avant de venir à l'atelier pour vous assurer que tout fonctionne sur votre ordinateur portable et pour télécharger et installer toutes les bibliothèques que nous utiliserons pendant l'atelier.
 >
