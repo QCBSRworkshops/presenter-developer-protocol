@@ -127,7 +127,7 @@ Feel free to use whichever feature you are most comfortable with, but please ens
 
 Some of the workshop exercises are designed as simple polls. For remote workshops, these polls will be set up in Zoom.
 
-**Please set up the polls before the workshop begins**, to ensure the exercises run smoothly. Poll questions and answers are available in the [presentations](https://qcbsrworkshops.github.io/). You can review **how to create and launch polls in Zoom [here](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
+**Please set up the polls before the workshop begins**, to ensure the exercises run smoothly. Poll questions and answers are available in the [presentations](https://r.qcbs.ca/workshops/). You can review **how to create and launch polls in Zoom [here](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
 
 ### Breakout Rooms
 

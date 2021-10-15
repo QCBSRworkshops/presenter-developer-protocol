@@ -23,13 +23,13 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 > *Note that the **maximum** payment per presenter is of 150$, per workshop instructed.*
 
-2. Familiarize yourself with the material available within the [wiki](https://wiki.qcbs.ca/r) and the [presentation pages](#presentation-en).
+2. Familiarize yourself with the material available within the [website](https://r.qcbs.ca/workshops/).
 
   * **You must be *very* comfortable with the content and the presentation concerning the workshop as of the date of your presentation.**
 
   * It is **your responsibility** to become familiar with the material.
 
-  * Use [wiki pages](https://wiki.qcbs.ca/r) and RMarkdown [presentations](https://qcbsrworkshops.github.io/) as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
+  * Use [the books and presentations](https://r.qcbs.ca/workshops/) as reference material for your workshop. Do not hesitate to complement your knowledge with other references and material.
 
   * The presentations come with a *presenter mode*, which allow for presenter notes and a more dynamic instruction. Go to our "[Presenter mode](#presenter-mode)" section to learn more.
 
@@ -45,7 +45,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 2. Send the *standardized message* below to all participants, replacing the fields when required.
 
-> Ideally, instructors that have their emails displayed within the [workshop schedule](https://wiki.qcbs.ca/r#horaire_schedule) will be the ones to communicate with participants first. You may change this role, if you prefer.
+> Ideally, instructors that have their emails displayed within the [workshop schedule](https://r.qcbs.ca/schedule/) will be the ones to communicate with participants first. You may change this role, if you prefer.
 
 *  *NOTE:* Carbon-copy all your communication to the other instructors of your workshop.
 *  *NOTE:* You must send the message below **at least** 7 days before the date of your presentation.
@@ -61,7 +61,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > 1) The workshop will be given through Zoom. Upon the completion of your registration, you should have received an invitation containing a unique link. You must not share this link with others.
 >
-> 2) Please prepare your laptop and the relevant programs (R and RStudio) before hand. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**
+> 2) Please prepare your laptop and the relevant programs (R and RStudio) before hand. You can also download the script we will be using in this workshop at the following website: **https://r.qcbs.ca/workshops/r-workshop-XX/**
 >
 > 3) We recommend that you execute the entire script at least once before the workshop session to make sure that everything works on your laptop. In addition to this, we recommend that you download and install all the libraries we will be using during the workshop.
 >
@@ -88,7 +88,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > 1) The workshop will be given in **XXX** building, room **XXX**.
 >
-> 2) Please come with your laptop and the relevant programs (R and RStudio) installed. You can also download the script we will be using in this workshop at the following website: **https://wiki.qcbs.ca/r_workshopXX**.
+> 2) Please come with your laptop and the relevant programs (R and RStudio) installed. You can also download the script we will be using in this workshop at the following website: **https://r.qcbs.ca/workshops/r-workshop-XX/**.
 >
 > 3) We recommend that you execute the entire script at least once before coming to the workshop to make sure that everything works on your laptop and to download and install all the libraries we will be using during the workshop.
 >

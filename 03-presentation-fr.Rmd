@@ -128,7 +128,7 @@ N'hésitez pas à utiliser la fonctionnalité avec laquelle vous êtes le plus �
 
 Certains des exercices de l'atelier sont conçus sous forme de simples sondages. Pour les ateliers à distance, ces sondages seront effectués sur Zoom.
 
-**Veuillez préparer les sondages avant le début de l'atelier**, afin d'assurer le bon déroulement des exercices. Les questions et réponses des sondages sont disponibles dans les [présentations](https://qcbsrworkshops.github.io/). Vous pouvez voir **comment créer et lancer des sondages dans Zoom [ici](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
+**Veuillez préparer les sondages avant le début de l'atelier**, afin d'assurer le bon déroulement des exercices. Les questions et réponses des sondages sont disponibles dans les [présentations](https://r.qcbs.ca/fr/workshops/). Vous pouvez voir **comment créer et lancer des sondages dans Zoom [ici](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-meetings#h_fe37b3f4-8e05-4b87-bd66-12d8c7f19ff8)**.
 
 ### Salles de conférence
 
