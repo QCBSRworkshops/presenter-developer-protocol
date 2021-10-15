@@ -24,7 +24,7 @@
 <meta name="author" content="QCBS R Workshop Series" />
 
 
-<meta name="date" content="2021-10-04" />
+<meta name="date" content="2021-10-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -287,7 +287,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="managing-the-continuous-integration-workflow" class="section level2">
 <h2><span class="header-section-number">10.2</span> Managing the continuous integration workflow</h2>
 <p>The current deployment of the workshop material follows a continuous integration (CI) workflow. This workflow automatically tests and builds the code that workshop developers push to the repositories.</p>
-<p>On January 2021, the implementation shifted from <a href="">Travis CI</a> towards <a href="">Github Actions</a>. The steps described below are contained to the currently workflows. Supplementary documentation from <a href="">Github</a> and other actions from the Github Marketplace may be helpful.</p>
+<p>On January 2021, the implementation shifted from <a href="https://www.travis-ci.com/">Travis CI</a> towards <a href="https://github.com/features/actions">Github Actions</a>. The steps described below are contained to the currently workflows. Supplementary documentation from <a href="https://docs.github.com/en/actions">Github</a> and other actions from the Github Marketplace may be helpful.</p>
 <div id="github-action-workflow-structure" class="section level3">
 <h3><span class="header-section-number">10.2.1</span> Github Action workflow structure</h3>
 <p>In a nutshell, inside each repository there is a <code>.github/workflows/</code> directory that holds <code>YAML</code> files that contain workflow (recipes) that tells Github Actions when and what to execute a list of steps.</p>
@@ -301,7 +301,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3><span class="header-section-number">10.2.2</span> Workflow description</h3>
 <div id="render-and-deployment-workflows" class="section level4">
 <h4><span class="header-section-number">10.2.2.1</span> Render and deployment workflows</h4>
-<p>Render and deployment workflow are specific to the language (English or French) and the type of document (presentation or book) and are conditionally triggered when changes are committed and pushed to their specific directories (<code>[presentation-or-book]-[en-or-fr]/</code>) or when changes committed and pushed to the template repository (<a href="">qcbsRWorkshops/templateWorkshops</a>) trigger type-specific repository dispatches.</p>
+<p>Render and deployment workflow are specific to the language (English or French) and the type of document (presentation or book) and are conditionally triggered when changes are committed and pushed to their specific directories (<code>[presentation-or-book]-[en-or-fr]/</code>) or when changes committed and pushed to the template repository (<a href="https://github.com/QCBSRworkshops/templateWorkshops">qcbsRWorkshops/templateWorkshops</a>) trigger type-specific repository dispatches.</p>
 <div id="workshops-workflows" class="section level5">
 <h5><span class="header-section-number">10.2.2.1.1</span> Workshops workflows</h5>
 <p><em>This section is under development</em></p>
@@ -352,8 +352,8 @@ git checkout master</code></pre>
 <ol style="list-style-type: decimal">
 <li>The <code>R</code> package <code>bookdown</code> is installed and working;</li>
 </ol>
-<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="advanced-developing-en.html#cb41-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">requireNamespace</span>(<span class="st">&quot;devtools&quot;</span>)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
-<span id="cb41-2"><a href="advanced-developing-en.html#cb41-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;rstudio/bookdown&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="advanced-developing-en.html#cb39-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">requireNamespace</span>(<span class="st">&quot;devtools&quot;</span>)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
+<span id="cb39-2"><a href="advanced-developing-en.html#cb39-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;rstudio/bookdown&#39;</span>)</span></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
 <li>A <code>bookdown</code> RStudio project has been rendered (<code>bookdown::serve_book()</code>) to a local directory of your liking. You can use the code below to do it using the prompt. Remember to replace the fields <code>&lt;&gt;</code> with the relevant information (<code>&lt;&gt;</code> inclusive).</li>
 </ol>
@@ -472,12 +472,12 @@ The main features of <code>qcbsRworkshops</code> are detailed below.</p>
 <div id="installation" class="section level4">
 <h4><span class="header-section-number">10.3.0.1</span> Installation</h4>
 <p>To install <code>qcbsRworkshops</code>, use the <a href="https://CRAN.R-project.org/package=remotes"><code>remotes</code></a> (dependency of <a href="https://CRAN.R-project.org/package=devtools"><code>devtools</code></a>).</p>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="advanced-developing-en.html#cb46-1"></a><span class="kw">install.packages</span>(remotes)</span>
-<span id="cb46-2"><a href="advanced-developing-en.html#cb46-2"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;QCBSRworkshops/qcbsRworkshops&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="advanced-developing-en.html#cb44-1"></a><span class="kw">install.packages</span>(remotes)</span>
+<span id="cb44-2"><a href="advanced-developing-en.html#cb44-2"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;QCBSRworkshops/qcbsRworkshops&quot;</span>)</span></code></pre></div>
 <p>Note that by installing <code>qcbsRworkshops</code> a set of packages will be installed,
 including <a href="https://CRAN.R-project.org/package=xaringan"><code>xaringan</code></a>. Once
 installed, load it just as you would do for any package.</p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="advanced-developing-en.html#cb47-1"></a><span class="kw">library</span>(qcbsRworkshops) </span></code></pre></div>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="advanced-developing-en.html#cb45-1"></a><span class="kw">library</span>(qcbsRworkshops) </span></code></pre></div>
 <p>Note that, as any other R package, the functions of the package <code>qcbsRworkshops</code>
 are documented. Therefore, if you ever need more details about a specific
 function, just use the question mark, e.g. <code>?download_workshops</code>.</p>
@@ -487,14 +487,14 @@ function, just use the question mark, e.g. <code>?download_workshops</code>.</p
 <p>Once the package loaded, you can quickly download a package with
 <code>download_workshops()</code>, you simply need to use the identifier (<code>id</code>) of the
 desired workshop (1 for the first workshop, 2 for the second and so forth).</p>
-<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="advanced-developing-en.html#cb48-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="advanced-developing-en.html#cb46-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span></code></pre></div>
 <p>This actually downloads a zip file from GitHub that includes the sources files
 of the workshop, so the English and the French version of the workshop. By
 default, the files will be extracted in the working directory. This can be
 changed by setting <code>path</code> to the desired path. Note that <code>download_workshops()</code>
 also supports vectors of identifiers, for instance, the following code will
 download all workshops :</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="advanced-developing-en.html#cb49-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="advanced-developing-en.html#cb47-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</span></code></pre></div>
 </div>
 <div id="build-a-workshop" class="section level4">
 <h4><span class="header-section-number">10.3.0.3</span> Build a workshop</h4>
@@ -502,40 +502,40 @@ download all workshops :</p>
 path (argument <code>path</code>, set to the current working directory by default) and
 build the corresponding xaringan presentation(s) (i.e. the HTML slides). For
 instance, once I have downloaded the first, I can directly build the English and the French HTML presentations like so:</p>
-<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="advanced-developing-en.html#cb50-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span>
-<span id="cb50-2"><a href="advanced-developing-en.html#cb50-2"></a><span class="kw">build_workshops</span>()</span>
-<span id="cb50-3"><a href="advanced-developing-en.html#cb50-3"></a><span class="co"># or </span></span>
-<span id="cb50-4"><a href="advanced-developing-en.html#cb50-4"></a><span class="kw">build_workshops</span>(<span class="dt">path =</span> <span class="st">&quot;.&quot;</span>)  <span class="co"># equivalent as this is the default value of path</span></span></code></pre></div>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="advanced-developing-en.html#cb48-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span>
+<span id="cb48-2"><a href="advanced-developing-en.html#cb48-2"></a><span class="kw">build_workshops</span>()</span>
+<span id="cb48-3"><a href="advanced-developing-en.html#cb48-3"></a><span class="co"># or </span></span>
+<span id="cb48-4"><a href="advanced-developing-en.html#cb48-4"></a><span class="kw">build_workshops</span>(<span class="dt">path =</span> <span class="st">&quot;.&quot;</span>)  <span class="co"># equivalent as this is the default value of path</span></span></code></pre></div>
 <p>Importantly enough, <strong><code>build_workshops()</code> will download all the packages required for the workshop</strong>. To build only one version of the workshop, <code>lang</code> needs to be set to either “en” or “fr”.</p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="advanced-developing-en.html#cb51-1"></a><span class="co"># build English version only</span></span>
-<span id="cb51-2"><a href="advanced-developing-en.html#cb51-2"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;en&quot;</span>)</span>
-<span id="cb51-3"><a href="advanced-developing-en.html#cb51-3"></a><span class="co"># build French version only</span></span>
-<span id="cb51-4"><a href="advanced-developing-en.html#cb51-4"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;fr&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="advanced-developing-en.html#cb49-1"></a><span class="co"># build English version only</span></span>
+<span id="cb49-2"><a href="advanced-developing-en.html#cb49-2"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;en&quot;</span>)</span>
+<span id="cb49-3"><a href="advanced-developing-en.html#cb49-3"></a><span class="co"># build French version only</span></span>
+<span id="cb49-4"><a href="advanced-developing-en.html#cb49-4"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;fr&quot;</span>)</span></code></pre></div>
 <p>This function also has several important feature. First, it can build the pdf
 version (this required the installation of
 <a href="https://www.chromium.org/Home">Chromium</a> or Google Chrome it not already
 installed):</p>
-<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="advanced-developing-en.html#cb52-1"></a><span class="co"># this builds both version of the workshop in HTML and pdf </span></span>
-<span id="cb52-2"><a href="advanced-developing-en.html#cb52-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="advanced-developing-en.html#cb50-1"></a><span class="co"># this builds both version of the workshop in HTML and pdf </span></span>
+<span id="cb50-2"><a href="advanced-developing-en.html#cb50-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
 <p>Second, it can extract the R code from the Markdown source file.</p>
-<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="advanced-developing-en.html#cb53-1"></a><span class="co"># build both version of the workshop in HTML and pdf +  extract the R code</span></span>
-<span id="cb53-2"><a href="advanced-developing-en.html#cb53-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="advanced-developing-en.html#cb51-1"></a><span class="co"># build both version of the workshop in HTML and pdf +  extract the R code</span></span>
+<span id="cb51-2"><a href="advanced-developing-en.html#cb51-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
 <p>Third, it can update the <a href="https://github.com/QCBSRworkshops/templateWorkshops">CSS template</a></p>
-<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="advanced-developing-en.html#cb54-1"></a><span class="co"># update CSS template + build both versions in HTML and pdf + extract the code and </span></span>
-<span id="cb54-2"><a href="advanced-developing-en.html#cb54-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>, <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="advanced-developing-en.html#cb52-1"></a><span class="co"># update CSS template + build both versions in HTML and pdf + extract the code and </span></span>
+<span id="cb52-2"><a href="advanced-developing-en.html#cb52-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>, <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
 <p>Finally, it can call <code>download_workshops()</code> to download the package:</p>
-<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="advanced-developing-en.html#cb55-1"></a><span class="co"># download workshop #1 + update CSS template + build both versions in HTML and pdf + extract the code and update template</span></span>
-<span id="cb55-2"><a href="advanced-developing-en.html#cb55-2"></a><span class="kw">build_workshops</span>(<span class="dt">id =</span><span class="dv">1</span>, <span class="dt">download =</span> <span class="ot">TRUE</span>, <span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>,  <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="advanced-developing-en.html#cb53-1"></a><span class="co"># download workshop #1 + update CSS template + build both versions in HTML and pdf + extract the code and update template</span></span>
+<span id="cb53-2"><a href="advanced-developing-en.html#cb53-2"></a><span class="kw">build_workshops</span>(<span class="dt">id =</span><span class="dv">1</span>, <span class="dt">download =</span> <span class="ot">TRUE</span>, <span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>,  <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
 </div>
 <div id="presenter-email" class="section level4">
 <h4><span class="header-section-number">10.3.0.4</span> Presenter email</h4>
 <p><code>mail_workshop()</code> writes the email to be sent two weeks before the workshop, for instance:</p>
-<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="advanced-developing-en.html#cb56-1"></a><span class="co"># Mail for workshop #7</span></span>
-<span id="cb56-2"><a href="advanced-developing-en.html#cb56-2"></a><span class="kw">mail_workshop</span>(<span class="dv">7</span>, <span class="dt">pres_name =</span> <span class="st">&quot;Kevin Cazelles&quot;</span>, <span class="dt">lang =</span> <span class="st">&quot;both&quot;</span>, </span>
-<span id="cb56-3"><a href="advanced-developing-en.html#cb56-3"></a>      <span class="dt">details_fr =</span> <span class="st">&quot;à l&#39;UdeM, salle A-2553, campus MIL, le vendredi 28 Février 2020 de 13h à 17h&quot;</span>, </span>
-<span id="cb56-4"><a href="advanced-developing-en.html#cb56-4"></a>      <span class="dt">details_en =</span> <span class="st">&quot;at the UdeM, MIL campus, room A-2553, on Friday February</span></span>
-<span id="cb56-5"><a href="advanced-developing-en.html#cb56-5"></a><span class="st">    28th 2020, 1pm-5pm&quot;</span> </span>
-<span id="cb56-6"><a href="advanced-developing-en.html#cb56-6"></a>   ) </span></code></pre></div>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="advanced-developing-en.html#cb54-1"></a><span class="co"># Mail for workshop #7</span></span>
+<span id="cb54-2"><a href="advanced-developing-en.html#cb54-2"></a><span class="kw">mail_workshop</span>(<span class="dv">7</span>, <span class="dt">pres_name =</span> <span class="st">&quot;Kevin Cazelles&quot;</span>, <span class="dt">lang =</span> <span class="st">&quot;both&quot;</span>, </span>
+<span id="cb54-3"><a href="advanced-developing-en.html#cb54-3"></a>      <span class="dt">details_fr =</span> <span class="st">&quot;à l&#39;UdeM, salle A-2553, campus MIL, le vendredi 28 Février 2020 de 13h à 17h&quot;</span>, </span>
+<span id="cb54-4"><a href="advanced-developing-en.html#cb54-4"></a>      <span class="dt">details_en =</span> <span class="st">&quot;at the UdeM, MIL campus, room A-2553, on Friday February</span></span>
+<span id="cb54-5"><a href="advanced-developing-en.html#cb54-5"></a><span class="st">    28th 2020, 1pm-5pm&quot;</span> </span>
+<span id="cb54-6"><a href="advanced-developing-en.html#cb54-6"></a>   ) </span></code></pre></div>
 <p>will create a HTML version of the email that will pop up in your web browser that you can copy and paste.</p>
 </div>
 <div id="functions-for-workshop-developers" class="section level4">
@@ -543,35 +543,35 @@ installed):</p>
 <p>The main function is obviously <code>build_workshops()</code> as it builds the workshop
 (see above). That being said, there are other functions worth mentioning.</p>
 <p>First it is often useful to clean up the (e.g., clean the cache), this is possible with <code>clean_workshops()</code>, for instance assuming workshop 1 was built in my current working directory, the cache can be cleaned like so:</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="advanced-developing-en.html#cb57-1"></a><span class="kw">clean_workshops</span>(<span class="dt">files =</span> <span class="ot">FALSE</span>, <span class="dt">cache =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="advanced-developing-en.html#cb55-1"></a><span class="kw">clean_workshops</span>(<span class="dt">files =</span> <span class="ot">FALSE</span>, <span class="dt">cache =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
 <p>Second, it is possible to update the CSS template without rendering any presentation using <code>update_template()</code>. Similarly, it is possible to extract the R code without rendering a presentation using <code>extract_Rcode_workshop()</code>.</p>
 <p>Third, the first two slides (after the title slide) have now been standardized: it includes various hyperlinks (GitHub repository, wiki, PDF version, R script), and the list of package required (see for instance <a href="https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2" class="uri">https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2</a>). Those two slides can be generated using <code>first_slides()</code>:</p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="advanced-developing-en.html#cb58-1"></a><span class="co"># the generate the first slides for the workshop 2 and copy the text to the clipboard</span></span>
-<span id="cb58-2"><a href="advanced-developing-en.html#cb58-2"></a><span class="kw">first_slides</span>(<span class="dv">2</span>, <span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;tidyr&quot;</span>), <span class="dt">clip =</span> <span class="ot">TRUE</span>) </span></code></pre></div>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="advanced-developing-en.html#cb56-1"></a><span class="co"># the generate the first slides for the workshop 2 and copy the text to the clipboard</span></span>
+<span id="cb56-2"><a href="advanced-developing-en.html#cb56-2"></a><span class="kw">first_slides</span>(<span class="dv">2</span>, <span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;tidyr&quot;</span>), <span class="dt">clip =</span> <span class="ot">TRUE</span>) </span></code></pre></div>
 <p>Last, the Travis file used for the deployment (see below) can be added with
 <code>use_travis()</code>.</p>
 </div>
 <div id="deployment" class="section level4">
 <h4><span class="header-section-number">10.3.0.6</span> Deployment</h4>
 <p>Currently, we are using <a href="https://travis-ci.org/">Travis CI</a> to check that the package built seamlessly and also to deploy the presentations (English and French in HTML and PDF with the R code). We create all the files needed with the following line (see our Travis file with <code>use_travis()</code>):</p>
-<div class="sourceCode" id="cb59"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb59-1"><a href="advanced-developing-en.html#cb59-1"></a><span class="fu">script</span><span class="kw">:</span></span>
-<span id="cb59-2"><a href="advanced-developing-en.html#cb59-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Rscript -e &quot;qcbsRworkshops::build_workshops(update_template = TRUE, pdf = TRUE, script = TRUE)&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb57"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb57-1"><a href="advanced-developing-en.html#cb57-1"></a><span class="fu">script</span><span class="kw">:</span></span>
+<span id="cb57-2"><a href="advanced-developing-en.html#cb57-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Rscript -e &quot;qcbsRworkshops::build_workshops(update_template = TRUE, pdf = TRUE, script = TRUE)&quot;</span></span></code></pre></div>
 <p>and they are all stored in the folder <code>public</code></p>
-<div class="sourceCode" id="cb60"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb60-1"><a href="advanced-developing-en.html#cb60-1"></a><span class="fu">before_deploy</span><span class="kw">:</span></span>
-<span id="cb60-2"><a href="advanced-developing-en.html#cb60-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> mkdir public</span></span>
-<span id="cb60-3"><a href="advanced-developing-en.html#cb60-3"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp README.md public</span></span>
-<span id="cb60-4"><a href="advanced-developing-en.html#cb60-4"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp -r workshop* public/</span></span></code></pre></div>
+<div class="sourceCode" id="cb58"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb58-1"><a href="advanced-developing-en.html#cb58-1"></a><span class="fu">before_deploy</span><span class="kw">:</span></span>
+<span id="cb58-2"><a href="advanced-developing-en.html#cb58-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> mkdir public</span></span>
+<span id="cb58-3"><a href="advanced-developing-en.html#cb58-3"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp README.md public</span></span>
+<span id="cb58-4"><a href="advanced-developing-en.html#cb58-4"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp -r workshop* public/</span></span></code></pre></div>
 <p>which is the one that will be used by Travis that will create a commit and push on the branch <code>master</code> of the repository that <a href="https://pages.github.com/">GitHub Pages</a> turn into a website.</p>
-<div class="sourceCode" id="cb61"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb61-1"><a href="advanced-developing-en.html#cb61-1"></a><span class="fu">deploy</span><span class="kw">:</span></span>
-<span id="cb61-2"><a href="advanced-developing-en.html#cb61-2"></a><span class="at">  </span><span class="fu">provider</span><span class="kw">:</span><span class="at"> pages</span></span>
-<span id="cb61-3"><a href="advanced-developing-en.html#cb61-3"></a><span class="at">  </span><span class="fu">token</span><span class="kw">:</span><span class="at"> $GH_TOKEN</span></span>
-<span id="cb61-4"><a href="advanced-developing-en.html#cb61-4"></a><span class="at">  </span><span class="fu">strategy</span><span class="kw">:</span><span class="at"> git </span></span>
-<span id="cb61-5"><a href="advanced-developing-en.html#cb61-5"></a><span class="at">  </span><span class="fu">skip_cleanup</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb61-6"><a href="advanced-developing-en.html#cb61-6"></a><span class="at">  </span><span class="fu">keep_history</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
-<span id="cb61-7"><a href="advanced-developing-en.html#cb61-7"></a><span class="at">  </span><span class="fu">target_branch</span><span class="kw">:</span><span class="at"> master</span></span>
-<span id="cb61-8"><a href="advanced-developing-en.html#cb61-8"></a><span class="at">  </span><span class="fu">local_dir</span><span class="kw">:</span><span class="at"> public</span></span>
-<span id="cb61-9"><a href="advanced-developing-en.html#cb61-9"></a><span class="at">  </span><span class="fu">on</span><span class="kw">:</span></span>
-<span id="cb61-10"><a href="advanced-developing-en.html#cb61-10"></a><span class="at">    </span><span class="fu">branch</span><span class="kw">:</span><span class="at"> dev</span></span></code></pre></div>
+<div class="sourceCode" id="cb59"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb59-1"><a href="advanced-developing-en.html#cb59-1"></a><span class="fu">deploy</span><span class="kw">:</span></span>
+<span id="cb59-2"><a href="advanced-developing-en.html#cb59-2"></a><span class="at">  </span><span class="fu">provider</span><span class="kw">:</span><span class="at"> pages</span></span>
+<span id="cb59-3"><a href="advanced-developing-en.html#cb59-3"></a><span class="at">  </span><span class="fu">token</span><span class="kw">:</span><span class="at"> $GH_TOKEN</span></span>
+<span id="cb59-4"><a href="advanced-developing-en.html#cb59-4"></a><span class="at">  </span><span class="fu">strategy</span><span class="kw">:</span><span class="at"> git </span></span>
+<span id="cb59-5"><a href="advanced-developing-en.html#cb59-5"></a><span class="at">  </span><span class="fu">skip_cleanup</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb59-6"><a href="advanced-developing-en.html#cb59-6"></a><span class="at">  </span><span class="fu">keep_history</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb59-7"><a href="advanced-developing-en.html#cb59-7"></a><span class="at">  </span><span class="fu">target_branch</span><span class="kw">:</span><span class="at"> master</span></span>
+<span id="cb59-8"><a href="advanced-developing-en.html#cb59-8"></a><span class="at">  </span><span class="fu">local_dir</span><span class="kw">:</span><span class="at"> public</span></span>
+<span id="cb59-9"><a href="advanced-developing-en.html#cb59-9"></a><span class="at">  </span><span class="fu">on</span><span class="kw">:</span></span>
+<span id="cb59-10"><a href="advanced-developing-en.html#cb59-10"></a><span class="at">    </span><span class="fu">branch</span><span class="kw">:</span><span class="at"> dev</span></span></code></pre></div>
 </div>
 <div id="contributing-to-the-package" class="section level4">
 <h4><span class="header-section-number">10.3.0.7</span> Contributing to the package</h4>
