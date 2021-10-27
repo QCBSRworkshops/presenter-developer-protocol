@@ -62,7 +62,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 >
 > Vous êtes inscrit à l'atelier R du CSBQ #**XXX** qui aura lieu le **JOUR DE LA SEMAINE** à **HH:MM** **PM ou AM**. En préparation de l'atelier, veuillez noter ce qui suit :
 >
-> 1) L'atelier sera donné par l'intermédiaire de Zoom. Une fois votre inscription terminée, vous devriez avoir reçu une invitation contenant un lien unique. Vous ne devez pas partager ce lien avec d'autres personnes.
+> 1) L'atelier sera donné sur la plateforme Zoom. Veuillez vous inscrire sur ce lien d'inscription : **INSÉRER LE LIEN QUI VOUS SERA FOURNI PAR L'ÉQUIPE DE COORDINATION**. Après l'inscription, vous devriez recevoir une invitation le jour de l'atelier contenant un lien unique. Vous ne devez pas partager ce lien avec d'autres personnes.
 >
 > 2) Veuillez préparer votre ordinateur portable et les programmes correspondants (R et RStudio) au préalable. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://r.qcbs.ca/fr/workshops/r-workshop-XX/**
 >
