@@ -59,7 +59,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > You are registered for the QCBS R Workshop #**XXX** that will be given this coming **DAY OF WEEK** at **HH:MM** **PM or AM**. In preparation for the workshop please note the following:
 >
-> 1) The workshop will be given through Zoom. Please register at this registration link: **INSERT LINK PROVIDED TO YOU BY COORDINATION TEAM**. After registration, you should receive an invitation on the day of the workshop containing a unique link. You must not share this link with others.
+> 1) The workshop will be given through Zoom. Please register at this registration link: **INSERT LINK PROVIDED TO YOU BY COORDINATION TEAM**. If registered, you should receive an invitation on the day of the workshop containing a unique link. You must not share this link with others.
 >
 > 2) Please prepare your laptop and the relevant programs (R and RStudio) before hand. You can also download the script we will be using in this workshop at the following website: **https://r.qcbs.ca/workshops/r-workshop-XX/**
 >
@@ -73,7 +73,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > 7) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!
 >
-> Thanks, and looking forward to **DAY OF WEEK**!
+> Thank you, we look forward to **DAY OF WEEK**!
 >
 > **YOUR NAME(S)**.
 
