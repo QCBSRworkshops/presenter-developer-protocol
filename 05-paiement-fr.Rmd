@@ -1,14 +1,14 @@
 # Recevoir votre prix {#payment-fr}
 
-Tous les présentateurs et développeurs d'ateliers reçoivent un **prix d'apprentissage et de développement** du **Centre de la science de la biodiversité du Québec (CSBQ)** *[à l'exclusion des postdoctorant(e)s de McGill, voir ci-dessous]*. Le traitement du prix dépend de votre institution et de votre statut académique:
+Tous les membres du CSBQ qui présentent ou développent des ateliers reçoivent un **prix d'apprentissage et de développement** du **Centre de la science de la biodiversité du Québec (CSBQ)** *[à l'exclusion des membres du CSBQ au postdoctorat de McGill, voir ci-dessous]*. Le traitement du prix dépend de votre institution et de votre statut académique:
 
-* **Étudiant(e)s des cycles supérieurs de McGill**: Votre prix sera traité sous la forme d'un paiement de bourse. Veuillez suivre les [instructions ci-dessous](#payment-fr-mcgill) qui sont spécifiques aux étudiants de McGill.  
+* **Membre du CSBQ aux cycles supérieurs de McGill**: Votre prix sera traité sous la forme d'un paiement de bourse. Veuillez suivre les [instructions ci-dessous](#payment-fr-mcgill) qui sont spécifiques aux membres CSBQ de McGill.  
 
-* **Étudiant(e)s des cycles supérieurs et Postdoctorant(e)s hors-McGill**: Votre prix sera traité comme un contrat indépendant. Veuillez suivre les [instructions ci-dessous](#payment-fr-nonmcgill) qui sont spécifiques aux étudiant(e)s et aux postdoctorant(e)s hors-McGill.  
+* **Membre du CSBQ aux cycles supérieurs ou au postdoctorat hors-McGill**: Votre prix sera traité comme un contrat indépendant. Veuillez suivre les [instructions ci-dessous](#payment-fr-nonmcgill) qui sont spécifiques aux membres du CSBQ hors-McGill.  
 
-* **Postdoctorant(e)s de McGill**: Malheureusement, en raison de limitations contractuelles institutionnelles, les postdoctorant(e)s de McGill ne sont **plus éligibles** pour recevoir des *Bourses d'apprentissage et de développement* du CSBQ à partir de mars 2021. Des exceptions existent si votre contrat avec votre (vos) superviseur(e)(s) le permet, mais cela est rare. En raison de ce changement, les postdoctorant(e)s de McGill ne peuvent contribuer à la série que sur une base volontaire.
+* **Membre du CSBQ au postdoctorat de McGill**: Malheureusement, en raison de limitations contractuelles institutionnelles, les membres du CSBQ de McGill ne sont **plus éligibles** pour recevoir des *Bourses d'apprentissage et de développement* du CSBQ à partir de mars 2021. Des exceptions existent si votre contrat avec le membre du CSBQ qui dirige votre recherche le permet, mais cela est rare. En raison de ce changement, les membres du CSBQ au postdoctorat de McGill ne peuvent contribuer à la série que sur une base volontaire.
 
-## Étudiant(e)s des cycles supérieurs de McGill {#payment-fr-mcgill}
+## Membres du CSBQ aux cycles supérieurs de McGill {#payment-fr-mcgill}
 
 Suivez ces étapes pour recevoir votre prix :
 
@@ -16,11 +16,11 @@ Suivez ces étapes pour recevoir votre prix :
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
-    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 150 $ par atelier demandé*.
+    * Pour présentation d'atelier(s): Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque personne reçoit une récompense d'un montant maximum de 150$ par atelier*.
 
 2. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
-    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 150 $ par atelier" ; "Total : 250 $"). 
+    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentation des ateliers 1 et 2" ; "Coût unitaire : 150$ par atelier" ; "Total : 250$"). 
   
     * Si vous avez présenté et/ou développé plusieurs ateliers, indiquez-les sur des lignes séparées dans une seule facture, si possible.
   
@@ -56,11 +56,11 @@ Suivez ces étapes pour recevoir votre prix :
     
     * Si vous ne recevez pas votre paiement dans les deux jours, veuillez contacter Dr. Elina à nouveau afin qu'elle puisse vous aider à recevoir votre paiement. 
 
-## Étudiant(e)s des cycles supérieurs et Postdoctorant(e)s hors-McGill {#payment-fr-nonmcgill}
+## Membres du CSBQ aux cycles supérieurs ou au postdoctorat hors-McGill {#payment-fr-nonmcgill}
 
 Suivez ces étapes pour recevoir votre prix:
 
-1. **Remplissez d'abord la [feuille de paiement pour présentateurs](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) et/ou la [feuille de paiement pour developpeurs](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564)** avec les informations requises. 
+1. **Remplissez d'abord la [feuille de paiement pour l'équipe de présentation](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) et/ou la [feuille de paiement pour l'équipe de développement](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564)** avec les informations requises. 
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
@@ -73,12 +73,12 @@ Suivez ces étapes pour recevoir votre prix:
     
     * Enregistrez ce fichier sous le nom de "`VOTRENOM_PayeeForm.pdf`".
 
-    * Notez que vous êtes considéré comme un "*Payee* ou un *bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui de travailleur indépendant ou d'entrepreneur indépendant, consultez [ceci](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
+    * Notez que vous êtes considéré comme un "*Payee* ou un *bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui du statut d'entrepreneur indépendant, consultez [ceci](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
 
 
 3. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
-    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentateur principal des ateliers 1 et 2" ; "Coût unitaire : 150 $ par atelier" ; "Total : 250 $"). 
+    * Vous devez écrire votre *nom*, *courriel*, *numéro de téléphone*, *adresse complète* (y compris le code postal, la ville et la province), *solde total* et *description de votre travail* (par exemple, "Description : Présentation des ateliers 1 et 2" ; "Coût unitaire : 150 $ par atelier" ; "Total : 250 $"). 
   
     * Si vous avez présenté et/ou développé plusieurs ateliers, indiquez-les sur des lignes séparées dans une seule facture, si possible.
   
@@ -91,7 +91,7 @@ Suivez ces étapes pour recevoir votre prix:
 
 4. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
 
-    * Indiquez dans votre message à Dre Elina si vous avez déjà été enregistré en tant qu'employé ou travailleur indépendant pour l'Université McGill (c'est-à-dire si vous êtes déjà un bénéficiaire ou non). 
+    * Indiquez dans votre message à Dre Elina si vous avez déjà été enregistré en tant que personne à statut d'employé ou de travailleur indépendant pour l'Université McGill (c'est-à-dire si vous êtes déjà un bénéficiaire ou non). 
     
     * Si votre adresse a changé depuis votre première inscription en tant que bénéficiaire, veuillez le mentionner dans votre message au Dr Elina. 
     
@@ -127,8 +127,8 @@ Suivez ces étapes pour recevoir votre prix:
 
 Les allocations et les contrats indépendants ne sont pas des salaires d'employés et le payeur n'est *pas* responsable de l'impôt sur le revenu ou des déductions liées à l'emploi.
 
-Les étudiants de McGill qui reçoivent des prix doivent recevoir de McGill un [feuillet d'impôt T4A](https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-2-students/income-tax-folio-s1-f2-c3-scholarships-research-grants-other-education-assistance.html#toc59) indiquant le revenu de bourse à déclarer pour la période.
+Les membres du CSBQ de McGill qui reçoivent des prix doivent recevoir de McGill un [feuillet d'impôt T4A](https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-2-students/income-tax-folio-s1-f2-c3-scholarships-research-grants-other-education-assistance.html#toc59) indiquant le revenu de bourse à déclarer pour la période.
 
-Les étudiants et les boursiers postdoctoraux qui ne sont pas de McGill reçoivent leur prix en tant qu'entrepreneurs indépendants et ne recevront donc *pas* de relevé d'impôt de McGill. 
+Les membres du CSBQ qui ne sont pas de McGill reçoivent leur prix en tant qu'entrepreneurs indépendants et ne recevront donc *pas* de relevé d'impôt de McGill. 
 
 La responsabilité de comprendre vos obligations légales et fiscales vous appartient. Vous devez soumettre une déclaration d'impôt annuelle qui fait état de votre revenu net selon le format standard gouvernemental et conserver vos factures pendant la période prescrite par le gouvernement (actuellement, sept ans).

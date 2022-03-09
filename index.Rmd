@@ -1,5 +1,5 @@
 --- 
-title: "Presenter and Developer Protocol"
+title: "Presentation and Development Protocol"
 author: "QCBS R Workshop Series"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -15,7 +15,7 @@ documentclass: book
 bibliography: ["book.bib", "packages.bib"]
 biblio-style: apalike
 link-citations: yes
-description: "This is the Presenter and Developer Protocol for the QCBS R Workshop Series"
+description: "This is the Presentation and Development Protocol for the QCBS R Workshop Series"
 ---
 
 ```{r}
@@ -28,9 +28,9 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 60),
 
 Merci de faire partie de la série d'ateliers R du CSBQ !
 
-Nous sommes heureux de vous avoir dans notre équipe !
+C'est un plaisir de vous avoir dans notre équipe !
 
-Ce document regroupe les responsabilités des instructeurs, des instructrices, des développeurs et des développeuses des atelier R du CSBQ. Il vous guide à travers les tâches à effectuer avant, pendant et après les éditions et les instructions des ateliers. Cela vous aidera également à compléter les étapes pour recevoir votre prix d'excellence.
+Ce document regroupe les responsabilités des équipes de présentation et de développement de la série d'ateliers R du CSBQ. Il vous guide à travers les tâches à effectuer avant, pendant et après les éditions et les instructions des ateliers. Cela vous aidera également à compléter les étapes pour recevoir votre prix d'excellence.
 
 Nous vous demandons de bien vouloir lire toutes les instructions **très** attentivement !
 
