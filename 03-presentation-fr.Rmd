@@ -83,14 +83,14 @@ Quand vous assumez le rôle d'assistance pendant les ateliers :
 
 Vous pouvez accéder à l'option d'aide à la présentation en ouvrant une présentation et en appuyant sur `H` ou `?`. 
 
-## Mode présentateur {#mode-presentateur}
+## Mode présentation {#mode-presentation}
 
-Le mode présentateur vous permet de visualiser les notes de présentation tout en donnant vos instructions. Pour accéder au mode présentateur, vous devez :
+Le mode présentation vous permet de visualiser les notes de présentation tout en donnant vos instructions. Pour accéder au mode présentation, vous devez :
 
 1. Ouvrir la présentation ; 
 2. Cloner la présentation en appuyant sur `c`. Une fois que vous aurez fait cela, vous remarquerez qu'une nouvelle fenêtre apparaîtra et que tout ce que les deux fenêtres imitent l'une de l'autre, *i.e.*. ce qui signifie que si vous changez de diapositive dans l'une des deux, l'autre changera ; 
-3. Entrer en mode présentateur dans l'une des fenêtres, en utilisant le raccourci clavier `p` ;
-4. Notez que vous devez partager la fenêtre clonée qui n'est *pas* en mode présentateur avec l'audience. Les détails sur la façon de procéder sont expliqués ci-dessous.   
+3. Entrer en mode présentation dans l'une des fenêtres, en utilisant le raccourci clavier `p` ;
+4. Notez que vous devez partager la fenêtre clonée qui n'est *pas* en mode présentation avec l'audience. Les détails sur la façon de procéder sont expliqués ci-dessous.   
 
 ## Directives pour Zoom {#conseils-zoom}
 
