@@ -40,7 +40,7 @@ exclude: true
 
 5. Veiller à ce que les diapositives des ateliers soient rédigées dans un style cohérent, ce qui facilite le déroulement des ateliers et la compréhension. Cela est particulièrement important lorsque l'on travaille en collaboration dans une équipe de développement.
 
-6. Dans la mesure du possible, ajoutez des [*notes de présentation*](https://bookdown.org/yihui/rmarkdown/xaringan-format.html#xaringan-notes) aux diapositives que vous modifiez. Vous pouvez écrire des notes que vous pourrez lire vous-même en mode présentateur quand vous appuyez sur le raccourci clavier `P`. Ces notes sont écrites sous trois points d'interrogation `???`, avant la fin d'une diapositive. Voir l'exemple ci-dessous :
+6. Dans la mesure du possible, ajoutez des [*notes de présentation*](https://bookdown.org/yihui/rmarkdown/xaringan-format.html#xaringan-notes) aux diapositives que vous modifiez. Vous pouvez écrire des notes que vous pourrez lire vous-même en mode présentation quand vous appuyez sur le raccourci clavier `P`. Ces notes sont écrites sous trois points d'interrogation `???`, avant la fin d'une diapositive. Voir l'exemple ci-dessous :
 
 ```
 ---
@@ -81,7 +81,7 @@ Les ateliers doivent être interactifs et comprendre des exercices et des sondag
 
 Nous vous recommandons de prendre votre temps et de bien planifier l'élaboration des exercices. Veillez à ce que les objectifs de l'exercice soient en adéquation avec ceux de l'atelier.
 
-> Rappelez-vous que tout ce qui est écrit dessous le `???` est une note pour la personne qui présente et n'apparaîtra donc pas dans la diapositive de présentation, mais apparaîtra dans la fenêtre du mode présentateur.
+> Rappelez-vous que tout ce qui est écrit dessous le `???` est une note pour la personne qui présente et n'apparaîtra donc pas dans la diapositive de présentation, mais apparaîtra dans la fenêtre du mode présentation.
 
 #### Sondages simples
 
