@@ -64,7 +64,7 @@ Suivez ces étapes pour recevoir votre prix:
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
-    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque personne qui présente un atelier reçoit un prix d'un montant maximum de 150 $ par atelier*.
+    * Pour les personnes qui présentent: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque personne qui présente un atelier reçoit un prix d'un montant maximum de 150 $ par atelier*.
 
 2. **Remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. 
 
@@ -127,6 +127,6 @@ Les allocations et les contrats indépendants ne sont pas des salaires d'employ�
 
 Les membres du CSBQ de McGill qui reçoivent des prix doivent recevoir de McGill un [feuillet d'impôt T4A](https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-2-students/income-tax-folio-s1-f2-c3-scholarships-research-grants-other-education-assistance.html#toc59) indiquant le revenu de bourse à déclarer pour la période.
 
-Les membres du CSBQ qui ne sont pas de McGill reçoivent leur prix en tant qu'entrepreneurs indépendants et ne recevront donc *pas* de relevé d'impôt de McGill. 
+Les membres du CSBQ qui ne sont pas de McGill reçoivent leur prix en tant que personnes entreprenantes indépendantes et ne recevront donc *pas* de relevé d'impôt de McGill. 
 
 La responsabilité de comprendre vos obligations légales et fiscales vous appartient. Vous devez soumettre une déclaration d'impôt annuelle qui fait état de votre revenu net selon le format standard gouvernemental et conserver vos factures pendant la période prescrite par le gouvernement (actuellement, sept ans).
