@@ -32,7 +32,7 @@ Suivez ces étapes pour recevoir votre prix :
   
 3. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
 
-    * Indiquez votre numéro d'étudiant dans le message. 
+    * Indiquez votre numéro d'étudiant.e dans le message. 
     
     * Vous pouvez utiliser le message suivant comme modèle:
 
@@ -42,7 +42,7 @@ Suivez ces étapes pour recevoir votre prix :
 >
 > Vous trouverez en pièce jointe à ce message ma facture pour le(s) atelier(s) que j'ai instruit(s)/développé(s) dans le cadre de la série d'ateliers R du CSBQ.
 >
-> Voici mon numéro d'étudiant de McGill : *INSÉRER LE NUMÉRO D'ÉTUDIANT*.
+> Voici mon numéro d'étudiant.e de McGill : *INSÉRER LE NUMÉRO D'ÉTUDIANT.E*.
 >
 > Je certifie que les informations jointes à ce message sont vraies et correctes au meilleur de ma connaissance.
 >
@@ -52,9 +52,9 @@ Suivez ces étapes pour recevoir votre prix :
 
 4. **Quatrièmement, Dr. Elina répondra à votre courriel avec un formulaire d'autorisation de paiement de la bourse d'études que vous devrez signer. 
 
-    * Une fois que vous aurez signé ce formulaire, Dr. Elina demandera également les signatures de l'administration du CSBQ et enverra ensuite la facture aux Affaires étudiantes de McGill en vous mettant en copie. Vous devriez recevoir votre paiement dans les 1 à 2 jours suivant son traitement par McGill. 
+    * Une fois que vous aurez signé ce formulaire, Dr. Elina demandera également les signatures de l'administration du CSBQ et enverra ensuite la facture aux "Affaires étudiantes" de McGill en vous mettant en copie. Vous devriez recevoir votre paiement dans les 1 à 2 jours suivant son traitement par McGill. 
     
-    * Si vous ne recevez pas votre paiement dans les deux jours, veuillez contacter Dr. Elina à nouveau afin qu'elle puisse vous aider à recevoir votre paiement. 
+    * Si vous ne recevez pas votre paiement dans les deux jours, veuillez contacter Dre. Elina à nouveau afin qu'elle puisse vous aider à recevoir votre paiement. 
 
 ## Membres du CSBQ aux cycles supérieurs ou au postdoctorat hors-McGill {#payment-fr-nonmcgill}
 
@@ -64,8 +64,7 @@ Suivez ces étapes pour recevoir votre prix:
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
-    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque présentateur reçoit une récompense d'un montant maximum de 150 $ par atelier demandé*.
-
+    * Pour présentateurs: Vous pouvez vous référer à la section [normes de compensation](#preparation-fr) du présent protocole pour trouver le budget alloué à votre atelier. *Rappelez-vous que chaque personne qui présente un atelier reçoit un prix d'un montant maximum de 150 $ par atelier*.
 
 2. **Remplissez et signez ce [formulaire](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployed_20120815_questionnaire_fis_fr.pdf)**. 
 
@@ -73,8 +72,7 @@ Suivez ces étapes pour recevoir votre prix:
     
     * Enregistrez ce fichier sous le nom de "`VOTRENOM_PayeeForm.pdf`".
 
-    * Notez que vous êtes considéré comme un "*Payee* ou un *bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de salarié par rapport à celui du statut d'entrepreneur indépendant, consultez [ceci](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
-
+    * Notez que vous êtes considéré comme "*Payee* ou *Bénéficiaire*" aux fins de l'élaboration et de l'instruction d'un atelier appartenant à la série d'ateliers R du CSBQ. Si vous avez besoin de plus d'informations sur la détermination du statut de personne salariée par rapport à celui du statut de personne entreprenante indépendante, consultez [ceci](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
 
 3. **Remplissez une facture du CSBQ,  [ci-jointe](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
@@ -91,9 +89,9 @@ Suivez ces étapes pour recevoir votre prix:
 
 4. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
 
-    * Indiquez dans votre message à Dre Elina si vous avez déjà été enregistré en tant que personne à statut d'employé ou de travailleur indépendant pour l'Université McGill (c'est-à-dire si vous êtes déjà un bénéficiaire ou non). 
+    * Indiquez dans votre message à Dre. Elina si vous avez déjà été enregistré en tant que personne à personne employée ou contractante indépendante de l'université pour l'Université McGill (c'est-à-dire si vous êtes déjà une personne bénéficiaire ou non). 
     
-    * Si votre adresse a changé depuis votre première inscription en tant que bénéficiaire, veuillez le mentionner dans votre message au Dr Elina. 
+    * Si votre adresse a changé depuis votre première inscription en tant que bénéficiaire, veuillez le mentionner dans votre message à Dre. Elina. 
     
     * Vous pouvez utiliser le modèle de message suivant pour votre message:
 
