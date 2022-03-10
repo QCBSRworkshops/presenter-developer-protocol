@@ -1,6 +1,6 @@
 # Préparation {#preparation-fr}
 
-Être un présentateur ou une présentatrice de la série d'ateliers R du CSBQ demande une préparation et une communication proactive avec les participants inscrits aux ateliers.
+La présentation d'un atelier R du CSBQ  demande une préparation et une communication proactive avec les participants inscrits aux ateliers.
 
 Ci-dessous, il y a une liste de points qui vous aideront à préparer les ateliers. Nous vous demandons de les lire **attentivement**.
 
@@ -8,19 +8,19 @@ Ci-dessous, il y a une liste de points qui vous aideront à préparer les atelie
 
 ### Deux semaines avant l'atelier
 
-1. Obtenez la liste des participants et participantes inscrits à votre atelier (nous vous fournirons un script pour faire ceci). Ensuite, déterminez le nombre de présentateurs et de présentatrices (et/ou d'assistants et d'assistantes) qui peuvent être attribués à votre atelier:
+1. Obtenez la liste des inscriptions à votre atelier (nous vous fournirons un script pour faire ceci). Ensuite, déterminez le nombre de personnes qui présentent (et/ou qui assistent) votre atelier:
 
-> NOUVEAU: **En septembre 2021, le prix d'apprentissage et de développement pour les présentateurs de la série d'ateliers R a augmenté de 125 $ à 150 $.** Il y a également de nouvelles distinctions dans le processus de paiement du prix entre les membres CSBQ de McGill et les membres CSBQ non-McGill, y compris une **compensation fiscale supplémentaire pour les membres non-McGill**. Voir la section [Paiement](#payment-fr) pour plus d'informations.
+> NOUVEAU: **En septembre 2021, le prix d'apprentissage et de développement pour la présentation de la série d'ateliers R a augmenté de 125 $ à 150 $.** Il y a également de nouvelles distinctions dans le processus de paiement du prix entre les membres CSBQ de McGill et les membres CSBQ non-McGill, y compris une **compensation fiscale supplémentaire pour les membres non-McGill**. Voir la section [Paiement](#payment-fr) pour plus d'informations.
 
-Nombre de participants | Nombre de présentateurs | Paiement par présentateur | Allocation de fonds à l'atelier
+Nombre d'inscriptions | Nombre de personnes qui présentent | Paiement par personne | Allocation de fonds à l'atelier
 :-------------: | :-------------: | :-------------: | :-------------:
 1 to 5 | 1 | $150 | $150
 6 to 14 | 2 | $150 | $300
 15 or more | 3 | $150 | $450
 
-* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux présentateurs ou présentatrices par atelier pendant les ateliers à distance. Pendant qu'un instructeur ou qu'une instructrice présente l'atelier, l'autre présentateur ou présentatrice doit agir en tant qu'assistant.e, en surveillant la conversation, en gérant des salles de sous-commission (en anglais, *breakout rooms*) et en aidant à déboguer les éventuels problèmes que les participants peuvent rencontrer. Les instructeurs, instructrices, assistants, et assistantes des ateliers doivent répondre aux questions des étudiants.
+* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux personnes par atelier pendant les ateliers à distance. Pendant qu'une personne présente l'atelier, l'autre personne doit assister à la présentation, en surveillant la conversation, en gérant des salles de discussion (en anglais, *breakout rooms*) et en aidant à déboguer les problèmes que les personnes qui participent peuvent rencontrer. 
 
-> *Si le nombre de présentateurs et présentatrices inscrits est inférieur au nombre de présentateurs et présentatrices pouvant être alloués à votre atelier, n'hésitez pas à inviter d'autres étudiants et étudiantes du deuxième et troisième cycles supérieurs et des post-doctorants ou post-doctorantes qui sont membres du CSBQ et qui, selon vous, pourraient vous aider avec l'instruction et l'assistance de l'atelier!*
+> *Si le nombre de personnes inscrits pour présenter votre atelier est inférieur au nombre de personnes pouvant être alloués à votre atelier, n'hésitez pas à inviter d'autres membres du CSBQ du deuxième et troisième cycles supérieurs et au postdoctorat qui pourraient vous aider avec l'instruction et l'assistance de l'atelier!*
 
 > Notez que le **prix maximum** pour l'instruction ou l'assistance des ateliers R du CSBQ est de 150 $ par personne, par atelier.*
 
@@ -36,22 +36,22 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 3. Lisez le code de conduite (Section \@ref(codedeconduite)).
 
-4. **Pour les ateliers à distance**: Familiarisez-vous avec Zoom avant votre atelier. Par exemple, vous devriez savoir: (i) comment partager votre écran; (ii) comment ouvrir et fermer les salles de conférence ("Breakout Rooms"); (iii) comment préparer et lancer des sondages; (iv) et [quels sont les outils disponibles pour interagir avec les étudiants](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf). Nous avons fourni des conseils détaillées complémentaires pour ces tâches [ici](#conseils-zoom).
+4. **Pour les ateliers à distance**: Familiarisez-vous avec Zoom avant votre atelier. Par exemple, vous devriez savoir: (i) comment partager votre écran; (ii) comment ouvrir et fermer les salles de discussion ("Breakout Rooms"); (iii) comment préparer et lancer des sondages; (iv) et [quels sont les outils disponibles pour interagir avec les personnes qui participent](https://zoom.us/docs/doc/Tips%20and%20Tricks%20for%20Teachers%20Educating%20on%20Zoom.pdf). Nous avons fourni des conseils détaillées complémentaires pour ces tâches [ici](#conseils-zoom).
 
 ### Une semaine avant l'atelier
 
-1. Obtenez la liste à jour des participants inscrits à votre atelier en utilisant le code qui vous a été envoyé lors de votre recrutement.
+1. Obtenez la liste à jour d'inscriptions à votre atelier en utilisant le script R qui vous a été envoyé lors de votre recrutement.
 
 * *NOTE:* Souvenez-vous que pour les ateliers en ligne, vous devez utiliser l'option `"En_ligne"` pour l'argument `location`.
 
-2. Envoyez le *message standardisé* ci-dessous à tous les participants, en remplaçant les champs si nécessaire.
+2. Envoyez le *message standardisé* ci-dessous à tous les personnes inscrites, en remplaçant les champs si nécessaire.
 
-> Idéalement, les instructeurs dont les courriels sont affichés dans le [calendrier de l'atelier](https://r.qcbs.ca/fr/schedule/) seront les premiers à communiquer avec les participants. Vous pouvez changer ce rôle, si vous le préférez.
+> Idéalement, la personne indiquée au rôle principal dans l'[horaire des ateliers](https://r.qcbs.ca/fr/schedule/) mènera les communications les personnes inscrites à l'atelier. Vous pouvez changer ce rôle, si vous le préférez.
 
-* *NOTE:* Copiez au carbone (en « Cc ») toutes vos communications aux autres instructeurs et instructrices de votre atelier.
-* *NOTE:* Ajoutez toutes les participants comme destinataires en copie carbone invisible (c.à.d., « Cci » ou « Bcc »).
-* *NOTE:* Vous devez envoyer le message ci-dessous **au moins** 7 jours avant la date de votre présentation.
-* *NOTE:* Vous **ne pouvez pas** supprimer des informations du texte suivant.
+* *NOTE:* Copiez au carbone (en « Cc ») toutes vos communications à toute l'équipe de présentation de votre atelier.
+* *NOTE:* Ajoutez toutes les personnes inscrites à l'atelier comme destinataires en copie carbone invisible (c.à.d., « Cci » ou « Bcc »).
+* *NOTE:* Envoyez le message ci-dessous **au moins** 7 jours avant la date de votre présentation.
+* *NOTE:* **Ne supprimez pas** des informations du texte suivant:
 
 
 **Pour les ateliers de formation à distance** :
@@ -60,23 +60,23 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 > Bonjour !
 >
-> Vous êtes inscrit à l'atelier R du CSBQ #**XXX** qui aura lieu le **JOUR DE LA SEMAINE** à **HH:MM** **PM ou AM**. En préparation de l'atelier, veuillez noter ce qui suit :
+> Nous avions reçu votre inscription à l'atelier R du CSBQ #**XXX** qui aura lieu le **JOUR DE LA SEMAINE** à **HH:MM** **PM ou AM**. En préparation de l'atelier, veuillez noter ce qui suit :
 >
-> 1) L'atelier sera donné sur la plateforme Zoom. Veuillez vous inscrire sur ce lien d'inscription : **INSÉRER LE LIEN QUI VOUS SERA FOURNI PAR L'ÉQUIPE DE COORDINATION**. Après l'inscription, vous devriez recevoir une invitation le jour de l'atelier contenant un lien unique. Vous ne devez pas partager ce lien avec d'autres personnes.
+> 1) L'atelier sera donné sur la plateforme Zoom. Veuillez vous inscrire sur ce lien d'inscription : **INSÉRER LE LIEN QUI VOUS SERA FOURNI PAR L'ÉQUIPE DE COORDINATION**. Après l'inscription, vous recevrez une invitation le jour de l'atelier contenant un lien unique. Vous ne devez pas partager ce lien avec d'autres personnes.
 >
 > 2) Veuillez préparer votre ordinateur portable et les programmes correspondants (R et RStudio) au préalable. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://r.qcbs.ca/fr/workshops/r-workshop-XX/**
 >
 > 3) Nous vous recommandons d'exécuter l'intégralité du script au moins une fois avant la session de l'atelier afin de vous assurer que tout fonctionne sur votre ordinateur portable. En outre, nous vous recommandons de télécharger et d'installer toutes les bibliothèques que nous utiliserons pendant l'atelier.
 >
-> 4) Si vous ne pouvez plus vous rendre à l'atelier, veuillez nous en informer 5 jours à l'avance par e-mail. Notez que la préparation de cet atelier dépend du nombre de participants. Le fait de ne pas nous informer de votre absence entraînera une pénalité de 100$ facturée à votre directeur ou directrice de recherche.
+> 4) Si vous ne pouvez plus vous rendre à l'atelier, veuillez nous en informer 5 jours à l'avance par e-mail. Notez que la préparation de cet atelier dépend du nombre d'inscriptions. Le fait de ne pas nous informer de votre absence entraînera une pénalité de 100$ facturée au membre du CSBQ qui dirige votre recherche.
 >
-> 5) Si vous n'êtes pas membre du CSBQ, il peut vous être demandé de nous envoyer un reçu de paiement pour participar dans l'atelier.
+> 5) Si vous n'êtes pas membre du CSBQ, il peut vous être demandé de nous envoyer un reçu de paiement pour participer à l'atelier.
 >
 > 6) Notez que beaucoup d'efforts ont été déployés dans la planification de ces ateliers. Il est important que vous restiez engagé dans l'apprentissage et, si nécessaire, que vous participiez activement aux discussions et collaboriez avec vos pairs.
 >
-> 7) Nous vous encourageons à laisser votre caméra allumée pour permettre les instructeurs et instructrices de se connecter avec vous.
+> 7) Nous vous encourageons à laisser votre caméra allumée pour permettre à l'équipe de présentation de se connecter avec vous.
 >
-> 8) Si vous avez des questions concernant cet atelier, veuillez contacter l'un des présentateurs ou présentatrices afin que nous puissions vous aider !
+> 8) Si vous avez des questions concernant cet atelier, veuillez contacter l'équipe de présentation afin que nous puissions vous aider !
 >
 > Nous avons hâte de vous voir le **JOUR DE LA SEMAINE** !
 >
@@ -89,7 +89,7 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 > Bonjour !
 >
-> Vous êtes inscrit à l'atelier R du CSBQ #**XXX** qui sera donné à **NOM DE L'UNIVERSITÉ** ce prochain **JOUR DE SEMAINE** à **H:MM** **PM ou AM**. En préparation de cet atelier, veuillez noter ce qui suit :
+> Nous avions reçu votre inscription à l'atelier R du CSBQ #**XXX** qui sera donné à **NOM DE L'UNIVERSITÉ** ce prochain **JOUR DE SEMAINE** à **H:MM** **PM ou AM**. En préparation de cet atelier, veuillez noter ce qui suit :
 >
 > 1) L'atelier sera donné dans le bâtiment **XXX**, salle **XXX**.
 >
@@ -97,13 +97,13 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 >
 > 3) Nous vous recommandons d'exécuter le script complet au moins une fois avant de venir à l'atelier pour vous assurer que tout fonctionne sur votre ordinateur portable et pour télécharger et installer toutes les bibliothèques que nous utiliserons pendant l'atelier.
 >
-> 4) Si vous ne pouvez plus vous rendre à l'atelier, veuillez nous en informer 5 jours à l'avance par courriel, sinon, vous recevrez une pénalité de 100$ qui sera facturée à votre directeur ou directrice de recherche.
+> 4) Si vous ne pouvez plus vous rendre à l'atelier, veuillez nous en informer 5 jours à l'avance par courriel, sinon, vous recevrez une pénalité de 100$ qui sera facturée au membre CSBQ qui dirige votre recherche.
 >
 > 5) Si vous n'êtes pas membre du CSBQ, veuillez apporter le reçu du paiement à l'atelier.
 >
 > 6) L'accès à l'internet ne devrait pas être nécessaire pour suivre l'atelier si vous avez exécuté le script avant de venir pour vous assurer que vous aviez téléchargé toutes les bibliothèques nécessaires. Si vous suivez l'atelier dans une autre institution que la vôtre et que vous souhaitez avoir accès à l'internet pendant l'atelier, veuillez vous assurer que vous pouvez vous connecter au réseau *eduroam* (plus d'informations ici : http://qcbs.ca/wiki/eduroam). Si vous n'avez pas accès à eduroam ou au réseau de l'université, il se peut que nous ne puissions pas vous fournir un accès temporaire à l'internet.
 >
-> 7) Si vous avez des questions concernant cet atelier ou son lieu, veuillez contacter l'un des présentateurs afin que nous puissions vous aider au mieux !
+> 7) Si vous avez des questions concernant cet atelier ou son lieu, veuillez contacter l'équipe de présentation afin que nous puissions vous aider au mieux !
 >
 > Merci, et nous avons hâte de vous voir !
 >
@@ -112,25 +112,25 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 ## Le jour de l'atelier
 
-**Nous avons élaboré une [session dédiée avec des lignes directrices](#presentation-fr) sur ce que les instructeurs, les instructrices, les assistants et les assistantes doivent faire pendant l'atelier.**
+**Nous avons élaboré une [session dédiée avec des lignes directrices](#presentation-fr) sur ce que l'équipe de présentation devrait faire pendant l'atelier.**
 
-**S'il vous plaît, [lisez et appliquez-les](#presentation-fr) très attentivement !**
+**S'il vous plaît, [lisez et appliquez-les](#presentation-fr) très attentivement.**
 
 ## Après l'atelier
 
 > Nous vous demandons de bien vouloir suivre les étapes ci-dessous *immédiatement* après votre présentation.
 
-1. Envoyez le formulaire de retour d'information aux participants de votre atelier :
+1. Envoyez le formulaire de retour d'information aux personnes qui participent à votre atelier :
 
 > Sujet du message : [Série d'ateliers R du CSBQ] Formulaire d'évaluation pour l'atelier #**X** - **Nom de l'atelier**
 
 > Bonjour à nouveau !
 >
-> Merci d'être venus à l'atelier (#X) sur **Nom de l'atelier**.
+> Merci de votre participation à l'atelier (#X) sur **Nom de l'atelier**.
 >
 > Nous vous demandons de bien vouloir prendre quelques minutes pour nous faire part de vos commentaires (https://docs.google.com/forms/d/12LiuK1hhCpuDULBYStlXoJi6K1sKTVeGzPiD5DVGdds/edit?urp=gmail_link) sur l'atelier auquel vous venez de participer.
 >
-> Ce processus est très précieux pour nous car nous pouvons comprendre où l'atelier a besoin d'être amélioré.
+> Ce processus est très précieux pour nous, car nous pouvons comprendre où l'atelier a besoin d'être amélioré.
 >
 > Vos commentaires et suggestions sont très appréciés et sont lus avec attention.
 >
@@ -141,17 +141,17 @@ Nombre de participants | Nombre de présentateurs | Paiement par présentateur |
 
 2. [Donnez votre avis](https://goo.gl/forms/85TXCiQ9tW9nvq922) sur l'atelier que vous venez de présenter.
 
-3. Envoyez le message ci-dessous aux participants et participantes inscrits qui ne se sont pas présentés (c'est-à-dire les participants qui ne vous ont pas envoyé de message annulant leur inscription et qui étaient absents pendant votre atelier).
+3. Envoyez le message ci-dessous aux personnes inscrites qui ne se sont pas présentées (c'est-à-dire les personnes qui ne vous ont pas envoyé de message annulant leur inscription et qui étaient absentes pendant votre atelier).
 
-* **NOTE** : Envoyez des messages **séparés** à chacune des absences enregistrées (c'est-à-dire n'incluez *pas* d'autres participants dans vos communications).
+* **NOTE** : Envoyez des messages **séparés** à chacune des absences enregistrées (c'est-à-dire n'incluez *pas* d'autres personnes qui ont participé à l'atelier dans vos communications).
 
 > Sujet du message : [Série d'ateliers du CSBQ R] Absence pendant l'atelier #**X** - **Nom de l'atelier**
 
 > Cher **NOM DU PARTICIPANT INSCRIT**,
 >
-> Je vous contacte parce que vous étiez absent de l'atelier d'aujourd'hui (**XX**) sur **Nom de l'atelier**, qui a été donné **en lieu ou à distance**.
+> Je vous contacte au sujet de votre absence pendant l'atelier d'aujourd'hui (**XX**) sur **Nom de l'atelier**, qui a été donné **en lieu ou à distance**.
 >
-> Selon la politique de la Série d'ateliers R du CSBQ, les participant.e.s inscrit.e.s qui n'annulent pas leur participation *au moins* 5 jours à l'avance par courriel encourent une pénalité de 100$ qui est facturée au compte institutionnel de leur superviseur.
+> Selon la politique de la Série d'ateliers R du CSBQ, les personnes inscrites qui n'annulent pas leur participation *au moins* 5 jours à l'avance par courriel encourent une pénalité de 100$ qui est facturée au compte institutionnel du membre CSBQ qui dirige leur recherche.
 >
 > Nous vous prions de bien vouloir nous contacter au sujet de votre absence dans les meilleurs délais.
 >
