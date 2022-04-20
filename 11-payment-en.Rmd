@@ -30,7 +30,7 @@ You must follow these steps to receive your award payment:
     
     * Save your invoice as "`YOURLASTNAME_RWorkshop_Invoice.docx`".
     
-3. **Third, send the invoice to [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca) (Helen Elina is the Administrative Associate of the QCBS)**. 
+3. **Third, send the invoice to [qcbs.csbq.r@gmail.com](mailto:qcbs.csbq.r@gmail.com) (QCBS R Workshop Series Coordinators)**. 
 
     * Include your student number within the body of the email. 
     
@@ -38,7 +38,7 @@ You must follow these steps to receive your award payment:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
-> Hello Dr. Elina,
+> Hi, QCBS Coordinators,
 >
 > You will find attached to this message my invoice for the workshop(s) that I instructed/developed as part of the QCBS R Workshop Series this semester.
 >
@@ -50,11 +50,11 @@ You must follow these steps to receive your award payment:
 >
 > *INSERT YOUR NAME*
 
-4. **Fourth, Dr. Elina will respond to your email with a Student Stipend Payment Authorization Form which you need to sign.** 
+4. **Fourth, QCBS and/or McGill administrative associates will message you with a Student Stipend Payment Authorization Form which you need to sign.** 
 
-    * Once you have signed this form, Dr. Elina will also request signatures from QCBS administrators and then send the invoice to McGill Student Affairs with you CC'd. You should see your payment within 1 to 2 days after McGill has finished processing the award request. 
+    * Once you have sent your signed form, your documents will be reviewed and signed by QCBS administrators and then your invoice will be sent to McGill Student Affairs with you CC'd. You should see your payment within 1 to 2 days after McGill has finished processing the award request.
     
-    * If you do not receive your payment within a couple days, please contact Dr. Elina again so that she can help you receive your payment. 
+    * If you do not receive your payment within a few days, please contact us again so that she can help you receive your payment. 
 
 ## Non-McGill Graduate Students and Postdoctoral Fellows {#payment-en-nonmcgill}
 
@@ -88,17 +88,17 @@ You must follow these steps to receive your award payment:
     
     * Save your invoice as "`YOURLASTNAME_RWorkshop_Invoice.docx`".
 
-4. **Fourth, send the invoice to [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca) (Helen Elina is the Administrative Associate of the QCBS)**.
+4. **Fourth, send the invoice to [qcbs.csbq.r@gmail.com](mailto:qcbs.csbq.r@gmail.com) (which is managed by the R Workshop Series coordinators)**.
 
-    *  Indicate within your message to Dr. Elina whether you have already been registered as an employee or a self-employed, independent contractor for the McGill University (i.e. if you are already a Payee or not). 
+    *  Indicate within your message whether you have already been registered as an employee or a self-employed, independent contractor for the McGill University (i.e. if you are already a Payee or not). 
     
-    * If your address has changed since you first registered as a Payee, please mention that within your message for Dr. Elina. 
+    * _If your address has changed since you first registered as a Payee_, please mention that within your message. 
     
     * You can use the following message model for your message:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
-> Hello Dr. Elina,
+> Hello QCBS R Workshop Series Coordinators,
 >
 > You will find attached to this message my payee form and the invoice for the workshop(s) that I instructed/developed as part of the QCBS R Workshop Series this semester.
 >
