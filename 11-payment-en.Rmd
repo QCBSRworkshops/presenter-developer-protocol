@@ -116,13 +116,13 @@ You must follow these steps to receive your award payment:
 
 5. **Fifth, after a few weeks McGill University's Procurement Services will send Helen an e-mail containing a purchase order, with you in CC.** 
 
-    * Dr. Elina will fill in this purchase order for you, and submit it to Accounts Payable ( [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca) ) at McGill University. 
+    * McGill and QCBS Administrators will fill in this purchase order for you, and submit it to Accounts Payable ( [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca) ) at McGill University. 
 
 6. **Sixth, export the invoice to PDF, and send it to [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca).** 
 
     * You should receive a cheque to the address you included within your invoice.
     
-    * If you *do not* receive your payment within the institutional period determined by McGill Procurement Services [Terms and Conditions](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (currently, 45 net days), please contact Dr. Elina stating that your payment has been delayed beyond reasonable time.
+    * If you *do not* receive your payment within the institutional period determined by McGill Procurement Services [Terms and Conditions](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (currently, 45 net days after receiving your message from Accounts Payable), please contact us stating that your payment has been delayed beyond reasonable time.
 
 ## Tax implications {#payment-en-tax-implications}
 
