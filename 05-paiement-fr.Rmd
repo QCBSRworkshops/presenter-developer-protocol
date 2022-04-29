@@ -1,5 +1,7 @@
 # Recevoir votre prix {#payment-fr}
 
+![](https://img.shields.io/badge/ATTENTION-La%20proc%C3%A9dure%20de%20demande%20de%20paiement%20des%20prix%20a%20chang%C3%A9%20le%2029%20avril%202022.-red?style=for-the-badge)
+
 Tous les membres du CSBQ qui présentent ou développent des ateliers reçoivent un **prix d'apprentissage et de développement** du **Centre de la science de la biodiversité du Québec (CSBQ)** *[à l'exclusion des membres du CSBQ au postdoctorat de McGill, voir ci-dessous]*. Le traitement du prix dépend de votre institution et de votre statut académique:
 
 * **Membre du CSBQ aux cycles supérieurs de McGill**: Votre prix sera traité sous la forme d'un paiement de bourse. Veuillez suivre les [instructions ci-dessous](#payment-fr-mcgill) qui sont spécifiques aux membres CSBQ de McGill.  
@@ -30,7 +32,7 @@ Suivez ces étapes pour recevoir votre prix :
   
     * Enregistrez ce fichier sous le nom de "`VOTRENOM_RWorkshop_Invoice.docx`".
   
-3. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
+3. **Troisièmement, envoyez la facture à [qcbs.csbq.r@gmail.com](mailto:qcbs.csbq.r@gmail.com) (Ëquipe de coordination de la série d'ateliers R du CSBQ)**. 
 
     * Indiquez votre numéro d'étudiant.e dans le message. 
     
@@ -38,7 +40,7 @@ Suivez ces étapes pour recevoir votre prix :
 
 > Objet du message : Prix d'apprentissage et de développement - Série d'ateliers R du CSBQ
 
-> Bonjour Dre Elina,
+> Bonjour,
 >
 > Vous trouverez en pièce jointe à ce message ma facture pour le(s) atelier(s) que j'ai instruit(s)/développé(s) dans le cadre de la série d'ateliers R du CSBQ.
 >
@@ -50,9 +52,9 @@ Suivez ces étapes pour recevoir votre prix :
 >
 > *VOTRE NOM*.
 
-4. **Quatrièmement, Dr. Elina répondra à votre courriel avec un formulaire d'autorisation de paiement de la bourse d'études que vous devrez signer. 
+4. **Quatrièmement, le personnel administratif du CSBQ répondra à votre courriel avec un formulaire d'autorisation de paiement de la bourse d'études que vous devrez signer. 
 
-    * Une fois que vous aurez signé ce formulaire, Dr. Elina demandera également les signatures de l'administration du CSBQ et enverra ensuite la facture aux "Affaires étudiantes" de McGill en vous mettant en copie. Vous devriez recevoir votre paiement dans les 1 à 2 jours suivant son traitement par McGill. 
+    * Une fois que vous aurez signé ce formulaire, le personnel administratif du CSBQ demandera également les signatures de l'administration du CSBQ et enverra ensuite la facture aux "Affaires étudiantes" de McGill en vous mettant en copie. Vous devriez recevoir votre paiement dans les 1 à 2 jours suivant son traitement par McGill. 
     
     * Si vous ne recevez pas votre paiement dans les deux jours, veuillez contacter Dre. Elina à nouveau afin qu'elle puisse vous aider à recevoir votre paiement. 
 
@@ -87,9 +89,9 @@ Suivez ces étapes pour recevoir votre prix:
     * Enregistrez ce fichier sous le nom de "`VOTRENOM_RWorkshop_Invoice.docx`".
 
 
-4. **Envoyez la facture à [helen.elina@mcgill.ca](mailto:helen.elina@mcgill.ca)** (Helen Elina est l'associée administrative du CSBQ). 
+4. **Envoyez la facture à [qcbs.csbq.r@gmail.com](mailto:qcbs.csbq.r@gmail.com) (Équipe de coordination de la série d'ateliers R du CSBQ)**. 
 
-    * Indiquez dans votre message à Dre. Elina si vous avez déjà été enregistré en tant que personne à personne employée ou contractante indépendante de l'université pour l'Université McGill (c'est-à-dire si vous êtes déjà une personne bénéficiaire ou non). 
+    * Indiquez dans votre message à l'équipe de coordination de la série d'ateliers R du CSBQ si vous avez déjà été enregistré en tant que personne à personne employée ou contractante indépendante de l'université pour l'Université McGill (c'est-à-dire si vous êtes déjà une personne bénéficiaire ou non). 
     
     * Si votre adresse a changé depuis votre première inscription en tant que bénéficiaire, veuillez le mentionner dans votre message à Dre. Elina. 
     
@@ -97,7 +99,7 @@ Suivez ces étapes pour recevoir votre prix:
 
 > Sujet du message : Prix de l'apprentissage et du développement - Série d'ateliers R du CSBQ
 
-> Bonjour Dre Elina,
+> Bonjour,
 > Vous trouverez en pièce jointe à ce message mon formulaire de paiement et la facture pour le(s) atelier(s) que j'ai animé(s)/développé(s) dans le cadre de la série d'ateliers R du CSBQ.
 >
 > Je *SUIS DÉJÀ* ou je *NE SUIS PAS ENCORE* pas enregistré(e) en tant qu'employé(e) ou entrepreneur(e) indépendant(e) pour l'Université McGill.
@@ -114,12 +116,12 @@ Suivez ces étapes pour recevoir votre prix:
 
 5. **Après quelques (3-4) semaines, le service des achats de l'Université McGill vous enverra un courriel contenant un bon de commande**. 
 
-    * Dre Elina remplira ce bon de commande pour vous, et le soumettra. 
+    * Le personnel administratif du CSBQ remplira ce bon de commande pour vous, et le soumettra. 
     
     
 6. **Vous devriez ensuite recevoir un chèque à l'adresse que vous avez indiquée dans votre facture dans les jours qui suivent!**
 
-    * Si vous *ne recevez pas* votre paiement dans le délai institutionnel déterminé par les Services d'approvisionnement de McGill [Conditions générales](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (actuellement, 45 jours nets), veuillez contacter le Dr. Elina en indiquant que votre paiement a été retardé au-delà d'un délai raisonnable.
+    * Si vous *ne recevez pas* votre paiement dans le délai institutionnel déterminé par les Services d'approvisionnement de McGill [Conditions générales](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (actuellement, 45 jours nets), veuillez nous contacter en indiquant que votre paiement a été retardé au-delà d'un délai raisonnable.
 
 ## Implications fiscales
 

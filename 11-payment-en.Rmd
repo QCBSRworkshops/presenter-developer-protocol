@@ -1,5 +1,7 @@
 # Receiving your award {#payment-en}
 
+![](https://img.shields.io/badge/ATTENTION-Award%20request%20procedure%20changed%20on%2029--04--2022-red?style=for-the-badge)
+
 Workshop presenters and developers receive a **Learning and Development Award** from the **Québec Centre for Biodiversity Science (QCBS)** *[excluding McGill Postdoctoral Fellows, see below]*. The way your award is processed depends on your institution and on your affiliation status:
 
 * **McGill Graduate Students**: Your award will be processed in the form of a stipend payment. Please follow the [instructions below](#payment-en-mcgill) that are specific to McGill students.
@@ -114,9 +116,9 @@ You must follow these steps to receive your award payment:
 > *YOUR NAME*
 
 
-5. **Fifth, after a few weeks McGill University's Procurement Services will send Helen an e-mail containing a purchase order, with you in CC.** 
+5. **Fifth, after a few weeks McGill University's Procurement Services will send the QCBS administrative personnel an e-mail containing a purchase order, with you in CC.** 
 
-    * McGill and QCBS Administrators will fill in this purchase order for you, and submit it to Accounts Payable ( [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca) ) at McGill University. 
+    * The QCBS administrative personnel will fill in this purchase order for you, and submit it to Accounts Payable ([accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca)) at McGill University. 
 
 6. **Sixth, export the invoice to PDF, and send it to [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca).** 
 
