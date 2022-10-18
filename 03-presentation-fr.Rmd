@@ -8,13 +8,13 @@ En moyenne, les ateliers en personne durent 4 heures (pauses incluses), avec une
 
 * Les ateliers à distance devraient durer environ 3 heures. Les ateliers sont raccourcis pour s'adapter à ce nouveau format. En général, nous proposons que le temps d'instruction soit divisé en deux sections d'une heure et demie, avec une pause d'une heure entre les deux. Toutefois, certains ateliers peuvent bénéficier d'un déroulement différent, *par exemple* deux pauses de 30 minutes au lieu d'une longue pause d'une heure. *Les suggestions pour les ateliers 1 à 5 sont fournies ci-dessous.*
 
-Chaque atelier doit commencer par une période d'accueil et d'enregistrement d'environ 5 minutes. Pendant cette période, l'équipe de présentation des ateliers peuvent prendre la parole, demander aux personnes qui participent comment ils se sentent, et leur donner des instructions sur la façon d'utiliser le "chat" et de poser des questions.
+Chaque atelier doit commencer par une période d'accueil et d'enregistrement d'environ 5 minutes. Pendant cette période, l'équipe de présentation des ateliers peut prendre la parole, demander aux personnes qui participent comment ils se sentent, et leur donner des instructions sur la façon d'utiliser le "chat" et de poser des questions.
 
 Après la période de bienvenue et d'enregistrement, l'équipe de présentation doit commencer l'instruction de l'atelier en illustrant et en précisant le contenu et la structure de l'atelier et des pauses.
 
 > Lors des ateliers à distance et en personne, de courtes pauses supplémentaires de 5 à 10 minutes (chacune) devraient être prévues à l'occasion pour permettre aux personnes qui participent de faire une courte pause et de répondre aux questions en suspens.
 
-À la fin de l'atelier, l'équipe de présentation doivent remercier l'audience pour leur présence, leur demander de remplir le questionnaire de retour d'information et leur permettre de poser des questions (si le temps le permet).
+À la fin de l'atelier, l'équipe de présentation doit remercier l'audience pour leur présence, leur demander de remplir le questionnaire de retour d'information et leur permettre de poser des questions (si le temps le permet).
 
 Suggestions de structures pour les ateliers 1 à 5 :
 
@@ -46,15 +46,15 @@ La journée de l'atelier, l'équipe de présentation doit:
 
 1. Il est souhaitable de se considérer comme élève pendant le processus d’apprentissage, et de prêter attention à sa méthode d’enseignement et de communication, ainsi qu’à la manière dont elle affecte l’apprentissage;
 
-2. L'équipe de présentation doivent se présenter à l'atelier préparés à enseigner le matériel de l'atelier, ainsi qu'à répondre aux questions pertinentes liées à l'atelier ; 
+2. L'équipe de présentation doit se présenter à l'atelier préparés à enseigner le matériel de l'atelier, ainsi qu'à répondre aux questions pertinentes liées à l'atelier ; 
 
-3. L'équipe de présentation ne devraient **pas** lire la présentation uniquement pendant un atelier ;
+3. L'équipe de présentation ne devrait **pas** lire la présentation uniquement pendant un atelier ;
 
-4. Même pendant les ateliers à distance, il est important que l'équipe de présentation maintient une présence sociale dans le processus d'apprentissage. L'équipe de présentation doit fournir un retour d'information, communiquer régulièrement, favoriser la participation et créer un environnement accueillant ;
+4. Même pendant les ateliers à distance, il est important que l'équipe de présentation maintienne une présence sociale dans le processus d'apprentissage. L'équipe de présentation doit fournir un retour d'information, communiquer régulièrement, favoriser la participation et créer un environnement accueillant ;
 
 5. Il a été démontré que les quiz en ligne sont plus efficaces que d'autres expériences d'apprentissage en ligne, comme l'attribution de devoirs (Ibid). Il faut donc veiller à consacrer du temps et à exécuter ces quiz quand le matériel de l'atelier le suggère ;
 
-6. L'équipe de présentation devraient stimuler la collaboration chaque fois que cela est possible. Les personnes engagés dans une expérience d'apprentissage social dirigée apprennent mieux, par opposition à un apprentissage isolé ;
+6. L'équipe de présentation devrait stimuler la collaboration chaque fois que cela est possible. Les personnes engagés dans une expérience d'apprentissage social dirigée apprennent mieux, par opposition à un apprentissage isolé ;
 
 7. Lorsque vous vous présentez, donnez un bref résumé de ce que vous faites et comment vous appliquez l'atelier de contenu dans votre recherche ;
 
