@@ -32,13 +32,13 @@ Suggestions de structures pour les ateliers 1 à 5 :
 
 La journée de l'atelier, l'équipe de présentation doit:
 
-1. Arriver *au moins* 15 minutes avant le début de votre atelier pour préparer la salle de présentation et projeter votre présentation. 
+1. Arriver *au moins* 15 minutes avant le début de votre atelier pour préparer la salle de présentation et projeter votre présentation; 
 
-* Pour les ateliers à distance, ouvrez la salle Zoom tôt (en même temps que la présentation et RStudio) et enregistrez-vous auprès de votre co-présentateur avant l'arrivée de l'audience ;
+* Pour les ateliers à distance, ouvrez la salle Zoom tôt (en même temps que la présentation et RStudio) et enregistrez-vous auprès de votre co-présentateur avant l'arrivée de l'audience.
 
-2. Prenez les présences ;
+2. Prenez les présences;
 
-3. Recueillez les reçus des non-membres ;
+3. Recueillez les reçus des non-membres si l'atelier a lieu en présentiel;
 
 4. Commencez votre présentation **ponctuellement**.
 

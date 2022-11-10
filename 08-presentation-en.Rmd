@@ -32,13 +32,13 @@ Suggestions for workshop schedules for Workshops 1 to 5:
 
 During the day of the workshop, both workshop instructors and assistants must:
 
-1.  Arrive *at least* 15 minutes before the beginning of your workshop to prepare the presentation room and project your presentation.
+1.  Arrive *at least* 15 minutes before the beginning of your workshop to prepare the presentation room and project your presentation;
 
--   For remote workshops, please open the meeting room early (along with the presentation, wiki and RStudio) and check-in with your co-presenter before participants arrive;
+* For remote workshops, please open the meeting room early (along with the presentation, wiki and RStudio) and check-in with your co-presenter before participants arrive.
 
 2.  Take attendance;
 
-3.  Collect receipts from non-members;
+3.  Collect receipts from non-members if the workshop takes place in person;
 
 4.  Start your presentation **on time**.
 
