@@ -10,26 +10,28 @@ Please read through this guide **carefully** before starting, and refer back to 
 
 Here we have compiled a list of priorities for workshop developers. Ideally, all of these tasks would be accomplished in the alloted timeframe. However, if circumstances make this impossible, it is important to focus on structural changes before issues of style. Please note that these tasks are to be shared amongst developers for each workshop.
 
->A checklist version of this list has now been opened as an issue within the [GitHub](https://github.com/QCBSRworkshops) repository for each respective workshop. We suggest using these checklists as a way of tracking your progress while working and coordinating with your fellow developer. It can also be used as a reference for reporting the work completed to the QCBS R Workshop coordinators, or requesting additional hours.
+>A checklist version of this list has now been opened as an issue within the [GitHub](https://github.com/QCBSRworkshops) repository for each respective workshop. We suggest using these checklists as a way of tracking your progress while working and coordinating with your fellow developer, if applicable. It can also be used as a reference for reporting the work completed to the QCBS R Workshop Series coordinators, or requesting additional hours.
 
-**Specific to adapting workshops to remote framework:**
-
-1. Workshops should fit a new 3-hour format (including exercises and one or two breaks of five minutes). For this, you may choose to hide slides from existing workshops to fit this format. For instance, you may hide repetitive examples, non-essential slides or some of the additional advanced slides that are included at the end of the workshops. We are aware that some workshops will be more difficult to shorten than others; it is not a problem that workshops run slightly over 3 hours to guarantee accurate and complete information. (*Use your judgment*).
-
-2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `exclude: true` tag. See an example below:
-
+```{r, echo=FALSE}
+# **Specific to adapting workshops to remote framework:**
+# 
+# 1. Workshops should fit a new 3-hour format (including exercises and one or two breaks of five minutes). For this, you may choose to hide slides from existing workshops to fit this format. For instance, you may hide repetitive examples, non-essential slides or some of the additional advanced slides that are included at the end of the workshops. We are aware that some workshops will be more difficult to shorten than others; it is not a problem that workshops run slightly over 3 hours to guarantee accurate and complete information. (*Use your judgment*).
+# 
+# 2. **DO NOT** delete slides. To hide a slide for remote instruction, use the `exclude: true` tag. See an example below:
+# 
+#```
+# ---
+# exclude: true
+# 
+# # Slide title: I love statistics!
+# 
+# ### Content: Amazing!
+# ---
+# 
+#```
+# 
+# 3. Develop new or adapt current exercises to better suit the remote workshop format and the use of breakout rooms. Exercises should be informative and engaging. Remember to leave time for students to work through exercises and ask questions.
 ```
----
-exclude: true
-
-# Slide title: I love statistics!
-
-### Content: Amazing!
----
-
-```
-
-3. Develop new or adapt current exercises to better suit the remote workshop format and the use of breakout rooms. Exercises should be informative and engaging. Remember to leave time for students to work through exercises and ask questions.
 
 **General priorities:**
 

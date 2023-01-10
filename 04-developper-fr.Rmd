@@ -10,23 +10,27 @@ Veuillez lire attentivement ce guide avant de commencer et vous y référer rég
 
 Nous avons établi ici une liste de priorités pour les personnes qui souhaitent contribuer aux ateliers `R`. L'idéal serait que les équipes de développement accomplissent toutes ces tâches, mais si les circonstances rendent cela impossible, il est important de se concentrer sur les changements structurels avant les questions de style.
 
-**Spécifique à l'adaptation des ateliers au cadre à distance:**
+>Une version de cette liste sous forme de liste de contrôle a été ouverte en tant que besoin dans le dépôt [GitHub](https://github.com/QCBSRworkshops) pour chaque atelier respectif. Nous vous suggérons d'utiliser ces listes de contrôle comme un moyen de suivre votre progression tout en travaillant et en vous coordonnant avec votre collègue développeur, le cas échéant. Elles peuvent également être utilisées comme référence pour rapporter le travail accompli aux coordinateurs de la série d'ateliers R du CSBQ, ou pour demander des heures supplémentaires.
 
-1. Les ateliers doivent s'adapter à un nouveau format de 3 heures (comprenant des exercices et une ou deux pauses de cinq minutes). Pour cela, vous pouvez cacher les diapositives des ateliers existants pour les adapter à ce format. Par exemple, vous pouvez masquer les exemples répétitifs, les diapositives non essentielles ou certaines des diapositives avancées supplémentaires qui sont incluses à la fin des ateliers. Nous sommes conscients que certains ateliers seront plus difficiles à raccourcir que d'autres; ce n'est pas un problème que les ateliers durent un peu plus de 3 heures pour garantir des informations précises et complètes. (*Utilisez votre jugement*).
-
-2. **Ne supprimez pas les diapositives**. Pour cacher une diapositive pour l'instruction à distance, utilisez la balise `exclude: true`. Voir un exemple ci-dessous :
-
-```
----
-exclude: true
-
+```{r, echo=FALSE}
+# **Spécifique à l'adaptation des ateliers au cadre à distance:**
+# 
+# 1. Les ateliers doivent s'adapter à un nouveau format de 3 heures (comprenant des exercices et une ou deux pauses de cinq minutes). Pour cela, vous pouvez cacher les diapositives des ateliers existants pour les adapter à ce format. Par exemple, vous pouvez masquer les exemples répétitifs, les diapositives non essentielles ou certaines des diapositives avancées supplémentaires qui sont incluses à la fin des ateliers. Nous sommes conscients que certains ateliers seront plus difficiles à raccourcir que d'autres; ce n'est pas un problème que les ateliers durent un peu plus de 3 heures pour garantir des informations précises et complètes. (*Utilisez votre jugement*).
+# 
+# 2. **Ne supprimez pas les diapositives**. Pour cacher une diapositive pour l'instruction à distance, utilisez la balise `exclude: true`. Voir un exemple ci-dessous :
+#
+#```
+#---
+#exclude: true
+#
 # Titre de la diapositive : J'adore les statistiques !
-
+#
 ### Contenu : Incroyable !
----
+#---
+#```
+# 
+# 3. Développez de nouveaux exercices ou adaptez les exercices actuels pour mieux répondre au format d'atelier à distance et à l'utilisation des salles de discussion. Les exercices doivent être informatifs et attrayants. N'oubliez pas de prévoir et de laisser le temps nécessaire pour travailler sur les exercices et de poser des questions.
 ```
-
-3. Développez de nouveaux exercices ou adaptez les exercices actuels pour mieux répondre au format d'atelier à distance et à l'utilisation des salles de discussion. Les exercices doivent être informatifs et attrayants. N'oubliez pas de prévoir et de laisser le temps nécessaire pour travailler sur les exercices et de poser des questions.
 
 **Priorités générales:**
 
