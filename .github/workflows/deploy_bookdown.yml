@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
       - name: Setup R  
-        uses: r-lib/actions/setup-r@v1
+        uses: r-lib/actions/setup-r@v2
       
       - name: Install pandoc and pandoc citeproc
-        uses: r-lib/actions/setup-pandoc@v1
+        uses: r-lib/actions/setup-pandoc@v2
         
       - name: Install R dependencies
         run: Rscript -e 'install.packages(c("rmarkdown", "bookdown", "formatR"))'
@@ -27,7 +27,7 @@ jobs:
       - name: Render the book using bookdown
         run: Rscript -e 'bookdown::render_book("index.Rmd")'
         
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         with:
           name: _book
           path: _book/
@@ -45,7 +45,7 @@ jobs:
        uses: actions/checkout@master
        
      - name: Download artifact
-       uses: actions/download-artifact@v1.0.0
+       uses: actions/download-artifact@v3
        with:
          # Artifact name
          name: _book # optional
