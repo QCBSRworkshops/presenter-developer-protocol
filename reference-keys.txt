@@ -31,7 +31,7 @@ grammaire-et-style
 apprentissage-active
 sondages-simples
 exercice-de-groupe
-exercise-individuel
+exercice-individuel
 comment-développer-des-ateliers
 pour-commencer
 flux-de-travail-github

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 4 Développer | Presentation and Development Protocol</title>
   <meta name="description" content="This is the Presentation and Development Protocol for the QCBS R Workshop Series" />
-  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 4 Développer | Presentation and Development Protocol" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="QCBS R Workshop Series" />
 
 
-<meta name="date" content="2022-11-10" />
+<meta name="date" content="2023-01-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,25 +49,24 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,13 +86,13 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -106,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -136,27 +135,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="...">QCBS R Workshop Series</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Protocole pour la présentation et le development</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Protocole pour la présentation et le development</a>
+<ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#presenter-and-developer-protocol"><i class="fa fa-check"></i>Presenter and Developer Protocol</a></li>
 </ul></li>
 <li class="part"><span><b>I Version en Français</b></span></li>
 <li class="chapter" data-level="1" data-path="codedeconduite.html"><a href="codedeconduite.html"><i class="fa fa-check"></i><b>1</b> Code de conduite</a></li>
-<li class="chapter" data-level="2" data-path="preparation-fr.html"><a href="preparation-fr.html"><i class="fa fa-check"></i><b>2</b> Préparation</a><ul>
-<li class="chapter" data-level="2.1" data-path="preparation-fr.html"><a href="preparation-fr.html#avant-latelier"><i class="fa fa-check"></i><b>2.1</b> Avant l’atelier</a><ul>
+<li class="chapter" data-level="2" data-path="preparation-fr.html"><a href="preparation-fr.html"><i class="fa fa-check"></i><b>2</b> Préparation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="preparation-fr.html"><a href="preparation-fr.html#avant-latelier"><i class="fa fa-check"></i><b>2.1</b> Avant l’atelier</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="preparation-fr.html"><a href="preparation-fr.html#deux-semaines-avant-latelier"><i class="fa fa-check"></i><b>2.1.1</b> Deux semaines avant l’atelier</a></li>
 <li class="chapter" data-level="2.1.2" data-path="preparation-fr.html"><a href="preparation-fr.html#une-semaine-avant-latelier"><i class="fa fa-check"></i><b>2.1.2</b> Une semaine avant l’atelier</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="preparation-fr.html"><a href="preparation-fr.html#le-jour-de-latelier"><i class="fa fa-check"></i><b>2.2</b> Le jour de l’atelier</a></li>
 <li class="chapter" data-level="2.3" data-path="preparation-fr.html"><a href="preparation-fr.html#après-latelier"><i class="fa fa-check"></i><b>2.3</b> Après l’atelier</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="presenter-fr.html"><a href="presenter-fr.html"><i class="fa fa-check"></i><b>3</b> Présentation</a><ul>
+<li class="chapter" data-level="3" data-path="presenter-fr.html"><a href="presenter-fr.html"><i class="fa fa-check"></i><b>3</b> Présentation</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="presenter-fr.html"><a href="presenter-fr.html#structure-de-latelier"><i class="fa fa-check"></i><b>3.1</b> Structure de l’atelier</a></li>
 <li class="chapter" data-level="3.2" data-path="presenter-fr.html"><a href="presenter-fr.html#directives-générales"><i class="fa fa-check"></i><b>3.2</b> Directives générales</a></li>
 <li class="chapter" data-level="3.3" data-path="presenter-fr.html"><a href="presenter-fr.html#directives-pour-la-présentation"><i class="fa fa-check"></i><b>3.3</b> Directives pour la présentation</a></li>
 <li class="chapter" data-level="3.4" data-path="presenter-fr.html"><a href="presenter-fr.html#directives-pour-lassistance"><i class="fa fa-check"></i><b>3.4</b> Directives pour l’assistance</a></li>
 <li class="chapter" data-level="3.5" data-path="presenter-fr.html"><a href="presenter-fr.html#aide-presentation"><i class="fa fa-check"></i><b>3.5</b> Aide à la présentation</a></li>
 <li class="chapter" data-level="3.6" data-path="presenter-fr.html"><a href="presenter-fr.html#mode-presentation"><i class="fa fa-check"></i><b>3.6</b> Mode présentation</a></li>
-<li class="chapter" data-level="3.7" data-path="presenter-fr.html"><a href="presenter-fr.html#conseils-zoom"><i class="fa fa-check"></i><b>3.7</b> Directives pour Zoom</a><ul>
+<li class="chapter" data-level="3.7" data-path="presenter-fr.html"><a href="presenter-fr.html#conseils-zoom"><i class="fa fa-check"></i><b>3.7</b> Directives pour Zoom</a>
+<ul>
 <li class="chapter" data-level="3.7.1" data-path="presenter-fr.html"><a href="presenter-fr.html#partager-votre-écran-ou-une-fenêtre-spécifique"><i class="fa fa-check"></i><b>3.7.1</b> Partager votre écran ou une fenêtre spécifique</a></li>
 <li class="chapter" data-level="3.7.2" data-path="presenter-fr.html"><a href="presenter-fr.html#vie-privée"><i class="fa fa-check"></i><b>3.7.2</b> Vie privée</a></li>
 <li class="chapter" data-level="3.7.3" data-path="presenter-fr.html"><a href="presenter-fr.html#gestion-du-chat"><i class="fa fa-check"></i><b>3.7.3</b> Gestion du “Chat”</a></li>
@@ -166,42 +170,50 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="3.8" data-path="presenter-fr.html"><a href="presenter-fr.html#contribuer-à-ces-directives"><i class="fa fa-check"></i><b>3.8</b> Contribuer à ces directives</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="developper-fr.html"><a href="developper-fr.html"><i class="fa fa-check"></i><b>4</b> Développer</a><ul>
-<li class="chapter" data-level="4.1" data-path="developper-fr.html"><a href="developper-fr.html#directives"><i class="fa fa-check"></i><b>4.1</b> Directives</a><ul>
+<li class="chapter" data-level="4" data-path="developper-fr.html"><a href="developper-fr.html"><i class="fa fa-check"></i><b>4</b> Développer</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="developper-fr.html"><a href="developper-fr.html#directives"><i class="fa fa-check"></i><b>4.1</b> Directives</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="developper-fr.html"><a href="developper-fr.html#principales-priorités"><i class="fa fa-check"></i><b>4.1.1</b> Principales priorités</a></li>
 <li class="chapter" data-level="4.1.2" data-path="developper-fr.html"><a href="developper-fr.html#règles-structurelles"><i class="fa fa-check"></i><b>4.1.2</b> Règles structurelles</a></li>
 <li class="chapter" data-level="4.1.3" data-path="developper-fr.html"><a href="developper-fr.html#grammaire-et-style"><i class="fa fa-check"></i><b>4.1.3</b> Grammaire et style</a></li>
 <li class="chapter" data-level="4.1.4" data-path="developper-fr.html"><a href="developper-fr.html#apprentissage-active"><i class="fa fa-check"></i><b>4.1.4</b> Apprentissage active</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="developper-fr.html"><a href="developper-fr.html#comment-développer-des-ateliers"><i class="fa fa-check"></i><b>4.2</b> Comment développer des ateliers</a><ul>
+<li class="chapter" data-level="4.2" data-path="developper-fr.html"><a href="developper-fr.html#comment-développer-des-ateliers"><i class="fa fa-check"></i><b>4.2</b> Comment développer des ateliers</a>
+<ul>
 <li class="chapter" data-level="4.2.1" data-path="developper-fr.html"><a href="developper-fr.html#pour-commencer"><i class="fa fa-check"></i><b>4.2.1</b> Pour commencer</a></li>
 <li class="chapter" data-level="4.2.2" data-path="developper-fr.html"><a href="developper-fr.html#flux-de-travail-github"><i class="fa fa-check"></i><b>4.2.2</b> Flux de travail GitHub</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="developper-fr.html"><a href="developper-fr.html#contribuer-autrement"><i class="fa fa-check"></i><b>4.3</b> Contribuer autrement</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="payment-fr.html"><a href="payment-fr.html"><i class="fa fa-check"></i><b>5</b> Recevoir votre prix</a><ul>
+<li class="chapter" data-level="5" data-path="payment-fr.html"><a href="payment-fr.html"><i class="fa fa-check"></i><b>5</b> Recevoir votre prix</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="payment-fr.html"><a href="payment-fr.html#payment-fr-mcgill"><i class="fa fa-check"></i><b>5.1</b> Membres du CSBQ aux cycles supérieurs de McGill</a></li>
 <li class="chapter" data-level="5.2" data-path="payment-fr.html"><a href="payment-fr.html#payment-fr-nonmcgill"><i class="fa fa-check"></i><b>5.2</b> Membres du CSBQ aux cycles supérieurs ou au postdoctorat hors-McGill</a></li>
 <li class="chapter" data-level="5.3" data-path="payment-fr.html"><a href="payment-fr.html#implications-fiscales"><i class="fa fa-check"></i><b>5.3</b> Implications fiscales</a></li>
 </ul></li>
 <li class="part"><span><b>II English version</b></span></li>
 <li class="chapter" data-level="6" data-path="codeofconduct-en.html"><a href="codeofconduct-en.html"><i class="fa fa-check"></i><b>6</b> Code of conduct</a></li>
-<li class="chapter" data-level="7" data-path="preparation-en.html"><a href="preparation-en.html"><i class="fa fa-check"></i><b>7</b> Preparation</a><ul>
-<li class="chapter" data-level="7.1" data-path="preparation-en.html"><a href="preparation-en.html#before-the-workshop"><i class="fa fa-check"></i><b>7.1</b> Before the workshop</a><ul>
+<li class="chapter" data-level="7" data-path="preparation-en.html"><a href="preparation-en.html"><i class="fa fa-check"></i><b>7</b> Preparation</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="preparation-en.html"><a href="preparation-en.html#before-the-workshop"><i class="fa fa-check"></i><b>7.1</b> Before the workshop</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="preparation-en.html"><a href="preparation-en.html#two-weeks-before-the-workshop"><i class="fa fa-check"></i><b>7.1.1</b> Two weeks before the workshop</a></li>
 <li class="chapter" data-level="7.1.2" data-path="preparation-en.html"><a href="preparation-en.html#one-week-before-the-workshop"><i class="fa fa-check"></i><b>7.1.2</b> One week before the workshop</a></li>
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="preparation-en.html"><a href="preparation-en.html#on-the-day-of-the-workshop"><i class="fa fa-check"></i><b>7.2</b> On the day of the workshop</a></li>
 <li class="chapter" data-level="7.3" data-path="preparation-en.html"><a href="preparation-en.html#after-the-workshop"><i class="fa fa-check"></i><b>7.3</b> After the workshop</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="presentation-en.html"><a href="presentation-en.html"><i class="fa fa-check"></i><b>8</b> Presentation</a><ul>
+<li class="chapter" data-level="8" data-path="presentation-en.html"><a href="presentation-en.html"><i class="fa fa-check"></i><b>8</b> Presentation</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="presentation-en.html"><a href="presentation-en.html#workshop-structure"><i class="fa fa-check"></i><b>8.1</b> Workshop structure</a></li>
 <li class="chapter" data-level="8.2" data-path="presentation-en.html"><a href="presentation-en.html#general-guidelines"><i class="fa fa-check"></i><b>8.2</b> General guidelines</a></li>
 <li class="chapter" data-level="8.3" data-path="presentation-en.html"><a href="presentation-en.html#presenting-guidelines"><i class="fa fa-check"></i><b>8.3</b> Presenting guidelines</a></li>
 <li class="chapter" data-level="8.4" data-path="presentation-en.html"><a href="presentation-en.html#assisting-guidelines"><i class="fa fa-check"></i><b>8.4</b> Assisting guidelines</a></li>
 <li class="chapter" data-level="8.5" data-path="presentation-en.html"><a href="presentation-en.html#presentation-help"><i class="fa fa-check"></i><b>8.5</b> Presentation help</a></li>
 <li class="chapter" data-level="8.6" data-path="presentation-en.html"><a href="presentation-en.html#presenter-mode"><i class="fa fa-check"></i><b>8.6</b> Presenter mode</a></li>
-<li class="chapter" data-level="8.7" data-path="presentation-en.html"><a href="presentation-en.html#zoom-guidelines"><i class="fa fa-check"></i><b>8.7</b> Zoom guidelines</a><ul>
+<li class="chapter" data-level="8.7" data-path="presentation-en.html"><a href="presentation-en.html#zoom-guidelines"><i class="fa fa-check"></i><b>8.7</b> Zoom guidelines</a>
+<ul>
 <li class="chapter" data-level="8.7.1" data-path="presentation-en.html"><a href="presentation-en.html#sharing-your-screen-or-a-specific-window"><i class="fa fa-check"></i><b>8.7.1</b> Sharing your screen or a specific window</a></li>
 <li class="chapter" data-level="8.7.2" data-path="presentation-en.html"><a href="presentation-en.html#privacy"><i class="fa fa-check"></i><b>8.7.2</b> Privacy</a></li>
 <li class="chapter" data-level="8.7.3" data-path="presentation-en.html"><a href="presentation-en.html#moderating-the-chat"><i class="fa fa-check"></i><b>8.7.3</b> Moderating the Chat</a></li>
@@ -211,29 +223,36 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="8.8" data-path="presentation-en.html"><a href="presentation-en.html#contributing-to-these-guidelines"><i class="fa fa-check"></i><b>8.8</b> Contributing to these guidelines</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="developing-en.html"><a href="developing-en.html"><i class="fa fa-check"></i><b>9</b> Developing</a><ul>
-<li class="chapter" data-level="9.1" data-path="developing-en.html"><a href="developing-en.html#guidelines"><i class="fa fa-check"></i><b>9.1</b> Guidelines</a><ul>
+<li class="chapter" data-level="9" data-path="developing-en.html"><a href="developing-en.html"><i class="fa fa-check"></i><b>9</b> Developing</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="developing-en.html"><a href="developing-en.html#guidelines"><i class="fa fa-check"></i><b>9.1</b> Guidelines</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="developing-en.html"><a href="developing-en.html#main-priorities"><i class="fa fa-check"></i><b>9.1.1</b> Main priorities</a></li>
 <li class="chapter" data-level="9.1.2" data-path="developing-en.html"><a href="developing-en.html#structural-rules"><i class="fa fa-check"></i><b>9.1.2</b> Structural rules</a></li>
 <li class="chapter" data-level="9.1.3" data-path="developing-en.html"><a href="developing-en.html#grammar-and-style"><i class="fa fa-check"></i><b>9.1.3</b> Grammar and style</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#active-learning"><i class="fa fa-check"></i><b>9.2</b> Active learning</a><ul>
+<li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#active-learning"><i class="fa fa-check"></i><b>9.2</b> Active learning</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="developing-en.html"><a href="developing-en.html#simple-polls"><i class="fa fa-check"></i><b>9.2.1</b> Simple polls</a></li>
 <li class="chapter" data-level="9.2.2" data-path="developing-en.html"><a href="developing-en.html#group-exercise"><i class="fa fa-check"></i><b>9.2.2</b> Group exercise</a></li>
 <li class="chapter" data-level="9.2.3" data-path="developing-en.html"><a href="developing-en.html#individual-exercise"><i class="fa fa-check"></i><b>9.2.3</b> Individual exercise</a></li>
 </ul></li>
-<li class="chapter" data-level="9.3" data-path="developing-en.html"><a href="developing-en.html#how-to-develop-workshops"><i class="fa fa-check"></i><b>9.3</b> How to develop workshops</a><ul>
+<li class="chapter" data-level="9.3" data-path="developing-en.html"><a href="developing-en.html#how-to-develop-workshops"><i class="fa fa-check"></i><b>9.3</b> How to develop workshops</a>
+<ul>
 <li class="chapter" data-level="9.3.1" data-path="developing-en.html"><a href="developing-en.html#getting-started"><i class="fa fa-check"></i><b>9.3.1</b> Getting started</a></li>
 <li class="chapter" data-level="9.3.2" data-path="developing-en.html"><a href="developing-en.html#github-workflow"><i class="fa fa-check"></i><b>9.3.2</b> GitHub workflow</a></li>
 </ul></li>
 <li class="chapter" data-level="9.4" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.4</b> Other ways to contribute</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html"><i class="fa fa-check"></i><b>10</b> Advanced Developing</a><ul>
-<li class="chapter" data-level="10.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-templates"><i class="fa fa-check"></i><b>10.1</b> Changing the templates</a><ul>
+<li class="chapter" data-level="10" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html"><i class="fa fa-check"></i><b>10</b> Advanced Developing</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-templates"><i class="fa fa-check"></i><b>10.1</b> Changing the templates</a>
+<ul>
 <li class="chapter" data-level="10.1.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-presentation-template"><i class="fa fa-check"></i><b>10.1.1</b> Changing the presentation template</a></li>
 <li class="chapter" data-level="10.1.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-book-template"><i class="fa fa-check"></i><b>10.1.2</b> Changing the book template</a></li>
 </ul></li>
-<li class="chapter" data-level="10.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>10.2</b> Managing the continuous integration workflow</a><ul>
+<li class="chapter" data-level="10.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>10.2</b> Managing the continuous integration workflow</a>
+<ul>
 <li class="chapter" data-level="10.2.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#github-action-workflow-structure"><i class="fa fa-check"></i><b>10.2.1</b> Github Action workflow structure</a></li>
 <li class="chapter" data-level="10.2.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#workflow-description"><i class="fa fa-check"></i><b>10.2.2</b> Workflow description</a></li>
 <li class="chapter" data-level="10.2.3" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#create-a-gh-pages-branch"><i class="fa fa-check"></i><b>10.2.3</b> Create a <code>gh-pages</code> branch</a></li>
@@ -241,7 +260,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="10.3" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#the-qcbsrworkshops-package"><i class="fa fa-check"></i><b>10.3</b> The <code>qcbsRworkshops</code> package</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>11</b> Receiving your award</a><ul>
+<li class="chapter" data-level="11" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>11</b> Receiving your award</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="payment-en.html"><a href="payment-en.html#payment-en-mcgill"><i class="fa fa-check"></i><b>11.1</b> McGill Graduate Students</a></li>
 <li class="chapter" data-level="11.2" data-path="payment-en.html"><a href="payment-en.html#payment-en-nonmcgill"><i class="fa fa-check"></i><b>11.2</b> Non-McGill Graduate Students and Postdoctoral Fellows</a></li>
 <li class="chapter" data-level="11.3" data-path="payment-en.html"><a href="payment-en.html#payment-en-tax-implications"><i class="fa fa-check"></i><b>11.3</b> Tax implications</a></li>
@@ -264,13 +284,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="developper-fr" class="section level1 hasAnchor">
+<div id="developper-fr" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Section 4</span> Développer<a href="developper-fr.html#developper-fr" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="directives" class="section level2 hasAnchor">
+<div id="directives" class="section level2 hasAnchor" number="4.1">
 <h2><span class="header-section-number">4.1</span> Directives<a href="developper-fr.html#directives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Ce guide est conçu pour aider les équipes de développement lors de la création et de la modification du contenu des ateliers R du CSBQ. Nous voulons nous assurer que les personnes qui assistent aux ateliers peuvent se concentrer sur le contenu présenté sans distraction par des questions de style, de grammaire, de ponctuation et/ou de structure.</p>
 <p>Veuillez lire attentivement ce guide avant de commencer et vous y référer régulièrement pendant votre travail.</p>
-<div id="principales-priorités" class="section level3 hasAnchor">
+<div id="principales-priorités" class="section level3 hasAnchor" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> Principales priorités<a href="developper-fr.html#principales-priorités" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Nous avons établi ici une liste de priorités pour les personnes qui souhaitent contribuer aux ateliers <code>R</code>. L’idéal serait que les équipes de développement accomplissent toutes ces tâches, mais si les circonstances rendent cela impossible, il est important de se concentrer sur les changements structurels avant les questions de style.</p>
 <p><strong>Spécifique à l’adaptation des ateliers au cadre à distance:</strong></p>
@@ -286,7 +306,7 @@ exclude: true
 ### Contenu : Incroyable !
 ---</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>Développez de nouveaux exercices ou adaptez les exercices actuels pour mieux répondre au format d’atelier à distance et à l’utilisation des salles de discussion. Les exercices doivent être informatifs et attrayants. N’oubliez pas de prevoir et de laisser le temps nécessaire pour travailler sur les exercices et de poser des questions.</li>
+<li>Développez de nouveaux exercices ou adaptez les exercices actuels pour mieux répondre au format d’atelier à distance et à l’utilisation des salles de discussion. Les exercices doivent être informatifs et attrayants. N’oubliez pas de prévoir et de laisser le temps nécessaire pour travailler sur les exercices et de poser des questions.</li>
 </ol>
 <p><strong>Priorités générales:</strong></p>
 <ol style="list-style-type: decimal">
@@ -305,7 +325,7 @@ Le contenu de cet atelier est essentiel.
 Note : _Chantez cette diapositive_.
 ---</code></pre>
 </div>
-<div id="règles-structurelles" class="section level3 hasAnchor">
+<div id="règles-structurelles" class="section level3 hasAnchor" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> Règles structurelles<a href="developper-fr.html#règles-structurelles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li><p>Ne laissez pas le contenu des diapositives déborder de l’écran.</p></li>
@@ -315,7 +335,7 @@ Note : _Chantez cette diapositive_.
 <li><p>Faites attention à la fluidité et aux distractions.</p></li>
 </ol>
 </div>
-<div id="grammaire-et-style" class="section level3 hasAnchor">
+<div id="grammaire-et-style" class="section level3 hasAnchor" number="4.1.3">
 <h3><span class="header-section-number">4.1.3</span> Grammaire et style<a href="developper-fr.html#grammaire-et-style" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li><p>Faites attention à la ponctuation, à l’orthographe et à la grammaire.</p></li>
@@ -324,14 +344,14 @@ Note : _Chantez cette diapositive_.
 <li><p>N’hésitez pas à demander à votre pair en développement de réviser votre texte.</p></li>
 </ol>
 </div>
-<div id="apprentissage-active" class="section level3 hasAnchor">
+<div id="apprentissage-active" class="section level3 hasAnchor" number="4.1.4">
 <h3><span class="header-section-number">4.1.4</span> Apprentissage active<a href="developper-fr.html#apprentissage-active" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les ateliers doivent être interactifs et comprendre des exercices et des sondages. Nous présentons ci-dessous quelques exemples d’exercices, de modes d’apprentissage fondés sur des données probantes et de stratégies efficaces pour organiser des ateliers à distance.</p>
 <p>Nous vous recommandons de prendre votre temps et de bien planifier l’élaboration des exercices. Veillez à ce que les objectifs de l’exercice soient en adéquation avec ceux de l’atelier.</p>
 <blockquote>
 <p>Rappelez-vous que tout ce qui est écrit dessous le <code>???</code> est une note pour la personne qui présente et n’apparaîtra donc pas dans la diapositive de présentation, mais apparaîtra dans la fenêtre du mode présentation.</p>
 </blockquote>
-<div id="sondages-simples" class="section level4 hasAnchor">
+<div id="sondages-simples" class="section level4 hasAnchor" number="4.1.4.1">
 <h4><span class="header-section-number">4.1.4.1</span> Sondages simples<a href="developper-fr.html#sondages-simples" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Voir ci-dessous quelques exemples de deux diapositives contenant un exercice suivi de leurs solutions.</p>
 <p><strong>Exemple 1</strong></p>
@@ -387,7 +407,7 @@ Nous avons maintenant réalisé que l&#39;exemple de proportion pour les cerfs i
 Note : Vous pouvez maintenant expliquer que nous pouvons obtenir le modèle corrigé avec les options 2 et 3. Cependant, l&#39;option 3 est le bon choix car vous aviez demandé de mettre à jour le modèle `prop.reg2`. Vous pouvez également rappeler que chaque distribution a une fonction de lien par défaut, donc l&#39;utilisation de `family = quasibinomial` et `family=quasibinomial(link = &quot;logit&quot;)` produira le même résultat que `logit` est la fonction de lien par défaut pour la distribution quasibinomiale.
 ---</code></pre>
 </div>
-<div id="exercice-de-groupe" class="section level4 hasAnchor">
+<div id="exercice-de-groupe" class="section level4 hasAnchor" number="4.1.4.2">
 <h4><span class="header-section-number">4.1.4.2</span> Exercice de groupe<a href="developper-fr.html#exercice-de-groupe" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Le travail en petits groupes permet d’exploiter les forces de chaque membre du groupe et d’améliorer le succès du cadre collectif. Cet exercice exige un répartition au hasard de l’audience dans des salles de discussion (idéalement, 5 personnes par salle) et doit comprendre une activité se rapportant à un point de discussion. À la fin de cet exercice, les groupes sont reconvoqués et une personne de chaque salle de discussion doit faire un rapport et résumer la discussion. Cette activité doit durer environ 10 minutes (parfois moins si elle est très simple) et doit utiliser les informations qui ont été fournies pendant l’atelier.</p>
 <p>Voir ci-dessous deux exemples de diapositives contenant un exercice suivi de sa solution :</p>
@@ -462,8 +482,8 @@ Note : Mentionnez quelques exemples ou utilisez les exercices présentés pendan
 
 ---</code></pre>
 </div>
-<div id="exercise-individuel" class="section level4 hasAnchor">
-<h4><span class="header-section-number">4.1.4.3</span> Exercise individuel<a href="developper-fr.html#exercise-individuel" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="exercice-individuel" class="section level4 hasAnchor" number="4.1.4.3">
+<h4><span class="header-section-number">4.1.4.3</span> Exercice individuel<a href="developper-fr.html#exercice-individuel" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Des exercices individuels simples demandent à chacun de pratiquer un peu par soi-même. En fonction de la difficulté des exercices, pensez à prévoir entre 5 et 10 minutes pour leur exécution.</p>
 <p>Bien que ces exercices aident à assimiler le contenu, certaines personnes peuvent être moins motivées pour les exécuter (contrairement aux exercices de groupe). C’est pourquoi il faut envisager d’inclure d’autres types d’exercices en plus de ceux-ci.</p>
 <p>À la fin de ces exercices, donnez l’occasion à une ou quelques personnes de présenter et de discuter leurs réponses.</p>
@@ -512,23 +532,23 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 </div>
 </div>
 </div>
-<div id="comment-développer-des-ateliers" class="section level2 hasAnchor">
+<div id="comment-développer-des-ateliers" class="section level2 hasAnchor" number="4.2">
 <h2><span class="header-section-number">4.2</span> Comment développer des ateliers<a href="developper-fr.html#comment-développer-des-ateliers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Cette section vous guide à travers le processus de contribution aux présentations des ateliers R du CSBQ.</p>
-<div id="pour-commencer" class="section level3 hasAnchor">
+<div id="pour-commencer" class="section level3 hasAnchor" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> Pour commencer<a href="developper-fr.html#pour-commencer" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Les ateliers R du CSBQ sont des présentations créées en utilisant <a href="https://bookdown.org/yihui/rmarkdown/xaringan.html">xaringan</a>, donc la première étape est d’installer la bibliotèque <code>R</code> <code>xaringan</code>.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="developper-fr.html#cb9-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(devtools)) <span class="kw">install.packages</span>(<span class="st">&quot;devtools&quot;</span>)</span>
-<span id="cb9-2"><a href="developper-fr.html#cb9-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;yihui/xaringan&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="developper-fr.html#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(devtools)) <span class="fu">install.packages</span>(<span class="st">&quot;devtools&quot;</span>)</span>
+<span id="cb9-2"><a href="developper-fr.html#cb9-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;yihui/xaringan&quot;</span>)</span></code></pre></div>
 <p>Ensuite, vous devez créer une copie locale du répertoire de l’atelier sur lequel vous travaillerez, que vous trouverez <a href="https://github.com/QCBSRworkshops">ici</a>. Pour ce faire, vous pouvez <a href="https://help.github.com/articles/cloning-a-repository/">cloner le répertoire GitHub</a> sur votre ordinateur.</p>
 <p>Pour ce faire, vous pouvez utiliser la ligne de commande (plus de détails <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">ici</a>) :</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="developper-fr.html#cb10-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
-<span id="cb10-2"><a href="developper-fr.html#cb10-2"></a></span>
-<span id="cb10-3"><a href="developper-fr.html#cb10-3"></a><span class="co"># changez ce lien en fonction de l&#39;atelier sur lequel vous travaillez !</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="developper-fr.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/QCBSRworkshops/workshop01.git</span>
+<span id="cb10-2"><a href="developper-fr.html#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="developper-fr.html#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># changez ce lien en fonction de l&#39;atelier sur lequel vous travaillez !</span></span></code></pre></div>
 <p>Si vous n’êtes pas à l’aise avec la ligne de commande, vous pouvez cloner ce dépôt d’archives en utilisant <a href="https://desktop.github.com/">GitHub Desktop</a>, en suivant les instructions <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">ici</a>.</p>
 <p>Une fois que vous avez cloné le dépôt d’archives, vous êtes prêt à commencer le développement !</p>
 </div>
-<div id="flux-de-travail-github" class="section level3 hasAnchor">
+<div id="flux-de-travail-github" class="section level3 hasAnchor" number="4.2.2">
 <h3><span class="header-section-number">4.2.2</span> Flux de travail GitHub<a href="developper-fr.html#flux-de-travail-github" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>GitHub crée des dépôt d’archives avec une seule branche par défaut, nommée <code>dev</code> (si vous travaillez en ligne de commande) ou <code>main</code> (si vous travaillez dans GitHub Desktop). C’est la branche que vous voyez quand vous visitez le dépôt d’archives.</p>
 <p>Nous vous recommandons fortement de travailler sur une <strong>nouvelle branche</strong>, qui vous permet de développer les ateliers sans affecter la branche principale du dépôt d’archives. Travailler sur une branche distincte signifie que les changements ne sont mis en œuvre dans le contenu original qu’une fois que vos contributions ont été examinées. C’est une façon “plus sécuritaire” de développer les ateliers, particulièrement lorsque plusieurs personnes collaborent sur un atelier en même temps.</p>
@@ -536,44 +556,44 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 <li><strong>Créer et publier une nouvelle branche</strong>. Choisissez un nom qui décrit explicitement ce que vous modifiez, <em>par exemple </em> <code>workshop1_intro</code> si vous travaillez sur l’introduction de l’atelier 1.</li>
 </ol>
 <p>Sur la ligne de commande :</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="developper-fr.html#cb11-1"></a><span class="fu">git</span> branch workshop1_intro <span class="co"># créer une nouvelle branche</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="developper-fr.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch workshop1_intro <span class="co"># créer une nouvelle branche</span></span></code></pre></div>
 <p>Github Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#creating-a-branch">instructions ici</a>).</p>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Passer à cette branche</strong>. Assurez-vous que vous travaillez sur votre nouvelle branche !</li>
 </ol>
 <p>Sur la ligne de commande :</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="developper-fr.html#cb12-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># passer à cette branche</span></span>
-<span id="cb12-2"><a href="developper-fr.html#cb12-2"></a></span>
-<span id="cb12-3"><a href="developper-fr.html#cb12-3"></a><span class="co"># Notez que vous pouvez créer et changer de branche en une seule ligne : </span></span>
-<span id="cb12-4"><a href="developper-fr.html#cb12-4"></a><span class="fu">git</span> checkout -b workshop1_intro</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="developper-fr.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># passer à cette branche</span></span>
+<span id="cb12-2"><a href="developper-fr.html#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="developper-fr.html#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Notez que vous pouvez créer et changer de branche en une seule ligne : </span></span>
+<span id="cb12-4"><a href="developper-fr.html#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> workshop1_intro</span></code></pre></div>
 <p>GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-branches#switching-between-branches">instructions ici</a>).</p>
 <ol start="3" style="list-style-type: decimal">
 <li><p><strong>Effectuez vos modifications</strong>, en suivant les <a href="developper-fr.html#directives">lignes directrices</a> énumérées ci-dessus.</p></li>
 <li><p><strong>Ajoutez et validez vos modifications</strong>. Une fois que vous avez terminé de faire des changements sur votre branche, ajoutez-les et validez-les pour enregistrer ces changements. Lorsque vous validez des modifications, il est essentiel d’inclure un message de validation qui résume brièvement ce que vous avez fait. Soyez bref mais informatif !</p></li>
 </ol>
 <p>Sur la ligne de commande :</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="developper-fr.html#cb13-1"></a><span class="fu">git</span> add -A <span class="co"># ajoutez tous vos changements</span></span>
-<span id="cb13-2"><a href="developper-fr.html#cb13-2"></a><span class="fu">git</span> commit -m <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commettez vos changements avec un message</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="developper-fr.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add <span class="at">-A</span> <span class="co"># ajoutez tous vos changements</span></span>
+<span id="cb13-2"><a href="developper-fr.html#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;fix code for plot in Challenge 1&quot;</span> <span class="co"># commettez vos changements avec un message</span></span></code></pre></div>
 <p>Vous pouvez également utiliser GitHub Desktop pour ajouter des modifications (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#2-selecting-changes-to-include-in-a-commit">instructions ici</a>) et les valider (<a href="https://docs.%20github.com/fr/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-write-a-commit-message-and-push-your-changes">instructions ici</a>).</p>
 <ol start="5" style="list-style-type: decimal">
 <li><strong>Synchronisez votre branche principale avec le référentiel distant</strong>. Il est important de s’assurer que votre branche principale est à jour avant de la modifier. Retournez à la branche principale et récupérez les modifications qui ont été faites depuis la dernière copie du dépôt d’archives.</li>
 </ol>
 <p>Tirez le <code>dev</code> sur la ligne de commande :</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developper-fr.html#cb14-1"></a><span class="fu">git</span> checkout dev <span class="co"># retour à la branche principale</span></span>
-<span id="cb14-2"><a href="developper-fr.html#cb14-2"></a><span class="ex">pull</span> git <span class="co"># tirez les changements faits sur la branche principale</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="developper-fr.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout dev <span class="co"># retour à la branche principale</span></span>
+<span id="cb14-2"><a href="developper-fr.html#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pull</span> git <span class="co"># tirez les changements faits sur la branche principale</span></span></code></pre></div>
 <p>Tirez la branche <code>main</code> sur GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#pulling-to-your-local-branche-de-la-distance">instructions ici</a>).</p>
 <ol start="6" style="list-style-type: decimal">
 <li><strong>Fusionnez votre branche avec la branche principale locale</strong>. Retournez à votre branche (par exemple <code>workshop1_intro</code>) et fusionnez-la avec votre branche principale locale. S’il y a des conflits, veuillez les résoudre !</li>
 </ol>
 <p>Vous pouvez fusionner votre branche avec la branche <code>dev</code> en utilisant la ligne de commande :</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developper-fr.html#cb15-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># retournez à votre branche</span></span>
-<span id="cb15-2"><a href="developper-fr.html#cb15-2"></a><span class="fu">git</span> merge dev <span class="co"># fusionner la branche principale avec votre branche</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="developper-fr.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout workshop1_intro <span class="co"># retournez à votre branche</span></span>
+<span id="cb15-2"><a href="developper-fr.html#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge dev <span class="co"># fusionner la branche principale avec votre branche</span></span></code></pre></div>
 <p>Fusionnez votre branche avec la branche <code>main</code> dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branch#merging-another-branch-into-your-projet-branch">instructions ici</a>).</p>
 <ol start="7" style="list-style-type: decimal">
 <li><strong>Poussez votre branche fusionnée localement vers le dépôt d’archives GitHub distant</strong>.</li>
 </ol>
 <p>En ligne de commande, vous pouvez pousser votre branche fusionnée localement (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant comme ceci :</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="developper-fr.html#cb16-1"></a><span class="fu">git</span> push --set-upstream origin workshop1_intro <span class="co"># poussez vers le dépôt !</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="developper-fr.html#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">--set-upstream</span> origin workshop1_intro <span class="co"># poussez vers le dépôt !</span></span></code></pre></div>
 <p>Poussez votre branche (par exemple <code>workshop1_intro</code>) vers le dépôt d’archives distant dans GitHub Desktop (<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/syncing-your-branche#immergeant%20une%20autre%20branche%20dans%20votre%20branche-projet">voir étape #4</a>).</p>
 <ol start="8" style="list-style-type: decimal">
 <li><strong>Ouvrez une <a href="https://help.github.com/articles/about-pull-requests/">demande d’extraction</a></strong>.</li>
@@ -587,7 +607,7 @@ Note : Montrez clairement quels arguments ont changé entre les fonctions et ce 
 <p>Un guide visuel du flux de travail GitHub est aussi accessible <a href="https://guides.github.com/introduction/flow/">ici</a>.</p>
 </div>
 </div>
-<div id="contribuer-autrement" class="section level2 hasAnchor">
+<div id="contribuer-autrement" class="section level2 hasAnchor" number="4.3">
 <h2><span class="header-section-number">4.3</span> Contribuer autrement<a href="developper-fr.html#contribuer-autrement" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Si vous n’êtes pas à l’aise avec GitHub, vous pouvez toujours nous aider à améliorer les ateliers !</p>
 <p>Si vous trouvez des erreurs ou des incohérences, ou si vous souhaitez faire une suggestion, que ce soit sur la forme ou le contenu, vous êtes invités à ouvrir un <a href="https://help.github.com/articles/about-issues/">numéro</a>. Vous pouvez suivre ces étapes simples pour créer un nouveau <a href="https://help.github.com/articles/creating-an-issue/">numéro</a>.</p>

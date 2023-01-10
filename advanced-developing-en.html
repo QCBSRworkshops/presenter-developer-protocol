@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 10 Advanced Developing | Presentation and Development Protocol</title>
   <meta name="description" content="This is the Presentation and Development Protocol for the QCBS R Workshop Series" />
-  <meta name="generator" content="bookdown 0.30 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 10 Advanced Developing | Presentation and Development Protocol" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="QCBS R Workshop Series" />
 
 
-<meta name="date" content="2022-11-10" />
+<meta name="date" content="2023-01-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,25 +49,24 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,13 +86,13 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -106,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -136,27 +135,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="...">QCBS R Workshop Series</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Protocole pour la présentation et le development</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Protocole pour la présentation et le development</a>
+<ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#presenter-and-developer-protocol"><i class="fa fa-check"></i>Presenter and Developer Protocol</a></li>
 </ul></li>
 <li class="part"><span><b>I Version en Français</b></span></li>
 <li class="chapter" data-level="1" data-path="codedeconduite.html"><a href="codedeconduite.html"><i class="fa fa-check"></i><b>1</b> Code de conduite</a></li>
-<li class="chapter" data-level="2" data-path="preparation-fr.html"><a href="preparation-fr.html"><i class="fa fa-check"></i><b>2</b> Préparation</a><ul>
-<li class="chapter" data-level="2.1" data-path="preparation-fr.html"><a href="preparation-fr.html#avant-latelier"><i class="fa fa-check"></i><b>2.1</b> Avant l’atelier</a><ul>
+<li class="chapter" data-level="2" data-path="preparation-fr.html"><a href="preparation-fr.html"><i class="fa fa-check"></i><b>2</b> Préparation</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="preparation-fr.html"><a href="preparation-fr.html#avant-latelier"><i class="fa fa-check"></i><b>2.1</b> Avant l’atelier</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="preparation-fr.html"><a href="preparation-fr.html#deux-semaines-avant-latelier"><i class="fa fa-check"></i><b>2.1.1</b> Deux semaines avant l’atelier</a></li>
 <li class="chapter" data-level="2.1.2" data-path="preparation-fr.html"><a href="preparation-fr.html#une-semaine-avant-latelier"><i class="fa fa-check"></i><b>2.1.2</b> Une semaine avant l’atelier</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="preparation-fr.html"><a href="preparation-fr.html#le-jour-de-latelier"><i class="fa fa-check"></i><b>2.2</b> Le jour de l’atelier</a></li>
 <li class="chapter" data-level="2.3" data-path="preparation-fr.html"><a href="preparation-fr.html#après-latelier"><i class="fa fa-check"></i><b>2.3</b> Après l’atelier</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="presenter-fr.html"><a href="presenter-fr.html"><i class="fa fa-check"></i><b>3</b> Présentation</a><ul>
+<li class="chapter" data-level="3" data-path="presenter-fr.html"><a href="presenter-fr.html"><i class="fa fa-check"></i><b>3</b> Présentation</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="presenter-fr.html"><a href="presenter-fr.html#structure-de-latelier"><i class="fa fa-check"></i><b>3.1</b> Structure de l’atelier</a></li>
 <li class="chapter" data-level="3.2" data-path="presenter-fr.html"><a href="presenter-fr.html#directives-générales"><i class="fa fa-check"></i><b>3.2</b> Directives générales</a></li>
 <li class="chapter" data-level="3.3" data-path="presenter-fr.html"><a href="presenter-fr.html#directives-pour-la-présentation"><i class="fa fa-check"></i><b>3.3</b> Directives pour la présentation</a></li>
 <li class="chapter" data-level="3.4" data-path="presenter-fr.html"><a href="presenter-fr.html#directives-pour-lassistance"><i class="fa fa-check"></i><b>3.4</b> Directives pour l’assistance</a></li>
 <li class="chapter" data-level="3.5" data-path="presenter-fr.html"><a href="presenter-fr.html#aide-presentation"><i class="fa fa-check"></i><b>3.5</b> Aide à la présentation</a></li>
 <li class="chapter" data-level="3.6" data-path="presenter-fr.html"><a href="presenter-fr.html#mode-presentation"><i class="fa fa-check"></i><b>3.6</b> Mode présentation</a></li>
-<li class="chapter" data-level="3.7" data-path="presenter-fr.html"><a href="presenter-fr.html#conseils-zoom"><i class="fa fa-check"></i><b>3.7</b> Directives pour Zoom</a><ul>
+<li class="chapter" data-level="3.7" data-path="presenter-fr.html"><a href="presenter-fr.html#conseils-zoom"><i class="fa fa-check"></i><b>3.7</b> Directives pour Zoom</a>
+<ul>
 <li class="chapter" data-level="3.7.1" data-path="presenter-fr.html"><a href="presenter-fr.html#partager-votre-écran-ou-une-fenêtre-spécifique"><i class="fa fa-check"></i><b>3.7.1</b> Partager votre écran ou une fenêtre spécifique</a></li>
 <li class="chapter" data-level="3.7.2" data-path="presenter-fr.html"><a href="presenter-fr.html#vie-privée"><i class="fa fa-check"></i><b>3.7.2</b> Vie privée</a></li>
 <li class="chapter" data-level="3.7.3" data-path="presenter-fr.html"><a href="presenter-fr.html#gestion-du-chat"><i class="fa fa-check"></i><b>3.7.3</b> Gestion du “Chat”</a></li>
@@ -166,42 +170,50 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="3.8" data-path="presenter-fr.html"><a href="presenter-fr.html#contribuer-à-ces-directives"><i class="fa fa-check"></i><b>3.8</b> Contribuer à ces directives</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="developper-fr.html"><a href="developper-fr.html"><i class="fa fa-check"></i><b>4</b> Développer</a><ul>
-<li class="chapter" data-level="4.1" data-path="developper-fr.html"><a href="developper-fr.html#directives"><i class="fa fa-check"></i><b>4.1</b> Directives</a><ul>
+<li class="chapter" data-level="4" data-path="developper-fr.html"><a href="developper-fr.html"><i class="fa fa-check"></i><b>4</b> Développer</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="developper-fr.html"><a href="developper-fr.html#directives"><i class="fa fa-check"></i><b>4.1</b> Directives</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="developper-fr.html"><a href="developper-fr.html#principales-priorités"><i class="fa fa-check"></i><b>4.1.1</b> Principales priorités</a></li>
 <li class="chapter" data-level="4.1.2" data-path="developper-fr.html"><a href="developper-fr.html#règles-structurelles"><i class="fa fa-check"></i><b>4.1.2</b> Règles structurelles</a></li>
 <li class="chapter" data-level="4.1.3" data-path="developper-fr.html"><a href="developper-fr.html#grammaire-et-style"><i class="fa fa-check"></i><b>4.1.3</b> Grammaire et style</a></li>
 <li class="chapter" data-level="4.1.4" data-path="developper-fr.html"><a href="developper-fr.html#apprentissage-active"><i class="fa fa-check"></i><b>4.1.4</b> Apprentissage active</a></li>
 </ul></li>
-<li class="chapter" data-level="4.2" data-path="developper-fr.html"><a href="developper-fr.html#comment-développer-des-ateliers"><i class="fa fa-check"></i><b>4.2</b> Comment développer des ateliers</a><ul>
+<li class="chapter" data-level="4.2" data-path="developper-fr.html"><a href="developper-fr.html#comment-développer-des-ateliers"><i class="fa fa-check"></i><b>4.2</b> Comment développer des ateliers</a>
+<ul>
 <li class="chapter" data-level="4.2.1" data-path="developper-fr.html"><a href="developper-fr.html#pour-commencer"><i class="fa fa-check"></i><b>4.2.1</b> Pour commencer</a></li>
 <li class="chapter" data-level="4.2.2" data-path="developper-fr.html"><a href="developper-fr.html#flux-de-travail-github"><i class="fa fa-check"></i><b>4.2.2</b> Flux de travail GitHub</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="developper-fr.html"><a href="developper-fr.html#contribuer-autrement"><i class="fa fa-check"></i><b>4.3</b> Contribuer autrement</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="payment-fr.html"><a href="payment-fr.html"><i class="fa fa-check"></i><b>5</b> Recevoir votre prix</a><ul>
+<li class="chapter" data-level="5" data-path="payment-fr.html"><a href="payment-fr.html"><i class="fa fa-check"></i><b>5</b> Recevoir votre prix</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="payment-fr.html"><a href="payment-fr.html#payment-fr-mcgill"><i class="fa fa-check"></i><b>5.1</b> Membres du CSBQ aux cycles supérieurs de McGill</a></li>
 <li class="chapter" data-level="5.2" data-path="payment-fr.html"><a href="payment-fr.html#payment-fr-nonmcgill"><i class="fa fa-check"></i><b>5.2</b> Membres du CSBQ aux cycles supérieurs ou au postdoctorat hors-McGill</a></li>
 <li class="chapter" data-level="5.3" data-path="payment-fr.html"><a href="payment-fr.html#implications-fiscales"><i class="fa fa-check"></i><b>5.3</b> Implications fiscales</a></li>
 </ul></li>
 <li class="part"><span><b>II English version</b></span></li>
 <li class="chapter" data-level="6" data-path="codeofconduct-en.html"><a href="codeofconduct-en.html"><i class="fa fa-check"></i><b>6</b> Code of conduct</a></li>
-<li class="chapter" data-level="7" data-path="preparation-en.html"><a href="preparation-en.html"><i class="fa fa-check"></i><b>7</b> Preparation</a><ul>
-<li class="chapter" data-level="7.1" data-path="preparation-en.html"><a href="preparation-en.html#before-the-workshop"><i class="fa fa-check"></i><b>7.1</b> Before the workshop</a><ul>
+<li class="chapter" data-level="7" data-path="preparation-en.html"><a href="preparation-en.html"><i class="fa fa-check"></i><b>7</b> Preparation</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="preparation-en.html"><a href="preparation-en.html#before-the-workshop"><i class="fa fa-check"></i><b>7.1</b> Before the workshop</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="preparation-en.html"><a href="preparation-en.html#two-weeks-before-the-workshop"><i class="fa fa-check"></i><b>7.1.1</b> Two weeks before the workshop</a></li>
 <li class="chapter" data-level="7.1.2" data-path="preparation-en.html"><a href="preparation-en.html#one-week-before-the-workshop"><i class="fa fa-check"></i><b>7.1.2</b> One week before the workshop</a></li>
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="preparation-en.html"><a href="preparation-en.html#on-the-day-of-the-workshop"><i class="fa fa-check"></i><b>7.2</b> On the day of the workshop</a></li>
 <li class="chapter" data-level="7.3" data-path="preparation-en.html"><a href="preparation-en.html#after-the-workshop"><i class="fa fa-check"></i><b>7.3</b> After the workshop</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="presentation-en.html"><a href="presentation-en.html"><i class="fa fa-check"></i><b>8</b> Presentation</a><ul>
+<li class="chapter" data-level="8" data-path="presentation-en.html"><a href="presentation-en.html"><i class="fa fa-check"></i><b>8</b> Presentation</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="presentation-en.html"><a href="presentation-en.html#workshop-structure"><i class="fa fa-check"></i><b>8.1</b> Workshop structure</a></li>
 <li class="chapter" data-level="8.2" data-path="presentation-en.html"><a href="presentation-en.html#general-guidelines"><i class="fa fa-check"></i><b>8.2</b> General guidelines</a></li>
 <li class="chapter" data-level="8.3" data-path="presentation-en.html"><a href="presentation-en.html#presenting-guidelines"><i class="fa fa-check"></i><b>8.3</b> Presenting guidelines</a></li>
 <li class="chapter" data-level="8.4" data-path="presentation-en.html"><a href="presentation-en.html#assisting-guidelines"><i class="fa fa-check"></i><b>8.4</b> Assisting guidelines</a></li>
 <li class="chapter" data-level="8.5" data-path="presentation-en.html"><a href="presentation-en.html#presentation-help"><i class="fa fa-check"></i><b>8.5</b> Presentation help</a></li>
 <li class="chapter" data-level="8.6" data-path="presentation-en.html"><a href="presentation-en.html#presenter-mode"><i class="fa fa-check"></i><b>8.6</b> Presenter mode</a></li>
-<li class="chapter" data-level="8.7" data-path="presentation-en.html"><a href="presentation-en.html#zoom-guidelines"><i class="fa fa-check"></i><b>8.7</b> Zoom guidelines</a><ul>
+<li class="chapter" data-level="8.7" data-path="presentation-en.html"><a href="presentation-en.html#zoom-guidelines"><i class="fa fa-check"></i><b>8.7</b> Zoom guidelines</a>
+<ul>
 <li class="chapter" data-level="8.7.1" data-path="presentation-en.html"><a href="presentation-en.html#sharing-your-screen-or-a-specific-window"><i class="fa fa-check"></i><b>8.7.1</b> Sharing your screen or a specific window</a></li>
 <li class="chapter" data-level="8.7.2" data-path="presentation-en.html"><a href="presentation-en.html#privacy"><i class="fa fa-check"></i><b>8.7.2</b> Privacy</a></li>
 <li class="chapter" data-level="8.7.3" data-path="presentation-en.html"><a href="presentation-en.html#moderating-the-chat"><i class="fa fa-check"></i><b>8.7.3</b> Moderating the Chat</a></li>
@@ -211,29 +223,36 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="8.8" data-path="presentation-en.html"><a href="presentation-en.html#contributing-to-these-guidelines"><i class="fa fa-check"></i><b>8.8</b> Contributing to these guidelines</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="developing-en.html"><a href="developing-en.html"><i class="fa fa-check"></i><b>9</b> Developing</a><ul>
-<li class="chapter" data-level="9.1" data-path="developing-en.html"><a href="developing-en.html#guidelines"><i class="fa fa-check"></i><b>9.1</b> Guidelines</a><ul>
+<li class="chapter" data-level="9" data-path="developing-en.html"><a href="developing-en.html"><i class="fa fa-check"></i><b>9</b> Developing</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="developing-en.html"><a href="developing-en.html#guidelines"><i class="fa fa-check"></i><b>9.1</b> Guidelines</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="developing-en.html"><a href="developing-en.html#main-priorities"><i class="fa fa-check"></i><b>9.1.1</b> Main priorities</a></li>
 <li class="chapter" data-level="9.1.2" data-path="developing-en.html"><a href="developing-en.html#structural-rules"><i class="fa fa-check"></i><b>9.1.2</b> Structural rules</a></li>
 <li class="chapter" data-level="9.1.3" data-path="developing-en.html"><a href="developing-en.html#grammar-and-style"><i class="fa fa-check"></i><b>9.1.3</b> Grammar and style</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#active-learning"><i class="fa fa-check"></i><b>9.2</b> Active learning</a><ul>
+<li class="chapter" data-level="9.2" data-path="developing-en.html"><a href="developing-en.html#active-learning"><i class="fa fa-check"></i><b>9.2</b> Active learning</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="developing-en.html"><a href="developing-en.html#simple-polls"><i class="fa fa-check"></i><b>9.2.1</b> Simple polls</a></li>
 <li class="chapter" data-level="9.2.2" data-path="developing-en.html"><a href="developing-en.html#group-exercise"><i class="fa fa-check"></i><b>9.2.2</b> Group exercise</a></li>
 <li class="chapter" data-level="9.2.3" data-path="developing-en.html"><a href="developing-en.html#individual-exercise"><i class="fa fa-check"></i><b>9.2.3</b> Individual exercise</a></li>
 </ul></li>
-<li class="chapter" data-level="9.3" data-path="developing-en.html"><a href="developing-en.html#how-to-develop-workshops"><i class="fa fa-check"></i><b>9.3</b> How to develop workshops</a><ul>
+<li class="chapter" data-level="9.3" data-path="developing-en.html"><a href="developing-en.html#how-to-develop-workshops"><i class="fa fa-check"></i><b>9.3</b> How to develop workshops</a>
+<ul>
 <li class="chapter" data-level="9.3.1" data-path="developing-en.html"><a href="developing-en.html#getting-started"><i class="fa fa-check"></i><b>9.3.1</b> Getting started</a></li>
 <li class="chapter" data-level="9.3.2" data-path="developing-en.html"><a href="developing-en.html#github-workflow"><i class="fa fa-check"></i><b>9.3.2</b> GitHub workflow</a></li>
 </ul></li>
 <li class="chapter" data-level="9.4" data-path="developing-en.html"><a href="developing-en.html#other-ways-to-contribute"><i class="fa fa-check"></i><b>9.4</b> Other ways to contribute</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html"><i class="fa fa-check"></i><b>10</b> Advanced Developing</a><ul>
-<li class="chapter" data-level="10.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-templates"><i class="fa fa-check"></i><b>10.1</b> Changing the templates</a><ul>
+<li class="chapter" data-level="10" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html"><i class="fa fa-check"></i><b>10</b> Advanced Developing</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-templates"><i class="fa fa-check"></i><b>10.1</b> Changing the templates</a>
+<ul>
 <li class="chapter" data-level="10.1.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-presentation-template"><i class="fa fa-check"></i><b>10.1.1</b> Changing the presentation template</a></li>
 <li class="chapter" data-level="10.1.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#changing-the-book-template"><i class="fa fa-check"></i><b>10.1.2</b> Changing the book template</a></li>
 </ul></li>
-<li class="chapter" data-level="10.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>10.2</b> Managing the continuous integration workflow</a><ul>
+<li class="chapter" data-level="10.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#managing-the-continuous-integration-workflow"><i class="fa fa-check"></i><b>10.2</b> Managing the continuous integration workflow</a>
+<ul>
 <li class="chapter" data-level="10.2.1" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#github-action-workflow-structure"><i class="fa fa-check"></i><b>10.2.1</b> Github Action workflow structure</a></li>
 <li class="chapter" data-level="10.2.2" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#workflow-description"><i class="fa fa-check"></i><b>10.2.2</b> Workflow description</a></li>
 <li class="chapter" data-level="10.2.3" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#create-a-gh-pages-branch"><i class="fa fa-check"></i><b>10.2.3</b> Create a <code>gh-pages</code> branch</a></li>
@@ -241,7 +260,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="10.3" data-path="advanced-developing-en.html"><a href="advanced-developing-en.html#the-qcbsrworkshops-package"><i class="fa fa-check"></i><b>10.3</b> The <code>qcbsRworkshops</code> package</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>11</b> Receiving your award</a><ul>
+<li class="chapter" data-level="11" data-path="payment-en.html"><a href="payment-en.html"><i class="fa fa-check"></i><b>11</b> Receiving your award</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="payment-en.html"><a href="payment-en.html#payment-en-mcgill"><i class="fa fa-check"></i><b>11.1</b> McGill Graduate Students</a></li>
 <li class="chapter" data-level="11.2" data-path="payment-en.html"><a href="payment-en.html#payment-en-nonmcgill"><i class="fa fa-check"></i><b>11.2</b> Non-McGill Graduate Students and Postdoctoral Fellows</a></li>
 <li class="chapter" data-level="11.3" data-path="payment-en.html"><a href="payment-en.html#payment-en-tax-implications"><i class="fa fa-check"></i><b>11.3</b> Tax implications</a></li>
@@ -264,31 +284,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="advanced-developing-en" class="section level1 hasAnchor">
+<div id="advanced-developing-en" class="section level1 hasAnchor" number="10">
 <h1><span class="header-section-number">Section 10</span> Advanced Developing<a href="advanced-developing-en.html#advanced-developing-en" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>This portion of the guide is dedicated towards documenting the advanced development and maintenance of the structure and workflow of the workshops. Any prospective changes here are considered <strong>highly relevant</strong> and <strong>must</strong> be <strong>carefully</strong> verified by the coordinators or other authorized developers.</p>
 <p>Additionally, any significant changes to the structure of the workshop presentations, books or workflows should be <strong>carefully</strong> and documented here.</p>
 <p><em>This section is under development</em></p>
-<div id="changing-the-templates" class="section level2 hasAnchor">
+<div id="changing-the-templates" class="section level2 hasAnchor" number="10.1">
 <h2><span class="header-section-number">10.1</span> Changing the templates<a href="advanced-developing-en.html#changing-the-templates" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="changing-the-presentation-template" class="section level3 hasAnchor">
+<div id="changing-the-presentation-template" class="section level3 hasAnchor" number="10.1.1">
 <h3><span class="header-section-number">10.1.1</span> Changing the presentation template<a href="advanced-developing-en.html#changing-the-presentation-template" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The format and styling of all workshop presentations is set using a <a href="https://github.com/QCBSRworkshops/templateWorkshops">template</a>. If you need to change the format or styling of a presentation you are developing, <strong>please do not edit the <code>.css</code> within the workshop repository</strong>.</p>
 <p>To make any changes to the template, you can submit an issue <a href="https://github.com/QCBSRworkshops/templateWorkshops/issues">here</a>, or submit a pull request with your proposed changes <a href="https://github.com/QCBSRworkshops/templateWorkshops/pulls">here</a>. Please note that any changes pushed to this repository will trigger the Github Actions of all other workshop repositories to be re-run.</p>
 <p><em>This section is under development</em></p>
 </div>
-<div id="changing-the-book-template" class="section level3 hasAnchor">
+<div id="changing-the-book-template" class="section level3 hasAnchor" number="10.1.2">
 <h3><span class="header-section-number">10.1.2</span> Changing the book template<a href="advanced-developing-en.html#changing-the-book-template" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The format and styling of all books is set using a <a href="https://github.com/QCBSRworkshops/templateWorkshops">template</a>. If you need to change the format or styling of a book you are developing, <strong>please do not edit the <code>.css</code> within the workshop repository</strong>.</p>
 <p>To make any changes to the template, you can submit an issue <a href="https://github.com/QCBSRworkshops/templateWorkshops/issues">here</a>, or submit a pull request with your proposed changes <a href="https://github.com/QCBSRworkshops/templateWorkshops/pulls">here</a>. Please note that any changes pushed to this repository will trigger the Github Actions of all other workshop repositories to be re-run.</p>
 <p><em>This section is under development</em></p>
 </div>
 </div>
-<div id="managing-the-continuous-integration-workflow" class="section level2 hasAnchor">
+<div id="managing-the-continuous-integration-workflow" class="section level2 hasAnchor" number="10.2">
 <h2><span class="header-section-number">10.2</span> Managing the continuous integration workflow<a href="advanced-developing-en.html#managing-the-continuous-integration-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The current deployment of the workshop material follows a continuous integration (CI) workflow. This workflow automatically tests and builds the code that workshop developers push to the repositories.</p>
 <p>On January 2021, the implementation shifted from <a href="https://www.travis-ci.com/">Travis CI</a> towards <a href="https://github.com/features/actions">Github Actions</a>. The steps described below are contained to the currently workflows. Supplementary documentation from <a href="https://docs.github.com/en/actions">Github</a> and other actions from the Github Marketplace may be helpful.</p>
-<div id="github-action-workflow-structure" class="section level3 hasAnchor">
+<div id="github-action-workflow-structure" class="section level3 hasAnchor" number="10.2.1">
 <h3><span class="header-section-number">10.2.1</span> Github Action workflow structure<a href="advanced-developing-en.html#github-action-workflow-structure" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In a nutshell, inside each repository there is a <code>.github/workflows/</code> directory that holds <code>YAML</code> files that contain workflow (recipes) that tells Github Actions when and what to execute a list of steps.</p>
 <p>Within the <strong>workshop</strong> repositories, there are five workflows:</p>
@@ -297,34 +317,34 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>An additional workflow (<code>in-dispatch-out.yml</code>) will detect changes done to the templates within the template repository (<a href="">qcbsRWorkshops/templateWorkshops</a>), and conditionally trigger the other workflows.</p></li>
 </ol>
 </div>
-<div id="workflow-description" class="section level3 hasAnchor">
+<div id="workflow-description" class="section level3 hasAnchor" number="10.2.2">
 <h3><span class="header-section-number">10.2.2</span> Workflow description<a href="advanced-developing-en.html#workflow-description" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="render-and-deployment-workflows" class="section level4 hasAnchor">
+<div id="render-and-deployment-workflows" class="section level4 hasAnchor" number="10.2.2.1">
 <h4><span class="header-section-number">10.2.2.1</span> Render and deployment workflows<a href="advanced-developing-en.html#render-and-deployment-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Render and deployment workflow are specific to the language (English or French) and the type of document (presentation or book) and are conditionally triggered when changes are committed and pushed to their specific directories (<code>[presentation-or-book]-[en-or-fr]/</code>) or when changes committed and pushed to the template repository (<a href="https://github.com/QCBSRworkshops/templateWorkshops">qcbsRWorkshops/templateWorkshops</a>) trigger type-specific repository dispatches.</p>
-<div id="workshops-workflows" class="section level5 hasAnchor">
+<div id="workshops-workflows" class="section level5 hasAnchor" number="10.2.2.1.1">
 <h5><span class="header-section-number">10.2.2.1.1</span> Workshops workflows<a href="advanced-developing-en.html#workshops-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><em>This section is under development</em></p>
 <p>Workshop workflows work as follows:</p>
 <pre><code>Include workflow</code></pre>
 </div>
-<div id="templates-workflows" class="section level5 hasAnchor">
+<div id="templates-workflows" class="section level5 hasAnchor" number="10.2.2.1.2">
 <h5><span class="header-section-number">10.2.2.1.2</span> Templates workflows<a href="advanced-developing-en.html#templates-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <pre><code>Include workflow</code></pre>
 </div>
-<div id="presenter-and-developer-protocol-workflows" class="section level5 hasAnchor">
+<div id="presenter-and-developer-protocol-workflows" class="section level5 hasAnchor" number="10.2.2.1.3">
 <h5><span class="header-section-number">10.2.2.1.3</span> Presenter and developer protocol workflows<a href="advanced-developing-en.html#presenter-and-developer-protocol-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <pre><code>Include workflow</code></pre>
 </div>
 </div>
-<div id="dispatch-workflows" class="section level4 hasAnchor">
+<div id="dispatch-workflows" class="section level4 hasAnchor" number="10.2.2.2">
 <h4><span class="header-section-number">10.2.2.2</span> Dispatch workflows<a href="advanced-developing-en.html#dispatch-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><em>This section is under development</em></p>
-<div id="template-repository-dispatch" class="section level5 hasAnchor">
+<div id="template-repository-dispatch" class="section level5 hasAnchor" number="10.2.2.2.1">
 <h5><span class="header-section-number">10.2.2.2.1</span> Template repository dispatch<a href="advanced-developing-en.html#template-repository-dispatch" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><em>This section is under development</em></p>
 </div>
-<div id="workshop-repository-dispatch" class="section level5 hasAnchor">
+<div id="workshop-repository-dispatch" class="section level5 hasAnchor" number="10.2.2.2.2">
 <h5><span class="header-section-number">10.2.2.2.2</span> Workshop repository dispatch<a href="advanced-developing-en.html#workshop-repository-dispatch" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><em>This section is under development</em></p>
 <p>The render and deployment workflows work</p>
@@ -332,7 +352,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div id="create-a-gh-pages-branch" class="section level3 hasAnchor">
+<div id="create-a-gh-pages-branch" class="section level3 hasAnchor" number="10.2.3">
 <h3><span class="header-section-number">10.2.3</span> Create a <code>gh-pages</code> branch<a href="advanced-developing-en.html#create-a-gh-pages-branch" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We begin by creating and preparing a <code>gh-pages</code> branch inside a repository that is already created. Run the line below to create and checkout the <code>gh-pages</code> branch:</p>
 <pre><code>git checkout --orphan gh-pages</code></pre>
@@ -344,16 +364,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>git push origin gh-pages
 git checkout master</code></pre>
 </div>
-<div id="action-to-deploy-a-book" class="section level3 hasAnchor">
+<div id="action-to-deploy-a-book" class="section level3 hasAnchor" number="10.2.4">
 <h3><span class="header-section-number">10.2.4</span> Action to deploy a book<a href="advanced-developing-en.html#action-to-deploy-a-book" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="prepare-book-with-bookdown-and-connect-to-github" class="section level4 hasAnchor">
+<div id="prepare-book-with-bookdown-and-connect-to-github" class="section level4 hasAnchor" number="10.2.4.1">
 <h4><span class="header-section-number">10.2.4.1</span> Prepare book with <code>bookdown</code> and connect to Github<a href="advanced-developing-en.html#prepare-book-with-bookdown-and-connect-to-github" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Prior to creating this action, it is assumed that <code>R</code> and <code>RStudio</code> have been installed and area working, and that:</p>
 <ol style="list-style-type: decimal">
 <li>The <code>R</code> package <code>bookdown</code> is installed and working;</li>
 </ol>
-<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="advanced-developing-en.html#cb39-1"></a><span class="cf">if</span> (<span class="op">!</span><span class="kw">requireNamespace</span>(<span class="st">&quot;devtools&quot;</span>)) <span class="kw">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
-<span id="cb39-2"><a href="advanced-developing-en.html#cb39-2"></a>devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&#39;rstudio/bookdown&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="advanced-developing-en.html#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">&quot;devtools&quot;</span>)) <span class="fu">install.packages</span>(<span class="st">&#39;devtools&#39;</span>)</span>
+<span id="cb39-2"><a href="advanced-developing-en.html#cb39-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&#39;rstudio/bookdown&#39;</span>)</span></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
 <li>A <code>bookdown</code> RStudio project has been rendered (<code>bookdown::serve_book()</code>) to a local directory of your liking. You can use the code below to do it using the prompt. Remember to replace the fields <code>&lt;&gt;</code> with the relevant information (<code>&lt;&gt;</code> inclusive).</li>
 </ol>
@@ -391,7 +411,7 @@ git remote add git@github.com:&lt;username&gt;/&lt;repository-name&gt;.git
 # Push to master (or to main; change if needed)
 git push origin master</code></pre>
 </div>
-<div id="setting-up-the-github-action-yaml" class="section level4 hasAnchor">
+<div id="setting-up-the-github-action-yaml" class="section level4 hasAnchor" number="10.2.4.2">
 <h4><span class="header-section-number">10.2.4.2</span> Setting up the Github Action YAML<a href="advanced-developing-en.html#setting-up-the-github-action-yaml" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Now, you can set the Github workflow YAML file named <code>deploy_bookdown.yml</code> within the repository’s <code>.github/workflows/</code> directory. The current setting should follow as below:</p>
 <pre><code>on:
@@ -462,118 +482,118 @@ jobs:
 </div>
 </div>
 </div>
-<div id="the-qcbsrworkshops-package" class="section level2 hasAnchor">
+<div id="the-qcbsrworkshops-package" class="section level2 hasAnchor" number="10.3">
 <h2><span class="header-section-number">10.3</span> The <code>qcbsRworkshops</code> package<a href="advanced-developing-en.html#the-qcbsrworkshops-package" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The package <a href="https://github.com/QCBSRworkshops/qcbsRworkshops">qcbsRworkshops</a>
 was originally designed as a set of functions to check whether the workshops can
 be correctly built on <a href="https://travis-ci.org/">Travis CI</a>. While working on thi
 s package,it turned out to be quite helpful to develop/improve the workshops.
 The main features of <code>qcbsRworkshops</code> are detailed below.</p>
-<div id="installation" class="section level4 hasAnchor">
+<div id="installation" class="section level4 hasAnchor" number="10.3.0.1">
 <h4><span class="header-section-number">10.3.0.1</span> Installation<a href="advanced-developing-en.html#installation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>To install <code>qcbsRworkshops</code>, use the <a href="https://CRAN.R-project.org/package=remotes"><code>remotes</code></a> (dependency of <a href="https://CRAN.R-project.org/package=devtools"><code>devtools</code></a>).</p>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="advanced-developing-en.html#cb44-1"></a><span class="kw">install.packages</span>(remotes)</span>
-<span id="cb44-2"><a href="advanced-developing-en.html#cb44-2"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;QCBSRworkshops/qcbsRworkshops&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="advanced-developing-en.html#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(remotes)</span>
+<span id="cb44-2"><a href="advanced-developing-en.html#cb44-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;QCBSRworkshops/qcbsRworkshops&quot;</span>)</span></code></pre></div>
 <p>Note that by installing <code>qcbsRworkshops</code> a set of packages will be installed,
 including <a href="https://CRAN.R-project.org/package=xaringan"><code>xaringan</code></a>. Once
 installed, load it just as you would do for any package.</p>
-<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="advanced-developing-en.html#cb45-1"></a><span class="kw">library</span>(qcbsRworkshops) </span></code></pre></div>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="advanced-developing-en.html#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(qcbsRworkshops) </span></code></pre></div>
 <p>Note that, as any other R package, the functions of the package <code>qcbsRworkshops</code>
 are documented. Therefore, if you ever need more details about a specific
 function, just use the question mark, e.g. <code>?download_workshops</code>.</p>
 </div>
-<div id="download-a-workshop" class="section level4 hasAnchor">
+<div id="download-a-workshop" class="section level4 hasAnchor" number="10.3.0.2">
 <h4><span class="header-section-number">10.3.0.2</span> Download a workshop<a href="advanced-developing-en.html#download-a-workshop" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Once the package loaded, you can quickly download a package with
 <code>download_workshops()</code>, you simply need to use the identifier (<code>id</code>) of the
 desired workshop (1 for the first workshop, 2 for the second and so forth).</p>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="advanced-developing-en.html#cb46-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="advanced-developing-en.html#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">download_workshops</span>(<span class="at">id =</span> <span class="dv">1</span>)</span></code></pre></div>
 <p>This actually downloads a zip file from GitHub that includes the sources files
 of the workshop, so the English and the French version of the workshop. By
 default, the files will be extracted in the working directory. This can be
 changed by setting <code>path</code> to the desired path. Note that <code>download_workshops()</code>
 also supports vectors of identifiers, for instance, the following code will
 download all workshops :</p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="advanced-developing-en.html#cb47-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="advanced-developing-en.html#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">download_workshops</span>(<span class="at">id =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code></pre></div>
 </div>
-<div id="build-a-workshop" class="section level4 hasAnchor">
+<div id="build-a-workshop" class="section level4 hasAnchor" number="10.3.0.3">
 <h4><span class="header-section-number">10.3.0.3</span> Build a workshop<a href="advanced-developing-en.html#build-a-workshop" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>By default, <code>build_workshops()</code> looks for R Markdown source files in a given
 path (argument <code>path</code>, set to the current working directory by default) and
 build the corresponding xaringan presentation(s) (i.e. the HTML slides). For
 instance, once I have downloaded the first, I can directly build the English and the French HTML presentations like so:</p>
-<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="advanced-developing-en.html#cb48-1"></a><span class="kw">download_workshops</span>(<span class="dt">id =</span> <span class="dv">1</span>)</span>
-<span id="cb48-2"><a href="advanced-developing-en.html#cb48-2"></a><span class="kw">build_workshops</span>()</span>
-<span id="cb48-3"><a href="advanced-developing-en.html#cb48-3"></a><span class="co"># or </span></span>
-<span id="cb48-4"><a href="advanced-developing-en.html#cb48-4"></a><span class="kw">build_workshops</span>(<span class="dt">path =</span> <span class="st">&quot;.&quot;</span>)  <span class="co"># equivalent as this is the default value of path</span></span></code></pre></div>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="advanced-developing-en.html#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">download_workshops</span>(<span class="at">id =</span> <span class="dv">1</span>)</span>
+<span id="cb48-2"><a href="advanced-developing-en.html#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>()</span>
+<span id="cb48-3"><a href="advanced-developing-en.html#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="co"># or </span></span>
+<span id="cb48-4"><a href="advanced-developing-en.html#cb48-4" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">path =</span> <span class="st">&quot;.&quot;</span>)  <span class="co"># equivalent as this is the default value of path</span></span></code></pre></div>
 <p>Importantly enough, <strong><code>build_workshops()</code> will download all the packages required for the workshop</strong>. To build only one version of the workshop, <code>lang</code> needs to be set to either “en” or “fr”.</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="advanced-developing-en.html#cb49-1"></a><span class="co"># build English version only</span></span>
-<span id="cb49-2"><a href="advanced-developing-en.html#cb49-2"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;en&quot;</span>)</span>
-<span id="cb49-3"><a href="advanced-developing-en.html#cb49-3"></a><span class="co"># build French version only</span></span>
-<span id="cb49-4"><a href="advanced-developing-en.html#cb49-4"></a><span class="kw">build_workshops</span>(<span class="dt">lang =</span> <span class="st">&quot;fr&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="advanced-developing-en.html#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build English version only</span></span>
+<span id="cb49-2"><a href="advanced-developing-en.html#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">lang =</span> <span class="st">&quot;en&quot;</span>)</span>
+<span id="cb49-3"><a href="advanced-developing-en.html#cb49-3" aria-hidden="true" tabindex="-1"></a><span class="co"># build French version only</span></span>
+<span id="cb49-4"><a href="advanced-developing-en.html#cb49-4" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">lang =</span> <span class="st">&quot;fr&quot;</span>)</span></code></pre></div>
 <p>This function also has several important feature. First, it can build the pdf
 version (this required the installation of
 <a href="https://www.chromium.org/Home">Chromium</a> or Google Chrome it not already
 installed):</p>
-<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="advanced-developing-en.html#cb50-1"></a><span class="co"># this builds both version of the workshop in HTML and pdf </span></span>
-<span id="cb50-2"><a href="advanced-developing-en.html#cb50-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="advanced-developing-en.html#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># this builds both version of the workshop in HTML and pdf </span></span>
+<span id="cb50-2"><a href="advanced-developing-en.html#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">pdf =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <p>Second, it can extract the R code from the Markdown source file.</p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="advanced-developing-en.html#cb51-1"></a><span class="co"># build both version of the workshop in HTML and pdf +  extract the R code</span></span>
-<span id="cb51-2"><a href="advanced-developing-en.html#cb51-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="advanced-developing-en.html#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build both version of the workshop in HTML and pdf +  extract the R code</span></span>
+<span id="cb51-2"><a href="advanced-developing-en.html#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">pdf =</span> <span class="cn">TRUE</span>, <span class="at">script =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <p>Third, it can update the <a href="https://github.com/QCBSRworkshops/templateWorkshops">CSS template</a></p>
-<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="advanced-developing-en.html#cb52-1"></a><span class="co"># update CSS template + build both versions in HTML and pdf + extract the code and </span></span>
-<span id="cb52-2"><a href="advanced-developing-en.html#cb52-2"></a><span class="kw">build_workshops</span>(<span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>, <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="advanced-developing-en.html#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># update CSS template + build both versions in HTML and pdf + extract the code and </span></span>
+<span id="cb52-2"><a href="advanced-developing-en.html#cb52-2" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">pdf =</span> <span class="cn">TRUE</span>, <span class="at">script =</span> <span class="cn">TRUE</span>, <span class="at">update_template =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <p>Finally, it can call <code>download_workshops()</code> to download the package:</p>
-<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="advanced-developing-en.html#cb53-1"></a><span class="co"># download workshop #1 + update CSS template + build both versions in HTML and pdf + extract the code and update template</span></span>
-<span id="cb53-2"><a href="advanced-developing-en.html#cb53-2"></a><span class="kw">build_workshops</span>(<span class="dt">id =</span><span class="dv">1</span>, <span class="dt">download =</span> <span class="ot">TRUE</span>, <span class="dt">pdf =</span> <span class="ot">TRUE</span>, <span class="dt">script =</span> <span class="ot">TRUE</span>,  <span class="dt">update_template =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="advanced-developing-en.html#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># download workshop #1 + update CSS template + build both versions in HTML and pdf + extract the code and update template</span></span>
+<span id="cb53-2"><a href="advanced-developing-en.html#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="fu">build_workshops</span>(<span class="at">id =</span><span class="dv">1</span>, <span class="at">download =</span> <span class="cn">TRUE</span>, <span class="at">pdf =</span> <span class="cn">TRUE</span>, <span class="at">script =</span> <span class="cn">TRUE</span>,  <span class="at">update_template =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 </div>
-<div id="presenter-email" class="section level4 hasAnchor">
+<div id="presenter-email" class="section level4 hasAnchor" number="10.3.0.4">
 <h4><span class="header-section-number">10.3.0.4</span> Presenter email<a href="advanced-developing-en.html#presenter-email" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><code>mail_workshop()</code> writes the email to be sent two weeks before the workshop, for instance:</p>
-<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="advanced-developing-en.html#cb54-1"></a><span class="co"># Mail for workshop #7</span></span>
-<span id="cb54-2"><a href="advanced-developing-en.html#cb54-2"></a><span class="kw">mail_workshop</span>(<span class="dv">7</span>, <span class="dt">pres_name =</span> <span class="st">&quot;Kevin Cazelles&quot;</span>, <span class="dt">lang =</span> <span class="st">&quot;both&quot;</span>, </span>
-<span id="cb54-3"><a href="advanced-developing-en.html#cb54-3"></a>      <span class="dt">details_fr =</span> <span class="st">&quot;à l&#39;UdeM, salle A-2553, campus MIL, le vendredi 28 Février 2020 de 13h à 17h&quot;</span>, </span>
-<span id="cb54-4"><a href="advanced-developing-en.html#cb54-4"></a>      <span class="dt">details_en =</span> <span class="st">&quot;at the UdeM, MIL campus, room A-2553, on Friday February</span></span>
-<span id="cb54-5"><a href="advanced-developing-en.html#cb54-5"></a><span class="st">    28th 2020, 1pm-5pm&quot;</span> </span>
-<span id="cb54-6"><a href="advanced-developing-en.html#cb54-6"></a>   ) </span></code></pre></div>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="advanced-developing-en.html#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mail for workshop #7</span></span>
+<span id="cb54-2"><a href="advanced-developing-en.html#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mail_workshop</span>(<span class="dv">7</span>, <span class="at">pres_name =</span> <span class="st">&quot;Kevin Cazelles&quot;</span>, <span class="at">lang =</span> <span class="st">&quot;both&quot;</span>, </span>
+<span id="cb54-3"><a href="advanced-developing-en.html#cb54-3" aria-hidden="true" tabindex="-1"></a>      <span class="at">details_fr =</span> <span class="st">&quot;à l&#39;UdeM, salle A-2553, campus MIL, le vendredi 28 Février 2020 de 13h à 17h&quot;</span>, </span>
+<span id="cb54-4"><a href="advanced-developing-en.html#cb54-4" aria-hidden="true" tabindex="-1"></a>      <span class="at">details_en =</span> <span class="st">&quot;at the UdeM, MIL campus, room A-2553, on Friday February</span></span>
+<span id="cb54-5"><a href="advanced-developing-en.html#cb54-5" aria-hidden="true" tabindex="-1"></a><span class="st">    28th 2020, 1pm-5pm&quot;</span> </span>
+<span id="cb54-6"><a href="advanced-developing-en.html#cb54-6" aria-hidden="true" tabindex="-1"></a>   ) </span></code></pre></div>
 <p>will create a HTML version of the email that will pop up in your web browser that you can copy and paste.</p>
 </div>
-<div id="functions-for-workshop-developers" class="section level4 hasAnchor">
+<div id="functions-for-workshop-developers" class="section level4 hasAnchor" number="10.3.0.5">
 <h4><span class="header-section-number">10.3.0.5</span> Functions for workshop developers<a href="advanced-developing-en.html#functions-for-workshop-developers" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The main function is obviously <code>build_workshops()</code> as it builds the workshop
 (see above). That being said, there are other functions worth mentioning.</p>
 <p>First it is often useful to clean up the (e.g., clean the cache), this is possible with <code>clean_workshops()</code>, for instance assuming workshop 1 was built in my current working directory, the cache can be cleaned like so:</p>
-<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="advanced-developing-en.html#cb55-1"></a><span class="kw">clean_workshops</span>(<span class="dt">files =</span> <span class="ot">FALSE</span>, <span class="dt">cache =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="advanced-developing-en.html#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="fu">clean_workshops</span>(<span class="at">files =</span> <span class="cn">FALSE</span>, <span class="at">cache =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <p>Second, it is possible to update the CSS template without rendering any presentation using <code>update_template()</code>. Similarly, it is possible to extract the R code without rendering a presentation using <code>extract_Rcode_workshop()</code>.</p>
 <p>Third, the first two slides (after the title slide) have now been standardized: it includes various hyperlinks (GitHub repository, wiki, PDF version, R script), and the list of package required (see for instance <a href="https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2" class="uri">https://qcbsrworkshops.github.io/workshop01/workshop01-en/workshop01-en.html#2</a>). Those two slides can be generated using <code>first_slides()</code>:</p>
-<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="advanced-developing-en.html#cb56-1"></a><span class="co"># the generate the first slides for the workshop 2 and copy the text to the clipboard</span></span>
-<span id="cb56-2"><a href="advanced-developing-en.html#cb56-2"></a><span class="kw">first_slides</span>(<span class="dv">2</span>, <span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;tidyr&quot;</span>), <span class="dt">clip =</span> <span class="ot">TRUE</span>) </span></code></pre></div>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="advanced-developing-en.html#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the generate the first slides for the workshop 2 and copy the text to the clipboard</span></span>
+<span id="cb56-2"><a href="advanced-developing-en.html#cb56-2" aria-hidden="true" tabindex="-1"></a><span class="fu">first_slides</span>(<span class="dv">2</span>, <span class="fu">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;tidyr&quot;</span>), <span class="at">clip =</span> <span class="cn">TRUE</span>) </span></code></pre></div>
 <p>Last, the Travis file used for the deployment (see below) can be added with
 <code>use_travis()</code>.</p>
 </div>
-<div id="deployment" class="section level4 hasAnchor">
+<div id="deployment" class="section level4 hasAnchor" number="10.3.0.6">
 <h4><span class="header-section-number">10.3.0.6</span> Deployment<a href="advanced-developing-en.html#deployment" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Currently, we are using <a href="https://travis-ci.org/">Travis CI</a> to check that the package built seamlessly and also to deploy the presentations (English and French in HTML and PDF with the R code). We create all the files needed with the following line (see our Travis file with <code>use_travis()</code>):</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb57-1"><a href="advanced-developing-en.html#cb57-1"></a><span class="fu">script</span><span class="kw">:</span></span>
-<span id="cb57-2"><a href="advanced-developing-en.html#cb57-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Rscript -e &quot;qcbsRworkshops::build_workshops(update_template = TRUE, pdf = TRUE, script = TRUE)&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb57"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb57-1"><a href="advanced-developing-en.html#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">script</span><span class="kw">:</span></span>
+<span id="cb57-2"><a href="advanced-developing-en.html#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> Rscript -e &quot;qcbsRworkshops::build_workshops(update_template = TRUE, pdf = TRUE, script = TRUE)&quot;</span></span></code></pre></div>
 <p>and they are all stored in the folder <code>public</code></p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb58-1"><a href="advanced-developing-en.html#cb58-1"></a><span class="fu">before_deploy</span><span class="kw">:</span></span>
-<span id="cb58-2"><a href="advanced-developing-en.html#cb58-2"></a><span class="at">  </span><span class="kw">-</span><span class="at"> mkdir public</span></span>
-<span id="cb58-3"><a href="advanced-developing-en.html#cb58-3"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp README.md public</span></span>
-<span id="cb58-4"><a href="advanced-developing-en.html#cb58-4"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp -r workshop* public/</span></span></code></pre></div>
+<div class="sourceCode" id="cb58"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb58-1"><a href="advanced-developing-en.html#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">before_deploy</span><span class="kw">:</span></span>
+<span id="cb58-2"><a href="advanced-developing-en.html#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> mkdir public</span></span>
+<span id="cb58-3"><a href="advanced-developing-en.html#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp README.md public</span></span>
+<span id="cb58-4"><a href="advanced-developing-en.html#cb58-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cp -r workshop* public/</span></span></code></pre></div>
 <p>which is the one that will be used by Travis that will create a commit and push on the branch <code>master</code> of the repository that <a href="https://pages.github.com/">GitHub Pages</a> turn into a website.</p>
-<div class="sourceCode" id="cb59"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb59-1"><a href="advanced-developing-en.html#cb59-1"></a><span class="fu">deploy</span><span class="kw">:</span></span>
-<span id="cb59-2"><a href="advanced-developing-en.html#cb59-2"></a><span class="at">  </span><span class="fu">provider</span><span class="kw">:</span><span class="at"> pages</span></span>
-<span id="cb59-3"><a href="advanced-developing-en.html#cb59-3"></a><span class="at">  </span><span class="fu">token</span><span class="kw">:</span><span class="at"> $GH_TOKEN</span></span>
-<span id="cb59-4"><a href="advanced-developing-en.html#cb59-4"></a><span class="at">  </span><span class="fu">strategy</span><span class="kw">:</span><span class="at"> git </span></span>
-<span id="cb59-5"><a href="advanced-developing-en.html#cb59-5"></a><span class="at">  </span><span class="fu">skip_cleanup</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb59-6"><a href="advanced-developing-en.html#cb59-6"></a><span class="at">  </span><span class="fu">keep_history</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
-<span id="cb59-7"><a href="advanced-developing-en.html#cb59-7"></a><span class="at">  </span><span class="fu">target_branch</span><span class="kw">:</span><span class="at"> master</span></span>
-<span id="cb59-8"><a href="advanced-developing-en.html#cb59-8"></a><span class="at">  </span><span class="fu">local_dir</span><span class="kw">:</span><span class="at"> public</span></span>
-<span id="cb59-9"><a href="advanced-developing-en.html#cb59-9"></a><span class="at">  </span><span class="fu">on</span><span class="kw">:</span></span>
-<span id="cb59-10"><a href="advanced-developing-en.html#cb59-10"></a><span class="at">    </span><span class="fu">branch</span><span class="kw">:</span><span class="at"> dev</span></span></code></pre></div>
+<div class="sourceCode" id="cb59"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb59-1"><a href="advanced-developing-en.html#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="fu">deploy</span><span class="kw">:</span></span>
+<span id="cb59-2"><a href="advanced-developing-en.html#cb59-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">provider</span><span class="kw">:</span><span class="at"> pages</span></span>
+<span id="cb59-3"><a href="advanced-developing-en.html#cb59-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">token</span><span class="kw">:</span><span class="at"> $GH_TOKEN</span></span>
+<span id="cb59-4"><a href="advanced-developing-en.html#cb59-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">strategy</span><span class="kw">:</span><span class="at"> git </span></span>
+<span id="cb59-5"><a href="advanced-developing-en.html#cb59-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">skip_cleanup</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb59-6"><a href="advanced-developing-en.html#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">keep_history</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb59-7"><a href="advanced-developing-en.html#cb59-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">target_branch</span><span class="kw">:</span><span class="at"> master</span></span>
+<span id="cb59-8"><a href="advanced-developing-en.html#cb59-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">local_dir</span><span class="kw">:</span><span class="at"> public</span></span>
+<span id="cb59-9"><a href="advanced-developing-en.html#cb59-9" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">on</span><span class="kw">:</span></span>
+<span id="cb59-10"><a href="advanced-developing-en.html#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">branch</span><span class="kw">:</span><span class="at"> dev</span></span></code></pre></div>
 </div>
-<div id="contributing-to-the-package" class="section level4 hasAnchor">
+<div id="contributing-to-the-package" class="section level4 hasAnchor" number="10.3.0.7">
 <h4><span class="header-section-number">10.3.0.7</span> Contributing to the package<a href="advanced-developing-en.html#contributing-to-the-package" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The <code>qcbsRworkshops</code> R package is released with a <a href="https://github.com/QCBSRworkshops/qcbsRworkshops/blob/master/CODE_OF_CONDUCT.md">Contributor Code of
 Coduct</a>. By contributing to this project, you agree to abide by its terms.</p>
