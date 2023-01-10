@@ -26,7 +26,7 @@ exclude: true
 ---
 ```
 
-3. Développez de nouveaux exercices ou adaptez les exercices actuels pour mieux répondre au format d'atelier à distance et à l'utilisation des salles de discussion. Les exercices doivent être informatifs et attrayants. N'oubliez pas de prevoir et de laisser le temps nécessaire pour travailler sur les exercices et de poser des questions.
+3. Développez de nouveaux exercices ou adaptez les exercices actuels pour mieux répondre au format d'atelier à distance et à l'utilisation des salles de discussion. Les exercices doivent être informatifs et attrayants. N'oubliez pas de prévoir et de laisser le temps nécessaire pour travailler sur les exercices et de poser des questions.
 
 **Priorités générales:**
 
@@ -243,7 +243,7 @@ Note : Mentionnez quelques exemples ou utilisez les exercices présentés pendan
 ---
 ```
 
-#### Exercise individuel
+#### Exercice individuel
 
 Des exercices individuels simples demandent à chacun de pratiquer un peu par soi-même. En fonction de la difficulté des exercices, pensez à prévoir entre 5 et 10 minutes pour leur exécution.
 
