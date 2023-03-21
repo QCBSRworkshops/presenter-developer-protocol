@@ -53,19 +53,24 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 
 **For remotely instructed workshops**:
 
-> Message subject: [QCBS R Workshop Series] Workshop #**X** – **Name of the Workshop** (Friday, **Month Day**)
+> Message subject: [QCBS R Workshop Series] Workshop #**X** – **Name of the Workshop** (**Date of the workshop**)
 
 > Hello!
 >
-> You are registered for the QCBS R Workshop #**XXX** that will be given this coming **DAY OF WEEK** at **HH:MM** **PM or AM**. In preparation for the workshop please note the following:
+> You are registered for the QCBS R Workshop #**XXX** that will be given this coming **DATE OF THE WORKSHOP** at **HH:MM** **PM or AM**. 
 >
-> 1) The workshop will be given through Zoom. Please register at this registration link: **INSERT LINK PROVIDED TO YOU BY COORDINATION TEAM**. If registered, you should receive an invitation on the day of the workshop containing a unique link. You must not share this link with others.
+> In preparation for the workshop please note the following:
 >
-> 2) Please prepare your laptop and the relevant programs (R and RStudio) before hand. You can also download the script we will be using in this workshop at the following website: **https://r.qcbs.ca/workshops/r-workshop-XX/**
+> 1) The workshop will be given through Zoom. 
+>   * You must register to access the Workshop with the following registration link: **INSERT LINK PROVIDED TO YOU BY COORDINATION TEAM**.
+>     * Please register at least 1 hour before the workshop so that we can approve your participation in time. 
+>     * If registered, you will receive an invitation containing a unique link. You must not share this link with others.
 >
-> 3) We recommend that you execute the entire script at least once before the workshop session to make sure that everything works on your laptop. In addition to this, we recommend that you download and install all the libraries we will be using during the workshop.
+> 2) Please prepare your laptop and the relevant programs (R and RStudio) *before* hand. You can also download the script we will be using in this workshop at the following website: https://r.qcbs.ca/workshops/r-workshop-**XX**/
 >
-> 4) If you can no longer make it to the workshop, please advise us 5 days in advance by email. Note that the preparation for this workshop is dependent on the number of participants. Failing to advise us about your absence will incur in a 100$ penalty billed to your supervisor.
+> 3) We recommend that you execute the entire script at least once before the workshop session to make sure that everything works on your computer. If needed, download and install the libraries that we will use during the workshop.
+>
+> 4) If you can no longer make it to the workshop, please advise us at least 5 days in advance by email. Failing to advise us about your absence will incur in a 100$ penalty billed to your supervisor.
 >
 > 5) If you are not a member of the QCBS, you may be asked to send us a receipt of payment to the workshop.
 >
@@ -73,7 +78,7 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > 7) If you have any questions concerning this workshop or its venue, please reach one of the presenters so you can be helped to the best of our ability!
 >
-> Thank you, we look forward to **DAY OF WEEK**!
+> Thank you, we look forward to next **DAY OF WEEK**!
 >
 > **YOUR NAME(S)**.
 
@@ -104,10 +109,14 @@ Number of Participants | Number of Presenters | Payment per Presenter | Allocate
 >
 > **YOUR NAME(S)**.
 
+### The day before the workshop
+
+Registration is open until 24 hours prior to the workshop. **For remote workshops**, please check the list of participants one last time to ensure that everyone has received the [email](#one-week-before-the-workshop) containing the registration link to access the Zoom session.
+
 
 ## On the day of the workshop
 
-**We have built a [dedicated session with guidelines](#presentation-en) on what both instructors and assistants should do during the workshop.**
+**We have built a [dedicated section with guidelines](#presentation-en) on what both instructors and assistants should do during the workshop.**
 
 **Please, read and apply them very attentively!**
 

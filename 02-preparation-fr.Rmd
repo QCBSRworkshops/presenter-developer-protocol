@@ -56,29 +56,32 @@ Nombre d'inscriptions | Nombre de personnes qui présentent | Paiement par perso
 
 **Pour les ateliers de formation à distance** :
 
-> Sujet du message : [Série d'ateliers R du CSBQ] Atelier #**X** - **Nom de l'atelier** (vendredi, **jour du mois**)
+> Sujet du message : [Série d'ateliers R du CSBQ] Atelier #**XX** - **Nom de l'atelier** (**Date de l'atelier**)
 
 > Bonjour !
 >
-> Nous avions reçu votre inscription à l'atelier R du CSBQ #**XXX** qui aura lieu le **JOUR DE LA SEMAINE** à **HH:MM** **PM ou AM**. En préparation de l'atelier, veuillez noter ce qui suit :
+> Nous avons reçu votre inscription à l'atelier R du CSBQ #**XX** qui aura lieu le **DATE DE L'ATELIER** à **HH:MM** **PM ou AM**.
 >
-> 1) L'atelier sera donné sur la plateforme Zoom. Veuillez vous inscrire sur ce lien d'inscription : **INSÉRER LE LIEN QUI VOUS SERA FOURNI PAR L'ÉQUIPE DE COORDINATION**. Après l'inscription, vous recevrez une invitation le jour de l'atelier contenant un lien unique. Vous ne devez pas partager ce lien avec d'autres personnes.
+> En préparation de l'atelier, veuillez noter ce qui suit :
 >
-> 2) Veuillez préparer votre ordinateur portable et les programmes correspondants (R et RStudio) au préalable. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : **https://r.qcbs.ca/fr/workshops/r-workshop-XX/**
+> 1) L'atelier se tiendra sur la plateforme Zoom. 
+>   * Vous devez vous inscrire pour accéder à la séance avec le lien d'inscription suivant : **INSÉRER LE LIEN QUI VOUS SERA FOURNI PAR L'ÉQUIPE DE COORDINATION**. 
+>     * Veuillez vous inscrire au moins une heure avant l’atelier afin que nous approuvions votre participation à temps.
+>     * Une confirmation courriel expliquant la façon d’accéder à la réunion, à l’aide d'un lien unique, vous sera envoyée. Ne partagez pas ce lien avec d’autres personnes.    
 >
-> 3) Nous vous recommandons d'exécuter l'intégralité du script au moins une fois avant la session de l'atelier afin de vous assurer que tout fonctionne sur votre ordinateur portable. En outre, nous vous recommandons de télécharger et d'installer toutes les bibliothèques que nous utiliserons pendant l'atelier.
+> 2) Veuillez préparer votre ordinateur portable et les programmes correspondants (R et RStudio) *avant* la séance. Vous pouvez également télécharger le script que nous utiliserons dans cet atelier sur le site web suivant : https://r.qcbs.ca/fr/workshops/r-workshop-**XX**/
 >
-> 4) Si vous ne pouvez plus vous rendre à l'atelier, veuillez nous en informer 5 jours à l'avance par e-mail. Notez que la préparation de cet atelier dépend du nombre d'inscriptions. Le fait de ne pas nous informer de votre absence entraînera une pénalité de 100$ facturée au membre du CSBQ qui dirige votre recherche.
+> 3) Nous vous recommandons d'exécuter l'intégralité du script au moins une fois avant la session de l'atelier pour vous assurer que tout fonctionne sur votre ordinateur. Au besoin, télécharger et installer les bibliothèques que nous utiliserons lors de l’atelier.
+>
+> 4) Si vous ne pouvez plus être présent à l'atelier, veuillez nous en informer au moins 5 jours à l'avance par courriel. En cas d’absence sans communication de votre part, une pénalité de 100 $ sera facturée à votre directeur ou directrice de recherche.
 >
 > 5) Si vous n'êtes pas membre du CSBQ, il peut vous être demandé de nous envoyer un reçu de paiement pour participer à l'atelier.
 >
-> 6) Notez que beaucoup d'efforts ont été déployés dans la planification de ces ateliers. Il est important que vous restiez engagé dans l'apprentissage et, si nécessaire, que vous participiez activement aux discussions et collaboriez avec vos pairs.
+> 6) Nous vous encourageons à laisser votre caméra allumée afin que l'équipe de présentation puisse mieux interagir avec vous. Notez que beaucoup d'efforts ont été déployés dans la planification de ces ateliers. Il est important que vous restiez engagé dans l'apprentissage et, si nécessaire, que vous participiez activement aux discussions et collaboriez avec vos pairs.
 >
-> 7) Nous vous encourageons à laisser votre caméra allumée pour permettre à l'équipe de présentation de se connecter avec vous.
+> 7) Si vous avez des questions concernant cet atelier ou son déroulement, veuillez contacter l'équipe de présentation afin que nous puissions vous aider !
 >
-> 8) Si vous avez des questions concernant cet atelier, veuillez contacter l'équipe de présentation afin que nous puissions vous aider !
->
-> Nous avons hâte de vous voir le **JOUR DE LA SEMAINE** !
+> Nous avons hâte de vous voir **JOUR DE LA SEMAINE** prochain !
 >
 > **VOTRE(VOS) NOM(S)**
 
@@ -109,12 +112,16 @@ Nombre d'inscriptions | Nombre de personnes qui présentent | Paiement par perso
 >
 > **VOTRE(VOS) NOM(S)**.
 
+### La veille de l'atelier
+
+Les inscriptions sont ouvertes jusqu'à 24 heures avant le début de l'atelier. **Pour les ateliers à distance**, veuillez vérifier une dernière fois la liste des personnes participantes afin de vous assurer que tout le monde a bien reçu [le courriel](#une-semaine-avant-latelier) contenant le lien d'inscription pour accéder à la séance sur Zoom.
+
 
 ## Le jour de l'atelier
 
-**Nous avons élaboré une [session dédiée avec des lignes directrices](#presentation-fr) sur ce que l'équipe de présentation devrait faire pendant l'atelier.**
+**Nous avons élaboré une [section dédiée avec des lignes directrices](#presentation-fr) sur ce que l'équipe de présentation devrait faire pendant l'atelier.**
 
-**S'il vous plaît, [lisez et appliquez-les](#presentation-fr) très attentivement.**
+**S'il vous plaît, lisez et appliquez-les très attentivement.**
 
 ## Après l'atelier
 

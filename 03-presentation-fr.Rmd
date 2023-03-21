@@ -1,4 +1,4 @@
-# Présentation {#presenter-fr}
+# Présentation {#presentation-fr}
 
 Les recommandations suivantes ont été rédigées afin d'améliorer le contenu des ateliers pour les personnes qui participent à la série d'ateliers R. Nous proposons des lignes directrices basées sur des stratégies d'enseignement et d'apprentissage factuelles. Même si certains aspects peuvent vous sembler évidents, nous vous demandons de les lire *avec attention*.
 
