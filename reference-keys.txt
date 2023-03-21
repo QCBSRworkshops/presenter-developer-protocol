@@ -3,9 +3,10 @@ preparation-fr
 avant-latelier
 deux-semaines-avant-latelier
 une-semaine-avant-latelier
+la-veille-de-latelier
 le-jour-de-latelier
 après-latelier
-presenter-fr
+presentation-fr
 structure-de-latelier
 directives-générales
 directives-pour-la-présentation
@@ -45,6 +46,7 @@ preparation-en
 before-the-workshop
 two-weeks-before-the-workshop
 one-week-before-the-workshop
+the-day-before-the-workshop
 on-the-day-of-the-workshop
 after-the-workshop
 presentation-en
