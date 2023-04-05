@@ -14,7 +14,7 @@ Workshop presenters and developers receive a **Learning and Development Award** 
 
 You must follow these steps to receive your award payment:
 
-1. **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564) by filling in the requested information.** 
+1. **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing) by filling in the requested information.** 
 
     * Report each workshop on a separate line if you contributed to multiple workshops.
     
