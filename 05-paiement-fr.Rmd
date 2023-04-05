@@ -14,7 +14,7 @@ Tous les membres du CSBQ qui présentent ou développent des ateliers reçoivent
 
 Suivez ces étapes pour recevoir votre prix :
 
-1. **Remplissez d'abord la [feuille de paiement des personnes qui ont présenté un atélier](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) et/ou la [feuille de paiement des personnes qui ont développé un atelier](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing)** avec les informations requises.
+1. **Remplissez d'abord la [feuille de paiement pour l'équipe de présentation](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) et/ou la [feuille de paiement pour l'équipe de développement](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing)** avec les informations requises. 
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
@@ -32,7 +32,7 @@ Suivez ces étapes pour recevoir votre prix :
   
     * Enregistrez ce fichier sous le nom de "`VOTRENOM_RWorkshop_Invoice.docx`".
   
-3. **Troisièmement, envoyez la facture à [qcbs.csbq.r@gmail.com](mailto:qcbs.csbq.r@gmail.com) (Ëquipe de coordination de la série d'ateliers R du CSBQ)**. 
+3. **Troisièmement, envoyez la facture à [csbq.qcbs.r@gmail.com](mailto:csbq.qcbs.r@gmail.com) (Ëquipe de coordination de la série d'ateliers R du CSBQ)**. 
 
     * Indiquez votre numéro d'étudiant.e dans le message. 
     
@@ -62,7 +62,7 @@ Suivez ces étapes pour recevoir votre prix :
 
 Suivez ces étapes pour recevoir votre prix:
 
-1. **Remplissez d'abord la [feuille de paiement pour l'équipe de présentation](https://docs.google.com/spreadsheets/d/1Vu566MpuwtEoSrTpobrAPdVBmwi-AHP1lEb9lhv0Uc8/edit?usp=sharing) et/ou la [feuille de paiement pour l'équipe de développement](https://docs.google.com/spreadsheets/d/1g6FCTTRznp0YWqfLiP8tXsWZwKR0Gu6pN0L7mrwp934/edit#gid=2104246564)** avec les informations requises. 
+1. **Remplissez d'abord la [feuille de paiement pour l'équipe de présentation](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) et/ou la [feuille de paiement pour l'équipe de développement](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing)** avec les informations requises. 
 
     * Déclarez un atelier par ligne si vous avez contribué à plusieurs ateliers.
 
@@ -89,7 +89,7 @@ Suivez ces étapes pour recevoir votre prix:
     * Enregistrez ce fichier sous le nom de "`VOTRENOM_RWorkshop_Invoice.docx`".
 
 
-4. **Envoyez la facture à [qcbs.csbq.r@gmail.com](mailto:qcbs.csbq.r@gmail.com) (Équipe de coordination de la série d'ateliers R du CSBQ)**. 
+4. **Envoyez la facture à [csbq.qcbs.r@gmail.com](mailto:csbq.qcbs.r@gmail.com) (Équipe de coordination de la série d'ateliers R du CSBQ)**. 
 
     * Indiquez dans votre message à l'équipe de coordination de la série d'ateliers R du CSBQ si vous avez déjà été enregistré en tant que personne à personne employée ou contractante indépendante de l'université pour l'Université McGill (c'est-à-dire si vous êtes déjà une personne bénéficiaire ou non). 
     
