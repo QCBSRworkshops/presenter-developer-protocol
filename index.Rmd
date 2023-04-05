@@ -24,13 +24,13 @@ opts_chunk$set(tidy.opts=list(width.cutoff = 60),
                tidy=TRUE)
 ```
 
-# Protocole pour la présentation et le development {-}
+# Protocole pour la présentation et le développement des ateliers {-}
 
 Merci de faire partie de la série d'ateliers R du CSBQ !
 
 C'est un plaisir de vous avoir dans notre équipe !
 
-Ce document regroupe les responsabilités des équipes de présentation et de développement de la série d'ateliers R du CSBQ. Il vous guide à travers les tâches à effectuer avant, pendant et après les éditions et les instructions des ateliers. Cela vous aidera également à compléter les étapes pour recevoir votre prix d'excellence.
+Ce document regroupe les responsabilités des équipes de présentation et de développement de la série d'ateliers R du CSBQ. Il vous guide à travers les tâches à effectuer avant, pendant et après les éditions et les instructions des ateliers. Cela vous aidera également à compléter les étapes pour recevoir votre prix d’apprentissage et de développement.
 
 Nous vous demandons de bien vouloir lire toutes les instructions **très** attentivement !
 
@@ -38,7 +38,7 @@ Pour tout problème, veuillez communiquer avec l'équipe de coordination de la [
 
 #### Contributions {-}
 
-Ce protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par [Pedro Henrique Pereira Braga](mailto:ph.pereirabraga@gmail.com), [Esteban Góngora](mailto:esteban.gongora@mail.mcgill.ca), [Katherine Hébert](mailto:katherine.hebert@usherbrooke.ca), [Linley Sherin](mailto:linley.sherin@mail.mcgill.ca) et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par l'[équipe actuelle de coordination de la série d'ateliers R du CSBQ](https://r.qcbs.ca/fr/about/).
+Le protocole a été intégré dans ce livre afin d'inclure des directives claires et spécifiques pour présenter, développer et recevoir des prix d'apprentissage et de développement. Son développement a été fait par Pedro Henrique Pereira Braga, Esteban Góngora, Katherine Hébert ainsi que Linley Sherin et a été basé sur sur le protocole original de présentation. Ce protocole est constamment maintenu et mis à jour par l'[équipe actuelle de coordination de la série d'ateliers R du CSBQ](https://r.qcbs.ca/fr/about/).
 
 ---
 
@@ -56,4 +56,4 @@ For any issues, please communicate with the [current workshop coordinators](http
 
 #### Contributions {-}
 
-This protocol has been built into this book to include clear and specific guidelines to present, to develop and to receive learning and development awards. Its development was done by [Pedro Henrique Pereira Braga](mailto:ph.pereirabraga@gmail.com), [Esteban Góngora](mailto:esteban.gongora@mail.mcgill.ca), [Katherine Hébert](mailto:katherine.hebert@usherbrooke.ca), and [Linley Sherin](mailto:linley.sherin@mail.mcgill.ca), and it was based on the original presenter protocol. This protocol is constantly maintained and updated by the [coordinators of the QCBS R Workshop Series](https://r.qcbs.ca/about/).
+The protocol has been built into this book to include clear and specific guidelines to present, to develop and to receive learning and development awards. Its development was done by Pedro Henrique Pereira Braga, Esteban Góngora, Katherine Hébert and Linley Sherin, and it was based on the original presenter protocol. This protocol is constantly maintained and updated by the [coordinators of the QCBS R Workshop Series](https://r.qcbs.ca/about/).
