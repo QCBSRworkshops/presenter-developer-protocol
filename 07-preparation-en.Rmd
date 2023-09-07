@@ -13,11 +13,10 @@ Being a presenter for the QCBS R Workshop Series requires preparation and proact
 Number of Participants | Number of Presenters | Payment per Presenter | Allocated funds to the workshop
 :-------------: | :-------------: | :-------------: | :-------------:
 1 to 5 | 1 | $ 150 | $ 150
-6 to 14 | 2 | $ 150 | $ 300
-15 or more | 3 | $  150 | $ 450
+6  or more | 2 | $ 150 | $ 300
 
 
-* **For remote workshops:** We require *at least* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Both workshop instructors and assistants must answer student questions.
+* **For remote workshops:** We require *only* two presenters per workshop during remotely instructed workshops. While one instructor presents the workshop, the other presenter must act as an assistant, monitoring the chat, setting up breakout rooms, helping debug eventual issues participants may have. Both workshop instructors and assistants must answer student questions.
 
 > *If the number of registered presenters is lower than the number of presenters that can be allocated to your workshop, do not hesitate to invite other graduate students and post-doctorate fellows (members of the QCBS) that you think could instruct the workshop with you!*
 
