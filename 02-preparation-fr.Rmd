@@ -8,17 +8,17 @@ Ci-dessous, il y a une liste de points qui vous aideront à préparer les atelie
 
 ### Deux semaines avant l'atelier
 
-1. Obtenez la liste des inscriptions à votre atelier (nous vous fournirons un script pour faire ceci). Ensuite, déterminez le nombre de personnes qui présentent (et/ou qui assistent) votre atelier:
+1. Obtenez la liste des inscriptions à votre atelier (nous vous fournirons un script pour faire ceci). 
 
 > NOUVEAU: **En septembre 2021, le prix d'apprentissage et de développement pour la présentation de la série d'ateliers R a augmenté de 125 $ à 150 $.** Il y a également de nouvelles distinctions dans le processus de paiement du prix entre les membres CSBQ de McGill et les membres CSBQ non-McGill, y compris une **compensation fiscale supplémentaire pour les membres non-McGill**. Voir la section [Paiement](#payment-fr) pour plus d'informations.
 
 Nombre d'inscriptions | Nombre de personnes qui présentent | Paiement par personne | Allocation de fonds à l'atelier
 :-------------: | :-------------: | :-------------: | :-------------:
 1 to 5 | 1 | $150 | $150
-6 to 14 | 2 | $150 | $300
-15 or more | 3 | $150 | $450
+6 or more | 2 | $150 | $300
 
-* **Pour les ateliers à distance:** Nous avons besoin *d'au moins* deux personnes par atelier pendant les ateliers à distance. Pendant qu'une personne présente l'atelier, l'autre personne doit assister à la présentation, en surveillant la conversation, en gérant des salles de discussion (en anglais, *breakout rooms*) et en aidant à déboguer les problèmes que les personnes qui participent peuvent rencontrer. 
+
+* **Pour les ateliers à distance:** Nous avons besoin de deux personnes par atelier pendant les ateliers à distance. Pendant qu'une personne présente l'atelier, l'autre personne doit assister à la présentation, en surveillant la conversation, en gérant des salles de discussion (en anglais, *breakout rooms*) et en aidant à déboguer les problèmes que les personnes qui participent peuvent rencontrer. 
 
 > *Si le nombre de personnes inscrits pour présenter votre atelier est inférieur au nombre de personnes pouvant être alloués à votre atelier, n'hésitez pas à inviter d'autres membres du CSBQ du deuxième et troisième cycles supérieurs et au postdoctorat qui pourraient vous aider avec l'instruction et l'assistance de l'atelier!*
 
