@@ -18,11 +18,11 @@ You must follow these steps to receive your award payment:
 
     * Report each workshop on a separate line if you contributed to multiple workshops.
     
-    * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $150 per workshop instructed*.
+    * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $180 per workshop instructed*.
 
 2. **Second, fill out a QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
-    * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 150 per workshop"; "Total: $ 300"). 
+    * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 180 per workshop"; "Total: $ 360"). 
     
     * If you presented and/or developed multiple workshops, list them on separate lines within a single invoice form.
   
@@ -68,7 +68,7 @@ You must follow these steps to receive your award payment:
     
     * Effective for contributions made on and after August 1st, 2021: Non-McGill contributors will have a surplus added to their award to compensate for provincial and federal taxes they **must** pay to when filling taxes. See the Section [Tax Implications](#payment-en-tax-implications) for more.
     
-    * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $150 per workshop instructed*.
+    * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $180 per workshop instructed*.
 
 2. **Second, register as a Payee by completing and signing this [form](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployes_20120815_questionnaire_en.pdf)**. 
 
@@ -80,7 +80,7 @@ You must follow these steps to receive your award payment:
 
 3. **Third, fill out a QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
 
-    * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 150 per workshop"; "Total: $ 300"). 
+    * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 180 per workshop"; "Total: $ 360"). 
     
     * If you presented and/or developed multiple workshops, list on them on separate lines within a single invoice form.
   
