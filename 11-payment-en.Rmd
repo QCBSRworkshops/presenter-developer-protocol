@@ -4,39 +4,39 @@
 
 Workshop presenters and developers receive a **Learning and Development Award** from the **Québec Centre for Biodiversity Science (QCBS)** *[excluding McGill Postdoctoral Fellows, see below]*. The way your award is processed depends on your institution and on your affiliation status:
 
-* **McGill Graduate Students**: Your award will be processed in the form of a stipend payment. Please follow the [instructions below](#payment-en-mcgill) that are specific to McGill students.
+-   **McGill Graduate Students**: Your award will be processed in the form of a stipend payment. Please follow the [instructions below](#payment-en-mcgill) that are specific to McGill students.
 
-* **Non-McGill Graduate Students** and **Non-McGill Postdoctoral Fellows**: Your award will be processed and paid as an independent contract. Please follow the [instructions below](#payment-en-nonmcgill) that are specific to non-McGill student and non-McGill postdoctoral members. (*NEW: Because Non-McGill contributors are subject to federal and provincial taxes on the awards they receive, a 27.53% surplus will be added to their lump-sum to compensate for the taxes they pay.*)
+-   **Non-McGill Graduate Students** and **Non-McGill Postdoctoral Fellows**: Your award will be processed and paid as an independent contract. Please follow the [instructions below](#payment-en-nonmcgill) that are specific to non-McGill student and non-McGill postdoctoral members. (*NEW: Because Non-McGill contributors are subject to federal and provincial taxes on the awards they receive, a 27.53% surplus will be added to their lump-sum to compensate for the taxes they pay.*)
 
-* **McGill Postdoctoral Fellows**: Unfortunately, due to institutional contractual limitations, McGill Postdoctoral Fellows are **no longer eligible** to receive *Learning and Development Awards* from the QCBS as of March 2021. Exceptions exist if your contract with your supervisor(s) allows for it, but this is rare. Due to this change, McGill Postdoctoral Fellows can only contribute to the series on a voluntary basis.
+-   **McGill Postdoctoral Fellows**: Unfortunately, due to institutional contractual limitations, McGill Postdoctoral Fellows are **no longer eligible** to receive *Learning and Development Awards* from the QCBS as of March 2021. Exceptions exist if your contract with your supervisor(s) allows for it, but this is rare. Due to this change, McGill Postdoctoral Fellows can only contribute to the series on a voluntary basis.
 
 ## McGill Graduate Students {#payment-en-mcgill}
 
 You must follow these steps to receive your award payment:
 
-1. **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing) by filling in the requested information.** 
+1.  **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing) by filling in the requested information.**
 
-    * Report each workshop on a separate line if you contributed to multiple workshops.
-    
-    * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $180 per workshop instructed*.
+    -   Report each workshop on a separate line if you contributed to multiple workshops.
 
-2. **Second, fill out a QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
+    -   For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of \$180 per workshop instructed*.
 
-    * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 180 per workshop"; "Total: $ 360"). 
-    
-    * If you presented and/or developed multiple workshops, list them on separate lines within a single invoice form.
-  
-    * The "Invoice #" will depend on how many previous invoices you have submitted. E.g. If this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, then the invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
-    
-    * You do not need to write anything next to "P.O." (which stands for Purchase Order).
-    
-    * Save your invoice as "`YOURLASTNAME_RWorkshop_Invoice.docx`".
-    
-3. **Third, send the invoice to [csbq.qcbs.r@gmail.com](mailto:csbq.qcbs.r@gmail.com) (QCBS R Workshop Series Coordinators)**. 
+2.  **Second, fill out a QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**.
 
-    * Include your student number within the body of the email. 
-    
-    * You can use the following message as a model:
+    -   You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: \$ 180 per workshop"; "Total: \$ 360").
+
+    -   If you presented and/or developed multiple workshops, list them on separate lines within a single invoice form.
+
+    -   The "Invoice \#" will depend on how many previous invoices you have submitted. E.g. If this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, then the invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
+
+    -   You do not need to write anything next to "P.O." (which stands for Purchase Order).
+
+    -   Save your invoice as "`YOURLASTNAME_RWorkshop_Invoice.docx`".
+
+3.  **Third, send the invoice to [csbq.qcbs.r\@gmail.com](mailto:csbq.qcbs.r@gmail.com) (QCBS R Workshop Series Coordinators)**.
+
+    -   Include your student number within the body of the email.
+
+    -   You can use the following message as a model:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
@@ -52,51 +52,53 @@ You must follow these steps to receive your award payment:
 >
 > *INSERT YOUR NAME*
 
-4. **Fourth, QCBS and/or McGill administrative associates will message you with a Student Stipend Payment Authorization Form which you need to sign.** 
+4.  **Fourth, QCBS and/or McGill administrative associates will message you with a Student Stipend Payment Authorization Form which you need to sign.**
 
-    * Once you have sent your signed form, your documents will be reviewed and signed by QCBS administrators and then your invoice will be sent to McGill Student Affairs with you CC'd. You should see your payment within 1 to 2 days after McGill has finished processing the award request.
-    
-    * If you do not receive your payment within a few days, please contact us again so that she can help you receive your payment. 
+    -   Once you have sent your signed form, your documents will be reviewed and signed by QCBS administrators and then your invoice will be sent to McGill Student Affairs with you CC'd. You should see your payment within 1 to 2 days after McGill has finished processing the award request.
+
+    -   If you do not receive your payment within a few days, please contact us again so that she can help you receive your payment.
 
 ## Non-McGill Graduate Students and Postdoctoral Fellows {#payment-en-nonmcgill}
 
 You must follow these steps to receive your award payment:
 
-1. **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing) by filling in the requested information.** 
+1.  **First, complete the [presenter payment sheet](https://docs.google.com/spreadsheets/d/14JV8INe4CNO_BsaranuQto6qtjXb-MMO/edit?usp=sharing) and/or the [developer payment sheet](https://docs.google.com/spreadsheets/d/1leXhiq54pGBRdaQE58nr0HD22j5DAYSP/edit?usp=sharing) by filling in the requested information.**
 
-    * Report each workshop on a separate line (if you contributed to multiple workshops). 
-    
-    * Effective for contributions made on and after August 1st, 2021: Non-McGill contributors will have a surplus added to their award to compensate for provincial and federal taxes they **must** pay to when filling taxes. See the Section [Tax Implications](#payment-en-tax-implications) for more.
-    
-    * For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of $180 per workshop instructed*.
+    -   Report each workshop on a separate line (if you contributed to multiple workshops).
 
-2. **Second, register as a Payee by completing and signing this [form](https://www.mcgill.ca/financialservices/files/financialservices/employee_or_selfemployes_20120815_questionnaire_en.pdf)**. 
+    -   Effective for contributions made on and after August 1st, 2021: Non-McGill contributors will have a surplus added to their award to compensate for provincial and federal taxes they **must** pay to when filling taxes. See the Section [Tax Implications](#payment-en-tax-implications) for more.
 
-    * You only need to do this once, if you have previously registered as a Payee then you can move on to Step 3.
-    
-    * Save this file as "`YOURLASTNAME_PayeeForm.pdf`".
-    
-    * Note: you are considered as a “*Payee*” for the purposes of the development and instruction of a workshop belonging to the QCBS R Workshop Series. If you need more infromation on the determination of employee versus self-employed or independent contractor, go to [here](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
+    -   For presenters: You can refer to the [compensation standards](#preparation-en) section within this protocol to know the budget allocated to your workshop. *Remember that each presenter receives a maximum award of \$180 per workshop instructed*.
 
-3. **Third, fill out a QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**. 
+2.  **Second, register as a Payee by completing and signing this [form](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/employee_or_selfemployed.pdf?raw=true) and this e-payment [form](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/epayment_form_v1.0_-_20201029_fillable.pdf?raw=true)**.
 
-    * You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: $ 180 per workshop"; "Total: $ 360"). 
-    
-    * If you presented and/or developed multiple workshops, list on them on separate lines within a single invoice form.
-  
-    * The "Invoice #" will depend on how many previous invoices you have submitted. For example, if this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, then the invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
-    
-    * You do not need to write anything next to "P.O." (which stands for Purchase Order).
-    
-    * Save your invoice as "`YOURLASTNAME_RWorkshop_Invoice.docx`".
+    -   You only need to do this once, if you have previously registered as a Payee then you can move on to Step 3.
 
-4. **Fourth, send the invoice to [csbq.qcbs.r@gmail.com](mailto:csbq.qcbs.r@gmail.com) (which is managed by the R Workshop Series coordinators)**.
+    -   Save these files as "`YOURLASTNAME_PayeeForm.pdf`" and "`YOURLASTNAME_EPaymentForm.pdf`".
 
-    *  Indicate within your message whether you have already been registered as an employee or a self-employed, independent contractor for the McGill University (i.e. if you are already a Payee or not). 
-    
-    * _If your address has changed since you first registered as a Payee_, please mention that within your message. 
-    
-    * You can use the following message model for your message:
+    -   Download and save a void cheque from the bank account where you wish to receive the money.
+
+    -   Note: you are considered as a “*Payee*” for the purposes of the development and instruction of a workshop belonging to the QCBS R Workshop Series. If you need more information on the determination of employee versus self-employed or independent contractor, go to [here](https://www.mcgill.ca/financialservices/policies/emplself#pr2-determination-of-employee-vs-self-employed-independent-contractor).
+
+3.  **Third, fill out a QCBS [invoice](https://github.com/QCBSRworkshops/presenter-developer-protocol/blob/master/YOURNAME_Invoice.docx?raw=true)**.
+
+    -   You must write your *name*, *e-mail*, *phone number*, *complete address* (including postal code, city and province), *total balance* and *description of your work* (e.g., "Description: Lead presenter of workshops 1 and 2"; "Unit Cost: \$ 180 per workshop"; "Total: \$ 360").
+
+    -   If you presented and/or developed multiple workshops, list on them on separate lines within a single invoice form.
+
+    -   The "Invoice \#" will depend on how many previous invoices you have submitted. For example, if this is your first time submitting an invoice to QCBS/McGill, the invoice number is 01. If this is your fifth time submitting an invoice, then the invoice number is 05. **It is very important that every invoice you submit has a unique invoice number, otherwise your payment could experience major delays.**
+
+    -   You do not need to write anything next to "P.O." (which stands for Purchase Order).
+
+    -   Save your invoice as "`YOURLASTNAME_RWorkshop_Invoice.docx`".
+
+4.  **Fourth, send the payment forms, void cheque, and invoice to [csbq.qcbs.r\@gmail.com](mailto:csbq.qcbs.r@gmail.com) (which is managed by the R Workshop Series coordinators)**.
+
+    -   Indicate within your message whether you have already been registered as an employee or a self-employed, independent contractor for the McGill University (i.e. if you are already a Payee or not).
+
+    -   *If your address has changed since you first registered as a Payee*, please mention that within your message.
+
+    -   You can use the following message model for your message:
 
 > Message subject: Learning and Development Award - QCBS R Workshop Series
 
@@ -106,8 +108,7 @@ You must follow these steps to receive your award payment:
 >
 > I am NOT a McGill student. *I HAVE NOT or I HAVE BEEN* previously registered as an employee or a self-employed, independent contractor for the McGill University.
 >
-> *OPTIONAL: Please note that my address has changed since I was first registered as a Payee, my current address is:*
-> *INSERT ADDRESS*
+> *OPTIONAL: Please note that my address has changed since I was first registered as a Payee, my current address is:* *INSERT ADDRESS*
 >
 > I certify that the information attached to this message is true and correct to the best of my knowledge.
 >
@@ -115,16 +116,15 @@ You must follow these steps to receive your award payment:
 >
 > *YOUR NAME*
 
+5.  **Fifth, after a few weeks McGill University's Procurement Services will send the QCBS administrative personnel an e-mail containing a purchase order, with you in CC.**
 
-5. **Fifth, after a few weeks McGill University's Procurement Services will send the QCBS administrative personnel an e-mail containing a purchase order, with you in CC.** 
+    -   The QCBS administrative personnel will fill in this purchase order for you, and submit it to Accounts Payable ([accountspayable\@mcgill.ca](mailto:accountspayable@mcgill.ca)) at McGill University.
 
-    * The QCBS administrative personnel will fill in this purchase order for you, and submit it to Accounts Payable ([accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca)) at McGill University. 
+6.  **Sixth, export the invoice to PDF, and send it to [accountspayable\@mcgill.ca](mailto:accountspayable@mcgill.ca).**
 
-6. **Sixth, export the invoice to PDF, and send it to [accountspayable@mcgill.ca](mailto:accountspayable@mcgill.ca).** 
+    -   You should receive a cheque to the address you included within your invoice.
 
-    * You should receive a cheque to the address you included within your invoice.
-    
-    * If you *do not* receive your payment within the institutional period determined by McGill Procurement Services [Terms and Conditions](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (currently, 45 net days after receiving your message from Accounts Payable), please contact us stating that your payment has been delayed beyond reasonable time.
+    -   If you *do not* receive your payment within the institutional period determined by McGill Procurement Services [Terms and Conditions](https://www.mcgill.ca/procurement/files/procurement/standard_terms_and_conditions_of_purchase_1_page_versions.pdf) (currently, 45 net days after receiving your message from Accounts Payable), please contact us stating that your payment has been delayed beyond reasonable time.
 
 ## Tax implications {#payment-en-tax-implications}
 
@@ -132,6 +132,6 @@ Stipends and independent contracts are not employee wages and the payer is *not*
 
 McGill students receiving stipends should receive a [T4A tax slip](https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-2-students/income-tax-folio-s1-f2-c3-scholarships-research-grants-other-education-assistance.html#toc59) from McGill indicating the award income to be reported for the period.
 
-Non-McGill students and non-McGill postdoctoral fellows are paid as independent contractors and will *not* receive a tax slip from McGill. The lump-sum that non-McGill contributors receive usually qualifies as _self-employement income_.
+Non-McGill students and non-McGill postdoctoral fellows are paid as independent contractors and will *not* receive a tax slip from McGill. The lump-sum that non-McGill contributors receive usually qualifies as *self-employement income*.
 
 **It is your responsibility to understand your legal and tax obligations. You must submit an annual tax return that reports your net income using the governmental standard format and keep records of your invoices for the prescribed time determined by the government (currently, seven years). Failure to adequately report your taxes is a punishable offence.**
